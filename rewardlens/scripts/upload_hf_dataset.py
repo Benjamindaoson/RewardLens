@@ -23,7 +23,7 @@ PAYLOADS = (
     ("artifacts", "artifacts"),
     ("gpu_bundle_fast_v1.zip", "gpu_bundle_fast_v1.zip"),
 )
-IGNORE_PATTERNS = (".git/**", ".cache/**", "**/*.crdownload")
+IGNORE_PATTERNS = [".git/**", ".cache/**", "**/*.crdownload"]
 
 
 def parse_args() -> argparse.Namespace:
