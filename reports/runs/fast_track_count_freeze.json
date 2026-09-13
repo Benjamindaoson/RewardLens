@@ -1,0 +1,38 @@
+{
+  "factor": "count",
+  "dataset_source_audit": "rewardlens_clevr",
+  "dataset_source_static_downstream": "tallyqa",
+  "PASS": 200,
+  "BORDERLINE": 0,
+  "FAIL": 0,
+  "source_item_count": 200,
+  "n_incomplete": 300,
+  "needed": 200,
+  "qc_rules_version": "controlled_qc.v1.20260912",
+  "ready": true,
+  "already_frozen": false,
+  "out_dir": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\count",
+  "frozen_pass_n": 200,
+  "unique_image_count": 600,
+  "duplicate_status": "none",
+  "manifest_path": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\count\\factor_audit_manifest.jsonl",
+  "sha256": "970cf6c3b385a262f7127187cc4468819fab583bcbe1855dfb043059050d79e9",
+  "freeze_timestamp": "2026-09-12T14:25:42.301077+00:00",
+  "hashes": {
+    "factor": "count",
+    "audit_dataset_version": "FAST_TRACK_FACTOR",
+    "qc_rules_version": "controlled_qc.v1.20260912",
+    "n_pass": 200,
+    "n_items": 600,
+    "manifest_hash": "970cf6c3b385a262f7127187cc4468819fab583bcbe1855dfb043059050d79e9",
+    "generation_config_hash": "72168a5ada274be204e6bbd4e7a6790e196d2bca1614b9fbfb169c95821548e7",
+    "sample_rule": "first 200 PASS triplet_ids, sorted",
+    "excludes": [
+      "BORDERLINE",
+      "FAIL"
+    ],
+    "duplicate_status": "none",
+    "unique_image_count": 600,
+    "frozen_at": "2026-09-12T14:25:42.301077+00:00"
+  }
+}

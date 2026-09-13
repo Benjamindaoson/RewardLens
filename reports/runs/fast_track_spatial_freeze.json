@@ -1,0 +1,38 @@
+{
+  "factor": "spatial",
+  "dataset_source_audit": "rewardlens_clevr",
+  "dataset_source_static_downstream": "gqa",
+  "PASS": 201,
+  "BORDERLINE": 6,
+  "FAIL": 0,
+  "source_item_count": 207,
+  "n_incomplete": 293,
+  "needed": 200,
+  "qc_rules_version": "controlled_qc.v1.20260912",
+  "ready": true,
+  "already_frozen": false,
+  "out_dir": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\spatial",
+  "frozen_pass_n": 200,
+  "unique_image_count": 600,
+  "duplicate_status": "none",
+  "manifest_path": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\spatial\\factor_audit_manifest.jsonl",
+  "sha256": "04258a5d14a0ae682b925c7a2917598a28436dfa57e2e84db721d72d2bb18566",
+  "freeze_timestamp": "2026-09-12T14:56:24.001987+00:00",
+  "hashes": {
+    "factor": "spatial",
+    "audit_dataset_version": "FAST_TRACK_FACTOR",
+    "qc_rules_version": "controlled_qc.v1.20260912",
+    "n_pass": 200,
+    "n_items": 600,
+    "manifest_hash": "04258a5d14a0ae682b925c7a2917598a28436dfa57e2e84db721d72d2bb18566",
+    "generation_config_hash": "b226946d5a6d5ec20e6b8e2be61822ef7ab47e3ed131e05691633d49405cde3e",
+    "sample_rule": "first 200 PASS triplet_ids, sorted",
+    "excludes": [
+      "BORDERLINE",
+      "FAIL"
+    ],
+    "duplicate_status": "none",
+    "unique_image_count": 600,
+    "frozen_at": "2026-09-12T14:56:24.001987+00:00"
+  }
+}

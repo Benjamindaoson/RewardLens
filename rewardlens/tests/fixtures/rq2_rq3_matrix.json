@@ -1,0 +1,18 @@
+[
+  {"audit_factor": "count", "downstream_factor": "count", "score": 0.80, "synthetic": true},
+  {"audit_factor": "count", "downstream_factor": "attribute", "score": 0.22, "synthetic": true},
+  {"audit_factor": "count", "downstream_factor": "spatial", "score": 0.21, "synthetic": true},
+  {"audit_factor": "count", "downstream_factor": "presence", "score": 0.20, "synthetic": true},
+  {"audit_factor": "attribute", "downstream_factor": "count", "score": 0.23, "synthetic": true},
+  {"audit_factor": "attribute", "downstream_factor": "attribute", "score": 0.81, "synthetic": true},
+  {"audit_factor": "attribute", "downstream_factor": "spatial", "score": 0.24, "synthetic": true},
+  {"audit_factor": "attribute", "downstream_factor": "presence", "score": 0.22, "synthetic": true},
+  {"audit_factor": "spatial", "downstream_factor": "count", "score": 0.19, "synthetic": true},
+  {"audit_factor": "spatial", "downstream_factor": "attribute", "score": 0.25, "synthetic": true},
+  {"audit_factor": "spatial", "downstream_factor": "spatial", "score": 0.79, "synthetic": true},
+  {"audit_factor": "spatial", "downstream_factor": "presence", "score": 0.23, "synthetic": true},
+  {"audit_factor": "presence", "downstream_factor": "count", "score": 0.21, "synthetic": true},
+  {"audit_factor": "presence", "downstream_factor": "attribute", "score": 0.20, "synthetic": true},
+  {"audit_factor": "presence", "downstream_factor": "spatial", "score": 0.22, "synthetic": true},
+  {"audit_factor": "presence", "downstream_factor": "presence", "score": 0.82, "synthetic": true}
+]

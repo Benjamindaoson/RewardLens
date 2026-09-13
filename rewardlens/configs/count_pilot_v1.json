@@ -1,0 +1,46 @@
+{
+  "name": "count_pilot_v1",
+  "factor": "count",
+  "master_seed": 20260912,
+  "num_triplets": 10,
+  "base_counts": [2, 2, 2, 3, 3, 3, 3, 4, 4, 4],
+  "question_template": "How many {color} objects are there?",
+  "colors": ["gray", "red", "blue", "green", "brown", "purple", "cyan", "yellow"],
+  "shapes": ["cube", "sphere", "cylinder"],
+  "materials": ["rubber", "metal"],
+  "sizes": ["small", "large"],
+  "num_distractors_min": 2,
+  "num_distractors_max": 3,
+  "safe_slots": [
+    [-2.1, -1.8],
+    [0.0, -2.0],
+    [2.1, -1.8],
+    [-2.2, 0.0],
+    [0.0, 0.1],
+    [2.2, 0.0],
+    [-2.0, 1.8],
+    [0.1, 1.9],
+    [2.0, 1.8]
+  ],
+  "intervention_front_y_max": -0.8,
+  "render": {
+    "width": 320,
+    "height": 240,
+    "samples": 128,
+    "tile_size": 256,
+    "use_gpu": 0,
+    "camera_jitter": 0.0,
+    "key_light_jitter": 0.0,
+    "fill_light_jitter": 0.0,
+    "back_light_jitter": 0.0
+  },
+  "paths": {
+    "blender": "tools/blender-2.79b-windows64/blender.exe",
+    "clevr_image_generation": "external/clevr-dataset-gen/image_generation",
+    "base_scene": "external/clevr-dataset-gen/image_generation/data/base_scene.blend",
+    "properties": "external/clevr-dataset-gen/image_generation/data/properties.json",
+    "shape_dir": "external/clevr-dataset-gen/image_generation/data/shapes",
+    "material_dir": "external/clevr-dataset-gen/image_generation/data/materials",
+    "output_dir": "outputs/count_pilot_v1"
+  }
+}

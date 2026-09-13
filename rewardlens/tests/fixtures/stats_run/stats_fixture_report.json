@@ -1,0 +1,147 @@
+{
+  "synthetic": true,
+  "fixture": true,
+  "note": "No scientific conclusion. Code-path verification only.",
+  "accuracy_matched_pairs": {
+    "count": {
+      "n_models": 8,
+      "bands": {
+        "1.0": {
+          "n_pairs": 1,
+          "mean_abs_delta_PFC": 0.30000000000000004,
+          "mean_abs_delta_PSC": 0.10999999999999999
+        },
+        "2.0": {
+          "n_pairs": 1,
+          "mean_abs_delta_PFC": 0.30000000000000004,
+          "mean_abs_delta_PSC": 0.10999999999999999
+        },
+        "3.0": {
+          "n_pairs": 7,
+          "mean_abs_delta_PFC": 0.16,
+          "mean_abs_delta_PSC": 0.12285714285714285
+        }
+      }
+    }
+  },
+  "incremental_validity": {
+    "leave_one_family_out": [
+      {
+        "held_out_family": "gemma",
+        "n_train": 6,
+        "n_test": 2,
+        "M0_test": {
+          "mae": 0.08768292682926859,
+          "rmse": 0.10626607198944048
+        },
+        "M1_test": {
+          "mae": 0.013004243693798545,
+          "rmse": 0.013203944275584027
+        },
+        "delta_mae": 0.07467868313547005,
+        "delta_rmse": 0.09306212771385645,
+        "M0_in_sample_r2": 0.47474708948174893,
+        "M1_in_sample_r2": 0.8887998838171257,
+        "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+      },
+      {
+        "held_out_family": "molmo",
+        "n_train": 6,
+        "n_test": 2,
+        "M0_test": {
+          "mae": 0.10291071428571447,
+          "rmse": 0.10502792692266957
+        },
+        "M1_test": {
+          "mae": 0.05586219433824857,
+          "rmse": 0.06456035417478723
+        },
+        "delta_mae": 0.047048519947465894,
+        "delta_rmse": 0.04046757274788235,
+        "M0_in_sample_r2": 0.25574355971897067,
+        "M1_in_sample_r2": 0.9712724875196758,
+        "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+      },
+      {
+        "held_out_family": "qwen_vl",
+        "n_train": 6,
+        "n_test": 2,
+        "M0_test": {
+          "mae": 0.06039795918367369,
+          "rmse": 0.06103361572988212
+        },
+        "M1_test": {
+          "mae": 0.03425760491462376,
+          "rmse": 0.03837207740894678
+        },
+        "delta_mae": 0.026140354269049926,
+        "delta_rmse": 0.022661538320935343,
+        "M0_in_sample_r2": 0.06369614512471566,
+        "M1_in_sample_r2": 0.9236679789523097,
+        "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+      },
+      {
+        "held_out_family": "specialized_vl_reward",
+        "n_train": 6,
+        "n_test": 2,
+        "M0_test": {
+          "mae": 0.014460539460539046,
+          "rmse": 0.0161573348668805
+        },
+        "M1_test": {
+          "mae": 0.0415482704758357,
+          "rmse": 0.04264219831187663
+        },
+        "delta_mae": -0.027087731015296657,
+        "delta_rmse": -0.026484863444996128,
+        "M0_in_sample_r2": 0.12449625845852297,
+        "M1_in_sample_r2": 0.9845446333370429,
+        "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+      }
+    ],
+    "n_families": 4
+  },
+  "factor_specificity": {
+    "matrix": {
+      "count": {
+        "count": 0.8,
+        "attribute": 0.2,
+        "presence": 0.2,
+        "spatial": 0.2
+      },
+      "attribute": {
+        "count": 0.2,
+        "attribute": 0.8,
+        "presence": 0.2,
+        "spatial": 0.2
+      },
+      "presence": {
+        "count": 0.2,
+        "attribute": 0.2,
+        "presence": 0.8,
+        "spatial": 0.2
+      },
+      "spatial": {
+        "count": 0.2,
+        "attribute": 0.2,
+        "presence": 0.2,
+        "spatial": 0.8
+      }
+    },
+    "diagonal_mean": 0.8,
+    "off_diagonal_mean": 0.20000000000000004,
+    "diagonal_minus_off": 0.6,
+    "n_diagonal": 4,
+    "n_off_diagonal": 12
+  },
+  "cluster_bootstrap": {
+    "observed": 0.58875,
+    "ci95": [
+      0.54125,
+      0.645
+    ],
+    "n_boot": 50,
+    "n_families": 4,
+    "unit": "model_family"
+  }
+}

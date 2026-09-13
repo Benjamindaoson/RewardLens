@@ -1,0 +1,22 @@
+worker: 1
+gpu: A800-80GB
+shard: 1
+compatibility_timeout_min: 40
+attn_implementation: sdpa
+dtype: bfloat16
+flash_attention_2: false
+output_root: outputs/runs/worker_1
+models:
+  - qwen3_vl_8b_instruct
+  - gemma3_12b_it
+  - internvl3_8b
+  - llama32_11b_vision_instruct
+replacements:
+  llama32_11b_vision_instruct: qwen2_5_vl_7b_instruct
+  internvl3_8b: qwen2_5_vl_7b_instruct
+stages:
+  - probe
+  - signal_gate
+  - full_audit
+  - gqa_static
+  - gqa_downstream

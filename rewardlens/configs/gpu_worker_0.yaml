@@ -1,0 +1,22 @@
+worker: 0
+gpu: A800-80GB
+shard: 0
+compatibility_timeout_min: 40
+attn_implementation: sdpa
+dtype: bfloat16
+flash_attention_2: false
+output_root: outputs/runs/worker_0
+models:
+  - qwen3_vl_4b_instruct
+  - gemma3_4b_it
+  - molmo_7b_d_0924
+  - skywork_vl_reward_7b
+replacements:
+  molmo_7b_d_0924: molmo_7b_o_0924
+  skywork_vl_reward_7b: ixc25_reward_7b
+stages:
+  - probe
+  - signal_gate
+  - full_audit
+  - gqa_static
+  - gqa_downstream

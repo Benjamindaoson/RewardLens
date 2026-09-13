@@ -1,0 +1,8 @@
+You are scoring a pairwise visual question-answering preference.
+
+Question: {question}
+Candidate A: {candidate_a}
+Candidate B: {candidate_b}
+
+Look at the image. Choose the better answer to the question.
+Reply with exactly one token: A or B.

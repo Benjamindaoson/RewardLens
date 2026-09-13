@@ -1,0 +1,27 @@
+# Signal Gate P0 — 4 families, UNTESTED
+# Engineering first wave only. Not a scientific ranking.
+models:
+  - model_id: qwen3_vl_4b_instruct
+    family: qwen_vl
+    checkpoint: Qwen/Qwen3-VL-4B-Instruct
+    rank: P0
+    role: general_mllm_judge
+  - model_id: gemma3_4b_it
+    family: gemma
+    checkpoint: google/gemma-3-4b-it
+    rank: P0
+    role: different_family_mllm
+  - model_id: molmo_7b_d_0924
+    family: molmo
+    checkpoint: allenai/Molmo-7B-D-0924
+    rank: P0
+    role: another_architecture
+  - model_id: skywork_vl_reward_7b
+    family: specialized_vl_reward
+    checkpoint: Skywork/Skywork-VL-Reward-7B
+    rank: P0
+    role: specialized_multimodal_reward
+policy:
+  families: 4
+  status: UNTESTED
+  skip_after_minutes: 40

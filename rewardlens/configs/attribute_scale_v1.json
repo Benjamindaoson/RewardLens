@@ -1,0 +1,26 @@
+{
+  "name": "attribute_scale_v1",
+  "factor": "attribute",
+  "master_seed": 2026091215,
+  "num_triplets": 500,
+  "render": {
+    "width": 320,
+    "height": 240,
+    "samples": 128,
+    "tile_size": 256,
+    "use_gpu": 0,
+    "camera_jitter": 0.0,
+    "key_light_jitter": 0.0,
+    "fill_light_jitter": 0.0,
+    "back_light_jitter": 0.0
+  },
+  "paths": {
+    "blender": "tools/blender-2.79b-windows64/blender.exe",
+    "clevr_image_generation": "external/clevr-dataset-gen/image_generation",
+    "base_scene": "external/clevr-dataset-gen/image_generation/data/base_scene.blend",
+    "properties": "external/clevr-dataset-gen/image_generation/data/properties.json",
+    "shape_dir": "external/clevr-dataset-gen/image_generation/data/shapes",
+    "material_dir": "external/clevr-dataset-gen/image_generation/data/materials",
+    "output_dir": "outputs/attribute_scale_v1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "rq": "RQ3",
+  "frozen_before_gpu_results": true,
+  "matrix": "audit_factor x downstream_factor",
+  "within_column_predictors": ["D_count", "D_attribute", "D_spatial", "D_presence"],
+  "standardize": "zscore_within_each_downstream_factor_column",
+  "confirmatory_summary": "column_standardized diagonal vs off-diagonal",
+  "do_not_compare_raw_tallyqa_and_gqa_U": true,
+  "column_standardization_does_not_remove_dataset_confound": true,
+  "supplementary_sensitivity": {
+    "name": "gqa_only_3factor",
+    "factors": ["attribute", "spatial", "presence"],
+    "role": "sensitivity_only",
+    "does_not_replace_primary_4factor": true,
+    "preregistered_before_gpu_results": true
+  },
+  "synthetic_only_until_official_outputs": true
+}

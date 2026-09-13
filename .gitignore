@@ -1,0 +1,24 @@
+# Large data and generated artifacts are published separately on Hugging Face.
+/artifacts/
+/datasets/
+/gpu_bundle/
+/gpu_bundle_fast_v1/
+/gpu_bundle_signal_v1/
+/gpu_bundle_fast_v1.zip
+/outputs/
+/tools/
+
+# Local tooling and generated files.
+/.venv/
+/.codegraph/
+**/.codegraph/
+/.cache/
+/.git-metadata-backup/
+**/__pycache__/
+*.py[cod]
+
+# Editor and OS files.
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

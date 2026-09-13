@@ -1,0 +1,118 @@
+{
+  "config": {
+    "rq": "RQ3",
+    "frozen_before_gpu_results": true,
+    "matrix": "audit_factor x downstream_factor",
+    "within_column_predictors": [
+      "D_count",
+      "D_attribute",
+      "D_spatial",
+      "D_presence"
+    ],
+    "standardize": "zscore_within_each_downstream_factor_column",
+    "confirmatory_summary": "column_standardized diagonal vs off-diagonal",
+    "do_not_compare_raw_tallyqa_and_gqa_U": true,
+    "column_standardization_does_not_remove_dataset_confound": true,
+    "supplementary_sensitivity": {
+      "name": "gqa_only_3factor",
+      "factors": [
+        "attribute",
+        "spatial",
+        "presence"
+      ],
+      "role": "sensitivity_only",
+      "does_not_replace_primary_4factor": true,
+      "preregistered_before_gpu_results": true
+    },
+    "synthetic_only_until_official_outputs": true
+  },
+  "primary_4factor": {
+    "matrix": {
+      "count": {
+        "count": 0.8,
+        "attribute": 0.22,
+        "presence": 0.2,
+        "spatial": 0.21
+      },
+      "attribute": {
+        "count": 0.23,
+        "attribute": 0.81,
+        "presence": 0.22,
+        "spatial": 0.24
+      },
+      "presence": {
+        "count": 0.21,
+        "attribute": 0.2,
+        "presence": 0.82,
+        "spatial": 0.22
+      },
+      "spatial": {
+        "count": 0.19,
+        "attribute": 0.25,
+        "presence": 0.23,
+        "spatial": 0.79
+      }
+    },
+    "column_standardized_matrix": {
+      "count": {
+        "count": 1.7294031693609515,
+        "attribute": -0.5890284461794992,
+        "presence": -0.6405986093474082,
+        "spatial": -0.6310779889188051
+      },
+      "attribute": {
+        "count": -0.49830260812095223,
+        "attribute": 1.7278167754598646,
+        "presence": -0.5641092231566729,
+        "spatial": -0.5089338620312944
+      },
+      "presence": {
+        "count": -0.5764677231203174,
+        "attribute": -0.6675655723367657,
+        "presence": 1.7305723625653864,
+        "spatial": -0.5903632799563014
+      },
+      "spatial": {
+        "count": -0.6546328381196823,
+        "attribute": -0.4712227569435994,
+        "presence": -0.5258645300613053,
+        "spatial": 1.7303751309064013
+      }
+    },
+    "diagonal_mean": 0.805,
+    "off_diagonal_mean": 0.21833333333333335,
+    "diagonal_minus_off": 0.5866666666666667,
+    "n_diagonal": 4,
+    "n_off_diagonal": 12,
+    "column_standardized": {
+      "diagonal_mean": 1.7295418595731509,
+      "off_diagonal_mean": -0.5765139531910503,
+      "diagonal_minus_off": 2.306055812764201,
+      "note": "Use this summary for confirmatory diagonal vs off-diagonal. Within-column z-score before aggregation."
+    },
+    "confirmatory_summary": "column_standardized",
+    "do_not_compare_raw_tallyqa_and_gqa_U": true
+  },
+  "confirmatory_summary": {
+    "diagonal_mean": 1.7295418595731509,
+    "off_diagonal_mean": -0.5765139531910503,
+    "diagonal_minus_off": 2.306055812764201,
+    "note": "Use this summary for confirmatory diagonal vs off-diagonal. Within-column z-score before aggregation."
+  },
+  "gqa_only_3factor_sensitivity": {
+    "role": "sensitivity_only",
+    "does_not_replace_primary_4factor": true,
+    "factors": [
+      "attribute",
+      "spatial",
+      "presence"
+    ],
+    "column_standardized": {
+      "diagonal_mean": 1.412652222705039,
+      "off_diagonal_mean": -0.7063261113525194,
+      "diagonal_minus_off": 2.1189783340575588
+    }
+  },
+  "synthetic_or_fixture": true,
+  "note": "Use column_standardized for confirmatory diagonal vs off-diagonal. Standardization does not remove Count=TallyQA vs GQA source confounding."
+}

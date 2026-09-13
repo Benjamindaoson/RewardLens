@@ -1,0 +1,358 @@
+{
+  "by_factor": {
+    "count": {
+      "leave_one_family_out": [
+        {
+          "held_out_family": "gemma",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.131842105263153,
+            "rmse": 0.13449453953017404
+          },
+          "M1_test": {
+            "mae": 0.05583927848755105,
+            "rmse": 0.05591274212194267
+          },
+          "delta_mae": 0.07600282677560194,
+          "delta_rmse": 0.07858179740823137,
+          "M0_in_sample_r2": 0.011379800853484778,
+          "M1_in_sample_r2": 0.899307572910207,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        },
+        {
+          "held_out_family": "molmo",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.05556737588652477,
+            "rmse": 0.05592073780858476
+          },
+          "M1_test": {
+            "mae": 0.02551036413267871,
+            "rmse": 0.03028203462306148
+          },
+          "delta_mae": 0.030057011753846063,
+          "delta_rmse": 0.02563870318552328,
+          "M0_in_sample_r2": 0.427126520570413,
+          "M1_in_sample_r2": 0.9977421518910913,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        },
+        {
+          "held_out_family": "qwen_vl",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.01603594080338147,
+            "rmse": 0.016037198521908068
+          },
+          "M1_test": {
+            "mae": 0.029111122691135694,
+            "rmse": 0.029466074622384715
+          },
+          "delta_mae": -0.013075181887754223,
+          "delta_rmse": -0.013428876100476647,
+          "M0_in_sample_r2": 0.16644293113474695,
+          "M1_in_sample_r2": 0.9786702659187793,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        },
+        {
+          "held_out_family": "specialized_vl_reward",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.1225931034482759,
+            "rmse": 0.12361325519894666
+          },
+          "M1_test": {
+            "mae": 0.05499433271339371,
+            "rmse": 0.05505196859542017
+          },
+          "delta_mae": 0.06759877073488219,
+          "delta_rmse": 0.06856128660352648,
+          "M0_in_sample_r2": 0.9223090054363525,
+          "M1_in_sample_r2": 0.9529500658112239,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        }
+      ],
+      "n_families": 4,
+      "n_rows": 8,
+      "datasets": [
+        "tallyqa"
+      ]
+    },
+    "attribute": {
+      "leave_one_family_out": [
+        {
+          "held_out_family": "gemma",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.11099009900990553,
+            "rmse": 0.11275142367540367
+          },
+          "M1_test": {
+            "mae": 0.04410029703694446,
+            "rmse": 0.04579415918410372
+          },
+          "delta_mae": 0.06688980197296107,
+          "delta_rmse": 0.06695726449129995,
+          "M0_in_sample_r2": 0.0002140754616029028,
+          "M1_in_sample_r2": 0.9926151795669444,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        },
+        {
+          "held_out_family": "molmo",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.020757363253856798,
+            "rmse": 0.020821023642057644
+          },
+          "M1_test": {
+            "mae": 0.014900146284676286,
+            "rmse": 0.01600770238035252
+          },
+          "delta_mae": 0.005857216969180512,
+          "delta_rmse": 0.004813321261705125,
+          "M0_in_sample_r2": 0.4625042986676552,
+          "M1_in_sample_r2": 0.9899236797535549,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        },
+        {
+          "held_out_family": "qwen_vl",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.02509009009009,
+            "rmse": 0.025093365144427407
+          },
+          "M1_test": {
+            "mae": 0.02495824489190071,
+            "rmse": 0.02514252800962112
+          },
+          "delta_mae": 0.00013184519818928986,
+          "delta_rmse": -4.916286519371371e-05,
+          "M0_in_sample_r2": 0.39959413338252914,
+          "M1_in_sample_r2": 0.993227680093624,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        },
+        {
+          "held_out_family": "specialized_vl_reward",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.09429521276595748,
+            "rmse": 0.0945753524867104
+          },
+          "M1_test": {
+            "mae": 0.13411677015398427,
+            "rmse": 0.1345060860645169
+          },
+          "delta_mae": -0.039821557388026785,
+          "delta_rmse": -0.03993073357780649,
+          "M0_in_sample_r2": 0.9962856292643527,
+          "M1_in_sample_r2": 0.9998994676761185,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        }
+      ],
+      "n_families": 4,
+      "n_rows": 8,
+      "datasets": [
+        "gqa"
+      ]
+    },
+    "presence": {
+      "leave_one_family_out": [
+        {
+          "held_out_family": "gemma",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.13458333333333938,
+            "rmse": 0.13612315706333936
+          },
+          "M1_test": {
+            "mae": 0.06782490703726873,
+            "rmse": 0.06909231672518028
+          },
+          "delta_mae": 0.06675842629607065,
+          "delta_rmse": 0.06703084033815908,
+          "M0_in_sample_r2": 0.002702702702702786,
+          "M1_in_sample_r2": 0.987811666736847,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        },
+        {
+          "held_out_family": "molmo",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.01785040431266849,
+            "rmse": 0.019632850803020373
+          },
+          "M1_test": {
+            "mae": 0.01571239564668747,
+            "rmse": 0.0166636414716515
+          },
+          "delta_mae": 0.002138008665981017,
+          "delta_rmse": 0.0029692093313688737,
+          "M0_in_sample_r2": 0.5347474510723071,
+          "M1_in_sample_r2": 0.9884325321357534,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        },
+        {
+          "held_out_family": "qwen_vl",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.0459782608695638,
+            "rmse": 0.045978389351242654
+          },
+          "M1_test": {
+            "mae": 0.02351807229493716,
+            "rmse": 0.02479842621560739
+          },
+          "delta_mae": 0.022460188574626644,
+          "delta_rmse": 0.021179963135635263,
+          "M0_in_sample_r2": 0.5244495361573704,
+          "M1_in_sample_r2": 0.9938344954151724,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        },
+        {
+          "held_out_family": "specialized_vl_reward",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.09801177240026132,
+            "rmse": 0.0984010666336237
+          },
+          "M1_test": {
+            "mae": 0.2512796292255964,
+            "rmse": 0.25646628797806964
+          },
+          "delta_mae": -0.15326785682533506,
+          "delta_rmse": -0.15806522134444595,
+          "M0_in_sample_r2": 0.9867946134709359,
+          "M1_in_sample_r2": 0.9929004418509471,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        }
+      ],
+      "n_families": 4,
+      "n_rows": 8,
+      "datasets": [
+        "gqa"
+      ]
+    },
+    "spatial": {
+      "leave_one_family_out": [
+        {
+          "held_out_family": "gemma",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.15388040712468004,
+            "rmse": 0.15479824926877497
+          },
+          "M1_test": {
+            "mae": 0.005533146437471881,
+            "rmse": 0.005535827701227462
+          },
+          "delta_mae": 0.14834726068720816,
+          "delta_rmse": 0.14926242156754752,
+          "M0_in_sample_r2": 0.022548443922490113,
+          "M1_in_sample_r2": 0.9639569074788477,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        },
+        {
+          "held_out_family": "molmo",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.04630355515040857,
+            "rmse": 0.04632753605044493
+          },
+          "M1_test": {
+            "mae": 0.006750781561047359,
+            "rmse": 0.008119157543447166
+          },
+          "delta_mae": 0.03955277358936121,
+          "delta_rmse": 0.038208378506997764,
+          "M0_in_sample_r2": 0.6423597125352439,
+          "M1_in_sample_r2": 0.9970770659625456,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        },
+        {
+          "held_out_family": "qwen_vl",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.017991347342395714,
+            "rmse": 0.018001748798681196
+          },
+          "M1_test": {
+            "mae": 0.008899380090327647,
+            "rmse": 0.010592973392497094
+          },
+          "delta_mae": 0.009091967252068067,
+          "delta_rmse": 0.007408775406184101,
+          "M0_in_sample_r2": 0.4979239240364076,
+          "M1_in_sample_r2": 0.9962880919389225,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        },
+        {
+          "held_out_family": "specialized_vl_reward",
+          "n_train": 6,
+          "n_test": 2,
+          "M0_test": {
+            "mae": 0.10024264120922774,
+            "rmse": 0.10044878045545877
+          },
+          "M1_test": {
+            "mae": 0.01099675623303692,
+            "rmse": 0.013084969224240845
+          },
+          "delta_mae": 0.08924588497619082,
+          "delta_rmse": 0.08736381123121792,
+          "M0_in_sample_r2": 0.9865636672696989,
+          "M1_in_sample_r2": 0.9998581628564183,
+          "note": "in-sample R2 is diagnostic only; confirmatory is LOFO"
+        }
+      ],
+      "n_families": 4,
+      "n_rows": 8,
+      "datasets": [
+        "gqa"
+      ]
+    }
+  },
+  "do_not_pool_raw_U": true,
+  "outcome_datasets": {
+    "count": "tallyqa",
+    "attribute": "gqa",
+    "spatial": "gqa",
+    "presence": "gqa"
+  },
+  "note": "Confirmatory RQ2 is per-factor LOFO. Do not interpret a pooled U~A fit.",
+  "config": {
+    "rq": "RQ2",
+    "frozen_before_gpu_results": true,
+    "fit_unit": "factor",
+    "do_not_pool_raw_U": true,
+    "outcome_datasets": {
+      "count": "tallyqa",
+      "attribute": "gqa",
+      "spatial": "gqa",
+      "presence": "gqa"
+    },
+    "models": {
+      "M0": "U_f ~ A_f",
+      "M1": "U_f ~ A_f + PFC_f + PSC_f"
+    },
+    "validation": "leave_one_model_family_out",
+    "bootstrap_unit": "model_family",
+    "in_sample_r2": "diagnostic_only",
+    "forbid_pooled_confirmatory_fit": true,
+    "synthetic_only_until_official_outputs": true
+  },
+  "synthetic_or_fixture": true
+}

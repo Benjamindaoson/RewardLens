@@ -1,0 +1,70 @@
+# Frozen mapping from confirmatory artifacts to paper slots.
+# populate_results.py reads this and writes paper/generated_results.md
+# It does not overwrite iclr2027_draft.md unless --unsafe-inject is set.
+
+placeholders:
+  RQ1_TABLE:
+    artifacts:
+      - outputs/analysis/accuracy_matched_pairs.json
+    paper_anchor: "[TBD: RQ1 ACCURACY-MATCHED RESULT]"
+  RQ1_MATCHED_PAIR_EXAMPLE:
+    artifacts:
+      - outputs/analysis/accuracy_matched_pairs.json
+    paper_anchor: "[TBD: RQ1 MATCHED PAIR EXAMPLE]"
+  RQ2_DELTA_LOFO:
+    artifacts:
+      - outputs/analysis/incremental_validity.json
+    paper_anchor: "[TBD: DELTA LOFO PERFORMANCE]"
+  RQ2_CI:
+    artifacts:
+      - outputs/analysis/incremental_validity.json
+      - outputs/analysis/cluster_bootstrap.json
+    paper_anchor: "[TBD: RQ2 CI]"
+  RQ3_DIAGONAL_OFFDIAGONAL:
+    artifacts:
+      - outputs/analysis/factor_specificity.json
+    paper_anchor: "[TBD: SPECIFICITY MATRIX RESULT]"
+  MODEL_COUNT:
+    artifacts:
+      - rewardlens/models/model_registry.json
+    paper_anchor: "[TBD: MODEL COMPATIBILITY TABLE]"
+  FACTOR_N:
+    artifacts:
+      - outputs/fast_track_audit_v1/dataset_summary.json
+    paper_anchor: "[TBD: FAST_TRACK PASS/FAIL COUNTS AFTER FREEZE]"
+  STATIC_N:
+    artifacts:
+      - datasets/processed/fast_eval/static_manifest.jsonl
+      - datasets/tallyqa/derived/tallyqa_count_static_manifest.jsonl
+      - datasets/gqa/derived/gqa_static_manifest.jsonl
+    paper_anchor: "[TBD: GQA STATIC A]"
+  DOWNSTREAM_N:
+    artifacts:
+      - datasets/processed/fast_eval/downstream_manifest.jsonl
+      - datasets/tallyqa/derived/tallyqa_count_downstream_manifest.jsonl
+      - datasets/gqa/derived/gqa_downstream_manifest.jsonl
+    paper_anchor: "[TBD: GQA BON U]"
+  CONTROLLED_AUDIT_TABLE:
+    artifacts:
+      - outputs/analysis/audit_metrics.csv
+    paper_anchor: "[TBD: CONTROLLED AUDIT TABLE]"
+  DOWNSTREAM_UTILITY_TABLE:
+    artifacts:
+      - outputs/analysis/downstream_utility.csv
+    paper_anchor: "[TBD: BEST-OF-N TABLE]"
+  INCREMENTAL_VALIDITY_TABLE:
+    artifacts:
+      - outputs/analysis/incremental_validity.json
+    paper_anchor: "[TBD: Δ LOFO PERFORMANCE]"
+  SPECIFICITY_TABLE:
+    artifacts:
+      - outputs/analysis/factor_specificity.json
+    paper_anchor: "[TBD: SPECIFICITY MATRIX RESULT]"
+  SIGNAL_GATE_DYNAMIC_RANGE:
+    artifacts:
+      - outputs/signal_sanity_gate.json
+    paper_anchor: "[TBD: SIGNAL GATE DYNAMIC RANGE]"
+policy:
+  refuse_synthetic: true
+  refuse_missing: true
+  do_not_overwrite_prose: true

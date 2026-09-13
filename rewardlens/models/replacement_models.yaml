@@ -1,0 +1,21 @@
+# Immediate fallbacks if a P0 checkpoint is INCOMPATIBLE within ~40 minutes.
+models:
+  - model_id: qwen2_5_vl_7b_instruct
+    family: qwen_vl
+    checkpoint: Qwen/Qwen2.5-VL-7B-Instruct
+    replaces: [llama32_11b_vision_instruct, qwen3_vl_4b_instruct]
+  - model_id: molmo_7b_o_0924
+    family: molmo
+    checkpoint: allenai/Molmo-7B-O-0924
+    replaces: [molmo_7b_d_0924]
+  - model_id: ixc25_reward_7b
+    family: specialized_vl_reward
+    checkpoint: internlm/internlm-xcomposer2d5-7b-reward
+    replaces: [skywork_vl_reward_7b]
+  - model_id: internvl3_8b
+    family: internvl
+    checkpoint: OpenGVLab/InternVL3-8B
+    note: already a P1 primary; can also replace a failed P0 architecture slot
+policy:
+  do_not_replace_with_same_family_only: true
+  status: UNTESTED

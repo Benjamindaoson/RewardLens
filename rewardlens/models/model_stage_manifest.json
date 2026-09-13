@@ -1,0 +1,56 @@
+{
+  "schema": "RewardLens model_stage_manifest v1",
+  "offline_after_stage": true,
+  "cloud_model_root": "${REWARDLENS_CLOUD_TMP}/models",
+  "models": [
+    {
+      "model_id": "qwen3_vl_4b_instruct",
+      "repo": "Qwen/Qwen3-VL-4B-Instruct",
+      "revision": "main",
+      "expected_local_path": "models/Qwen/Qwen3-VL-4B-Instruct",
+      "estimated_gb": 9.0,
+      "download_source": "huggingface",
+      "fallback_source": "modelscope:Qwen/Qwen3-VL-4B-Instruct",
+      "required_files": ["config.json", "tokenizer.json"],
+      "license": "apache-2.0",
+      "rank": "P0"
+    },
+    {
+      "model_id": "gemma3_4b_it",
+      "repo": "google/gemma-3-4b-it",
+      "revision": "main",
+      "expected_local_path": "models/google/gemma-3-4b-it",
+      "estimated_gb": 9.0,
+      "download_source": "huggingface",
+      "fallback_source": "modelscope:google/gemma-3-4b-it",
+      "required_files": ["config.json"],
+      "license": "gemma",
+      "gated": true,
+      "rank": "P0"
+    },
+    {
+      "model_id": "molmo_7b_d_0924",
+      "repo": "allenai/Molmo-7B-D-0924",
+      "revision": "main",
+      "expected_local_path": "models/allenai/Molmo-7B-D-0924",
+      "estimated_gb": 15.0,
+      "download_source": "huggingface",
+      "fallback_source": "modelscope:allenai/Molmo-7B-D-0924",
+      "required_files": ["config.json"],
+      "license": "apache-2.0",
+      "rank": "P0"
+    },
+    {
+      "model_id": "skywork_vl_reward_7b",
+      "repo": "Skywork/Skywork-VL-Reward-7B",
+      "revision": "main",
+      "expected_local_path": "models/Skywork/Skywork-VL-Reward-7B",
+      "estimated_gb": 15.0,
+      "download_source": "huggingface",
+      "fallback_source": "modelscope:Skywork/Skywork-VL-Reward-7B",
+      "required_files": ["config.json"],
+      "license": "unknown",
+      "rank": "P0"
+    }
+  ]
+}

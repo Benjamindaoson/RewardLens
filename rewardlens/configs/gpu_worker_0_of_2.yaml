@@ -1,0 +1,14 @@
+worker: 0
+num_workers: 2
+gpu: A800-80GB
+compatibility_timeout_min: 40
+attn_implementation: sdpa
+dtype: bfloat16
+flash_attention_2: false
+offline: true
+output_root: outputs/runs/worker_0_of_2
+models:
+  - qwen3_vl_4b_instruct
+  - gemma3_4b_it
+  - molmo_7b_d_0924
+  - skywork_vl_reward_7b

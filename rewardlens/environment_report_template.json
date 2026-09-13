@@ -1,0 +1,17 @@
+{
+  "hostname": null,
+  "gpu_name": null,
+  "gpu_count": null,
+  "vram_gb": null,
+  "cuda": null,
+  "hip": null,
+  "torch": null,
+  "transformers": null,
+  "bf16_ok": null,
+  "sdpa_ok": null,
+  "hf_hub_offline": null,
+  "transformers_offline": null,
+  "disk_free_gb": null,
+  "model_root": null,
+  "filled_on": "GPU preflight. Do not fill locally on CPU."
+}

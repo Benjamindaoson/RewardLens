@@ -1,0 +1,163 @@
+{
+  "captured_at": "2026-09-12T13:52:00.316167+00:00",
+  "do_not_restart_healthy": true,
+  "signal_gate_frozen": true,
+  "fast_track_frozen": false,
+  "factors": {
+    "count": {
+      "n_png": 505,
+      "triplets_approx": 168,
+      "latest": "count_000168_base.png",
+      "latest_mtime": "2026-09-12T13:51:39.404660+00:00",
+      "PASS": 165,
+      "BORDERLINE": 0,
+      "FAIL": 0,
+      "n_qc": 165,
+      "n_incomplete": 335,
+      "n_new": 2,
+      "qc_read_ok": true,
+      "ready_200": false,
+      "missing_png_vs_qc": 0
+    },
+    "attribute": {
+      "n_png": 412,
+      "triplets_approx": 137,
+      "latest": "attr_000137_base.png",
+      "latest_mtime": "2026-09-12T13:51:47.572732+00:00",
+      "PASS": 132,
+      "BORDERLINE": 2,
+      "FAIL": 0,
+      "n_qc": 134,
+      "n_incomplete": 366,
+      "n_new": 3,
+      "qc_read_ok": true,
+      "ready_200": false,
+      "missing_png_vs_qc": 0
+    },
+    "presence": {
+      "n_png": 424,
+      "triplets_approx": 141,
+      "latest": "pres_000141_base.png",
+      "latest_mtime": "2026-09-12T13:51:44.172060+00:00",
+      "PASS": 138,
+      "BORDERLINE": 0,
+      "FAIL": 0,
+      "n_qc": 138,
+      "n_incomplete": 362,
+      "n_new": 3,
+      "qc_read_ok": true,
+      "ready_200": false,
+      "missing_png_vs_qc": 0
+    },
+    "spatial": {
+      "n_png": 425,
+      "triplets_approx": 141,
+      "latest": "spat_000141_relevant.png",
+      "latest_mtime": "2026-09-12T13:51:46.845161+00:00",
+      "PASS": 136,
+      "BORDERLINE": 2,
+      "FAIL": 0,
+      "n_qc": 138,
+      "n_incomplete": 362,
+      "n_new": 3,
+      "qc_read_ok": true,
+      "ready_200": false,
+      "missing_png_vs_qc": 0
+    }
+  },
+  "processes": [
+    {
+      "pid": 65444,
+      "name": "python.exe",
+      "role": "render_driver",
+      "factor": "count",
+      "runtime_sec_approx": null,
+      "command": "\"C:\\Program Files\\Python312\\python.exe\" D:\\01_work\\RewardLens\\rewardlens\\scripts\\generate_count_pilot.py --config D:\\01_work\\RewardLens\\rewardlens\\configs\\count_scale_v1.json",
+      "healthy": true
+    },
+    {
+      "pid": 26088,
+      "name": "python.exe",
+      "role": "render_driver",
+      "factor": "attribute",
+      "runtime_sec_approx": null,
+      "command": "\"C:\\Program Files\\Python312\\python.exe\" D:\\01_work\\RewardLens\\rewardlens\\scripts\\generate_controlled_pilot.py --factor attribute --config D:\\01_work\\RewardLens\\rewardlens\\configs\\attribute_scale_v1.json",
+      "healthy": true
+    },
+    {
+      "pid": 31488,
+      "name": "python.exe",
+      "role": "render_driver",
+      "factor": "presence",
+      "runtime_sec_approx": null,
+      "command": "\"C:\\Program Files\\Python312\\python.exe\" D:\\01_work\\RewardLens\\rewardlens\\scripts\\generate_controlled_pilot.py --factor presence --config D:\\01_work\\RewardLens\\rewardlens\\configs\\presence_scale_v1.json",
+      "healthy": true
+    },
+    {
+      "pid": 34604,
+      "name": "python.exe",
+      "role": "render_driver",
+      "factor": "spatial",
+      "runtime_sec_approx": null,
+      "command": "\"C:\\Program Files\\Python312\\python.exe\" D:\\01_work\\RewardLens\\rewardlens\\scripts\\generate_controlled_pilot.py --factor spatial --config D:\\01_work\\RewardLens\\rewardlens\\configs\\spatial_scale_v1.json",
+      "healthy": true
+    },
+    {
+      "pid": 64960,
+      "name": "blender.exe",
+      "role": "blender",
+      "factor": "spatial",
+      "runtime_sec_approx": null,
+      "command": "D:\\01_work\\RewardLens\\tools\\blender-2.79b-windows64\\blender.exe --background --factory-startup --python D:\\01_work\\RewardLens\\rewardlens\\renderers\\clevr_controlled_renderer.py -- --run_config D:\\01_work\\RewardLens\\outputs\\spatial_scale_v1\\run_config.json --specs_file D:\\01_work\\RewardLens\\outputs\\spatial_scale_v1\\triplet_specs.json",
+      "healthy": true
+    },
+    {
+      "pid": 43128,
+      "name": "blender.exe",
+      "role": "blender",
+      "factor": "count",
+      "runtime_sec_approx": null,
+      "command": "D:\\01_work\\RewardLens\\tools\\blender-2.79b-windows64\\blender.exe --background --factory-startup --python D:\\01_work\\RewardLens\\rewardlens\\renderers\\clevr_count_renderer.py -- --run_config D:\\01_work\\RewardLens\\outputs\\count_scale_v1\\run_config.json --specs_file D:\\01_work\\RewardLens\\outputs\\count_scale_v1\\triplet_specs.json",
+      "healthy": true
+    },
+    {
+      "pid": 66780,
+      "name": "blender.exe",
+      "role": "blender",
+      "factor": "presence",
+      "runtime_sec_approx": null,
+      "command": "D:\\01_work\\RewardLens\\tools\\blender-2.79b-windows64\\blender.exe --background --factory-startup --python D:\\01_work\\RewardLens\\rewardlens\\renderers\\clevr_controlled_renderer.py -- --run_config D:\\01_work\\RewardLens\\outputs\\presence_scale_v1\\run_config.json --specs_file D:\\01_work\\RewardLens\\outputs\\presence_scale_v1\\triplet_specs.json",
+      "healthy": true
+    },
+    {
+      "pid": 17184,
+      "name": "blender.exe",
+      "role": "blender",
+      "factor": "attribute",
+      "runtime_sec_approx": null,
+      "command": "D:\\01_work\\RewardLens\\tools\\blender-2.79b-windows64\\blender.exe --background --factory-startup --python D:\\01_work\\RewardLens\\rewardlens\\renderers\\clevr_controlled_renderer.py -- --run_config D:\\01_work\\RewardLens\\outputs\\attribute_scale_v1\\run_config.json --specs_file D:\\01_work\\RewardLens\\outputs\\attribute_scale_v1\\triplet_specs.json",
+      "healthy": true
+    },
+    {
+      "pid": 28748,
+      "name": "python.exe",
+      "role": "fast_track_watcher",
+      "factor": null,
+      "runtime_sec_approx": null,
+      "command": "\"C:\\Program Files\\Python312\\python.exe\" D:\\01_work\\RewardLens\\rewardlens\\scripts\\watch_fast_track.py",
+      "healthy": true
+    },
+    {
+      "pid": 63008,
+      "name": "python.exe",
+      "role": "other",
+      "factor": null,
+      "runtime_sec_approx": null,
+      "command": "\"C:\\Program Files\\Python312\\python.exe\" D:\\01_work\\RewardLens\\rewardlens\\scripts\\snapshot_blender.py",
+      "healthy": false
+    }
+  ],
+  "blender_n": 4,
+  "driver_n": 4,
+  "fast_track_watcher_n": 1
+}

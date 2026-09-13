@@ -1,0 +1,21 @@
+{
+  "rq": "RQ2",
+  "frozen_before_gpu_results": true,
+  "fit_unit": "factor",
+  "do_not_pool_raw_U": true,
+  "outcome_datasets": {
+    "count": "tallyqa",
+    "attribute": "gqa",
+    "spatial": "gqa",
+    "presence": "gqa"
+  },
+  "models": {
+    "M0": "U_f ~ A_f",
+    "M1": "U_f ~ A_f + PFC_f + PSC_f"
+  },
+  "validation": "leave_one_model_family_out",
+  "bootstrap_unit": "model_family",
+  "in_sample_r2": "diagnostic_only",
+  "forbid_pooled_confirmatory_fit": true,
+  "synthetic_only_until_official_outputs": true
+}

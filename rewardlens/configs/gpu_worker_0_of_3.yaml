@@ -1,0 +1,14 @@
+worker: 0
+num_workers: 3
+gpu: A800-80GB
+compatibility_timeout_min: 40
+attn_implementation: sdpa
+dtype: bfloat16
+flash_attention_2: false
+offline: true
+output_root: outputs/runs/worker_0_of_3
+note: "Shard is i % 3 over registry primary order."
+models:
+  - qwen3_vl_4b_instruct
+  - skywork_vl_reward_7b
+  - internvl3_8b

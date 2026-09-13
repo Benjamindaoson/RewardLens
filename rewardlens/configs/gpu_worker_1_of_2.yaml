@@ -1,0 +1,14 @@
+worker: 1
+num_workers: 2
+gpu: A800-80GB
+compatibility_timeout_min: 40
+attn_implementation: sdpa
+dtype: bfloat16
+flash_attention_2: false
+offline: true
+output_root: outputs/runs/worker_1_of_2
+models:
+  - qwen3_vl_8b_instruct
+  - gemma3_12b_it
+  - internvl3_8b
+  - llama32_11b_vision_instruct
