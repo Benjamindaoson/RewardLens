@@ -11,7 +11,7 @@ RewardLens is a reproducible research workspace for controlled evaluation of vis
 
 ## Data and large artifacts
 
-Raw datasets, generated datasets, GPU bundles, tool archives, and runtime outputs are intentionally excluded from GitHub. They are assigned to the Hugging Face dataset repository `Benjamindaoson/RewardLens-data`; this README will link to the published dataset after its upload is authenticated and verified.
+Raw datasets, generated datasets, GPU bundles, tool archives, and runtime outputs are intentionally excluded from GitHub. They are being published to the private Hugging Face dataset repository [`jlai300/RewardLens-data`](https://huggingface.co/datasets/jlai300/RewardLens-data).
 
 `UPLOAD_MANIFEST.md` and the scripts under `rewardlens/scripts/` define the data acquisition, SHA-256 verification, and staging workflow.
 
