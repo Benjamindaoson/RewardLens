@@ -1,0 +1,5 @@
+factor,generated_complete,PASS,BORDERLINE,FAIL,frozen_pass_n,needed
+count,136,136,0,0,100,100
+attribute,103,101,2,0,100,100
+presence,106,106,0,0,100,100
+spatial,106,104,2,0,100,100

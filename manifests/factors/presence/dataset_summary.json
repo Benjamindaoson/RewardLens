@@ -1,0 +1,13 @@
+{
+  "factor": "presence",
+  "frozen_pass_n": 200,
+  "n_items": 600,
+  "n_images": 600,
+  "source_pass_count_at_freeze": 200,
+  "BORDERLINE_at_freeze": 0,
+  "FAIL_at_freeze": 0,
+  "selection_rule": "first 200 PASS triplet_ids, sorted; skip BORDERLINE/FAIL",
+  "pre_result": true,
+  "model_blind": true,
+  "audit_dataset_version": "FAST_TRACK_FACTOR"
+}

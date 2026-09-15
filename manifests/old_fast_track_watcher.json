@@ -1,0 +1,7 @@
+{
+  "status": "EXPECTED_STOP",
+  "reason": "replaced_by_per_factor_freeze_watcher",
+  "not_a_failure": true,
+  "do_not_restart": true,
+  "do_not_escalate": true
+}

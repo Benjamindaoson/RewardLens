@@ -1,0 +1,8 @@
+# GPU host. Do not install flash-attn / bitsandbytes unless a registry flag requires it.
+torch>=2.4
+transformers>=4.51
+accelerate
+pillow
+pyyaml
+sentencepiece
+protobuf

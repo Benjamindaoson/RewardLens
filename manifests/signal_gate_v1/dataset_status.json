@@ -1,0 +1,52 @@
+{
+  "audit_dataset_version": "SIGNAL_GATE_V1",
+  "ready": true,
+  "checked_at": "2026-09-12T13:16:06.946109+00:00",
+  "per_factor": {
+    "count": {
+      "factor": "count",
+      "output_dir": "D:\\01_work\\RewardLens\\outputs\\count_scale_v1",
+      "n_manifest_rows": 500,
+      "n_incomplete": 364,
+      "n_qc": 136,
+      "n_new": 2,
+      "PASS": 136,
+      "BORDERLINE": 0,
+      "FAIL": 0
+    },
+    "attribute": {
+      "factor": "attribute",
+      "output_dir": "D:\\01_work\\RewardLens\\outputs\\attribute_scale_v1",
+      "n_manifest_rows": 500,
+      "n_incomplete": 397,
+      "n_qc": 103,
+      "n_new": 2,
+      "PASS": 101,
+      "BORDERLINE": 2,
+      "FAIL": 0
+    },
+    "presence": {
+      "factor": "presence",
+      "output_dir": "D:\\01_work\\RewardLens\\outputs\\presence_scale_v1",
+      "n_manifest_rows": 500,
+      "n_incomplete": 394,
+      "n_qc": 106,
+      "n_new": 2,
+      "PASS": 106,
+      "BORDERLINE": 0,
+      "FAIL": 0
+    },
+    "spatial": {
+      "factor": "spatial",
+      "output_dir": "D:\\01_work\\RewardLens\\outputs\\spatial_scale_v1",
+      "n_manifest_rows": 500,
+      "n_incomplete": 394,
+      "n_qc": 106,
+      "n_new": 2,
+      "PASS": 104,
+      "BORDERLINE": 2,
+      "FAIL": 0
+    }
+  },
+  "policy": "PASS only, first N sorted triplet_ids. BORDERLINE/FAIL retained in QC, never upgraded."
+}

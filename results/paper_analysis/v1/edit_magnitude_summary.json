@@ -1,0 +1,399 @@
+{
+  "schema": "REWARDLENS_EDIT_MAGNITUDE_V1",
+  "metrics": [
+    "global_SSIM_256",
+    "pixel_change_fraction_256",
+    "LPIPS_unavailable"
+  ],
+  "status": "OK",
+  "n": 800,
+  "missing_or_incomplete": 0,
+  "lpips_available": false,
+  "lpips_error": "ModuleNotFoundError: No module named 'lpips'",
+  "scene_masks": "unavailable; reporting pixel-change fraction instead of semantic mask area",
+  "summary": {
+    "SSIM": {
+      "relevant_mean": 0.9127668100669561,
+      "irrelevant_mean": 0.9219327481795964,
+      "relevant_median": 0.9450649618549124,
+      "irrelevant_median": 0.9422725564202052,
+      "n": 800
+    },
+    "pixel_change": {
+      "relevant_mean": 0.22432037353515624,
+      "irrelevant_mean": 0.21861019134521484,
+      "relevant_median": 0.18849945068359375,
+      "irrelevant_median": 0.18236541748046875,
+      "n": 800
+    },
+    "LPIPS": null
+  },
+  "by_factor": {
+    "count": {
+      "n": 200,
+      "SSIM": {
+        "relevant_mean": 0.9249818797503121,
+        "irrelevant_mean": 0.921538557075908
+      },
+      "pixel_change": {
+        "relevant_mean": 0.22859527587890624,
+        "irrelevant_mean": 0.2291851043701172
+      }
+    },
+    "attribute": {
+      "n": 200,
+      "SSIM": {
+        "relevant_mean": 0.9743097572418685,
+        "irrelevant_mean": 0.9576959933156673
+      },
+      "pixel_change": {
+        "relevant_mean": 0.11814010620117188,
+        "irrelevant_mean": 0.17863739013671875
+      }
+    },
+    "spatial": {
+      "n": 200,
+      "SSIM": {
+        "relevant_mean": 0.8167310868672498,
+        "irrelevant_mean": 0.8904367189386556
+      },
+      "pixel_change": {
+        "relevant_mean": 0.3753981018066406,
+        "irrelevant_mean": 0.2652195739746094
+      }
+    },
+    "presence": {
+      "n": 200,
+      "SSIM": {
+        "relevant_mean": 0.935044516408389,
+        "irrelevant_mean": 0.9180597233881511
+      },
+      "pixel_change": {
+        "relevant_mean": 0.17514801025390625,
+        "irrelevant_mean": 0.20139869689941406
+      }
+    }
+  },
+  "note": "Global SSIM is a single-window RGB statistic on a 256px resize, not sliding-window SSIM.",
+  "matched_bins": {
+    "status": "COMPUTED_FROM_PIXEL_CHANGE",
+    "lpips": false,
+    "threshold_abs_pix_diff": 0.05,
+    "n_matched": 459,
+    "n_total": 800,
+    "n_matched_by_factor": {
+      "count": 191,
+      "attribute": 109,
+      "presence": 103,
+      "spatial": 56
+    },
+    "ra_ii_on_matched_triplets": {
+      "Qwen": {
+        "count": {
+          "n": 191,
+          "n_base_correct": 191,
+          "A_audit": 1.0,
+          "PFC": 0.16753926701570682,
+          "PSC": 1.0,
+          "RA": 0.16753926701570682,
+          "II": 1.0
+        },
+        "attribute": {
+          "n": 109,
+          "n_base_correct": 109,
+          "A_audit": 1.0,
+          "PFC": 1.0,
+          "PSC": 1.0,
+          "RA": 1.0,
+          "II": 1.0
+        },
+        "spatial": {
+          "n": 56,
+          "n_base_correct": 56,
+          "A_audit": 1.0,
+          "PFC": 1.0,
+          "PSC": 1.0,
+          "RA": 1.0,
+          "II": 1.0
+        },
+        "presence": {
+          "n": 103,
+          "n_base_correct": 103,
+          "A_audit": 1.0,
+          "PFC": 1.0,
+          "PSC": 1.0,
+          "RA": 1.0,
+          "II": 1.0
+        }
+      },
+      "Gemma": {
+        "count": {
+          "n": 191,
+          "n_base_correct": 140,
+          "A_audit": 0.7329842931937173,
+          "PFC": 0.23036649214659685,
+          "PSC": 0.643979057591623,
+          "RA": 0.3142857142857143,
+          "II": 0.8785714285714286
+        },
+        "attribute": {
+          "n": 109,
+          "n_base_correct": 104,
+          "A_audit": 0.9541284403669725,
+          "PFC": 0.8807339449541285,
+          "PSC": 0.9357798165137615,
+          "RA": 0.9230769230769231,
+          "II": 0.9807692307692307
+        },
+        "spatial": {
+          "n": 56,
+          "n_base_correct": 41,
+          "A_audit": 0.7321428571428571,
+          "PFC": 0.0,
+          "PSC": 0.7142857142857143,
+          "RA": 0.0,
+          "II": 0.975609756097561
+        },
+        "presence": {
+          "n": 103,
+          "n_base_correct": 102,
+          "A_audit": 0.9902912621359223,
+          "PFC": 0.5631067961165048,
+          "PSC": 0.9902912621359223,
+          "RA": 0.5686274509803921,
+          "II": 1.0
+        }
+      },
+      "Molmo": {
+        "count": {
+          "n": 191,
+          "n_base_correct": 99,
+          "A_audit": 0.518324607329843,
+          "PFC": 0.09424083769633508,
+          "PSC": 0.5026178010471204,
+          "RA": 0.18181818181818182,
+          "II": 0.9696969696969697
+        },
+        "attribute": {
+          "n": 109,
+          "n_base_correct": 107,
+          "A_audit": 0.981651376146789,
+          "PFC": 0.9724770642201835,
+          "PSC": 0.981651376146789,
+          "RA": 0.9906542056074766,
+          "II": 1.0
+        },
+        "spatial": {
+          "n": 56,
+          "n_base_correct": 43,
+          "A_audit": 0.7678571428571429,
+          "PFC": 0.16071428571428573,
+          "PSC": 0.7678571428571429,
+          "RA": 0.20930232558139536,
+          "II": 1.0
+        },
+        "presence": {
+          "n": 103,
+          "n_base_correct": 102,
+          "A_audit": 0.9902912621359223,
+          "PFC": 0.7572815533980582,
+          "PSC": 0.970873786407767,
+          "RA": 0.7647058823529411,
+          "II": 0.9803921568627451
+        }
+      },
+      "Skywork": {
+        "count": {
+          "n": 191,
+          "n_base_correct": 191,
+          "A_audit": 1.0,
+          "PFC": 0.6335078534031413,
+          "PSC": 0.9895287958115183,
+          "RA": 0.6335078534031413,
+          "II": 0.9895287958115183
+        },
+        "attribute": {
+          "n": 109,
+          "n_base_correct": 109,
+          "A_audit": 1.0,
+          "PFC": 1.0,
+          "PSC": 1.0,
+          "RA": 1.0,
+          "II": 1.0
+        },
+        "spatial": {
+          "n": 56,
+          "n_base_correct": 56,
+          "A_audit": 1.0,
+          "PFC": 1.0,
+          "PSC": 1.0,
+          "RA": 1.0,
+          "II": 1.0
+        },
+        "presence": {
+          "n": 103,
+          "n_base_correct": 102,
+          "A_audit": 0.9902912621359223,
+          "PFC": 0.9902912621359223,
+          "PSC": 0.9611650485436893,
+          "RA": 1.0,
+          "II": 0.9705882352941176
+        }
+      },
+      "Idefics3": {
+        "count": {
+          "n": 191,
+          "n_base_correct": 181,
+          "A_audit": 0.9476439790575916,
+          "PFC": 0.6701570680628273,
+          "PSC": 0.9057591623036649,
+          "RA": 0.7071823204419889,
+          "II": 0.9558011049723757
+        },
+        "attribute": {
+          "n": 109,
+          "n_base_correct": 109,
+          "A_audit": 1.0,
+          "PFC": 1.0,
+          "PSC": 1.0,
+          "RA": 1.0,
+          "II": 1.0
+        },
+        "spatial": {
+          "n": 56,
+          "n_base_correct": 56,
+          "A_audit": 1.0,
+          "PFC": 0.5,
+          "PSC": 1.0,
+          "RA": 0.5,
+          "II": 1.0
+        },
+        "presence": {
+          "n": 103,
+          "n_base_correct": 103,
+          "A_audit": 1.0,
+          "PFC": 1.0,
+          "PSC": 0.9902912621359223,
+          "RA": 1.0,
+          "II": 0.9902912621359223
+        }
+      },
+      "Phi": {
+        "count": {
+          "n": 191,
+          "n_base_correct": 159,
+          "A_audit": 0.8324607329842932,
+          "PFC": 0.16230366492146597,
+          "PSC": 0.7905759162303665,
+          "RA": 0.1949685534591195,
+          "II": 0.949685534591195
+        },
+        "attribute": {
+          "n": 109,
+          "n_base_correct": 101,
+          "A_audit": 0.926605504587156,
+          "PFC": 0.7706422018348624,
+          "PSC": 0.8440366972477065,
+          "RA": 0.8316831683168316,
+          "II": 0.9108910891089109
+        },
+        "spatial": {
+          "n": 56,
+          "n_base_correct": 56,
+          "A_audit": 1.0,
+          "PFC": 0.48214285714285715,
+          "PSC": 0.9821428571428571,
+          "RA": 0.48214285714285715,
+          "II": 0.9821428571428571
+        },
+        "presence": {
+          "n": 103,
+          "n_base_correct": 86,
+          "A_audit": 0.8349514563106796,
+          "PFC": 0.5825242718446602,
+          "PSC": 0.8058252427184466,
+          "RA": 0.6976744186046512,
+          "II": 0.9651162790697675
+        }
+      },
+      "LLaVA": {
+        "count": {
+          "n": 191,
+          "n_base_correct": 175,
+          "A_audit": 0.9162303664921466,
+          "PFC": 0.39267015706806285,
+          "PSC": 0.9057591623036649,
+          "RA": 0.42857142857142855,
+          "II": 0.9885714285714285
+        },
+        "attribute": {
+          "n": 109,
+          "n_base_correct": 109,
+          "A_audit": 1.0,
+          "PFC": 1.0,
+          "PSC": 1.0,
+          "RA": 1.0,
+          "II": 1.0
+        },
+        "spatial": {
+          "n": 56,
+          "n_base_correct": 56,
+          "A_audit": 1.0,
+          "PFC": 1.0,
+          "PSC": 1.0,
+          "RA": 1.0,
+          "II": 1.0
+        },
+        "presence": {
+          "n": 103,
+          "n_base_correct": 103,
+          "A_audit": 1.0,
+          "PFC": 0.9611650485436893,
+          "PSC": 1.0,
+          "RA": 0.9611650485436893,
+          "II": 1.0
+        }
+      },
+      "InternVL": {
+        "count": {
+          "n": 191,
+          "n_base_correct": 191,
+          "A_audit": 1.0,
+          "PFC": 0.18324607329842932,
+          "PSC": 1.0,
+          "RA": 0.18324607329842932,
+          "II": 1.0
+        },
+        "attribute": {
+          "n": 109,
+          "n_base_correct": 109,
+          "A_audit": 1.0,
+          "PFC": 1.0,
+          "PSC": 1.0,
+          "RA": 1.0,
+          "II": 1.0
+        },
+        "spatial": {
+          "n": 56,
+          "n_base_correct": 56,
+          "A_audit": 1.0,
+          "PFC": 0.9642857142857143,
+          "PSC": 1.0,
+          "RA": 0.9642857142857143,
+          "II": 1.0
+        },
+        "presence": {
+          "n": 103,
+          "n_base_correct": 103,
+          "A_audit": 1.0,
+          "PFC": 1.0,
+          "PSC": 1.0,
+          "RA": 1.0,
+          "II": 1.0
+        }
+      }
+    },
+    "spatial_headline_support": "INSUFFICIENT",
+    "note": "Matched = |pix_rel - pix_irr| <= 0.05. LPIPS unavailable. Scene masks unavailable."
+  }
+}

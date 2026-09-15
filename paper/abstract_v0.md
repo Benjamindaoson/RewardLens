@@ -1,0 +1,3 @@
+# Abstract v0
+
+Multimodal reward-model evaluation usually emphasizes preference accuracy, but accuracy alone cannot establish whether a model relies on intended visual evidence. Controlled factor-specific interventions reveal heterogeneous evidence-dependency profiles, including near-accuracy-matched models with materially different relevant-evidence dependence. PFC and PSC show stronger descriptive associations with downstream utility than static accuracy in this four-model checkpoint, but N=4 is insufficient for independent incremental-validity inference. Expanded multi-family experiments provide confirmatory analysis.

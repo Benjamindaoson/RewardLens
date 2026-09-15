@@ -28,3 +28,16 @@ __all__ = [
     "MolmoAdapter",
     "SpecializedRewardAdapter",
 ]
+
+
+# REWARDLENS_AUTORUN_NATIVE_ADAPTERS_V1
+from .molmo_native import MolmoNativeAdapter
+from .skywork_reward import SkyworkRewardAdapter
+
+try:
+    ADAPTERS
+except NameError:
+    ADAPTERS = {}
+
+ADAPTERS["molmo"] = MolmoNativeAdapter
+ADAPTERS["specialized_reward"] = SkyworkRewardAdapter

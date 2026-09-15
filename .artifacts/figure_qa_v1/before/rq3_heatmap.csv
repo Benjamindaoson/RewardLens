@@ -1,0 +1,17 @@
+audit_factor,downstream_factor,standardized_contribution
+count,count,-0.32522439194458436
+count,attribute,-1.4334971494473157
+count,presence,1.693310345996228
+count,spatial,1.4982171101851822
+attribute,count,0.7251413990163226
+attribute,attribute,0.8401136049735338
+attribute,presence,-0.3254901516019316
+attribute,spatial,0.1793178003250564
+presence,count,-1.4822284127289995
+presence,attribute,-0.43243202995264796
+presence,presence,-0.47026296843588755
+presence,spatial,-1.2363406744516892
+spatial,count,1.0823114056572614
+spatial,attribute,1.0258155744264297
+spatial,presence,-0.8975572259584087
+spatial,spatial,-0.4411942360585495

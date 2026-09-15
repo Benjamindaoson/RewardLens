@@ -1,0 +1,17 @@
+audit_factor,downstream_factor,score,status,n_models,n_families,reason
+count,count,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+count,attribute,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+count,presence,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+count,spatial,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+attribute,count,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+attribute,attribute,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+attribute,presence,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+attribute,spatial,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+presence,count,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+presence,attribute,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+presence,presence,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+presence,spatial,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+spatial,count,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+spatial,attribute,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+spatial,presence,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters
+spatial,spatial,,NOT_IDENTIFIABLE,4,4,M1 not identifiable in four-model LOFO: each fold trains on 3 observations for 4 parameters

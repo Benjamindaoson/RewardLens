@@ -1,0 +1,841 @@
+{
+  "schema": "REWARDLENS_PAIRED_BOOTSTRAP_V1",
+  "seed": 20270915,
+  "B": 10000,
+  "do_not": "Do not treat the 7 model-pairs as IID observations",
+  "contrasts": [
+    {
+      "factor": "spatial",
+      "model_1": "Skywork",
+      "model_2": "Phi",
+      "label": "spatial Skywork vs Phi",
+      "seed": 20270915,
+      "B": 10000,
+      "unit_audit": "source_triplet",
+      "unit_A": "static_item_id",
+      "unit_U8": "pool_id",
+      "RA": {
+        "n_triplets": 200,
+        "point": 0.38604166666666667,
+        "point_pp": 38.604166666666664,
+        "ci95": [
+          0.29776451684397154,
+          0.4722978776737967
+        ],
+        "ci95_pp": [
+          29.776451684397152,
+          47.22978776737967
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "II": {
+        "n_triplets": 200,
+        "point": 0.015625,
+        "point_pp": 1.5625,
+        "ci95": [
+          0.0,
+          0.03608247422680411
+        ],
+        "ci95_pp": [
+          0.0,
+          3.6082474226804107
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "PFC": {
+        "n_triplets": 200,
+        "point": 0.40499999999999997,
+        "point_pp": 40.5,
+        "ci95": [
+          0.31999999999999995,
+          0.49
+        ],
+        "ci95_pp": [
+          31.999999999999996,
+          49.0
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "PSC": {
+        "n_triplets": 200,
+        "point": 0.05500000000000005,
+        "point_pp": 5.500000000000005,
+        "ci95": [
+          0.025000000000000022,
+          0.08999999999999997
+        ],
+        "ci95_pp": [
+          2.500000000000002,
+          8.999999999999996
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "A": {
+        "n_items": 198,
+        "point": -0.005050505050505083,
+        "point_pp": -0.5050505050505083,
+        "ci95": [
+          -0.06060606060606055,
+          0.0505050505050505
+        ],
+        "ci95_pp": [
+          -6.060606060606055,
+          5.05050505050505
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "static_item_id",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "U8": {
+        "n": 200,
+        "point": 0.16499999999999992,
+        "point_pp": 16.499999999999993,
+        "ci95": [
+          0.08499999999999996,
+          0.245
+        ],
+        "ci95_pp": [
+          8.499999999999996,
+          24.5
+        ],
+        "excludes_zero": true,
+        "B": 10000,
+        "seed": 20270915,
+        "paired": true,
+        "unit": "pool_id"
+      }
+    },
+    {
+      "factor": "presence",
+      "model_1": "Molmo",
+      "model_2": "Idefics3",
+      "label": "presence Molmo vs Idefics3",
+      "seed": 20270915,
+      "B": 10000,
+      "unit_audit": "source_triplet",
+      "unit_A": "static_item_id",
+      "unit_U8": "pool_id",
+      "RA": {
+        "n_triplets": 200,
+        "point": -0.2562814070351759,
+        "point_pp": -25.628140703517587,
+        "ci95": [
+          -0.31658291457286436,
+          -0.1959798994974874
+        ],
+        "ci95_pp": [
+          -31.658291457286435,
+          -19.59798994974874
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "II": {
+        "n_triplets": 200,
+        "point": -0.005050251256281446,
+        "point_pp": -0.5050251256281446,
+        "ci95": [
+          -0.020408163265306145,
+          0.010000000000000009
+        ],
+        "ci95_pp": [
+          -2.0408163265306145,
+          1.0000000000000009
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "PFC": {
+        "n_triplets": 200,
+        "point": -0.26,
+        "point_pp": -26.0,
+        "ci95": [
+          -0.32499999999999996,
+          -0.19999999999999996
+        ],
+        "ci95_pp": [
+          -32.49999999999999,
+          -19.999999999999996
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "PSC": {
+        "n_triplets": 200,
+        "point": -0.010000000000000009,
+        "point_pp": -1.0000000000000009,
+        "ci95": [
+          -0.030000000000000027,
+          0.010000000000000009
+        ],
+        "ci95_pp": [
+          -3.0000000000000027,
+          1.0000000000000009
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "A": {
+        "n_items": 200,
+        "point": 0.0050000000000000044,
+        "point_pp": 0.5000000000000004,
+        "ci95": [
+          -0.06499999999999995,
+          0.07499999999999996
+        ],
+        "ci95_pp": [
+          -6.499999999999995,
+          7.499999999999996
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "static_item_id",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "U8": {
+        "n": 200,
+        "point": -0.015000000000000013,
+        "point_pp": -1.5000000000000013,
+        "ci95": [
+          -0.09499999999999997,
+          0.06499999999999995
+        ],
+        "ci95_pp": [
+          -9.499999999999996,
+          6.499999999999995
+        ],
+        "excludes_zero": false,
+        "B": 10000,
+        "seed": 20270915,
+        "paired": true,
+        "unit": "pool_id"
+      }
+    },
+    {
+      "factor": "presence",
+      "model_1": "Molmo",
+      "model_2": "InternVL",
+      "label": "presence Molmo vs InternVL",
+      "seed": 20270915,
+      "B": 10000,
+      "unit_audit": "source_triplet",
+      "unit_A": "static_item_id",
+      "unit_U8": "pool_id",
+      "RA": {
+        "n_triplets": 200,
+        "point": -0.2562814070351759,
+        "point_pp": -25.628140703517587,
+        "ci95": [
+          -0.31818181818181823,
+          -0.1959798994974874
+        ],
+        "ci95_pp": [
+          -31.818181818181824,
+          -19.59798994974874
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "II": {
+        "n_triplets": 200,
+        "point": -0.01005025125628145,
+        "point_pp": -1.005025125628145,
+        "ci95": [
+          -0.025252525252525304,
+          0.0
+        ],
+        "ci95_pp": [
+          -2.5252525252525304,
+          0.0
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "PFC": {
+        "n_triplets": 200,
+        "point": -0.26,
+        "point_pp": -26.0,
+        "ci95": [
+          -0.31999999999999995,
+          -0.19999999999999996
+        ],
+        "ci95_pp": [
+          -31.999999999999996,
+          -19.999999999999996
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "PSC": {
+        "n_triplets": 200,
+        "point": -0.015000000000000013,
+        "point_pp": -1.5000000000000013,
+        "ci95": [
+          -0.03500000000000003,
+          0.0
+        ],
+        "ci95_pp": [
+          -3.500000000000003,
+          0.0
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "A": {
+        "n_items": 200,
+        "point": -0.0050000000000000044,
+        "point_pp": -0.5000000000000004,
+        "ci95": [
+          -0.06000000000000005,
+          0.05499999999999994
+        ],
+        "ci95_pp": [
+          -6.000000000000005,
+          5.499999999999994
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "static_item_id",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "U8": {
+        "n": 200,
+        "point": -0.18999999999999995,
+        "point_pp": -18.999999999999993,
+        "ci95": [
+          -0.26499999999999996,
+          -0.12
+        ],
+        "ci95_pp": [
+          -26.499999999999996,
+          -12.0
+        ],
+        "excludes_zero": true,
+        "B": 10000,
+        "seed": 20270915,
+        "paired": true,
+        "unit": "pool_id"
+      }
+    },
+    {
+      "factor": "attribute",
+      "model_1": "Phi",
+      "model_2": "LLaVA",
+      "label": "attribute Phi vs LLaVA",
+      "seed": 20270915,
+      "B": 10000,
+      "unit_audit": "source_triplet",
+      "unit_A": "static_item_id",
+      "unit_U8": "pool_id",
+      "RA": {
+        "n_triplets": 200,
+        "point": -0.15053763440860213,
+        "point_pp": -15.053763440860212,
+        "ci95": [
+          -0.20430107526881724,
+          -0.10213688114542026
+        ],
+        "ci95_pp": [
+          -20.430107526881724,
+          -10.213688114542025
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "II": {
+        "n_triplets": 200,
+        "point": -0.10752688172043012,
+        "point_pp": -10.752688172043012,
+        "ci95": [
+          -0.15463917525773196,
+          -0.06417112299465244
+        ],
+        "ci95_pp": [
+          -15.463917525773196,
+          -6.417112299465244
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "PFC": {
+        "n_triplets": 200,
+        "point": -0.20999999999999996,
+        "point_pp": -20.999999999999996,
+        "ci95": [
+          -0.27,
+          -0.15500000000000003
+        ],
+        "ci95_pp": [
+          -27.0,
+          -15.500000000000004
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "PSC": {
+        "n_triplets": 200,
+        "point": -0.17000000000000004,
+        "point_pp": -17.000000000000004,
+        "ci95": [
+          -0.22499999999999998,
+          -0.12
+        ],
+        "ci95_pp": [
+          -22.499999999999996,
+          -12.0
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "A": {
+        "n_items": 200,
+        "point": 0.0,
+        "point_pp": 0.0,
+        "ci95": [
+          -0.05499999999999994,
+          0.05499999999999994
+        ],
+        "ci95_pp": [
+          -5.499999999999994,
+          5.499999999999994
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "static_item_id",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "U8": {
+        "n": 200,
+        "point": -0.019999999999999907,
+        "point_pp": -1.9999999999999907,
+        "ci95": [
+          -0.07999999999999996,
+          0.040000000000000036
+        ],
+        "ci95_pp": [
+          -7.9999999999999964,
+          4.0000000000000036
+        ],
+        "excludes_zero": false,
+        "B": 10000,
+        "seed": 20270915,
+        "paired": true,
+        "unit": "pool_id"
+      }
+    },
+    {
+      "factor": "presence",
+      "model_1": "Qwen",
+      "model_2": "LLaVA",
+      "label": "presence Qwen vs LLaVA",
+      "seed": 20270915,
+      "B": 10000,
+      "unit_audit": "source_triplet",
+      "unit_A": "static_item_id",
+      "unit_U8": "pool_id",
+      "RA": {
+        "n_triplets": 200,
+        "point": 0.020000000000000018,
+        "point_pp": 2.0000000000000018,
+        "ci95": [
+          0.0050000000000000044,
+          0.040000000000000036
+        ],
+        "ci95_pp": [
+          0.5000000000000004,
+          4.0000000000000036
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "II": {
+        "n_triplets": 200,
+        "point": 0.0,
+        "point_pp": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "PFC": {
+        "n_triplets": 200,
+        "point": 0.015000000000000013,
+        "point_pp": 1.5000000000000013,
+        "ci95": [
+          -0.0050000000000000044,
+          0.040000000000000036
+        ],
+        "ci95_pp": [
+          -0.5000000000000004,
+          4.0000000000000036
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "PSC": {
+        "n_triplets": 200,
+        "point": -0.0050000000000000044,
+        "point_pp": -0.5000000000000004,
+        "ci95": [
+          -0.015000000000000013,
+          0.0
+        ],
+        "ci95_pp": [
+          -1.5000000000000013,
+          0.0
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "A": {
+        "n_items": 200,
+        "point": 0.010000000000000009,
+        "point_pp": 1.0000000000000009,
+        "ci95": [
+          -0.030000000000000027,
+          0.050000000000000044
+        ],
+        "ci95_pp": [
+          -3.0000000000000027,
+          5.000000000000004
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "static_item_id",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "U8": {
+        "n": 200,
+        "point": 0.1449999999999999,
+        "point_pp": 14.499999999999991,
+        "ci95": [
+          0.07999999999999996,
+          0.21499999999999997
+        ],
+        "ci95_pp": [
+          7.9999999999999964,
+          21.499999999999996
+        ],
+        "excludes_zero": true,
+        "B": 10000,
+        "seed": 20270915,
+        "paired": true,
+        "unit": "pool_id"
+      }
+    },
+    {
+      "factor": "count",
+      "model_1": "Molmo",
+      "model_2": "Phi",
+      "label": "count Molmo vs Phi",
+      "seed": 20270915,
+      "B": 10000,
+      "unit_audit": "source_triplet",
+      "unit_A": "static_item_id",
+      "unit_U8": "pool_id",
+      "RA": {
+        "n_triplets": 200,
+        "point": -0.013725490196078438,
+        "point_pp": -1.3725490196078438,
+        "ci95": [
+          -0.102290072826809,
+          0.07549811065395651
+        ],
+        "ci95_pp": [
+          -10.2290072826809,
+          7.549811065395651
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "II": {
+        "n_triplets": 200,
+        "point": 0.019073083778966105,
+        "point_pp": 1.9073083778966105,
+        "ci95": [
+          -0.02682847201159302,
+          0.06397876798693623
+        ],
+        "ci95_pp": [
+          -2.682847201159302,
+          6.397876798693623
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "PFC": {
+        "n_triplets": 200,
+        "point": -0.07,
+        "point_pp": -7.000000000000001,
+        "ci95": [
+          -0.135,
+          -0.0050000000000000044
+        ],
+        "ci95_pp": [
+          -13.5,
+          -0.5000000000000004
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "PSC": {
+        "n_triplets": 200,
+        "point": -0.29000000000000004,
+        "point_pp": -29.000000000000004,
+        "ci95": [
+          -0.355,
+          -0.22999999999999998
+        ],
+        "ci95_pp": [
+          -35.5,
+          -23.0
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": true
+      },
+      "A": {
+        "n_items": 200,
+        "point": -0.010000000000000009,
+        "point_pp": -1.0000000000000009,
+        "ci95": [
+          -0.06500000000000006,
+          0.04500000000000004
+        ],
+        "ci95_pp": [
+          -6.500000000000005,
+          4.5000000000000036
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "static_item_id",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "U8": {
+        "n": 200,
+        "point": 0.03500000000000003,
+        "point_pp": 3.500000000000003,
+        "ci95": [
+          -0.03499999999999992,
+          0.10000000000000003
+        ],
+        "ci95_pp": [
+          -3.499999999999992,
+          10.000000000000004
+        ],
+        "excludes_zero": false,
+        "B": 10000,
+        "seed": 20270915,
+        "paired": true,
+        "unit": "pool_id"
+      }
+    },
+    {
+      "factor": "presence",
+      "model_1": "Idefics3",
+      "model_2": "InternVL",
+      "label": "presence Idefics3 vs InternVL",
+      "seed": 20270915,
+      "B": 10000,
+      "unit_audit": "source_triplet",
+      "unit_A": "static_item_id",
+      "unit_U8": "pool_id",
+      "RA": {
+        "n_triplets": 200,
+        "point": 0.0,
+        "point_pp": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "II": {
+        "n_triplets": 200,
+        "point": -0.0050000000000000044,
+        "point_pp": -0.5000000000000004,
+        "ci95": [
+          -0.015000000000000013,
+          0.0
+        ],
+        "ci95_pp": [
+          -1.5000000000000013,
+          0.0
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "PFC": {
+        "n_triplets": 200,
+        "point": 0.0,
+        "point_pp": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "PSC": {
+        "n_triplets": 200,
+        "point": -0.0050000000000000044,
+        "point_pp": -0.5000000000000004,
+        "ci95": [
+          -0.015000000000000013,
+          0.0
+        ],
+        "ci95_pp": [
+          -1.5000000000000013,
+          0.0
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "source_triplet",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "A": {
+        "n_items": 200,
+        "point": -0.010000000000000009,
+        "point_pp": -1.0000000000000009,
+        "ci95": [
+          -0.06999999999999995,
+          0.050000000000000044
+        ],
+        "ci95_pp": [
+          -6.999999999999995,
+          5.000000000000004
+        ],
+        "B": 10000,
+        "seed": 20270915,
+        "unit": "static_item_id",
+        "paired": true,
+        "excludes_zero": false
+      },
+      "U8": {
+        "n": 200,
+        "point": -0.17499999999999993,
+        "point_pp": -17.499999999999993,
+        "ci95": [
+          -0.25,
+          -0.09999999999999998
+        ],
+        "ci95_pp": [
+          -25.0,
+          -9.999999999999998
+        ],
+        "excludes_zero": true,
+        "B": 10000,
+        "seed": 20270915,
+        "paired": true,
+        "unit": "pool_id"
+      }
+    }
+  ]
+}

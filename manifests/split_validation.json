@@ -1,0 +1,11 @@
+{
+  "n_images": 80046,
+  "n_static": 39972,
+  "n_downstream": 40074,
+  "intersection": 0,
+  "assert_ok": true,
+  "seed": 20260912,
+  "static_image_ids_path": "D:\\01_work\\RewardLens\\datasets\\gqa\\derived\\static_image_ids.json",
+  "downstream_image_ids_path": "D:\\01_work\\RewardLens\\datasets\\gqa\\derived\\downstream_image_ids.json",
+  "intersection_must_be_empty": true
+}

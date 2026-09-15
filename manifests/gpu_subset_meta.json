@@ -1,0 +1,39 @@
+{
+  "signal_gate_n_items": 1200,
+  "signal_gate_n_triplets": 400,
+  "probe_n_items": 50,
+  "probe_coverage": {
+    "count": {
+      "base": 5,
+      "B_is_base_answer": 1,
+      "relevant": 5,
+      "A_is_base_answer": 4,
+      "irrelevant": 4
+    },
+    "attribute": {
+      "base": 4,
+      "A_is_base_answer": 2,
+      "relevant": 4,
+      "B_is_base_answer": 2,
+      "irrelevant": 4
+    },
+    "presence": {
+      "base": 4,
+      "A_is_base_answer": 2,
+      "relevant": 4,
+      "B_is_base_answer": 2,
+      "irrelevant": 4
+    },
+    "spatial": {
+      "base": 4,
+      "B_is_base_answer": 3,
+      "relevant": 4,
+      "A_is_base_answer": 1,
+      "irrelevant": 4
+    }
+  },
+  "seed": 20260912,
+  "source_manifest_hash": "5b2b457b8e6d0483d6c638b909ce5c0295f6c47db15cf72370133b13c5d23382",
+  "pass_only": true,
+  "count_only": false
+}

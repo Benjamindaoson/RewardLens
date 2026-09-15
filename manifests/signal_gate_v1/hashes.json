@@ -1,0 +1,18 @@
+{
+  "audit_dataset_version": "SIGNAL_GATE_V1",
+  "generation_config_hash": {
+    "count": "72168a5ada274be204e6bbd4e7a6790e196d2bca1614b9fbfb169c95821548e7",
+    "attribute": "08d45699c80371b0755ed431faa7b6dfc0841d4064378f504dc99d6210acb112",
+    "presence": "fcd126a497b101001db73f8a5586de879821d1c4f266233560076fc76cb075d3",
+    "spatial": "b226946d5a6d5ec20e6b8e2be61822ef7ab47e3ed131e05691633d49405cde3e"
+  },
+  "generation_config_hash_combined": "286555af0e454bf1e9f2ba46b975951715e670bfc570d6a642eb8e5cedd2a1a5",
+  "manifest_hash": "6738bff110f776eaf91d770687b2ac58c0a56569ea5801f4a9f7a6e5253f35c9",
+  "n_items": 1200,
+  "n_triplets": 400,
+  "sample_rule": "first 100 PASS triplet_ids per factor, sorted",
+  "excludes": [
+    "BORDERLINE",
+    "FAIL"
+  ]
+}

@@ -1,0 +1,20 @@
+# GPU inference lockfile — versions known to work with Transformers SDPA/eager + bf16.
+# This is NOT a pip freeze from a CUDA machine. Install torch from the official CUDA/ROCm index on the GPU host.
+# Do not require FlashAttention2 or bitsandbytes for the baseline path.
+
+torch>=2.4.0
+transformers>=4.51.0
+accelerate>=1.0.0
+huggingface_hub>=0.24.0
+safetensors>=0.4.0
+tokenizers>=0.20.0
+sentencepiece>=0.2.0
+protobuf>=5.0.0
+pillow>=10.0.0
+pyyaml>=6.0
+numpy>=1.26.0
+
+# Explicitly NOT required for baseline:
+# flash-attn
+# bitsandbytes
+# xformers

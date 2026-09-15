@@ -1,0 +1,33 @@
+{
+  "factor": "presence",
+  "dataset_source_audit": "rewardlens_clevr",
+  "dataset_source_static_downstream": "gqa",
+  "PASS": 212,
+  "BORDERLINE": 0,
+  "FAIL": 0,
+  "source_item_count": 212,
+  "n_incomplete": 288,
+  "needed": 200,
+  "qc_rules_version": "controlled_qc.v1.20260912",
+  "ready": true,
+  "already_frozen": true,
+  "out_dir": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\presence",
+  "hashes": {
+    "factor": "presence",
+    "audit_dataset_version": "FAST_TRACK_FACTOR",
+    "qc_rules_version": "controlled_qc.v1.20260912",
+    "n_pass": 200,
+    "n_items": 600,
+    "manifest_hash": "6b7e84e9f700aa53678d0926535d81263797b512e4615a2f8bf91d258eb8b3a0",
+    "generation_config_hash": "fcd126a497b101001db73f8a5586de879821d1c4f266233560076fc76cb075d3",
+    "sample_rule": "first 200 PASS triplet_ids, sorted",
+    "excludes": [
+      "BORDERLINE",
+      "FAIL"
+    ],
+    "duplicate_status": "none",
+    "unique_image_count": 600,
+    "frozen_at": "2026-09-12T14:50:16.349432+00:00"
+  },
+  "manifest_path": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\presence\\factor_audit_manifest.jsonl"
+}

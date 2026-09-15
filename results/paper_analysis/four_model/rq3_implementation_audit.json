@@ -1,0 +1,16 @@
+{
+  "RQ3_IMPLEMENTATION_AUDIT": "BUG_FOUND",
+  "RQ3_REVISED_STATUS": "INSUFFICIENT_EVIDENCE_NOT_IDENTIFIABLE_FOR_FOUR_MODELS",
+  "bug": "Unofficial in-sample saturated OLS (n=4, M1 has 4 parameters) makes cell contribution equal to column-only M0 RMSE, so the 4x4 contribution matrix is column-constant and diagonal_mean equals off_diagonal_mean by identity.",
+  "diagonal_mean_unofficial": 0.057250688864041444,
+  "off_diagonal_mean_unofficial": 0.057250688862794975,
+  "difference_unofficial": 1.246468206428375e-12,
+  "why_near_machine_precision_equal": "column-constant matrix identity, not a scientific null",
+  "inputs_distinct_by_factor": true,
+  "n_diagonal_cells": 4,
+  "n_off_diagonal_cells": 12,
+  "official_frozen_estimator": "LOFO delta MAE for U_df ~ A_df vs U_df ~ A_df + PFC_af + PSC_af; all four-model cells NOT_IDENTIFIABLE",
+  "preserved_unofficial_path": "/root/autodl-fs/RewardLens/results/phase2/four_model_paper_checkpoint/four_model_rq3.json",
+  "official_raw_matrix_path": "/root/autodl-fs/RewardLens/results/phase2/paper_analysis/four_model/rq3_debug_raw_matrix.csv",
+  "changelog_path": "/root/autodl-fs/RewardLens/results/phase2/paper_analysis/four_model/rq3_changelog.md"
+}

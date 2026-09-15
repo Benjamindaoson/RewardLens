@@ -1,0 +1,6 @@
+claim_id,claim_text,rq,evidence_artifact,evidence_strength,four_model_status,expanded_status,safe_for_abstract,safe_for_main_text
+C1,Conventional static accuracy does not uniquely determine visual dependency.,RQ1,accuracy_matched_pairs.csv,SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,Similar-A pairs show different PFC/PSC; preliminary four-model evidence.
+C2,Models show factor-specific variation in PFC/PSC.,RQ1,canonical_model_factor_metrics.csv,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,SUPPORTED,Descriptive variation; confirm with expanded families.
+C3,Correct visual dependency predicts downstream utility beyond static accuracy.,RQ2,rq2_four_model_descriptive.json,INSUFFICIENT_EVIDENCE,PARTIALLY_SUPPORTED,INSUFFICIENT_EVIDENCE,INSUFFICIENT_EVIDENCE,Four-point model regressions are not formal evidence.
+C4,Dependency-to-utility relationships are factor-specific.,RQ3,four_model_rq3.json,NOT_SUPPORTED,NOT_SUPPORTED,INSUFFICIENT_EVIDENCE,INSUFFICIENT_EVIDENCE,Four-model diagonal/off-diagonal contrast is effectively null.
+C5,Accuracy-matched models can differ materially in downstream utility.,RQ1,accuracy_matched_pairs.csv,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,PARTIALLY_SUPPORTED,SUPPORTED,Report all qualifying pairs without cherry-picking.

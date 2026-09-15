@@ -1,0 +1,3697 @@
+{
+  "n": 600,
+  "n_flagged": 0,
+  "flag_counts": {},
+  "answer_frequency_head": [
+    [
+      "yes",
+      202
+    ],
+    [
+      "no",
+      194
+    ],
+    [
+      "right",
+      64
+    ],
+    [
+      "left",
+      52
+    ],
+    [
+      "white",
+      11
+    ],
+    [
+      "red",
+      8
+    ],
+    [
+      "bottom",
+      7
+    ],
+    [
+      "green",
+      5
+    ],
+    [
+      "blue",
+      4
+    ],
+    [
+      "top",
+      4
+    ],
+    [
+      "black",
+      4
+    ],
+    [
+      "tan",
+      4
+    ],
+    [
+      "brown",
+      3
+    ],
+    [
+      "yellow",
+      3
+    ],
+    [
+      "color",
+      3
+    ],
+    [
+      "pink",
+      3
+    ],
+    [
+      "small",
+      2
+    ],
+    [
+      "wide",
+      2
+    ],
+    [
+      "baseball",
+      1
+    ],
+    [
+      "large",
+      1
+    ]
+  ],
+  "factor_distribution": {
+    "attribute": 200,
+    "presence": 200,
+    "spatial": 200
+  },
+  "gold_position_distribution": {},
+  "candidate_A_is_gold_rate": 0.52,
+  "items": [
+    {
+      "item_id": "gqa_static:attribute:08762818",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05768105",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:14471349",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:04917063",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05334570",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:19328424",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01259828",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:17817135",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:07150042",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:17677436",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:196728",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05853714",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:10824950",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:14641518",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:0842068",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:08724641",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:06193261",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:051069691",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01394942",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:0184125",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01277751",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:10646192",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:06385831",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:14792624",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:06288722",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:12648249",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:16780456",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:02963853",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:19751254",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:18757400",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:10194927",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:18109583",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:03896158",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:191022877",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:178282",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:12675922",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:19111171",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:09411333",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01425951",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:18990138",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:11334531",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:08868697",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:02913096",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05142388",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05985819",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:101013831",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01639654",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05258011",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01101068",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:02225659",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:1229778",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:13637641",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:011032638",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:11169446",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:11799203",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:12473553",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:17161540",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:07289332",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:07711053",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:14720192",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01303769",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:0051611",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:03691726",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:11448284",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:15708882",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:14693956",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:17885392",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:1040805",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05346641",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01741259",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01924633",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:07672916",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:17369952",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:0636754",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:04169168",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:06709880",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:16588249",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:00995027",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:06544404",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:11166501",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:07325203",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:11705167",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:07179477",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:02468142",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:02241270",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05700198",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:08622603",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:00433165",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:12710735",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01638103",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:161004588",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:141024681",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:10818863",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:1324613",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:091028793",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:15427074",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:1933538",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:171015879",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:12843372",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:151015609",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:04642305",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:00439000",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:091017181",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:09599463",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:08534378",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:06807163",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05438281",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:001022557",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:0914315",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:11844912",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:07604654",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:15184798",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:18479646",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:18545144",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:011859",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:02391754",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:00133",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01157462",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:13491658",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:15661087",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:18788569",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:15120299",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:14243937",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:12657358",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:15508800",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:18486073",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01629271",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01939258",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:15100685",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:19307054",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:17572154",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05580154",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:13188774",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:11118590",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:13989969",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:08600176",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:14179111",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:19441414",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:00557099",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:16619422",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:06671162",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:18192130",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:12827017",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:12504548",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:08522758",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05364789",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:0610961",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:17188703",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:00570490",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:00820951",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:03404514",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01659601",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:11472142",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:08616645",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:13389708",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:13413091",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:00245093",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:08793082",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:09816782",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:03436307",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01929930",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:03914770",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:16430502",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05620694",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:15281057",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:077054",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:15615138",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:10420360",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05902237",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:08427332",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:08829135",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:1121971",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:10994197",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05201688",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:0134739",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:041013253",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:1294291",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:171054436",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:086618",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:10545553",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:11802024",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:04570946",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:08203335",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01307634",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:12968485",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:02250586",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:13520293",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:17904639",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:03543567",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:03909625",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:161008604",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:06541411",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01727999",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:05782065",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:01300151",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:02863660",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:13517382",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:07847769",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:0844798",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:attribute:17958674",
+      "factor": "attribute",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:1587899",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:05546212",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00474968",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:151049334",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:07324824",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:15688147",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:16798584",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:05573460",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:0231579",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:13931040",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:15500465",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00180466",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:151016437",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:02172333",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:02523576",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:11223062",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:0119159",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:07271862",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09567062",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:12249272",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09770909",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:14153320",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:1629856",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:11581922",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:0075601",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00499759",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:11744555",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:0919140",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09818346",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:03696704",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:16530201",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:141036928",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:08401300",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:11182394",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:15999305",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:18298093",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:18209537",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:19808050",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:10547471",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:04783965",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:04736192",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00690621",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:15662836",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:03868190",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:034412",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:07541896",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:10899151",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00717599",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:13871439",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:11539545",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09406635",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:15787749",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:10807701",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:11817509",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00759835",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:16602037",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:06256185",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:03735681",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:04720994",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:08344677",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00861404",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:07527849",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:15343297",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:17180886",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09876854",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:0119353",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:03677682",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:05579442",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:03881783",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00102405",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:0018378",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:14289496",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:04411193",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:03736901",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:107629",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:19114038",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:02358608",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09714813",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:02888888",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:10538346",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:1277593",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:16827481",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00312223",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:08721640",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:18310979",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:12844636",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00469995",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:10249099",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:13432206",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09504521",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:15426159",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:01645561",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:10415277",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:02448458",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:14131396",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:19962977",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:03643221",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:10859109",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:10611589",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:1013978",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00902090",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09186868",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:131005110",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:04804158",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:02453171",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:001017607",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:18909172",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:16469266",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:05778381",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:06949073",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:06103965",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:13905559",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:04623934",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:08935622",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:06354507",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:05856413",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:007728",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00997740",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:13857166",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:10567176",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:0596566",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:19331741",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:08872489",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:04314927",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09162356",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:06657806",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:03303346",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:0190449",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:02443033",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:18485909",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:14619084",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:07710431",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:01168351",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:04402068",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09286173",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:15256489",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:02836460",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:02476347",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:0062998",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:17728366",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00353503",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:1926891",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:04289741",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09145567",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09219928",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:01732125",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00706241",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:02228555",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:17936134",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:12221555",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:1572307",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:19408459",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:03431245",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:10125939",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:17694325",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:01626789",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:15955239",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:15437794",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:07766669",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:04304709",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:05859985",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:1164151",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:19505500",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:06972324",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:1315204",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:05210321",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09747836",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:03498757",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09201989",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:16609084",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:15461203",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:15969830",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00101998",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:04477928",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:14342334",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:02866619",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:13137451",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:08692795",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:10939671",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:09415668",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:05926395",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:07150128",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:15984131",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:01340845",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:03756863",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:12102837",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:10107568",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:00988484",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:01577675",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:18547085",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:19546787",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:13906016",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:13794969",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:13386791",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:08632645",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:03198949",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:04366002",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:19273792",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:13363090",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:presence:02580936",
+      "factor": "presence",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:16683938",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:03678373",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:11516856",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:00589449",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06685889",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:01671112",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:09879848",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:12957822",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:17870409",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:00310543",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:03934798",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1489096",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:02147958",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:00234236",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:10587108",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:10445260",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:09111192",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:16682569",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:04314000",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:02107648",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06723430",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:12595142",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1259626",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:15419292",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:16182000",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:0750573",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:16312563",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:0533409",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06185207",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1982763",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:00931572",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1331291",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:11690972",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:12165493",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:0218804",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:17421217",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:13817188",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:05175102",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:19927656",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:071012547",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:19628627",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:16845963",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:05174196",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:08384843",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:151060358",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:0731704",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1818957",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:04825781",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:18531916",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:03127150",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:17398874",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:09195649",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:16871558",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:15876176",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:021060188",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:18930944",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:12182729",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:04682582",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:10339738",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:10933299",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:08131411",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:105017",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1993995",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:13679102",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:00504965",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:17662181",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:00528980",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:00359001",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:07634621",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:08871850",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:081105",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:041002007",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:05782138",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:04783174",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:05577237",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:01307818",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:12473433",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06757117",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:02290478",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06119756",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:01810215",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:18682682",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1419058",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:09594294",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:19839168",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1331225",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:15559234",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:07173186",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1546882",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:14203138",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:17154597",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:03229076",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:07731438",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:051035449",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:12411556",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:04881678",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:04602743",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:19535696",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:17352520",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:11675513",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:19830674",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:0555423",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:04388617",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06829464",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1827863",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:00436674",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06736068",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:17149396",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:18637675",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:05310090",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:0093909",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:02300374",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1580086",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:07498022",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:0619537",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:14275323",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:081001823",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1022830",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:17681524",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:08174278",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:151059315",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:08277283",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06311189",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:05102228",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:08668294",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:011008152",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:10561393",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:14674657",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:151000202",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:0368664",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:10318906",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:08702018",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:021020562",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1323450",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:167461",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:15475648",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:04395505",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06995978",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:07610416",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:12297754",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:08155075",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:10343956",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:171053202",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:10880177",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:12254908",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:13586449",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:101032164",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:031017208",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:16208675",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:04623820",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:09852068",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:15419296",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:07324862",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:01886264",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:11236791",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06938640",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:02903104",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:04747876",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:10292424",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:02194837",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:05914385",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:04993832",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:09415992",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:01106874",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:05702029",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:18694311",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:14864958",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06989016",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:18886568",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:021017857",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06378684",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:00705526",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:11780582",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:16780516",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:19170073",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:03676813",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:05615065",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:09366769",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06909468",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:01940914",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:0840101",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:177000",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:03842166",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:16111467",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:19820485",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:03419715",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:01251785",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:07432194",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:12766800",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:08983279",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:1934967",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:12641781",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:078124",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:19712766",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:14568860",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:04562603",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:151006396",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:06350310",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:19373042",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    },
+    {
+      "item_id": "gqa_static:spatial:12750473",
+      "factor": "spatial",
+      "flags": [],
+      "n_flags": 0
+    }
+  ],
+  "text_only_baseline": null
+}

@@ -1,0 +1,3225 @@
+{
+  "schema": "REWARDLENS_HUMAN_AUDIT_SAMPLE_V1",
+  "seed": 20260915,
+  "n_per_factor": 80,
+  "annotators": 2,
+  "model_blind": true,
+  "status": "OK",
+  "n_available": {
+    "count": 200,
+    "attribute": 200,
+    "presence": 200,
+    "spatial": 200
+  },
+  "sample": {
+    "count": [
+      {
+        "factor": "count",
+        "source_id": "count_000198",
+        "item_id": "count_000198:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000198_base.png",
+        "question": "How many brown objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000066",
+        "item_id": "count_000066:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000066_base.png",
+        "question": "How many blue objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "2",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000162",
+        "item_id": "count_000162:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000162_base.png",
+        "question": "How many blue objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000056",
+        "item_id": "count_000056:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000056_base.png",
+        "question": "How many yellow objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000199",
+        "item_id": "count_000199:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000199_base.png",
+        "question": "How many gray objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000045",
+        "item_id": "count_000045:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000045_base.png",
+        "question": "How many purple objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000161",
+        "item_id": "count_000161:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000161_base.png",
+        "question": "How many cyan objects are there?",
+        "candidate_a": "5",
+        "candidate_b": "4",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000167",
+        "item_id": "count_000167:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000167_base.png",
+        "question": "How many gray objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "2",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000009",
+        "item_id": "count_000009:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000009_base.png",
+        "question": "How many cyan objects are there?",
+        "candidate_a": "2",
+        "candidate_b": "3",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000106",
+        "item_id": "count_000106:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000106_base.png",
+        "question": "How many blue objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000118",
+        "item_id": "count_000118:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000118_base.png",
+        "question": "How many brown objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000058",
+        "item_id": "count_000058:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000058_base.png",
+        "question": "How many blue objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000110",
+        "item_id": "count_000110:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000110_base.png",
+        "question": "How many brown objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000123",
+        "item_id": "count_000123:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000123_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000008",
+        "item_id": "count_000008:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000008_base.png",
+        "question": "How many yellow objects are there?",
+        "candidate_a": "2",
+        "candidate_b": "3",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000019",
+        "item_id": "count_000019:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000019_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000086",
+        "item_id": "count_000086:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000086_base.png",
+        "question": "How many brown objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000139",
+        "item_id": "count_000139:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000139_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "2",
+        "candidate_b": "3",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000193",
+        "item_id": "count_000193:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000193_base.png",
+        "question": "How many cyan objects are there?",
+        "candidate_a": "2",
+        "candidate_b": "3",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000078",
+        "item_id": "count_000078:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000078_base.png",
+        "question": "How many brown objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000060",
+        "item_id": "count_000060:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000060_base.png",
+        "question": "How many red objects are there?",
+        "candidate_a": "5",
+        "candidate_b": "4",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000027",
+        "item_id": "count_000027:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000027_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000074",
+        "item_id": "count_000074:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000074_base.png",
+        "question": "How many blue objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000152",
+        "item_id": "count_000152:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000152_base.png",
+        "question": "How many yellow objects are there?",
+        "candidate_a": "5",
+        "candidate_b": "4",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000067",
+        "item_id": "count_000067:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000067_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "2",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000044",
+        "item_id": "count_000044:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000044_base.png",
+        "question": "How many red objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000090",
+        "item_id": "count_000090:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000090_base.png",
+        "question": "How many blue objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000013",
+        "item_id": "count_000013:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000013_base.png",
+        "question": "How many purple objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000135",
+        "item_id": "count_000135:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000135_base.png",
+        "question": "How many gray objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000005",
+        "item_id": "count_000005:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000005_base.png",
+        "question": "How many purple objects are there?",
+        "candidate_a": "2",
+        "candidate_b": "3",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000150",
+        "item_id": "count_000150:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000150_base.png",
+        "question": "How many brown objects are there?",
+        "candidate_a": "5",
+        "candidate_b": "4",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000169",
+        "item_id": "count_000169:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000169_base.png",
+        "question": "How many cyan objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000037",
+        "item_id": "count_000037:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000037_base.png",
+        "question": "How many purple objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000059",
+        "item_id": "count_000059:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000059_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "2",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000107",
+        "item_id": "count_000107:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000107_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "2",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000047",
+        "item_id": "count_000047:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000047_base.png",
+        "question": "How many gray objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000117",
+        "item_id": "count_000117:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000117_base.png",
+        "question": "How many purple objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "2",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000182",
+        "item_id": "count_000182:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000182_base.png",
+        "question": "How many brown objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "2",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000096",
+        "item_id": "count_000096:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000096_base.png",
+        "question": "How many yellow objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000172",
+        "item_id": "count_000172:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000172_base.png",
+        "question": "How many red objects are there?",
+        "candidate_a": "2",
+        "candidate_b": "3",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000120",
+        "item_id": "count_000120:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000120_base.png",
+        "question": "How many yellow objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "2",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000065",
+        "item_id": "count_000065:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000065_base.png",
+        "question": "How many cyan objects are there?",
+        "candidate_a": "5",
+        "candidate_b": "4",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000048",
+        "item_id": "count_000048:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000048_base.png",
+        "question": "How many yellow objects are there?",
+        "candidate_a": "5",
+        "candidate_b": "4",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000091",
+        "item_id": "count_000091:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000091_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000133",
+        "item_id": "count_000133:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000133_base.png",
+        "question": "How many purple objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000159",
+        "item_id": "count_000159:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000159_base.png",
+        "question": "How many gray objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000195",
+        "item_id": "count_000195:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000195_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000088",
+        "item_id": "count_000088:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000088_base.png",
+        "question": "How many yellow objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000136",
+        "item_id": "count_000136:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000136_base.png",
+        "question": "How many yellow objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000165",
+        "item_id": "count_000165:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000165_base.png",
+        "question": "How many purple objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000021",
+        "item_id": "count_000021:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000021_base.png",
+        "question": "How many purple objects are there?",
+        "candidate_a": "5",
+        "candidate_b": "4",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000131",
+        "item_id": "count_000131:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000131_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "2",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000124",
+        "item_id": "count_000124:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000124_base.png",
+        "question": "How many red objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000051",
+        "item_id": "count_000051:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000051_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "2",
+        "candidate_b": "3",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000043",
+        "item_id": "count_000043:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000043_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000185",
+        "item_id": "count_000185:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000185_base.png",
+        "question": "How many cyan objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000068",
+        "item_id": "count_000068:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000068_base.png",
+        "question": "How many red objects are there?",
+        "candidate_a": "5",
+        "candidate_b": "4",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000018",
+        "item_id": "count_000018:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000018_base.png",
+        "question": "How many blue objects are there?",
+        "candidate_a": "2",
+        "candidate_b": "3",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000062",
+        "item_id": "count_000062:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000062_base.png",
+        "question": "How many brown objects are there?",
+        "candidate_a": "5",
+        "candidate_b": "4",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000109",
+        "item_id": "count_000109:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000109_base.png",
+        "question": "How many purple objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "2",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000153",
+        "item_id": "count_000153:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000153_base.png",
+        "question": "How many cyan objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000099",
+        "item_id": "count_000099:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000099_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "2",
+        "candidate_b": "3",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000092",
+        "item_id": "count_000092:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000092_base.png",
+        "question": "How many red objects are there?",
+        "candidate_a": "2",
+        "candidate_b": "3",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000191",
+        "item_id": "count_000191:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000191_base.png",
+        "question": "How many gray objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000175",
+        "item_id": "count_000175:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000175_base.png",
+        "question": "How many gray objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000084",
+        "item_id": "count_000084:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000084_base.png",
+        "question": "How many red objects are there?",
+        "candidate_a": "2",
+        "candidate_b": "3",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000011",
+        "item_id": "count_000011:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000011_base.png",
+        "question": "How many green objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000024",
+        "item_id": "count_000024:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000024_base.png",
+        "question": "How many yellow objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000189",
+        "item_id": "count_000189:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000189_base.png",
+        "question": "How many purple objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "2",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000001",
+        "item_id": "count_000001:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000001_base.png",
+        "question": "How many cyan objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000032",
+        "item_id": "count_000032:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000032_base.png",
+        "question": "How many yellow objects are there?",
+        "candidate_a": "2",
+        "candidate_b": "3",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000122",
+        "item_id": "count_000122:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000122_base.png",
+        "question": "How many blue objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "2",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000190",
+        "item_id": "count_000190:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000190_base.png",
+        "question": "How many brown objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000081",
+        "item_id": "count_000081:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000081_base.png",
+        "question": "How many cyan objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000072",
+        "item_id": "count_000072:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000072_base.png",
+        "question": "How many yellow objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "5",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000140",
+        "item_id": "count_000140:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000140_base.png",
+        "question": "How many red objects are there?",
+        "candidate_a": "5",
+        "candidate_b": "4",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000000",
+        "item_id": "count_000000:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000000_base.png",
+        "question": "How many yellow objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000095",
+        "item_id": "count_000095:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000095_base.png",
+        "question": "How many gray objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "4",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000089",
+        "item_id": "count_000089:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000089_base.png",
+        "question": "How many cyan objects are there?",
+        "candidate_a": "3",
+        "candidate_b": "2",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "count",
+        "source_id": "count_000097",
+        "item_id": "count_000097:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/count_scale_v1/images/count_000097_base.png",
+        "question": "How many cyan objects are there?",
+        "candidate_a": "4",
+        "candidate_b": "3",
+        "expected_preference": "B"
+      }
+    ],
+    "attribute": [
+      {
+        "factor": "attribute",
+        "source_id": "attr_000088",
+        "item_id": "attr_000088:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000088_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "red",
+        "candidate_b": "yellow",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000082",
+        "item_id": "attr_000082:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000082_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "green",
+        "candidate_b": "yellow",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000041",
+        "item_id": "attr_000041:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000041_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "blue",
+        "candidate_b": "red",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000053",
+        "item_id": "attr_000053:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000053_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "yellow",
+        "candidate_b": "green",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000057",
+        "item_id": "attr_000057:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000057_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "brown",
+        "candidate_b": "gray",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000039",
+        "item_id": "attr_000039:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000039_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "green",
+        "candidate_b": "blue",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000126",
+        "item_id": "attr_000126:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000126_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "gray",
+        "candidate_b": "brown",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000098",
+        "item_id": "attr_000098:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000098_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "red",
+        "candidate_b": "yellow",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000170",
+        "item_id": "attr_000170:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000170_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "blue",
+        "candidate_b": "red",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000091",
+        "item_id": "attr_000091:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000091_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "red",
+        "candidate_b": "blue",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000063",
+        "item_id": "attr_000063:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000063_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "green",
+        "candidate_b": "yellow",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000141",
+        "item_id": "attr_000141:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000141_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "red",
+        "candidate_b": "blue",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000177",
+        "item_id": "attr_000177:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000177_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "gray",
+        "candidate_b": "brown",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000185",
+        "item_id": "attr_000185:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000185_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "purple",
+        "candidate_b": "cyan",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000123",
+        "item_id": "attr_000123:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000123_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "yellow",
+        "candidate_b": "green",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000037",
+        "item_id": "attr_000037:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000037_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "brown",
+        "candidate_b": "gray",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000124",
+        "item_id": "attr_000124:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000124_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000002",
+        "item_id": "attr_000002:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000002_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "yellow",
+        "candidate_b": "green",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000201",
+        "item_id": "attr_000201:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000201_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "red",
+        "candidate_b": "blue",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000034",
+        "item_id": "attr_000034:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000034_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000103",
+        "item_id": "attr_000103:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000103_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "green",
+        "candidate_b": "yellow",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000064",
+        "item_id": "attr_000064:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000064_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000203",
+        "item_id": "attr_000203:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000203_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "green",
+        "candidate_b": "yellow",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000104",
+        "item_id": "attr_000104:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000104_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000194",
+        "item_id": "attr_000194:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000194_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000133",
+        "item_id": "attr_000133:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000133_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "green",
+        "candidate_b": "yellow",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000199",
+        "item_id": "attr_000199:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000199_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "blue",
+        "candidate_b": "green",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000095",
+        "item_id": "attr_000095:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000095_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "purple",
+        "candidate_b": "cyan",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000127",
+        "item_id": "attr_000127:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000127_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "gray",
+        "candidate_b": "brown",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000001",
+        "item_id": "attr_000001:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000001_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "blue",
+        "candidate_b": "red",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000131",
+        "item_id": "attr_000131:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000131_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "blue",
+        "candidate_b": "red",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000115",
+        "item_id": "attr_000115:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000115_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000017",
+        "item_id": "attr_000017:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000017_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "brown",
+        "candidate_b": "gray",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000179",
+        "item_id": "attr_000179:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000179_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "green",
+        "candidate_b": "blue",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000086",
+        "item_id": "attr_000086:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000086_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "brown",
+        "candidate_b": "gray",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000188",
+        "item_id": "attr_000188:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000188_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "red",
+        "candidate_b": "yellow",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000174",
+        "item_id": "attr_000174:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000174_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000050",
+        "item_id": "attr_000050:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000050_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "red",
+        "candidate_b": "blue",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000089",
+        "item_id": "attr_000089:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000089_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "green",
+        "candidate_b": "blue",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000097",
+        "item_id": "attr_000097:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000097_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "gray",
+        "candidate_b": "brown",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000113",
+        "item_id": "attr_000113:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000113_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "yellow",
+        "candidate_b": "green",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000205",
+        "item_id": "attr_000205:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000205_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "purple",
+        "candidate_b": "cyan",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000150",
+        "item_id": "attr_000150:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000150_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "red",
+        "candidate_b": "blue",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000005",
+        "item_id": "attr_000005:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000005_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000044",
+        "item_id": "attr_000044:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000044_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "purple",
+        "candidate_b": "cyan",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000009",
+        "item_id": "attr_000009:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000009_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "green",
+        "candidate_b": "blue",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000163",
+        "item_id": "attr_000163:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000163_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "yellow",
+        "candidate_b": "green",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000035",
+        "item_id": "attr_000035:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000035_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000139",
+        "item_id": "attr_000139:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000139_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "green",
+        "candidate_b": "blue",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000013",
+        "item_id": "attr_000013:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000013_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "green",
+        "candidate_b": "yellow",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000008",
+        "item_id": "attr_000008:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000008_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "yellow",
+        "candidate_b": "red",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000084",
+        "item_id": "attr_000084:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000084_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "purple",
+        "candidate_b": "cyan",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000092",
+        "item_id": "attr_000092:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000092_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "yellow",
+        "candidate_b": "green",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000101",
+        "item_id": "attr_000101:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000101_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "blue",
+        "candidate_b": "red",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000012",
+        "item_id": "attr_000012:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000012_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "green",
+        "candidate_b": "yellow",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000145",
+        "item_id": "attr_000145:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000145_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "purple",
+        "candidate_b": "cyan",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000184",
+        "item_id": "attr_000184:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000184_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "purple",
+        "candidate_b": "cyan",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000045",
+        "item_id": "attr_000045:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000045_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000198",
+        "item_id": "attr_000198:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000198_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "red",
+        "candidate_b": "yellow",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000107",
+        "item_id": "attr_000107:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000107_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "gray",
+        "candidate_b": "brown",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000027",
+        "item_id": "attr_000027:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000027_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "brown",
+        "candidate_b": "gray",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000019",
+        "item_id": "attr_000019:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000019_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "green",
+        "candidate_b": "blue",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000108",
+        "item_id": "attr_000108:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000108_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "red",
+        "candidate_b": "yellow",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000155",
+        "item_id": "attr_000155:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000155_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000004",
+        "item_id": "attr_000004:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000004_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000144",
+        "item_id": "attr_000144:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000144_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000083",
+        "item_id": "attr_000083:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000083_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "green",
+        "candidate_b": "yellow",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000094",
+        "item_id": "attr_000094:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000094_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "cyan",
+        "candidate_b": "purple",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000074",
+        "item_id": "attr_000074:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000074_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "purple",
+        "candidate_b": "cyan",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000015",
+        "item_id": "attr_000015:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000015_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "purple",
+        "candidate_b": "cyan",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000180",
+        "item_id": "attr_000180:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000180_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "red",
+        "candidate_b": "blue",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000116",
+        "item_id": "attr_000116:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000116_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "brown",
+        "candidate_b": "gray",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000142",
+        "item_id": "attr_000142:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000142_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "green",
+        "candidate_b": "yellow",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000190",
+        "item_id": "attr_000190:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000190_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "red",
+        "candidate_b": "blue",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000068",
+        "item_id": "attr_000068:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000068_base.png",
+        "question": "What color is the cylinder?",
+        "candidate_a": "yellow",
+        "candidate_b": "red",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000055",
+        "item_id": "attr_000055:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000055_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "purple",
+        "candidate_b": "cyan",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000093",
+        "item_id": "attr_000093:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000093_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "green",
+        "candidate_b": "yellow",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000121",
+        "item_id": "attr_000121:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000121_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "red",
+        "candidate_b": "blue",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000036",
+        "item_id": "attr_000036:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000036_base.png",
+        "question": "What color is the cube?",
+        "candidate_a": "brown",
+        "candidate_b": "gray",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "attribute",
+        "source_id": "attr_000130",
+        "item_id": "attr_000130:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/attribute_scale_v1/images/attr_000130_base.png",
+        "question": "What color is the sphere?",
+        "candidate_a": "blue",
+        "candidate_b": "red",
+        "expected_preference": "B"
+      }
+    ],
+    "presence": [
+      {
+        "factor": "presence",
+        "source_id": "pres_000037",
+        "item_id": "pres_000037:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000037_base.png",
+        "question": "Is there a purple sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000122",
+        "item_id": "pres_000122:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000122_base.png",
+        "question": "Is there a blue cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000080",
+        "item_id": "pres_000080:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000080_base.png",
+        "question": "Is there a gray cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000038",
+        "item_id": "pres_000038:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000038_base.png",
+        "question": "Is there a cyan cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000179",
+        "item_id": "pres_000179:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000179_base.png",
+        "question": "Is there a green cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000076",
+        "item_id": "pres_000076:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000076_base.png",
+        "question": "Is there a brown sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000010",
+        "item_id": "pres_000010:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000010_base.png",
+        "question": "Is there a blue sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000014",
+        "item_id": "pres_000014:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000014_base.png",
+        "question": "Is there a cyan cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000078",
+        "item_id": "pres_000078:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000078_base.png",
+        "question": "Is there a cyan cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000149",
+        "item_id": "pres_000149:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000149_base.png",
+        "question": "Is there a purple cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000042",
+        "item_id": "pres_000042:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000042_base.png",
+        "question": "Is there a blue cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000017",
+        "item_id": "pres_000017:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000017_base.png",
+        "question": "Is there a red cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000176",
+        "item_id": "pres_000176:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000176_base.png",
+        "question": "Is there a gray cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000196",
+        "item_id": "pres_000196:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000196_base.png",
+        "question": "Is there a brown sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000020",
+        "item_id": "pres_000020:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000020_base.png",
+        "question": "Is there a brown cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000021",
+        "item_id": "pres_000021:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000021_base.png",
+        "question": "Is there a purple cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000184",
+        "item_id": "pres_000184:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000184_base.png",
+        "question": "Is there a gray sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000198",
+        "item_id": "pres_000198:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000198_base.png",
+        "question": "Is there a cyan cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000153",
+        "item_id": "pres_000153:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000153_base.png",
+        "question": "Is there a red cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000064",
+        "item_id": "pres_000064:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000064_base.png",
+        "question": "Is there a gray sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000083",
+        "item_id": "pres_000083:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000083_base.png",
+        "question": "Is there a green cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000048",
+        "item_id": "pres_000048:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000048_base.png",
+        "question": "Is there a gray cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000121",
+        "item_id": "pres_000121:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000121_base.png",
+        "question": "Is there a red sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000128",
+        "item_id": "pres_000128:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000128_base.png",
+        "question": "Is there a gray cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000053",
+        "item_id": "pres_000053:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000053_base.png",
+        "question": "Is there a purple cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000164",
+        "item_id": "pres_000164:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000164_base.png",
+        "question": "Is there a brown cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000130",
+        "item_id": "pres_000130:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000130_base.png",
+        "question": "Is there a blue sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000146",
+        "item_id": "pres_000146:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000146_base.png",
+        "question": "Is there a blue cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000027",
+        "item_id": "pres_000027:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000027_base.png",
+        "question": "Is there a green cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000002",
+        "item_id": "pres_000002:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000002_base.png",
+        "question": "Is there a blue cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000115",
+        "item_id": "pres_000115:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000115_base.png",
+        "question": "Is there a green sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000009",
+        "item_id": "pres_000009:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000009_base.png",
+        "question": "Is there a red cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000054",
+        "item_id": "pres_000054:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000054_base.png",
+        "question": "Is there a cyan cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000055",
+        "item_id": "pres_000055:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000055_base.png",
+        "question": "Is there a yellow sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000006",
+        "item_id": "pres_000006:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000006_base.png",
+        "question": "Is there a cyan cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000127",
+        "item_id": "pres_000127:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000127_base.png",
+        "question": "Is there a yellow sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000132",
+        "item_id": "pres_000132:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000132_base.png",
+        "question": "Is there a brown cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000070",
+        "item_id": "pres_000070:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000070_base.png",
+        "question": "Is there a cyan sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000178",
+        "item_id": "pres_000178:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000178_base.png",
+        "question": "Is there a blue sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000087",
+        "item_id": "pres_000087:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000087_base.png",
+        "question": "Is there a yellow cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000107",
+        "item_id": "pres_000107:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000107_base.png",
+        "question": "Is there a green cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000161",
+        "item_id": "pres_000161:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000161_base.png",
+        "question": "Is there a red cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000024",
+        "item_id": "pres_000024:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000024_base.png",
+        "question": "Is there a gray cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000000",
+        "item_id": "pres_000000:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000000_base.png",
+        "question": "Is there a gray cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000092",
+        "item_id": "pres_000092:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000092_base.png",
+        "question": "Is there a brown cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000101",
+        "item_id": "pres_000101:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000101_base.png",
+        "question": "Is there a purple cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000056",
+        "item_id": "pres_000056:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000056_base.png",
+        "question": "Is there a gray cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000172",
+        "item_id": "pres_000172:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000172_base.png",
+        "question": "Is there a brown sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000013",
+        "item_id": "pres_000013:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000013_base.png",
+        "question": "Is there a purple sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000139",
+        "item_id": "pres_000139:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000139_base.png",
+        "question": "Is there a green sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000081",
+        "item_id": "pres_000081:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000081_base.png",
+        "question": "Is there a red cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000160",
+        "item_id": "pres_000160:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000160_base.png",
+        "question": "Is there a gray sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000058",
+        "item_id": "pres_000058:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000058_base.png",
+        "question": "Is there a blue sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000182",
+        "item_id": "pres_000182:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000182_base.png",
+        "question": "Is there a cyan cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000120",
+        "item_id": "pres_000120:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000120_base.png",
+        "question": "Is there a gray cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000140",
+        "item_id": "pres_000140:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000140_base.png",
+        "question": "Is there a brown cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000158",
+        "item_id": "pres_000158:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000158_base.png",
+        "question": "Is there a cyan cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000112",
+        "item_id": "pres_000112:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000112_base.png",
+        "question": "Is there a gray sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000124",
+        "item_id": "pres_000124:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000124_base.png",
+        "question": "Is there a brown sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000071",
+        "item_id": "pres_000071:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000071_base.png",
+        "question": "Is there a yellow cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000008",
+        "item_id": "pres_000008:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000008_base.png",
+        "question": "Is there a gray cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000133",
+        "item_id": "pres_000133:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000133_base.png",
+        "question": "Is there a purple sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000072",
+        "item_id": "pres_000072:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000072_base.png",
+        "question": "Is there a gray cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000142",
+        "item_id": "pres_000142:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000142_base.png",
+        "question": "Is there a cyan sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000194",
+        "item_id": "pres_000194:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000194_base.png",
+        "question": "Is there a blue cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000077",
+        "item_id": "pres_000077:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000077_base.png",
+        "question": "Is there a purple cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000174",
+        "item_id": "pres_000174:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000174_base.png",
+        "question": "Is there a cyan cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000193",
+        "item_id": "pres_000193:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000193_base.png",
+        "question": "Is there a red sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000068",
+        "item_id": "pres_000068:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000068_base.png",
+        "question": "Is there a brown cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000059",
+        "item_id": "pres_000059:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000059_base.png",
+        "question": "Is there a green cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000145",
+        "item_id": "pres_000145:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000145_base.png",
+        "question": "Is there a red sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000099",
+        "item_id": "pres_000099:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000099_base.png",
+        "question": "Is there a green cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000191",
+        "item_id": "pres_000191:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000191_base.png",
+        "question": "Is there a yellow cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000189",
+        "item_id": "pres_000189:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000189_base.png",
+        "question": "Is there a purple cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000030",
+        "item_id": "pres_000030:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000030_base.png",
+        "question": "Is there a cyan cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000125",
+        "item_id": "pres_000125:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000125_base.png",
+        "question": "Is there a purple cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000113",
+        "item_id": "pres_000113:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000113_base.png",
+        "question": "Is there a red cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000163",
+        "item_id": "pres_000163:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000163_base.png",
+        "question": "Is there a green sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000047",
+        "item_id": "pres_000047:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000047_base.png",
+        "question": "Is there a yellow cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "presence",
+        "source_id": "pres_000177",
+        "item_id": "pres_000177:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/presence_scale_v1/images/pres_000177_base.png",
+        "question": "Is there a red cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      }
+    ],
+    "spatial": [
+      {
+        "factor": "spatial",
+        "source_id": "spat_000098",
+        "item_id": "spat_000098:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000098_base.png",
+        "question": "Is the red sphere left of the yellow cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000042",
+        "item_id": "spat_000042:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000042_base.png",
+        "question": "Is the green cube left of the purple sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000051",
+        "item_id": "spat_000051:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000051_base.png",
+        "question": "Is the blue sphere left of the red cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000005",
+        "item_id": "spat_000005:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000005_base.png",
+        "question": "Is the purple cylinder left of the yellow sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000113",
+        "item_id": "spat_000113:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000113_base.png",
+        "question": "Is the yellow cylinder left of the brown sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000097",
+        "item_id": "spat_000097:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000097_base.png",
+        "question": "Is the gray cube left of the green cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000055",
+        "item_id": "spat_000055:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000055_base.png",
+        "question": "Is the purple cube left of the yellow cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000178",
+        "item_id": "spat_000178:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000178_base.png",
+        "question": "Is the red cylinder left of the yellow cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000066",
+        "item_id": "spat_000066:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000066_base.png",
+        "question": "Is the brown cube left of the cyan sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000143",
+        "item_id": "spat_000143:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000143_base.png",
+        "question": "Is the yellow cylinder left of the brown sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000168",
+        "item_id": "spat_000168:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000168_base.png",
+        "question": "Is the red cube left of the yellow sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000003",
+        "item_id": "spat_000003:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000003_base.png",
+        "question": "Is the yellow sphere left of the brown cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000184",
+        "item_id": "spat_000184:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000184_base.png",
+        "question": "Is the cyan cylinder left of the gray cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000103",
+        "item_id": "spat_000103:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000103_base.png",
+        "question": "Is the yellow cube left of the brown cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000131",
+        "item_id": "spat_000131:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000131_base.png",
+        "question": "Is the blue cylinder left of the red sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000008",
+        "item_id": "spat_000008:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000008_base.png",
+        "question": "Is the red sphere left of the yellow cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000027",
+        "item_id": "spat_000027:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000027_base.png",
+        "question": "Is the gray sphere left of the green cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000059",
+        "item_id": "spat_000059:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000059_base.png",
+        "question": "Is the blue cylinder left of the green sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000089",
+        "item_id": "spat_000089:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000089_base.png",
+        "question": "Is the blue cylinder left of the green sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000165",
+        "item_id": "spat_000165:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000165_base.png",
+        "question": "Is the purple sphere left of the yellow cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000138",
+        "item_id": "spat_000138:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000138_base.png",
+        "question": "Is the red cube left of the yellow sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000078",
+        "item_id": "spat_000078:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000078_base.png",
+        "question": "Is the red cube left of the yellow sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000056",
+        "item_id": "spat_000056:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000056_base.png",
+        "question": "Is the brown sphere left of the cyan cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000150",
+        "item_id": "spat_000150:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000150_base.png",
+        "question": "Is the red cube left of the blue sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000154",
+        "item_id": "spat_000154:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000154_base.png",
+        "question": "Is the cyan cylinder left of the gray cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000071",
+        "item_id": "spat_000071:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000071_base.png",
+        "question": "Is the blue cylinder left of the red sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000050",
+        "item_id": "spat_000050:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000050_base.png",
+        "question": "Is the red sphere left of the blue cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000007",
+        "item_id": "spat_000007:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000007_base.png",
+        "question": "Is the gray cube left of the green cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000148",
+        "item_id": "spat_000148:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000148_base.png",
+        "question": "Is the red cylinder left of the yellow cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000109",
+        "item_id": "spat_000109:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000109_base.png",
+        "question": "Is the blue cube left of the green cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000144",
+        "item_id": "spat_000144:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000144_base.png",
+        "question": "Is the cyan cube left of the gray sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000064",
+        "item_id": "spat_000064:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000064_base.png",
+        "question": "Is the cyan cylinder left of the gray cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000065",
+        "item_id": "spat_000065:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000065_base.png",
+        "question": "Is the purple cylinder left of the yellow sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000203",
+        "item_id": "spat_000203:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000203_base.png",
+        "question": "Is the yellow cylinder left of the brown sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000070",
+        "item_id": "spat_000070:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000070_base.png",
+        "question": "Is the red cylinder left of the blue cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000106",
+        "item_id": "spat_000106:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000106_base.png",
+        "question": "Is the brown cylinder left of the cyan cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000030",
+        "item_id": "spat_000030:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000030_base.png",
+        "question": "Is the red cube left of the blue sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000188",
+        "item_id": "spat_000188:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000188_base.png",
+        "question": "Is the red sphere left of the yellow cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000024",
+        "item_id": "spat_000024:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000024_base.png",
+        "question": "Is the cyan cube left of the gray sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000087",
+        "item_id": "spat_000087:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000087_base.png",
+        "question": "Is the gray sphere left of the green cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000018",
+        "item_id": "spat_000018:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000018_base.png",
+        "question": "Is the red cube left of the yellow sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000041",
+        "item_id": "spat_000041:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000041_base.png",
+        "question": "Is the blue cylinder left of the red sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000039",
+        "item_id": "spat_000039:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000039_base.png",
+        "question": "Is the blue sphere left of the green cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000186",
+        "item_id": "spat_000186:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000186_base.png",
+        "question": "Is the brown cube left of the cyan sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000133",
+        "item_id": "spat_000133:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000133_base.png",
+        "question": "Is the yellow cube left of the brown cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000158",
+        "item_id": "spat_000158:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000158_base.png",
+        "question": "Is the red sphere left of the yellow cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000001",
+        "item_id": "spat_000001:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000001_base.png",
+        "question": "Is the blue cube left of the red cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000010",
+        "item_id": "spat_000010:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000010_base.png",
+        "question": "Is the red cylinder left of the blue cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000123",
+        "item_id": "spat_000123:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000123_base.png",
+        "question": "Is the yellow sphere left of the brown cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000134",
+        "item_id": "spat_000134:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000134_base.png",
+        "question": "Is the cyan sphere left of the gray cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000028",
+        "item_id": "spat_000028:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000028_base.png",
+        "question": "Is the red cylinder left of the yellow cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000112",
+        "item_id": "spat_000112:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000112_base.png",
+        "question": "Is the green cylinder left of the purple cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000012",
+        "item_id": "spat_000012:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000012_base.png",
+        "question": "Is the green cube left of the purple sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000061",
+        "item_id": "spat_000061:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000061_base.png",
+        "question": "Is the blue cube left of the red cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000115",
+        "item_id": "spat_000115:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000115_base.png",
+        "question": "Is the purple cube left of the yellow cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000191",
+        "item_id": "spat_000191:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000191_base.png",
+        "question": "Is the blue cylinder left of the red sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000004",
+        "item_id": "spat_000004:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000004_base.png",
+        "question": "Is the cyan cylinder left of the gray cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000014",
+        "item_id": "spat_000014:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000014_base.png",
+        "question": "Is the cyan sphere left of the gray cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000204",
+        "item_id": "spat_000204:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000204_base.png",
+        "question": "Is the cyan cube left of the gray sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000021",
+        "item_id": "spat_000021:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000021_base.png",
+        "question": "Is the blue sphere left of the red cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000033",
+        "item_id": "spat_000033:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000033_base.png",
+        "question": "Is the yellow sphere left of the brown cube?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000094",
+        "item_id": "spat_000094:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000094_base.png",
+        "question": "Is the cyan cylinder left of the gray cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000068",
+        "item_id": "spat_000068:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000068_base.png",
+        "question": "Is the red sphere left of the yellow cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000129",
+        "item_id": "spat_000129:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000129_base.png",
+        "question": "Is the blue sphere left of the green cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000125",
+        "item_id": "spat_000125:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000125_base.png",
+        "question": "Is the purple cylinder left of the yellow sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000079",
+        "item_id": "spat_000079:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000079_base.png",
+        "question": "Is the blue cube left of the green cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000151",
+        "item_id": "spat_000151:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000151_base.png",
+        "question": "Is the blue cube left of the red cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000110",
+        "item_id": "spat_000110:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000110_base.png",
+        "question": "Is the red sphere left of the blue cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000199",
+        "item_id": "spat_000199:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000199_base.png",
+        "question": "Is the blue cube left of the green cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000122",
+        "item_id": "spat_000122:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000122_base.png",
+        "question": "Is the green sphere left of the purple cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000054",
+        "item_id": "spat_000054:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000054_base.png",
+        "question": "Is the cyan cube left of the gray sphere?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000096",
+        "item_id": "spat_000096:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000096_base.png",
+        "question": "Is the brown cube left of the cyan sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000044",
+        "item_id": "spat_000044:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000044_base.png",
+        "question": "Is the cyan sphere left of the gray cylinder?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000136",
+        "item_id": "spat_000136:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000136_base.png",
+        "question": "Is the brown cylinder left of the cyan cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000163",
+        "item_id": "spat_000163:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000163_base.png",
+        "question": "Is the yellow cube left of the brown cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000095",
+        "item_id": "spat_000095:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000095_base.png",
+        "question": "Is the purple cylinder left of the yellow sphere?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000141",
+        "item_id": "spat_000141:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000141_base.png",
+        "question": "Is the blue sphere left of the red cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000139",
+        "item_id": "spat_000139:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000139_base.png",
+        "question": "Is the blue cube left of the green cylinder?",
+        "candidate_a": "yes",
+        "candidate_b": "no",
+        "expected_preference": "A"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000040",
+        "item_id": "spat_000040:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000040_base.png",
+        "question": "Is the red cylinder left of the blue cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      },
+      {
+        "factor": "spatial",
+        "source_id": "spat_000016",
+        "item_id": "spat_000016:base",
+        "image_path": "/root/autodl-tmp/RewardLens/code/images/outputs/spatial_scale_v1/images/spat_000016_base.png",
+        "question": "Is the brown cylinder left of the cyan cube?",
+        "candidate_a": "no",
+        "candidate_b": "yes",
+        "expected_preference": "B"
+      }
+    ]
+  },
+  "note": "Labels are not filled. Annotators must not see model names or RewardLens metrics."
+}

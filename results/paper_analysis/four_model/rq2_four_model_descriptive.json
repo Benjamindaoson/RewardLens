@@ -1,0 +1,74 @@
+[
+  {
+    "evidence": "DESCRIPTIVE, N=4 MODELS",
+    "n_models": 4,
+    "pearson": 0.9342160890384777,
+    "spearman": 0.6,
+    "x": "A",
+    "y": "U8"
+  },
+  {
+    "evidence": "DESCRIPTIVE, N=4 MODELS",
+    "n_models": 4,
+    "pearson": 0.8334624989565748,
+    "spearman": 0.6,
+    "x": "A",
+    "y": "U2"
+  },
+  {
+    "evidence": "DESCRIPTIVE, N=4 MODELS",
+    "n_models": 4,
+    "pearson": 0.8724282060882799,
+    "spearman": 0.6,
+    "x": "A",
+    "y": "U4"
+  },
+  {
+    "evidence": "DESCRIPTIVE, N=4 MODELS",
+    "n_models": 4,
+    "pearson": 0.9779178735000699,
+    "spearman": 0.8,
+    "x": "PFC",
+    "y": "U8"
+  },
+  {
+    "evidence": "DESCRIPTIVE, N=4 MODELS",
+    "n_models": 4,
+    "pearson": 0.8869283811209933,
+    "spearman": 0.8,
+    "x": "PFC",
+    "y": "U2"
+  },
+  {
+    "evidence": "DESCRIPTIVE, N=4 MODELS",
+    "n_models": 4,
+    "pearson": 0.9228604556480801,
+    "spearman": 0.8,
+    "x": "PFC",
+    "y": "U4"
+  },
+  {
+    "evidence": "DESCRIPTIVE, N=4 MODELS",
+    "n_models": 4,
+    "pearson": 0.9829177047067422,
+    "spearman": 0.8,
+    "x": "PSC",
+    "y": "U8"
+  },
+  {
+    "evidence": "DESCRIPTIVE, N=4 MODELS",
+    "n_models": 4,
+    "pearson": 0.9696803411942456,
+    "spearman": 0.8,
+    "x": "PSC",
+    "y": "U2"
+  },
+  {
+    "evidence": "DESCRIPTIVE, N=4 MODELS",
+    "n_models": 4,
+    "pearson": 0.9819162333826793,
+    "spearman": 0.8,
+    "x": "PSC",
+    "y": "U4"
+  }
+]

@@ -1,0 +1,205 @@
+{
+  "audit_dataset_version": "FAST_TRACK_AUDIT_V1",
+  "READY_FOR_FULL_P0": "YES",
+  "checks": {
+    "four_factors_200_pass": true,
+    "pass_only": true,
+    "no_accidental_duplicates": true,
+    "gqa_count_n0": true,
+    "count_simple_complex_100_100": true,
+    "count_image_intersection_0": true,
+    "combined_static_800": true,
+    "combined_down_800": true,
+    "borderline_not_upgraded": true,
+    "manifest_sha256": "5b2b457b8e6d0483d6c638b909ce5c0295f6c47db15cf72370133b13c5d23382",
+    "frozen_at": "2026-09-12T15:02:32.279141+00:00"
+  },
+  "tallyqa": {
+    "static_n": 200,
+    "downstream_n": 200,
+    "static_simple": 100,
+    "static_complex": 100,
+    "down_simple": 100,
+    "down_complex": 100,
+    "intersection": 0,
+    "missing_images": 0,
+    "gqa_count_not_invented": true,
+    "reported_intersection": 0
+  },
+  "gqa_count": {
+    "gqa_static_count": 0,
+    "gqa_down_count": 0,
+    "mapping_count": 0,
+    "ok": true
+  },
+  "per_factor_freezes": [
+    {
+      "factor": "count",
+      "dataset_source_audit": "rewardlens_clevr",
+      "dataset_source_static_downstream": "tallyqa",
+      "PASS": 234,
+      "BORDERLINE": 0,
+      "FAIL": 0,
+      "source_item_count": 234,
+      "n_incomplete": 266,
+      "needed": 200,
+      "qc_rules_version": "controlled_qc.v1.20260912",
+      "ready": true,
+      "already_frozen": true,
+      "out_dir": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\count",
+      "hashes": {
+        "factor": "count",
+        "audit_dataset_version": "FAST_TRACK_FACTOR",
+        "qc_rules_version": "controlled_qc.v1.20260912",
+        "n_pass": 200,
+        "n_items": 600,
+        "manifest_hash": "970cf6c3b385a262f7127187cc4468819fab583bcbe1855dfb043059050d79e9",
+        "generation_config_hash": "72168a5ada274be204e6bbd4e7a6790e196d2bca1614b9fbfb169c95821548e7",
+        "sample_rule": "first 200 PASS triplet_ids, sorted",
+        "excludes": [
+          "BORDERLINE",
+          "FAIL"
+        ],
+        "duplicate_status": "none",
+        "unique_image_count": 600,
+        "frozen_at": "2026-09-12T14:25:42.301077+00:00"
+      },
+      "manifest_path": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\count\\factor_audit_manifest.jsonl"
+    },
+    {
+      "factor": "attribute",
+      "dataset_source_audit": "rewardlens_clevr",
+      "dataset_source_static_downstream": "gqa",
+      "PASS": 200,
+      "BORDERLINE": 6,
+      "FAIL": 0,
+      "source_item_count": 206,
+      "n_incomplete": 294,
+      "needed": 200,
+      "qc_rules_version": "controlled_qc.v1.20260912",
+      "ready": true,
+      "already_frozen": false,
+      "out_dir": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\attribute",
+      "frozen_pass_n": 200,
+      "unique_image_count": 600,
+      "duplicate_status": "none",
+      "manifest_path": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\attribute\\factor_audit_manifest.jsonl",
+      "sha256": "e28c311bf8fe969ef586c27a1740112d71d49fac2400bda33132aaeb770807f6",
+      "freeze_timestamp": "2026-09-12T15:02:31.820577+00:00",
+      "hashes": {
+        "factor": "attribute",
+        "audit_dataset_version": "FAST_TRACK_FACTOR",
+        "qc_rules_version": "controlled_qc.v1.20260912",
+        "n_pass": 200,
+        "n_items": 600,
+        "manifest_hash": "e28c311bf8fe969ef586c27a1740112d71d49fac2400bda33132aaeb770807f6",
+        "generation_config_hash": "08d45699c80371b0755ed431faa7b6dfc0841d4064378f504dc99d6210acb112",
+        "sample_rule": "first 200 PASS triplet_ids, sorted",
+        "excludes": [
+          "BORDERLINE",
+          "FAIL"
+        ],
+        "duplicate_status": "none",
+        "unique_image_count": 600,
+        "frozen_at": "2026-09-12T15:02:31.820577+00:00"
+      },
+      "report_path": "D:\\01_work\\RewardLens\\reports\\runs\\fast_track_attribute_freeze.md"
+    },
+    {
+      "factor": "presence",
+      "dataset_source_audit": "rewardlens_clevr",
+      "dataset_source_static_downstream": "gqa",
+      "PASS": 212,
+      "BORDERLINE": 0,
+      "FAIL": 0,
+      "source_item_count": 212,
+      "n_incomplete": 288,
+      "needed": 200,
+      "qc_rules_version": "controlled_qc.v1.20260912",
+      "ready": true,
+      "already_frozen": true,
+      "out_dir": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\presence",
+      "hashes": {
+        "factor": "presence",
+        "audit_dataset_version": "FAST_TRACK_FACTOR",
+        "qc_rules_version": "controlled_qc.v1.20260912",
+        "n_pass": 200,
+        "n_items": 600,
+        "manifest_hash": "6b7e84e9f700aa53678d0926535d81263797b512e4615a2f8bf91d258eb8b3a0",
+        "generation_config_hash": "fcd126a497b101001db73f8a5586de879821d1c4f266233560076fc76cb075d3",
+        "sample_rule": "first 200 PASS triplet_ids, sorted",
+        "excludes": [
+          "BORDERLINE",
+          "FAIL"
+        ],
+        "duplicate_status": "none",
+        "unique_image_count": 600,
+        "frozen_at": "2026-09-12T14:50:16.349432+00:00"
+      },
+      "manifest_path": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\presence\\factor_audit_manifest.jsonl"
+    },
+    {
+      "factor": "spatial",
+      "dataset_source_audit": "rewardlens_clevr",
+      "dataset_source_static_downstream": "gqa",
+      "PASS": 207,
+      "BORDERLINE": 6,
+      "FAIL": 0,
+      "source_item_count": 213,
+      "n_incomplete": 287,
+      "needed": 200,
+      "qc_rules_version": "controlled_qc.v1.20260912",
+      "ready": true,
+      "already_frozen": true,
+      "out_dir": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\spatial",
+      "hashes": {
+        "factor": "spatial",
+        "audit_dataset_version": "FAST_TRACK_FACTOR",
+        "qc_rules_version": "controlled_qc.v1.20260912",
+        "n_pass": 200,
+        "n_items": 600,
+        "manifest_hash": "04258a5d14a0ae682b925c7a2917598a28436dfa57e2e84db721d72d2bb18566",
+        "generation_config_hash": "b226946d5a6d5ec20e6b8e2be61822ef7ab47e3ed131e05691633d49405cde3e",
+        "sample_rule": "first 200 PASS triplet_ids, sorted",
+        "excludes": [
+          "BORDERLINE",
+          "FAIL"
+        ],
+        "duplicate_status": "none",
+        "unique_image_count": 600,
+        "frozen_at": "2026-09-12T14:56:24.001987+00:00"
+      },
+      "manifest_path": "D:\\01_work\\RewardLens\\outputs\\fast_track_audit_v1\\factors\\spatial\\factor_audit_manifest.jsonl"
+    }
+  ],
+  "hashes": {
+    "audit_dataset_version": "FAST_TRACK_AUDIT_V1",
+    "freeze_timestamp": "2026-09-12T15:02:32.279141+00:00",
+    "generation_config_hash": {
+      "count": "72168a5ada274be204e6bbd4e7a6790e196d2bca1614b9fbfb169c95821548e7",
+      "attribute": "08d45699c80371b0755ed431faa7b6dfc0841d4064378f504dc99d6210acb112",
+      "presence": "fcd126a497b101001db73f8a5586de879821d1c4f266233560076fc76cb075d3",
+      "spatial": "b226946d5a6d5ec20e6b8e2be61822ef7ab47e3ed131e05691633d49405cde3e"
+    },
+    "generation_config_hash_combined": "286555af0e454bf1e9f2ba46b975951715e670bfc570d6a642eb8e5cedd2a1a5",
+    "manifest_hash": "5b2b457b8e6d0483d6c638b909ce5c0295f6c47db15cf72370133b13c5d23382",
+    "factor_manifest_hashes": {
+      "count": "970cf6c3b385a262f7127187cc4468819fab583bcbe1855dfb043059050d79e9",
+      "attribute": "e28c311bf8fe969ef586c27a1740112d71d49fac2400bda33132aaeb770807f6",
+      "presence": "6b7e84e9f700aa53678d0926535d81263797b512e4615a2f8bf91d258eb8b3a0",
+      "spatial": "04258a5d14a0ae682b925c7a2917598a28436dfa57e2e84db721d72d2bb18566"
+    },
+    "n_items": 2400,
+    "n_triplets": 800,
+    "n_images": 2400,
+    "sample_rule": "union of per-factor frozen first 200 PASS triplet_ids, sorted; not reselected from live QC",
+    "excludes": [
+      "BORDERLINE",
+      "FAIL"
+    ],
+    "pre_result": true,
+    "model_blind": true
+  },
+  "n_items": 2400,
+  "policy": "PASS only, first 200 sorted triplet_ids. SIGNAL_GATE_V1 untouched."
+}

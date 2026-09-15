@@ -1,0 +1,37 @@
+{
+  "probe_n_items": 50,
+  "probe_coverage": {
+    "count": {
+      "base": 5,
+      "pref_A": 2,
+      "relevant": 5,
+      "pref_B": 3,
+      "irrelevant": 4
+    },
+    "attribute": {
+      "base": 4,
+      "pref_B": 3,
+      "relevant": 4,
+      "pref_A": 1,
+      "irrelevant": 4
+    },
+    "presence": {
+      "base": 4,
+      "pref_B": 2,
+      "relevant": 4,
+      "pref_A": 2,
+      "irrelevant": 4
+    },
+    "spatial": {
+      "base": 4,
+      "pref_A": 2,
+      "relevant": 4,
+      "pref_B": 2,
+      "irrelevant": 4
+    }
+  },
+  "source_manifest": "D:\\01_work\\RewardLens\\outputs\\signal_gate_v1\\signal_gate_manifest.jsonl",
+  "source_manifest_hash": "6738bff110f776eaf91d770687b2ac58c0a56569ea5801f4a9f7a6e5253f35c9",
+  "pass_only": true,
+  "selection": "deterministic first diverse PASS triplets per factor, round-robin variants"
+}

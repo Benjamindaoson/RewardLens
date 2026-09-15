@@ -1,0 +1,5 @@
+Model,Family,Parameters,Reward/Judge Type,Checkpoint,Audit N,Static N,Downstream N
+Qwen,Qwen,4B,multimodal reward/judge,qwen3_vl_4b_instruct,2400,800,800
+Gemma,Gemma,4B,multimodal reward/judge,gemma3_4b_it,2400,800,800
+Molmo,Molmo,7B,multimodal reward/judge,molmo_7b_d_0924,2400,800,800
+Skywork,Skywork,7B,multimodal reward/judge,skywork_vl_reward_7b,2400,800,800

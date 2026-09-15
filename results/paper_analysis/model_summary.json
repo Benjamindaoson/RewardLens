@@ -1,0 +1,58 @@
+[
+  {
+    "A_macro": 0.8575,
+    "PFC_cond_macro": 0.78875,
+    "PFC_macro": 0.7875,
+    "PSC_cond_macro": 1.0,
+    "PSC_macro": 0.99875,
+    "U2_macro": 0.9025,
+    "U4_macro": 0.805,
+    "U8_macro": 0.6975,
+    "abstention_rate": 0.0,
+    "family": "Qwen",
+    "gpu_hours": 0.7588253364298079,
+    "model": "qwen3_vl_4b_instruct"
+  },
+  {
+    "A_macro": 0.605,
+    "PFC_cond_macro": 0.4692549224496486,
+    "PFC_macro": 0.43,
+    "PSC_cond_macro": 0.9571440389613999,
+    "PSC_macro": 0.8125,
+    "U2_macro": 0.8099999999999999,
+    "U4_macro": 0.64125,
+    "U8_macro": 0.48375,
+    "abstention_rate": 0.0,
+    "family": "Gemma",
+    "gpu_hours": 1.3172963437769147,
+    "model": "gemma3_4b_it"
+  },
+  {
+    "A_macro": 0.6875,
+    "PFC_cond_macro": 0.579569764279219,
+    "PFC_macro": 0.52125,
+    "PSC_cond_macro": 0.9858546332451403,
+    "PSC_macro": 0.7925,
+    "U2_macro": 0.755,
+    "U4_macro": 0.57625,
+    "U8_macro": 0.47250000000000003,
+    "abstention_rate": 0.0,
+    "family": "Molmo",
+    "gpu_hours": 1.1773853589428795,
+    "model": "molmo_7b_d_0924"
+  },
+  {
+    "A_macro": 0.845,
+    "PFC_cond_macro": 0.8720351758793969,
+    "PFC_macro": 0.87,
+    "PSC_cond_macro": 0.9937185929648242,
+    "PSC_macro": 0.99125,
+    "U2_macro": 0.9175,
+    "U4_macro": 0.83625,
+    "U8_macro": 0.75125,
+    "abstention_rate": 0.0,
+    "family": "Skywork",
+    "gpu_hours": 0.308431020643976,
+    "model": "skywork_vl_reward_7b"
+  }
+]

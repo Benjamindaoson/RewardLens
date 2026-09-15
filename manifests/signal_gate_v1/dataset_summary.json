@@ -1,0 +1,47 @@
+{
+  "audit_dataset_version": "SIGNAL_GATE_V1",
+  "frozen_at": "2026-09-12T13:16:06.972338+00:00",
+  "factors": [
+    {
+      "factor": "count",
+      "generated_complete": 136,
+      "PASS": 136,
+      "BORDERLINE": 0,
+      "FAIL": 0,
+      "frozen_pass_n": 100,
+      "needed": 100
+    },
+    {
+      "factor": "attribute",
+      "generated_complete": 103,
+      "PASS": 101,
+      "BORDERLINE": 2,
+      "FAIL": 0,
+      "frozen_pass_n": 100,
+      "needed": 100
+    },
+    {
+      "factor": "presence",
+      "generated_complete": 106,
+      "PASS": 106,
+      "BORDERLINE": 0,
+      "FAIL": 0,
+      "frozen_pass_n": 100,
+      "needed": 100
+    },
+    {
+      "factor": "spatial",
+      "generated_complete": 106,
+      "PASS": 104,
+      "BORDERLINE": 2,
+      "FAIL": 0,
+      "frozen_pass_n": 100,
+      "needed": 100
+    }
+  ],
+  "PASS": 400,
+  "target_triplets": 400,
+  "target_pngs": 1200,
+  "n_items": 1200,
+  "fail_rows_retained_in_qc": true
+}

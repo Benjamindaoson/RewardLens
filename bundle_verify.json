@@ -1,0 +1,9 @@
+{
+  "bundle": "D:\\01_work\\RewardLens\\gpu_bundle_fast_v1",
+  "status": "PASS",
+  "errors": [],
+  "warnings": [],
+  "n_manifest_image_refs": 4850,
+  "hash_ok": true,
+  "static_downstream_intersection": 0
+}

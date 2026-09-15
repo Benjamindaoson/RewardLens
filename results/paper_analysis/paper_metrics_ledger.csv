@@ -1,0 +1,9 @@
+model,family,group,status,A,PFC,PSC,PFC_cond,PSC_cond,U2,U4,U8,static_n,U_ready,audit_ready,paper_use
+qwen3_vl_4b_instruct,Qwen,original_four,COMPLETE,0.8575,0.7875,0.99875,,,0.9025,0.805,0.6975000000000001,800,True,True,canonical_four_model
+gemma3_4b_it,Gemma,original_four,COMPLETE,0.605,0.43,0.8125,,,0.81,0.64125,0.48375,800,True,True,canonical_four_model
+molmo_7b_d_0924,Molmo,original_four,COMPLETE,0.6875,0.52125,0.7925,,,0.7549999999999999,0.57625,0.4725,800,True,True,canonical_four_model
+skywork_vl_reward_7b,Skywork,original_four,COMPLETE,0.845,0.87,0.99125,,,0.9175,0.8362499999999999,0.75125,800,True,True,canonical_four_model
+idefics3_8b_llama3,Idefics3,expanded,COMPLETE,0.7525,0.8062499999999999,0.975,0.8160714285714286,0.9881679894179894,0.8524999999999999,0.7437499999999999,0.59625,800,True,True,expanded_complete_descriptive
+phi35_vision_instruct,Phi-3.5-Vision,expanded,COMPLETE,0.8020050125313283,0.51875,0.85875,0.565577396953405,0.9501463730042359,0.8725,0.73875,0.605,800,True,True,expanded_complete_descriptive
+llava_onevision_qwen2_7b,LLaVA-OneVision,expanded,COMPLETE,0.815,0.8087500000000001,0.9762500000000001,0.8176912568306012,0.9972677595628415,0.9137500000000001,0.79625,0.6475000000000001,800,True,True,expanded_complete_descriptive
+internvl3_8b_hf,InternVL3,expanded,RUNNING,0.7575,0.7737499999999999,1.0,0.7737499999999999,1.0,,,,800,False,True,expanded_partial_A_PFC_PSC_only_U_pending

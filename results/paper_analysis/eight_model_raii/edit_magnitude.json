@@ -1,0 +1,78 @@
+{
+  "schema": "REWARDLENS_EDIT_MAGNITUDE_V1",
+  "metrics": [
+    "global_SSIM_256",
+    "pixel_change_fraction_256",
+    "LPIPS_unavailable"
+  ],
+  "status": "OK",
+  "n": 800,
+  "missing_or_incomplete": 0,
+  "lpips_available": false,
+  "lpips_error": "ModuleNotFoundError: No module named 'lpips'",
+  "scene_masks": "unavailable; reporting pixel-change fraction instead of semantic mask area",
+  "summary": {
+    "SSIM": {
+      "relevant_mean": 0.9127668100669561,
+      "irrelevant_mean": 0.9219327481795964,
+      "relevant_median": 0.9450649618549124,
+      "irrelevant_median": 0.9422725564202052,
+      "n": 800
+    },
+    "pixel_change": {
+      "relevant_mean": 0.22432037353515624,
+      "irrelevant_mean": 0.21861019134521484,
+      "relevant_median": 0.18849945068359375,
+      "irrelevant_median": 0.18236541748046875,
+      "n": 800
+    },
+    "LPIPS": null
+  },
+  "by_factor": {
+    "count": {
+      "n": 200,
+      "SSIM": {
+        "relevant_mean": 0.9249818797503121,
+        "irrelevant_mean": 0.921538557075908
+      },
+      "pixel_change": {
+        "relevant_mean": 0.22859527587890624,
+        "irrelevant_mean": 0.2291851043701172
+      }
+    },
+    "attribute": {
+      "n": 200,
+      "SSIM": {
+        "relevant_mean": 0.9743097572418685,
+        "irrelevant_mean": 0.9576959933156673
+      },
+      "pixel_change": {
+        "relevant_mean": 0.11814010620117188,
+        "irrelevant_mean": 0.17863739013671875
+      }
+    },
+    "spatial": {
+      "n": 200,
+      "SSIM": {
+        "relevant_mean": 0.8167310868672498,
+        "irrelevant_mean": 0.8904367189386556
+      },
+      "pixel_change": {
+        "relevant_mean": 0.3753981018066406,
+        "irrelevant_mean": 0.2652195739746094
+      }
+    },
+    "presence": {
+      "n": 200,
+      "SSIM": {
+        "relevant_mean": 0.935044516408389,
+        "irrelevant_mean": 0.9180597233881511
+      },
+      "pixel_change": {
+        "relevant_mean": 0.17514801025390625,
+        "irrelevant_mean": 0.20139869689941406
+      }
+    }
+  },
+  "note": "Global SSIM is a single-window RGB statistic on a 256px resize, not sliding-window SSIM."
+}

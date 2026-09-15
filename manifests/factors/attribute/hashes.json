@@ -1,0 +1,17 @@
+{
+  "factor": "attribute",
+  "audit_dataset_version": "FAST_TRACK_FACTOR",
+  "qc_rules_version": "controlled_qc.v1.20260912",
+  "n_pass": 200,
+  "n_items": 600,
+  "manifest_hash": "e28c311bf8fe969ef586c27a1740112d71d49fac2400bda33132aaeb770807f6",
+  "generation_config_hash": "08d45699c80371b0755ed431faa7b6dfc0841d4064378f504dc99d6210acb112",
+  "sample_rule": "first 200 PASS triplet_ids, sorted",
+  "excludes": [
+    "BORDERLINE",
+    "FAIL"
+  ],
+  "duplicate_status": "none",
+  "unique_image_count": 600,
+  "frozen_at": "2026-09-12T15:02:31.820577+00:00"
+}

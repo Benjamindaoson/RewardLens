@@ -1,0 +1,15 @@
+{
+  "n_raw": 287907,
+  "n_clean": 287902,
+  "static_n": 200,
+  "downstream_n": 200,
+  "static_simple": 100,
+  "static_complex": 100,
+  "down_simple": 100,
+  "down_complex": 100,
+  "intersection": 0,
+  "prefer_local_images": true,
+  "static_local_images": 200,
+  "down_local_images": 200,
+  "policy": "Count static/downstream = TallyQA. GQA Count not invented."
+}

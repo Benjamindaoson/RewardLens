@@ -1,0 +1,17 @@
+{
+  "factor": "spatial",
+  "audit_dataset_version": "FAST_TRACK_FACTOR",
+  "qc_rules_version": "controlled_qc.v1.20260912",
+  "n_pass": 200,
+  "n_items": 600,
+  "manifest_hash": "04258a5d14a0ae682b925c7a2917598a28436dfa57e2e84db721d72d2bb18566",
+  "generation_config_hash": "b226946d5a6d5ec20e6b8e2be61822ef7ab47e3ed131e05691633d49405cde3e",
+  "sample_rule": "first 200 PASS triplet_ids, sorted",
+  "excludes": [
+    "BORDERLINE",
+    "FAIL"
+  ],
+  "duplicate_status": "none",
+  "unique_image_count": 600,
+  "frozen_at": "2026-09-12T14:56:24.001987+00:00"
+}

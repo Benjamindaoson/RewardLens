@@ -16,7 +16,7 @@
       "model_id": "qwen3_vl_4b_instruct",
       "family": "qwen_vl",
       "model_type": "general_mllm_as_judge",
-      "checkpoint": "Qwen/Qwen3-VL-4B-Instruct",
+      "checkpoint": "/root/autodl-fs/RewardLens/models/Qwen/Qwen3-VL-4B-Instruct",
       "revision": "main",
       "license": "apache-2.0",
       "parameter_size": "4B",
@@ -38,7 +38,7 @@
       "model_id": "gemma3_4b_it",
       "family": "gemma",
       "model_type": "general_mllm_as_judge",
-      "checkpoint": "google/gemma-3-4b-it",
+      "checkpoint": "/root/autodl-fs/RewardLens/models/google/gemma-3-4b-it",
       "revision": "main",
       "license": "gemma",
       "parameter_size": "4B",
@@ -60,7 +60,7 @@
       "model_id": "molmo_7b_d_0924",
       "family": "molmo",
       "model_type": "general_mllm_as_judge",
-      "checkpoint": "allenai/Molmo-7B-D-0924",
+      "checkpoint": "/root/autodl-fs/RewardLens/models/allenai/Molmo-7B-D-0924",
       "revision": "main",
       "license": "apache-2.0",
       "parameter_size": "7B",
@@ -75,13 +75,14 @@
       "parser": "ab_parser",
       "status": "UNTESTED",
       "fast_track_primary": true,
-      "worker": 0
+      "worker": 0,
+      "trust_remote_code": true
     },
     {
       "model_id": "skywork_vl_reward_7b",
       "family": "specialized_vl_reward",
       "model_type": "dedicated_multimodal_reward",
-      "checkpoint": "Skywork/Skywork-VL-Reward-7B",
+      "checkpoint": "/root/autodl-fs/RewardLens/models/Skywork/Skywork-VL-Reward-7B",
       "revision": "main",
       "license": "unknown",
       "parameter_size": "7B",
@@ -205,7 +206,9 @@
       "status": "UNTESTED",
       "fast_track_primary": false,
       "worker": null,
-      "replacement_for": ["llama32_11b_vision_instruct"]
+      "replacement_for": [
+        "llama32_11b_vision_instruct"
+      ]
     },
     {
       "model_id": "molmo_7b_o_0924",
@@ -227,7 +230,9 @@
       "status": "UNTESTED",
       "fast_track_primary": false,
       "worker": null,
-      "replacement_for": ["molmo_7b_d_0924"]
+      "replacement_for": [
+        "molmo_7b_d_0924"
+      ]
     },
     {
       "model_id": "ixc25_reward_7b",
@@ -249,7 +254,9 @@
       "status": "UNTESTED",
       "fast_track_primary": false,
       "worker": null,
-      "replacement_for": ["skywork_vl_reward_7b"]
+      "replacement_for": [
+        "skywork_vl_reward_7b"
+      ]
     }
   ]
 }

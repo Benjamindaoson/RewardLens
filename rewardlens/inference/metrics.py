@@ -111,3 +111,34 @@ def accuracy_from_static(rows: Iterable[dict[str, Any]]) -> list[dict[str, Any]]
             }
         )
     return out
+
+
+def downstream_utility_from_selections(rows: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Aggregate frozen Best-of-N top-1 utility; N=8 remains the primary row."""
+    grouped: dict[tuple[str, str, int], list[dict[str, Any]]] = defaultdict(list)
+    for row in rows:
+        if row.get("status") != "ok":
+            continue
+        n = int(row.get("n") or 0)
+        if n not in {2, 4, 8}:
+            continue
+        if "utility_success" not in row and "success" not in row:
+            continue
+        grouped[(str(row.get("model_id")), str(row.get("factor")), n)].append(row)
+    out = []
+    for (model_id, factor, n), items in sorted(grouped.items()):
+        successes = [int(bool(row.get("utility_success", row.get("success")))) for row in items]
+        abstentions = sum(int(row.get("semantic_abstentions") or 0) for row in items)
+        pair_count = sum(int(row.get("n_pairs") or 0) for row in items)
+        out.append(
+            {
+                "model_id": model_id,
+                "factor": factor,
+                "N": n,
+                "U": sum(successes) / len(successes),
+                "n_pools": len(successes),
+                "semantic_abstention_rate": abstentions / pair_count if pair_count else None,
+                "utility_definition": "selected_candidate == gold_candidate",
+            }
+        )
+    return out

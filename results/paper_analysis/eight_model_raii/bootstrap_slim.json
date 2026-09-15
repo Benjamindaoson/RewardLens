@@ -1,0 +1,226 @@
+[
+  {
+    "label": "Spatial Skywork vs Phi-3.5-Vision",
+    "factor": "spatial",
+    "A_static_pp": -0.5050505050505083,
+    "A_static_ci95_pp": [
+      -6.060606060606066,
+      5.05050505050505
+    ],
+    "A_static_excludes_zero": false,
+    "delta_RA_pp": 38.604166666666664,
+    "RA_ci95_pp": [
+      30.031771471538377,
+      47.421052631578945
+    ],
+    "RA_excludes_zero": true,
+    "delta_PFC_pp": 40.5,
+    "PFC_ci95_pp": [
+      31.499999999999993,
+      49.0
+    ],
+    "PFC_excludes_zero": true,
+    "delta_II_pp": 1.5625,
+    "II_ci95_pp": [
+      0.0,
+      3.626943005181349
+    ],
+    "delta_PSC_pp": 5.500000000000005,
+    "PSC_ci95_pp": [
+      2.500000000000002,
+      8.999999999999996
+    ]
+  },
+  {
+    "label": "Attribute Phi-3.5-Vision vs LLaVA-OneVision",
+    "factor": "attribute",
+    "A_static_pp": 0.0,
+    "A_static_ci95_pp": [
+      -5.499999999999994,
+      5.499999999999994
+    ],
+    "A_static_excludes_zero": false,
+    "delta_RA_pp": -15.053763440860212,
+    "RA_ci95_pp": [
+      -20.320855614973265,
+      -10.106382978723405
+    ],
+    "RA_excludes_zero": true,
+    "delta_PFC_pp": -20.999999999999996,
+    "PFC_ci95_pp": [
+      -27.0,
+      -15.500000000000004
+    ],
+    "PFC_excludes_zero": true,
+    "delta_II_pp": -10.752688172043012,
+    "II_ci95_pp": [
+      -15.344932844932845,
+      -6.451612903225811
+    ],
+    "delta_PSC_pp": -17.000000000000004,
+    "PSC_ci95_pp": [
+      -22.499999999999996,
+      -12.0
+    ]
+  },
+  {
+    "label": "presence Molmo vs Idefics3",
+    "factor": "presence",
+    "A_static_pp": 0.5000000000000004,
+    "A_static_ci95_pp": [
+      -6.499999999999995,
+      7.499999999999996
+    ],
+    "A_static_excludes_zero": false,
+    "delta_RA_pp": -25.628140703517587,
+    "RA_ci95_pp": [
+      -31.999999999999996,
+      -19.696969696969703
+    ],
+    "RA_excludes_zero": true,
+    "delta_PFC_pp": -26.0,
+    "PFC_ci95_pp": [
+      -31.999999999999996,
+      -19.999999999999996
+    ],
+    "PFC_excludes_zero": true,
+    "delta_II_pp": -0.5050251256281446,
+    "II_ci95_pp": [
+      -2.500000000000002,
+      1.0000000000000009
+    ],
+    "delta_PSC_pp": -1.0000000000000009,
+    "PSC_ci95_pp": [
+      -3.0000000000000027,
+      1.0000000000000009
+    ]
+  },
+  {
+    "label": "presence Molmo vs InternVL",
+    "factor": "presence",
+    "A_static_pp": -0.5000000000000004,
+    "A_static_ci95_pp": [
+      -6.000000000000005,
+      5.499999999999994
+    ],
+    "A_static_excludes_zero": false,
+    "delta_RA_pp": -25.628140703517587,
+    "RA_ci95_pp": [
+      -31.999999999999996,
+      -19.59798994974874
+    ],
+    "RA_excludes_zero": true,
+    "delta_PFC_pp": -26.0,
+    "PFC_ci95_pp": [
+      -31.999999999999996,
+      -19.999999999999996
+    ],
+    "PFC_excludes_zero": true,
+    "delta_II_pp": -1.005025125628145,
+    "II_ci95_pp": [
+      -2.5125628140703515,
+      0.0
+    ],
+    "delta_PSC_pp": -1.5000000000000013,
+    "PSC_ci95_pp": [
+      -3.500000000000003,
+      0.0
+    ]
+  },
+  {
+    "label": "count Molmo vs Phi",
+    "factor": "count",
+    "A_static_pp": -1.0000000000000009,
+    "A_static_ci95_pp": [
+      -6.500000000000005,
+      4.5000000000000036
+    ],
+    "A_static_excludes_zero": false,
+    "delta_RA_pp": -1.3725490196078438,
+    "RA_ci95_pp": [
+      -10.274331456697944,
+      7.569689041341973
+    ],
+    "RA_excludes_zero": false,
+    "delta_PFC_pp": -7.000000000000001,
+    "PFC_ci95_pp": [
+      -13.5,
+      -0.5000000000000004
+    ],
+    "PFC_excludes_zero": true,
+    "delta_II_pp": 1.9073083778966105,
+    "II_ci95_pp": [
+      -2.841981132075466,
+      6.413805061684369
+    ],
+    "delta_PSC_pp": -29.000000000000004,
+    "PSC_ci95_pp": [
+      -35.5,
+      -22.499999999999996
+    ]
+  },
+  {
+    "label": "presence Qwen vs LLaVA",
+    "factor": "presence",
+    "A_static_pp": 1.0000000000000009,
+    "A_static_ci95_pp": [
+      -3.0000000000000027,
+      5.000000000000004
+    ],
+    "A_static_excludes_zero": false,
+    "delta_RA_pp": 2.0000000000000018,
+    "RA_ci95_pp": [
+      0.5000000000000004,
+      4.0000000000000036
+    ],
+    "RA_excludes_zero": true,
+    "delta_PFC_pp": 1.5000000000000013,
+    "PFC_ci95_pp": [
+      -0.5000000000000004,
+      4.0000000000000036
+    ],
+    "PFC_excludes_zero": false,
+    "delta_II_pp": 0.0,
+    "II_ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "delta_PSC_pp": -0.5000000000000004,
+    "PSC_ci95_pp": [
+      -1.5000000000000013,
+      0.0
+    ]
+  },
+  {
+    "label": "presence Idefics3 vs InternVL",
+    "factor": "presence",
+    "A_static_pp": -1.0000000000000009,
+    "A_static_ci95_pp": [
+      -6.999999999999995,
+      4.999999999999993
+    ],
+    "A_static_excludes_zero": false,
+    "delta_RA_pp": 0.0,
+    "RA_ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "RA_excludes_zero": false,
+    "delta_PFC_pp": 0.0,
+    "PFC_ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "PFC_excludes_zero": false,
+    "delta_II_pp": -0.5000000000000004,
+    "II_ci95_pp": [
+      -1.5000000000000013,
+      0.0
+    ],
+    "delta_PSC_pp": -0.5000000000000004,
+    "PSC_ci95_pp": [
+      -1.5000000000000013,
+      0.0
+    ]
+  }
+]

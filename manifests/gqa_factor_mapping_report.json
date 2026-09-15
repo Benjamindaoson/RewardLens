@@ -1,0 +1,4129 @@
+{
+  "n_mapped": 696338,
+  "sources": [
+    {
+      "n_questions_seen": 943000,
+      "n_mapped": 610531,
+      "n_unmapped": 332469,
+      "counts": {
+        "attribute": 314407,
+        "spatial": 167362,
+        "presence": 128762
+      },
+      "mapping_sources": {
+        "types:attr": 300329,
+        "keyword": 41562,
+        "program:relate+left/right": 125800,
+        "program:exist": 128762,
+        "program:attr": 14078
+      },
+      "keyword_fallback_n": 41562,
+      "human_qc_candidates": {
+        "attribute": [
+          {
+            "question_id": "08878993",
+            "image_id": "2346061",
+            "question": "Does the jacket look white?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "00925257",
+            "image_id": "2318565",
+            "question": "What is the cupboard made of?",
+            "answer": "metal",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "red"
+          },
+          {
+            "question_id": "11935843",
+            "image_id": "2408768",
+            "question": "What is holding the umbrella that is not closed?",
+            "answer": "mannequin",
+            "factor": "attribute",
+            "mapping_source": "program:attr",
+            "hard_negative": "pink"
+          },
+          {
+            "question_id": "03194253",
+            "image_id": "2326330",
+            "question": "Do you think the guy shoe is white?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "13543937",
+            "image_id": "2382849",
+            "question": "On which side is the blue vehicle?",
+            "answer": "right",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "blue"
+          },
+          {
+            "question_id": "1245438",
+            "image_id": "2410816",
+            "question": "Which side of the picture is the suitcase on?",
+            "answer": "right",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "15907581",
+            "image_id": "2323226",
+            "question": "Does the bottle that is to the right of the wine look closed?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "closed"
+          },
+          {
+            "question_id": "03455118",
+            "image_id": "2363792",
+            "question": "Is the crate to the right of the shelves made of cardboard?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "cardboard"
+          },
+          {
+            "question_id": "14749887",
+            "image_id": "1160117",
+            "question": "On which side of the picture is the chair?",
+            "answer": "left",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "18330514",
+            "image_id": "2392330",
+            "question": "What is the desk made of?",
+            "answer": "glass",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "wood"
+          },
+          {
+            "question_id": "18277238",
+            "image_id": "2362138",
+            "question": "What color is the shirt?",
+            "answer": "gray",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "blue"
+          },
+          {
+            "question_id": "1918868",
+            "image_id": "2353816",
+            "question": "Is the animal's mane striped and black?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "striped"
+          },
+          {
+            "question_id": "0096442",
+            "image_id": "2318244",
+            "question": "Is the vending machine on the right of the picture?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "pink"
+          },
+          {
+            "question_id": "14940899",
+            "image_id": "2350689",
+            "question": "In which part of the photo is the mirror?",
+            "answer": "right",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "red"
+          },
+          {
+            "question_id": "15963095",
+            "image_id": "2321219",
+            "question": "Does the umbrella look yellow?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "yellow"
+          },
+          {
+            "question_id": "09985691",
+            "image_id": "2357081",
+            "question": "Is that a white truck?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "green"
+          },
+          {
+            "question_id": "07933418",
+            "image_id": "2394872",
+            "question": "What vegetables are cooked?",
+            "answer": "potatoes",
+            "factor": "attribute",
+            "mapping_source": "program:attr",
+            "hard_negative": "cooked"
+          },
+          {
+            "question_id": "08766756",
+            "image_id": "2332119",
+            "question": "Is the white device in the top part?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "07528644",
+            "image_id": "2411470",
+            "question": "Do the shirt and the gate have the same color?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "12572739",
+            "image_id": "2379236",
+            "question": "Is the hat yellow?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "yellow"
+          },
+          {
+            "question_id": "00798464",
+            "image_id": "2356414",
+            "question": "Is this a white table?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "brown"
+          },
+          {
+            "question_id": "03514396",
+            "image_id": "2414822",
+            "question": "What is the barefoot boy holding?",
+            "answer": "bat",
+            "factor": "attribute",
+            "mapping_source": "program:attr",
+            "hard_negative": "barefoot"
+          },
+          {
+            "question_id": "15954078",
+            "image_id": "2353197",
+            "question": "What is the color of the water?",
+            "answer": "blue",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "green"
+          },
+          {
+            "question_id": "11906955",
+            "image_id": "2415866",
+            "question": "Are the trousers both black and striped?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "00707774",
+            "image_id": "2372220",
+            "question": "Which side of the picture is the metal trash can on?",
+            "answer": "right",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "metal"
+          },
+          {
+            "question_id": "1641067",
+            "image_id": "2385810",
+            "question": "Is the glass on the table empty or full?",
+            "answer": "full",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "clear"
+          },
+          {
+            "question_id": "04665876",
+            "image_id": "2400540",
+            "question": "What color is the shirt?",
+            "answer": "white",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "11388481",
+            "image_id": "2317379",
+            "question": "What color is the door?",
+            "answer": "white",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "reflective"
+          },
+          {
+            "question_id": "05789929",
+            "image_id": "2327316",
+            "question": "What is the color of the horns?",
+            "answer": "orange",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "large"
+          },
+          {
+            "question_id": "16434281",
+            "image_id": "2341623",
+            "question": "What is on the snowy platform?",
+            "answer": "snow",
+            "factor": "attribute",
+            "mapping_source": "program:attr",
+            "hard_negative": "snowy"
+          },
+          {
+            "question_id": "09346245",
+            "image_id": "2336327",
+            "question": "Is the candle in the bottom of the image?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "small"
+          },
+          {
+            "question_id": "18787171",
+            "image_id": "2384734",
+            "question": "What color do you think the fan is?",
+            "answer": "black",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "03785659",
+            "image_id": "2387341",
+            "question": "Is the pine both gray and small?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "large"
+          },
+          {
+            "question_id": "19263377",
+            "image_id": "2392200",
+            "question": "Is the light jacket blue or pink?",
+            "answer": "blue",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "light"
+          },
+          {
+            "question_id": "10967631",
+            "image_id": "1159311",
+            "question": "On which side are the drawers?",
+            "answer": "left",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "striped"
+          },
+          {
+            "question_id": "06740657",
+            "image_id": "2317078",
+            "question": "What do the backpack and the vest have in common?",
+            "answer": "color",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "13868780",
+            "image_id": "2342283",
+            "question": "Does the mattress to the right of the bed seem to be white?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "06656874",
+            "image_id": "2362551",
+            "question": "What's the lid made of?",
+            "answer": "plastic",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "09142655",
+            "image_id": "2322441",
+            "question": "Does the blue sky look thin?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "blue"
+          },
+          {
+            "question_id": "0544794",
+            "image_id": "2385034",
+            "question": "Does the zebra that is standing look black and striped?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "bending"
+          },
+          {
+            "question_id": "07251378",
+            "image_id": "2402744",
+            "question": "Is the fence on the left or on the right?",
+            "answer": "left",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "metal"
+          },
+          {
+            "question_id": "19488230",
+            "image_id": "2383010",
+            "question": "What color is the shirt that is under the uniform?",
+            "answer": "black",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "09208611",
+            "image_id": "2367755",
+            "question": "Are the safety jacket and the shirt the same color?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "yellow"
+          },
+          {
+            "question_id": "01617003",
+            "image_id": "2389252",
+            "question": "Does the road look small?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "small"
+          },
+          {
+            "question_id": "14729219",
+            "image_id": "2399625",
+            "question": "Which side of the photo is the man on?",
+            "answer": "left",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "walking"
+          },
+          {
+            "question_id": "09502349",
+            "image_id": "2408427",
+            "question": "Is the color of the sky the same as the clock?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "17133345",
+            "image_id": "2391538",
+            "question": "What do the tshirt and the cap have in common?",
+            "answer": "color",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "04189320",
+            "image_id": "2363471",
+            "question": "Is the fork on the left or on the right?",
+            "answer": "right",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "red"
+          },
+          {
+            "question_id": "04680572",
+            "image_id": "2403123",
+            "question": "Does the necktie of the bear have the same color as the bear?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "04585005",
+            "image_id": "1088",
+            "question": "Is the glove black or tan?",
+            "answer": "tan",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "blue"
+          }
+        ],
+        "spatial": [
+          {
+            "question_id": "09138078",
+            "image_id": "2323468",
+            "question": "What are the boys that are to the left of the donut wearing?",
+            "answer": "shirt",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "12216473",
+            "image_id": "2389841",
+            "question": "What item of furniture is left of the towels?",
+            "answer": "bed",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "10482911",
+            "image_id": "2558",
+            "question": "Is there an umbrella to the right of the truck that is parked alongside the road?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "001047980",
+            "image_id": "2322466",
+            "question": "Is the green tree to the right of the person that is wearing pants?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "11414291",
+            "image_id": "2391470",
+            "question": "Are there any chairs to the left of the people?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "16433145",
+            "image_id": "2341625",
+            "question": "What is the food to the left of the plate that is to the left of the knife?",
+            "answer": "egg",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "0573596",
+            "image_id": "2401225",
+            "question": "Is the small speaker to the left or to the right of the man behind the cell phone?",
+            "answer": "left",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "right"
+          },
+          {
+            "question_id": "04389653",
+            "image_id": "2397087",
+            "question": "Do you see ladies to the left of the balloons?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "17644904",
+            "image_id": "1592815",
+            "question": "Is the stove to the right or to the left of the cabinet that is to the right of the shelf?",
+            "answer": "right",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "left"
+          },
+          {
+            "question_id": "19757334",
+            "image_id": "2320964",
+            "question": "What vegetable is to the right of the cat?",
+            "answer": "squash",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "17260805",
+            "image_id": "2410358",
+            "question": "Are there surfboards to the right of the woman on the left?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "15653947",
+            "image_id": "2397613",
+            "question": "How is the device that is to the left of the computer in the bottom part of the image called?",
+            "answer": "keyboard",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "09890003",
+            "image_id": "2350009",
+            "question": "The suitcase that is to the right of the speaker is holding what?",
+            "answer": "mirror",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "10361212",
+            "image_id": "2385078",
+            "question": "Is the bed to the left or to the right of the chair that is in front of the window?",
+            "answer": "left",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "right"
+          },
+          {
+            "question_id": "12838354",
+            "image_id": "2414182",
+            "question": "Who is holding the remote to the right of the chair?",
+            "answer": "man",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "19152962",
+            "image_id": "2169",
+            "question": "What is under the table to the left of the couch?",
+            "answer": "rug",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "043030",
+            "image_id": "2382111",
+            "question": "What animal is on top of the animal that is to the right of the lamb?",
+            "answer": "rabbit",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "10404848",
+            "image_id": "2362111",
+            "question": "What device is to the right of the screen?",
+            "answer": "microphone",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "08347901",
+            "image_id": "2411773",
+            "question": "Is the mirror to the right or to the left of the picture on the wall?",
+            "answer": "right",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "left"
+          },
+          {
+            "question_id": "02798735",
+            "image_id": "2343771",
+            "question": "Is the carriage to the right or to the left of the man who is wearing jeans?",
+            "answer": "left",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "right"
+          },
+          {
+            "question_id": "02214245",
+            "image_id": "2326608",
+            "question": "What animal is on the blanket that is on the left?",
+            "answer": "dog",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "13305397",
+            "image_id": "2343436",
+            "question": "Do you see any books to the left of the balloon on the right?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "02255300",
+            "image_id": "2396040",
+            "question": "Is the batter to the left or to the right of the person that is wearing a shirt?",
+            "answer": "left",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "right"
+          },
+          {
+            "question_id": "18193986",
+            "image_id": "2393860",
+            "question": "Which kind of vehicle is to the left of the palm trees?",
+            "answer": "train",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "13753231",
+            "image_id": "2336565",
+            "question": "What is the item of furniture to the right of the table?",
+            "answer": "coffee table",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "14542869",
+            "image_id": "2416801",
+            "question": "Do you see a bed to the left of the white clock?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "13186551",
+            "image_id": "2364087",
+            "question": "Is the candle to the left of the dessert on the table?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "00171055",
+            "image_id": "2374211",
+            "question": "Are there any drapes to the left of the computer desk?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "13856293",
+            "image_id": "2317843",
+            "question": "Do you see helmets to the left of the blue motorcycle?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "18762787",
+            "image_id": "713437",
+            "question": "What kind of device is to the left of the jar?",
+            "answer": "speaker",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "18284454",
+            "image_id": "2387025",
+            "question": "Do you see any people to the left of the person that is to the right of the car?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "13558502",
+            "image_id": "2381407",
+            "question": "What is the item of furniture to the left of the screen in the middle?",
+            "answer": "chair",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "18289610",
+            "image_id": "2337238",
+            "question": "What kind of vegetable is to the left of the mushroom?",
+            "answer": "broccoli",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "12112992",
+            "image_id": "2404376",
+            "question": "What do you think is the player to the right of the baseball wearing?",
+            "answer": "cap",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "13848383",
+            "image_id": "2328719",
+            "question": "Is the helmet to the right or to the left of the players that are to the left of the ball?",
+            "answer": "left",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "right"
+          },
+          {
+            "question_id": "16254646",
+            "image_id": "2359427",
+            "question": "What is the name of the vegetable to the right of the box that is made of cardboard?",
+            "answer": "pepper",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "01748456",
+            "image_id": "2403483",
+            "question": "Do you see people to the right of the bun on the left?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "17590794",
+            "image_id": "2384786",
+            "question": "What does the boy to the left of the umpire hold?",
+            "answer": "bat",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "19946631",
+            "image_id": "2350081",
+            "question": "What appliance is to the left of the glass bottles?",
+            "answer": "blender",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "11919152",
+            "image_id": "2374189",
+            "question": "Is the woman to the right or to the left of the people that are eating a burger?",
+            "answer": "right",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "left"
+          },
+          {
+            "question_id": "13593716",
+            "image_id": "2401945",
+            "question": "Do you see men to the left of the yellow ball?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "1086762",
+            "image_id": "2052",
+            "question": "Which kind of furniture is to the right of the speaker?",
+            "answer": "couch",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "02334855",
+            "image_id": "498076",
+            "question": "Is the man to the right or to the left of the banana on the table?",
+            "answer": "left",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "right"
+          },
+          {
+            "question_id": "06536814",
+            "image_id": "2411362",
+            "question": "What device is to the right of the device that is to the right of the polar bear?",
+            "answer": "cell phone",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "151021360",
+            "image_id": "2347727",
+            "question": "Are there bottles near the appliance that is to the left of the garbage can?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "00251236",
+            "image_id": "2414102",
+            "question": "Do you see napkins to the left of the brown toast?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "09833286",
+            "image_id": "2401169",
+            "question": "Are there cabinets to the left of the painting above the cheesecake?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "111018014",
+            "image_id": "2380424",
+            "question": "Is the woman who is to the right of the man wearing a helmet?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "12109670",
+            "image_id": "2336102",
+            "question": "What is the vegetable that is to the left of the fruit the cherries are to the right of?",
+            "answer": "tomato",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "18970023",
+            "image_id": "2398827",
+            "question": "Is the pillow to the right of the lamp lying on a bed?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          }
+        ],
+        "presence": [
+          {
+            "question_id": "07809264",
+            "image_id": "2387010",
+            "question": "Are there any plates near the wine glass?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "05228756",
+            "image_id": "2320366",
+            "question": "Do you see a remote control on the oven?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "03703316",
+            "image_id": "2357944",
+            "question": "Is there a cup below the crust the knife is next to?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "08459145",
+            "image_id": "2380580",
+            "question": "Is there any truck in front of the tree?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "08731223",
+            "image_id": "2398941",
+            "question": "Is there either a lamp or a bat in the photograph?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "06231879",
+            "image_id": "2340355",
+            "question": "Do you see trash cans or bottle caps in the image?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "14830750",
+            "image_id": "2341648",
+            "question": "Do you see coats that are not white?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "02815194",
+            "image_id": "2349980",
+            "question": "Are there zebras on the grass?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "02447088",
+            "image_id": "2339770",
+            "question": "Do you see a blanket or a bed in this photo?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "15119733",
+            "image_id": "2403527",
+            "question": "Are there any cabinets or lipsticks?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "0737225",
+            "image_id": "2349657",
+            "question": "Are there any white gloves or hats?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "02645562",
+            "image_id": "2395422",
+            "question": "Do you see any carrots or knives in the image?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "071000804",
+            "image_id": "2375228",
+            "question": "Are there either any soccer balls or tents?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "09609790",
+            "image_id": "2334002",
+            "question": "Are there black gloves or hats?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "07361459",
+            "image_id": "2381191",
+            "question": "Is there a helmet that is not silver?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "14335227",
+            "image_id": "2330384",
+            "question": "Are there both a window and a door in the image?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "11679970",
+            "image_id": "2346817",
+            "question": "Are there both a chair and a woman in the image?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "03594540",
+            "image_id": "2893",
+            "question": "Are there either ducks or dogs in this photo?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "09122146",
+            "image_id": "2359353",
+            "question": "Do you see sofas or tables that are not tan?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "14967371",
+            "image_id": "2389772",
+            "question": "Are there any sheep in the green field?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "18787129",
+            "image_id": "2384734",
+            "question": "Are there shelves or televisions in the photograph?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "19782881",
+            "image_id": "2334717",
+            "question": "Are there breads in the image?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "01702644",
+            "image_id": "2416868",
+            "question": "Are there both plates and cakes in this picture?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "09357724",
+            "image_id": "2406924",
+            "question": "Are there either any clocks or umbrellas?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "11762237",
+            "image_id": "2131",
+            "question": "Are there any bottles?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "11398906",
+            "image_id": "2375990",
+            "question": "Is there any grass in the image that is not brown?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "14274283",
+            "image_id": "2409491",
+            "question": "Are there both a plate and a cake in the image?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "10862885",
+            "image_id": "1592903",
+            "question": "Are there any taxis in the picture?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "16495225",
+            "image_id": "2380368",
+            "question": "Is there either any gray helmet or coat?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "05501303",
+            "image_id": "2400534",
+            "question": "Are there fences or kites in this image?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "061046041",
+            "image_id": "47",
+            "question": "Is there any motorcycle on the road the man is crossing?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "09927427",
+            "image_id": "2362369",
+            "question": "Is there either any fence or cow in the scene?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "03709512",
+            "image_id": "2348426",
+            "question": "Are there both tomatoes and peppers in the picture?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "17806348",
+            "image_id": "2351038",
+            "question": "Do you see any controllers on the floor?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "047959",
+            "image_id": "2356406",
+            "question": "Are there either any clocks or comforters?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "14472972",
+            "image_id": "2335532",
+            "question": "Do you see blue cups or plates?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "01226652",
+            "image_id": "2367375",
+            "question": "Are there both doors and windows in this photo?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "14923456",
+            "image_id": "2408580",
+            "question": "Are there bottles on the table made of wood?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "031031298",
+            "image_id": "2317138",
+            "question": "Are there both a couch and a table in the photo?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "12283121",
+            "image_id": "2406201",
+            "question": "Do you see either papers or floor lamps there?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "01206088",
+            "image_id": "2366027",
+            "question": "Is there a white heart or star?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "17112864",
+            "image_id": "2354711",
+            "question": "Is there any pepperoni on the pizza?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "04621613",
+            "image_id": "2332230",
+            "question": "Do you see either a black laptop or couch?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "09830304",
+            "image_id": "2374972",
+            "question": "Are there any cabinets or lamps that are made of metal?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "13627295",
+            "image_id": "2413579",
+            "question": "Is there either a black zebra or dog?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "17132200",
+            "image_id": "1592455",
+            "question": "Do you see tea kettles or pots that are not blue?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "18654791",
+            "image_id": "2328709",
+            "question": "Are there either any batteries or cups?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "08130600",
+            "image_id": "2341323",
+            "question": "Are there black skateboards or bicycles?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "061012020",
+            "image_id": "2355931",
+            "question": "Are there squirrels or crabs in the image?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "17742839",
+            "image_id": "107970",
+            "question": "Are there either black sheep or dogs?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          }
+        ]
+      },
+      "source": "D:\\01_work\\RewardLens\\datasets\\gqa\\questions\\train_balanced_questions.json"
+    },
+    {
+      "n_questions_seen": 132062,
+      "n_mapped": 85807,
+      "n_unmapped": 46255,
+      "counts": {
+        "attribute": 44056,
+        "spatial": 23723,
+        "presence": 18028
+      },
+      "mapping_sources": {
+        "types:attr": 42201,
+        "program:relate+left/right": 17890,
+        "program:exist": 18028,
+        "program:attr": 1855,
+        "keyword": 5833
+      },
+      "keyword_fallback_n": 5833,
+      "human_qc_candidates": {
+        "attribute": [
+          {
+            "question_id": "08255768",
+            "image_id": "2328788",
+            "question": "Is the chair to the right of the plate made out of wicker?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "wood"
+          },
+          {
+            "question_id": "12329799",
+            "image_id": "2337816",
+            "question": "What color is the jacket?",
+            "answer": "green",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "17250119",
+            "image_id": "2411357",
+            "question": "What color does the tray have?",
+            "answer": "silver",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "wood"
+          },
+          {
+            "question_id": "02674508",
+            "image_id": "2383780",
+            "question": "On which side of the photo is the bread?",
+            "answer": "left",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "brown"
+          },
+          {
+            "question_id": "04163983",
+            "image_id": "2413341",
+            "question": "What is the color of the water?",
+            "answer": "brown",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "muddy"
+          },
+          {
+            "question_id": "17504909",
+            "image_id": "2361209",
+            "question": "Does the bag to the left of the guy look brown?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "purple"
+          },
+          {
+            "question_id": "0953474",
+            "image_id": "2378230",
+            "question": "Is this fire hydrant black or white?",
+            "answer": "white",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "rusty"
+          },
+          {
+            "question_id": "13205628",
+            "image_id": "2337494",
+            "question": "What vehicle is shiny?",
+            "answer": "train",
+            "factor": "attribute",
+            "mapping_source": "program:attr",
+            "hard_negative": "blue"
+          },
+          {
+            "question_id": "02599215",
+            "image_id": "2340966",
+            "question": "What color is the umbrella the man is below?",
+            "answer": "pink",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "long"
+          },
+          {
+            "question_id": "10366367",
+            "image_id": "2318041",
+            "question": "Is the girl's hair short and black?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "short"
+          },
+          {
+            "question_id": "07507346",
+            "image_id": "2339216",
+            "question": "Which color is the shirt the man is wearing?",
+            "answer": "blue",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "0213556",
+            "image_id": "2397589",
+            "question": "Is the keyboard different in color than the mouse?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "13414243",
+            "image_id": "2412198",
+            "question": "Are the shoes white or blue?",
+            "answer": "blue",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "05761565",
+            "image_id": "2380407",
+            "question": "The beet that is not rotten has what color?",
+            "answer": "red",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "fresh"
+          },
+          {
+            "question_id": "07725847",
+            "image_id": "1095",
+            "question": "Do the counter and the sweatshirt have a different colors?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "yellow"
+          },
+          {
+            "question_id": "19129856",
+            "image_id": "2375091",
+            "question": "Is the color of the shirt different than the color of the dress?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "floral"
+          },
+          {
+            "question_id": "00768715",
+            "image_id": "2351860",
+            "question": "Does that van look yellow?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "07831501",
+            "image_id": "2341246",
+            "question": "Is the office chair tall and blue?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "tall"
+          },
+          {
+            "question_id": "04397446",
+            "image_id": "2398503",
+            "question": "Does the shirt look blue and striped?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "18646091",
+            "image_id": "2320456",
+            "question": "On which side of the image is the bag?",
+            "answer": "left",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "hanging"
+          },
+          {
+            "question_id": "17463122",
+            "image_id": "2402625",
+            "question": "Which color does the stop sign which is on the pole have?",
+            "answer": "white",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "metal"
+          },
+          {
+            "question_id": "03495588",
+            "image_id": "2410346",
+            "question": "Is the person sitting or standing?",
+            "answer": "sitting",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "open"
+          },
+          {
+            "question_id": "19900958",
+            "image_id": "2348695",
+            "question": "How does that shirt look, red or maybe white?",
+            "answer": "white",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "07600537",
+            "image_id": "2315613",
+            "question": "How big is the spoon?",
+            "answer": "large",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "small"
+          },
+          {
+            "question_id": "12765324",
+            "image_id": "2325328",
+            "question": "Are these animals of different types?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "00549476",
+            "image_id": "2393164",
+            "question": "Is the woman sitting?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "sitting"
+          },
+          {
+            "question_id": "11968740",
+            "image_id": "2365435",
+            "question": "Is the floor lamp on the left?",
+            "answer": "yes",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "colorful"
+          },
+          {
+            "question_id": "11571336",
+            "image_id": "2344251",
+            "question": "Are the tennis shoes white or black?",
+            "answer": "white",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "tennis"
+          },
+          {
+            "question_id": "0091073",
+            "image_id": "2357330",
+            "question": "Is the fence in the top part or in the bottom of the photo?",
+            "answer": "bottom",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "metal"
+          },
+          {
+            "question_id": "12553134",
+            "image_id": "2402704",
+            "question": "On which side is the ottoman?",
+            "answer": "right",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "dark colored"
+          },
+          {
+            "question_id": "01750916",
+            "image_id": "2381128",
+            "question": "Is the lady in the bottom or in the top of the picture?",
+            "answer": "bottom",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "01119210",
+            "image_id": "2408649",
+            "question": "What is the color of the shirt the person is wearing?",
+            "answer": "red",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "sitting"
+          },
+          {
+            "question_id": "01550377",
+            "image_id": "2346600",
+            "question": "Is the man on the right of the photo?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "green"
+          },
+          {
+            "question_id": "18444424",
+            "image_id": "2346261",
+            "question": "Is the van the same color as the umbrella?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "blue"
+          },
+          {
+            "question_id": "09743870",
+            "image_id": "2315900",
+            "question": "On which side of the photo is the toilet?",
+            "answer": "left",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "wood"
+          },
+          {
+            "question_id": "171049189",
+            "image_id": "2345662",
+            "question": "Is the drawer on the right side or on the left of the photo?",
+            "answer": "left",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "open"
+          },
+          {
+            "question_id": "03614248",
+            "image_id": "2363225",
+            "question": "Which side is the lamp on?",
+            "answer": "left",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "smiling"
+          },
+          {
+            "question_id": "02653160",
+            "image_id": "2369996",
+            "question": "Is the television on the left side or on the right of the image?",
+            "answer": "left",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "01708675",
+            "image_id": "2385420",
+            "question": "Is the jacket different in color than the suit?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "01107381",
+            "image_id": "2397689",
+            "question": "Is the shirt green or purple?",
+            "answer": "green",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "leather"
+          },
+          {
+            "question_id": "03422148",
+            "image_id": "2414272",
+            "question": "Is the hair white and long?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "blond"
+          },
+          {
+            "question_id": "19351376",
+            "image_id": "2383947",
+            "question": "What is the food that is mixed?",
+            "answer": "soup",
+            "factor": "attribute",
+            "mapping_source": "program:attr",
+            "hard_negative": "mixed"
+          },
+          {
+            "question_id": "14202650",
+            "image_id": "2345598",
+            "question": "Which side of the image is the backpack on?",
+            "answer": "left",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "blue"
+          },
+          {
+            "question_id": "13124174",
+            "image_id": "2400251",
+            "question": "What is the color of the cup?",
+            "answer": "red",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "white"
+          },
+          {
+            "question_id": "14809122",
+            "image_id": "2390981",
+            "question": "What is in front of the digital device?",
+            "answer": "phone",
+            "factor": "attribute",
+            "mapping_source": "program:attr",
+            "hard_negative": "plastic"
+          },
+          {
+            "question_id": "02403898",
+            "image_id": "2389574",
+            "question": "What is the color of the sky the plane is flying in?",
+            "answer": "light blue",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "brown"
+          },
+          {
+            "question_id": "00555283",
+            "image_id": "2368244",
+            "question": "Which side is the fork on?",
+            "answer": "right",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "silver"
+          },
+          {
+            "question_id": "05282016",
+            "image_id": "2401498",
+            "question": "Do the spatula and the pot have a different colors?",
+            "answer": "no",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "black"
+          },
+          {
+            "question_id": "131009990",
+            "image_id": "2326436",
+            "question": "Which material was used to make the bench to the left of the cucumbers, stone or wood?",
+            "answer": "stone",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": null
+          },
+          {
+            "question_id": "07382270",
+            "image_id": "2383328",
+            "question": "How big is the TV stand?",
+            "answer": "small",
+            "factor": "attribute",
+            "mapping_source": "types:attr",
+            "hard_negative": "wood"
+          }
+        ],
+        "spatial": [
+          {
+            "question_id": "05382781",
+            "image_id": "2350094",
+            "question": "What bird is to the right of the toddler?",
+            "answer": "angry bird",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "08188901",
+            "image_id": "2338350",
+            "question": "Who do you think is on the bench that is to the left of the skateboard?",
+            "answer": "woman",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "03256584",
+            "image_id": "2374686",
+            "question": "What does the animal that to the left of the man walk into?",
+            "answer": "water",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "068772",
+            "image_id": "2388973",
+            "question": "Which kind of meat is to the right of the table?",
+            "answer": "bacon",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "101038282",
+            "image_id": "285971",
+            "question": "What is the name of the vehicle that has the same color as the can on the right?",
+            "answer": "truck",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "0274196",
+            "image_id": "2380286",
+            "question": "Are there any palm trees to the right of the tower that is behind the street?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "10816746",
+            "image_id": "2375742",
+            "question": "What vehicles are to the right of the truck?",
+            "answer": "cars",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "0745028",
+            "image_id": "2400661",
+            "question": "What is the device to the left of the speakers on the desk?",
+            "answer": "laptop",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "05543852",
+            "image_id": "2380680",
+            "question": "Is the white device to the right or to the left of the person the purse is in front of?",
+            "answer": "left",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "right"
+          },
+          {
+            "question_id": "05323925",
+            "image_id": "2406689",
+            "question": "What is the appliance to the right of the drawers the countertop is above?",
+            "answer": "dishwasher",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "08213919",
+            "image_id": "2404361",
+            "question": "Do you see a bag on the bike that is on the left?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "141002619",
+            "image_id": "2327696",
+            "question": "What fruits are to the left of the utensil on the plate?",
+            "answer": "berries",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "03658260",
+            "image_id": "2412769",
+            "question": "Is there any lettuce to the left of the meal that is to the left of the fork?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "10890031",
+            "image_id": "2378087",
+            "question": "What is the food that is to the left of the round plate called?",
+            "answer": "pizza",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "041008679",
+            "image_id": "2375481",
+            "question": "Are both the soap dispenser and the toothbrush to the left of the rubber duck made of plastic?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "08555762",
+            "image_id": "2360831",
+            "question": "What kind of furniture is to the left of the device the woman plays on?",
+            "answer": "chair",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "11368208",
+            "image_id": "2342223",
+            "question": "Do you see books to the left of the device on the bed?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "02353761",
+            "image_id": "2406583",
+            "question": "Is the bucket that is to the left of the man sitting on the floor?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "10188503",
+            "image_id": "2327560",
+            "question": "What is the man to the right of the person holding?",
+            "answer": "surfboard",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "101004450",
+            "image_id": "2359779",
+            "question": "What is the vegetable that is to the right of the olive that the pizza is with?",
+            "answer": "pepper",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "1638315",
+            "image_id": "2385819",
+            "question": "Which kind of food is to the left of the mushroom?",
+            "answer": "meat",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "04512860",
+            "image_id": "2316595",
+            "question": "Do you see any shelves to the left of the appliance on the right of the photo?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "13376084",
+            "image_id": "2319494",
+            "question": "What is the piece of furniture that is to the right of the mat?",
+            "answer": "cabinet",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "05404217",
+            "image_id": "2383614",
+            "question": "What is the person to the right of the person wearing?",
+            "answer": "outfit",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "1947005",
+            "image_id": "1377",
+            "question": "Do you see any containers to the right of the cup in the bottom part?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "07292233",
+            "image_id": "2410585",
+            "question": "What is the vehicle to the left of the brown horse?",
+            "answer": "car",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "17394612",
+            "image_id": "2384847",
+            "question": "What is the device that the woman to the right of the man is holding?",
+            "answer": "camera",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "11168375",
+            "image_id": "2318491",
+            "question": "What item of furniture is to the right of the bottle that is on the table?",
+            "answer": "chair",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "16840699",
+            "image_id": "2320252",
+            "question": "What type of vegetable is on the red thing to the right of the container?",
+            "answer": "lettuce",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "07651513",
+            "image_id": "2407675",
+            "question": "Which kind of animal is to the left of the bird?",
+            "answer": "ostrich",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "19872691",
+            "image_id": "2372702",
+            "question": "What is the drink to the left of the person that is on the right side?",
+            "answer": "wine",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "15437447",
+            "image_id": "2357813",
+            "question": "What is the piece of furniture to the right of the person on the right called?",
+            "answer": "shelf",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "18699500",
+            "image_id": "2325830",
+            "question": "What kind of toy is to the left of the clock?",
+            "answer": "stuffed animal",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "11511892",
+            "image_id": "2340398",
+            "question": "Which kind of food is to the right of the napkin?",
+            "answer": "egg",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "0960159",
+            "image_id": "2366130",
+            "question": "Is the metal spoon to the left or to the right of the cake the candles are on?",
+            "answer": "right",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "left"
+          },
+          {
+            "question_id": "13124264",
+            "image_id": "2400251",
+            "question": "Are there keyboards to the right of the device that is not closed?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "15793002",
+            "image_id": "2374704",
+            "question": "What drink is to the right of the soda?",
+            "answer": "wine",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "15665700",
+            "image_id": "2396671",
+            "question": "What is the food that is to the right of the drawer?",
+            "answer": "soup",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "0464477",
+            "image_id": "2383984",
+            "question": "What is on the shelf on the right side?",
+            "answer": "bowl",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "121029536",
+            "image_id": "2388049",
+            "question": "Is the person to the left of the book holding a racket?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "02474982",
+            "image_id": "2348014",
+            "question": "What device is to the left of the bag?",
+            "answer": "computer",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "00390072",
+            "image_id": "2379179",
+            "question": "Are there shelves to the left of the cat the collar is on top of?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "02149807",
+            "image_id": "2395041",
+            "question": "Do you see any trash cans to the right of the statue that is on the left?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "01553790",
+            "image_id": "2404068",
+            "question": "Is there a skateboarder to the left of the chair?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "07518878",
+            "image_id": "2349396",
+            "question": "Is the cake to the left or to the right of the plate the fork is on?",
+            "answer": "right",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "left"
+          },
+          {
+            "question_id": "08500832",
+            "image_id": "2364205",
+            "question": "Which kind of vehicle is to the left of the bench?",
+            "answer": "bus",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "13529622",
+            "image_id": "2344970",
+            "question": "Are both the food to the left of the potato and the food to the right of the bacon white?",
+            "answer": "yes",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "14898881",
+            "image_id": "2336044",
+            "question": "Are there any palm trees to the left of the tower?",
+            "answer": "no",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "01326776",
+            "image_id": "2339026",
+            "question": "What is the man to the left of the wine wearing?",
+            "answer": "tie",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          },
+          {
+            "question_id": "19836752",
+            "image_id": "1655",
+            "question": "What vehicles are to the left of the fence made of metal?",
+            "answer": "cars",
+            "factor": "spatial",
+            "mapping_source": "program:relate+left/right",
+            "hard_negative": null
+          }
+        ],
+        "presence": [
+          {
+            "question_id": "13647922",
+            "image_id": "2352199",
+            "question": "Do you see either brown grass or sand?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "08812175",
+            "image_id": "2377400",
+            "question": "Are there both doors and windows in this image?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "1594923",
+            "image_id": "2389006",
+            "question": "Are there both pillows and lamps in the photo?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "05553654",
+            "image_id": "2417499",
+            "question": "Are there either umbrellas or skateboards?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "05120251",
+            "image_id": "2407415",
+            "question": "Is there a blue bus or fence?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "06943422",
+            "image_id": "2394601",
+            "question": "Is there a kettle that is not white?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "05891354",
+            "image_id": "2384647",
+            "question": "Do you see any salad in the bowl?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "07478641",
+            "image_id": "1110",
+            "question": "Are there both chairs and lamps in this picture?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "071002536",
+            "image_id": "2386067",
+            "question": "Are there both lettuce and broccoli in this image?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "14212312",
+            "image_id": "2358646",
+            "question": "Are there any phones or cameras that are not silver?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "07872659",
+            "image_id": "2384422",
+            "question": "Do you see a bag on the floor?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "031003190",
+            "image_id": "2413641",
+            "question": "Are there either any blue towels or pillows?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "15385225",
+            "image_id": "2322920",
+            "question": "Are there white refrigerators or dishwashers?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "11619677",
+            "image_id": "2360109",
+            "question": "Are there lamps or skateboards in this photo?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "00414344",
+            "image_id": "2365322",
+            "question": "Is there either a chair or a bag in the image?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "08407895",
+            "image_id": "1160057",
+            "question": "Are there both boats and flags in the picture?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "07181526",
+            "image_id": "2380479",
+            "question": "Are there black helmets or trash cans?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "01209853",
+            "image_id": "2322615",
+            "question": "Are there dips or carrots?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "13183066",
+            "image_id": "2331354",
+            "question": "Are there any pillows or carts?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "16137061",
+            "image_id": "2366923",
+            "question": "Are there either any pans or saucers in the photo?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "18782678",
+            "image_id": "2356933",
+            "question": "Are there both sandwiches and napkins?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "15870311",
+            "image_id": "4079",
+            "question": "Do you see any lamps or ottomen?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "02644533",
+            "image_id": "2395427",
+            "question": "Are there dogs or cats that are lying?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "141013207",
+            "image_id": "2348849",
+            "question": "Is there a bench or a pillow in the scene?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "13741150",
+            "image_id": "2382560",
+            "question": "Do you see any toilets near the trashcan?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "13771926",
+            "image_id": "2381540",
+            "question": "Do you see any airplanes in the sky?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "05676779",
+            "image_id": "2343281",
+            "question": "Are there both pillows and lamps in this picture?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "10989524",
+            "image_id": "2351164",
+            "question": "Are there both windows and doors in the picture?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "1366490",
+            "image_id": "2349328",
+            "question": "Are there white trucks or buses?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "03161485",
+            "image_id": "2354015",
+            "question": "Are there knives in this picture?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "131059094",
+            "image_id": "2399053",
+            "question": "Are there old men or women?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "13432917",
+            "image_id": "2321912",
+            "question": "Are there babies in the picture?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "04672515",
+            "image_id": "1592026",
+            "question": "Is there any boat in the photograph?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "11546621",
+            "image_id": "2380112",
+            "question": "Do you see green train cars or trucks?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "181008118",
+            "image_id": "2352856",
+            "question": "Are there bridges in the image?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "02142678",
+            "image_id": "2317347",
+            "question": "Are there any peppers on top of the pizza?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "07556801",
+            "image_id": "2343942",
+            "question": "Are there both door and a window in this picture?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "08340",
+            "image_id": "2360098",
+            "question": "Are there both tables and chairs in the picture?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "11183244",
+            "image_id": "2365049",
+            "question": "Is there either a chair or a phone in this photograph?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "19774824",
+            "image_id": "2352604",
+            "question": "Is there a blue towel in the photograph?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "11874574",
+            "image_id": "2411460",
+            "question": "Is there a castle in this image that is not white?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "05134743",
+            "image_id": "2362838",
+            "question": "Is there a cabinet or a microwave in the photo?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "18861323",
+            "image_id": "286061",
+            "question": "Are there any bottles or faucets?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "08421237",
+            "image_id": "4571",
+            "question": "Do you see any hammers or fences in this photograph?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "19568136",
+            "image_id": "2372315",
+            "question": "Are there kites or armors in this image?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "06292329",
+            "image_id": "2852",
+            "question": "Are there both doors and windows in the photo?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "18174913",
+            "image_id": "2382711",
+            "question": "Are there orange cats or birds?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "08297250",
+            "image_id": "1592640",
+            "question": "Are there both chandeliers and frisbees in this picture?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          },
+          {
+            "question_id": "05858193",
+            "image_id": "2334914",
+            "question": "Are there plates in this picture?",
+            "answer": "yes",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "no"
+          },
+          {
+            "question_id": "06377818",
+            "image_id": "286043",
+            "question": "Are there both knives and cups in the picture?",
+            "answer": "no",
+            "factor": "presence",
+            "mapping_source": "program:exist",
+            "hard_negative": "yes"
+          }
+        ]
+      },
+      "source": "D:\\01_work\\RewardLens\\datasets\\gqa\\questions\\val_balanced_questions.json"
+    }
+  ],
+  "counts": {
+    "attribute": 358463,
+    "spatial": 191085,
+    "presence": 146790,
+    "count": 0
+  },
+  "human_qc_candidates": {
+    "attribute": [
+      {
+        "question_id": "08878993",
+        "image_id": "2346061",
+        "question": "Does the jacket look white?",
+        "answer": "yes",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "white"
+      },
+      {
+        "question_id": "00925257",
+        "image_id": "2318565",
+        "question": "What is the cupboard made of?",
+        "answer": "metal",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "red"
+      },
+      {
+        "question_id": "11935843",
+        "image_id": "2408768",
+        "question": "What is holding the umbrella that is not closed?",
+        "answer": "mannequin",
+        "factor": "attribute",
+        "mapping_source": "program:attr",
+        "hard_negative": "pink"
+      },
+      {
+        "question_id": "03194253",
+        "image_id": "2326330",
+        "question": "Do you think the guy shoe is white?",
+        "answer": "no",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "black"
+      },
+      {
+        "question_id": "13543937",
+        "image_id": "2382849",
+        "question": "On which side is the blue vehicle?",
+        "answer": "right",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "blue"
+      },
+      {
+        "question_id": "1245438",
+        "image_id": "2410816",
+        "question": "Which side of the picture is the suitcase on?",
+        "answer": "right",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "black"
+      },
+      {
+        "question_id": "15907581",
+        "image_id": "2323226",
+        "question": "Does the bottle that is to the right of the wine look closed?",
+        "answer": "yes",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "closed"
+      },
+      {
+        "question_id": "03455118",
+        "image_id": "2363792",
+        "question": "Is the crate to the right of the shelves made of cardboard?",
+        "answer": "yes",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "cardboard"
+      },
+      {
+        "question_id": "14749887",
+        "image_id": "1160117",
+        "question": "On which side of the picture is the chair?",
+        "answer": "left",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "black"
+      },
+      {
+        "question_id": "18330514",
+        "image_id": "2392330",
+        "question": "What is the desk made of?",
+        "answer": "glass",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "wood"
+      },
+      {
+        "question_id": "18277238",
+        "image_id": "2362138",
+        "question": "What color is the shirt?",
+        "answer": "gray",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "blue"
+      },
+      {
+        "question_id": "1918868",
+        "image_id": "2353816",
+        "question": "Is the animal's mane striped and black?",
+        "answer": "yes",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "striped"
+      },
+      {
+        "question_id": "0096442",
+        "image_id": "2318244",
+        "question": "Is the vending machine on the right of the picture?",
+        "answer": "yes",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "pink"
+      },
+      {
+        "question_id": "14940899",
+        "image_id": "2350689",
+        "question": "In which part of the photo is the mirror?",
+        "answer": "right",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "red"
+      },
+      {
+        "question_id": "15963095",
+        "image_id": "2321219",
+        "question": "Does the umbrella look yellow?",
+        "answer": "yes",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "yellow"
+      },
+      {
+        "question_id": "09985691",
+        "image_id": "2357081",
+        "question": "Is that a white truck?",
+        "answer": "no",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "green"
+      },
+      {
+        "question_id": "07933418",
+        "image_id": "2394872",
+        "question": "What vegetables are cooked?",
+        "answer": "potatoes",
+        "factor": "attribute",
+        "mapping_source": "program:attr",
+        "hard_negative": "cooked"
+      },
+      {
+        "question_id": "08766756",
+        "image_id": "2332119",
+        "question": "Is the white device in the top part?",
+        "answer": "no",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "white"
+      },
+      {
+        "question_id": "07528644",
+        "image_id": "2411470",
+        "question": "Do the shirt and the gate have the same color?",
+        "answer": "yes",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "black"
+      },
+      {
+        "question_id": "12572739",
+        "image_id": "2379236",
+        "question": "Is the hat yellow?",
+        "answer": "yes",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "yellow"
+      },
+      {
+        "question_id": "00798464",
+        "image_id": "2356414",
+        "question": "Is this a white table?",
+        "answer": "no",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "brown"
+      },
+      {
+        "question_id": "03514396",
+        "image_id": "2414822",
+        "question": "What is the barefoot boy holding?",
+        "answer": "bat",
+        "factor": "attribute",
+        "mapping_source": "program:attr",
+        "hard_negative": "barefoot"
+      },
+      {
+        "question_id": "15954078",
+        "image_id": "2353197",
+        "question": "What is the color of the water?",
+        "answer": "blue",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "green"
+      },
+      {
+        "question_id": "11906955",
+        "image_id": "2415866",
+        "question": "Are the trousers both black and striped?",
+        "answer": "no",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "white"
+      },
+      {
+        "question_id": "00707774",
+        "image_id": "2372220",
+        "question": "Which side of the picture is the metal trash can on?",
+        "answer": "right",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "metal"
+      },
+      {
+        "question_id": "1641067",
+        "image_id": "2385810",
+        "question": "Is the glass on the table empty or full?",
+        "answer": "full",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "clear"
+      },
+      {
+        "question_id": "04665876",
+        "image_id": "2400540",
+        "question": "What color is the shirt?",
+        "answer": "white",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "black"
+      },
+      {
+        "question_id": "11388481",
+        "image_id": "2317379",
+        "question": "What color is the door?",
+        "answer": "white",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "reflective"
+      },
+      {
+        "question_id": "05789929",
+        "image_id": "2327316",
+        "question": "What is the color of the horns?",
+        "answer": "orange",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "large"
+      },
+      {
+        "question_id": "16434281",
+        "image_id": "2341623",
+        "question": "What is on the snowy platform?",
+        "answer": "snow",
+        "factor": "attribute",
+        "mapping_source": "program:attr",
+        "hard_negative": "snowy"
+      },
+      {
+        "question_id": "09346245",
+        "image_id": "2336327",
+        "question": "Is the candle in the bottom of the image?",
+        "answer": "no",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "small"
+      },
+      {
+        "question_id": "18787171",
+        "image_id": "2384734",
+        "question": "What color do you think the fan is?",
+        "answer": "black",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "white"
+      },
+      {
+        "question_id": "03785659",
+        "image_id": "2387341",
+        "question": "Is the pine both gray and small?",
+        "answer": "no",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "large"
+      },
+      {
+        "question_id": "19263377",
+        "image_id": "2392200",
+        "question": "Is the light jacket blue or pink?",
+        "answer": "blue",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "light"
+      },
+      {
+        "question_id": "10967631",
+        "image_id": "1159311",
+        "question": "On which side are the drawers?",
+        "answer": "left",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "striped"
+      },
+      {
+        "question_id": "06740657",
+        "image_id": "2317078",
+        "question": "What do the backpack and the vest have in common?",
+        "answer": "color",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "black"
+      },
+      {
+        "question_id": "13868780",
+        "image_id": "2342283",
+        "question": "Does the mattress to the right of the bed seem to be white?",
+        "answer": "yes",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "white"
+      },
+      {
+        "question_id": "06656874",
+        "image_id": "2362551",
+        "question": "What's the lid made of?",
+        "answer": "plastic",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "black"
+      },
+      {
+        "question_id": "09142655",
+        "image_id": "2322441",
+        "question": "Does the blue sky look thin?",
+        "answer": "yes",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "blue"
+      },
+      {
+        "question_id": "0544794",
+        "image_id": "2385034",
+        "question": "Does the zebra that is standing look black and striped?",
+        "answer": "yes",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "bending"
+      },
+      {
+        "question_id": "07251378",
+        "image_id": "2402744",
+        "question": "Is the fence on the left or on the right?",
+        "answer": "left",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "metal"
+      },
+      {
+        "question_id": "19488230",
+        "image_id": "2383010",
+        "question": "What color is the shirt that is under the uniform?",
+        "answer": "black",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "white"
+      },
+      {
+        "question_id": "09208611",
+        "image_id": "2367755",
+        "question": "Are the safety jacket and the shirt the same color?",
+        "answer": "no",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "yellow"
+      },
+      {
+        "question_id": "01617003",
+        "image_id": "2389252",
+        "question": "Does the road look small?",
+        "answer": "yes",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "small"
+      },
+      {
+        "question_id": "14729219",
+        "image_id": "2399625",
+        "question": "Which side of the photo is the man on?",
+        "answer": "left",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "walking"
+      },
+      {
+        "question_id": "09502349",
+        "image_id": "2408427",
+        "question": "Is the color of the sky the same as the clock?",
+        "answer": "yes",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "white"
+      },
+      {
+        "question_id": "17133345",
+        "image_id": "2391538",
+        "question": "What do the tshirt and the cap have in common?",
+        "answer": "color",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "white"
+      },
+      {
+        "question_id": "04189320",
+        "image_id": "2363471",
+        "question": "Is the fork on the left or on the right?",
+        "answer": "right",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "red"
+      },
+      {
+        "question_id": "04680572",
+        "image_id": "2403123",
+        "question": "Does the necktie of the bear have the same color as the bear?",
+        "answer": "no",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "black"
+      },
+      {
+        "question_id": "04585005",
+        "image_id": "1088",
+        "question": "Is the glove black or tan?",
+        "answer": "tan",
+        "factor": "attribute",
+        "mapping_source": "types:attr",
+        "hard_negative": "blue"
+      }
+    ],
+    "spatial": [
+      {
+        "question_id": "09138078",
+        "image_id": "2323468",
+        "question": "What are the boys that are to the left of the donut wearing?",
+        "answer": "shirt",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "12216473",
+        "image_id": "2389841",
+        "question": "What item of furniture is left of the towels?",
+        "answer": "bed",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "10482911",
+        "image_id": "2558",
+        "question": "Is there an umbrella to the right of the truck that is parked alongside the road?",
+        "answer": "yes",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "001047980",
+        "image_id": "2322466",
+        "question": "Is the green tree to the right of the person that is wearing pants?",
+        "answer": "no",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "11414291",
+        "image_id": "2391470",
+        "question": "Are there any chairs to the left of the people?",
+        "answer": "yes",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "16433145",
+        "image_id": "2341625",
+        "question": "What is the food to the left of the plate that is to the left of the knife?",
+        "answer": "egg",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "0573596",
+        "image_id": "2401225",
+        "question": "Is the small speaker to the left or to the right of the man behind the cell phone?",
+        "answer": "left",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "right"
+      },
+      {
+        "question_id": "04389653",
+        "image_id": "2397087",
+        "question": "Do you see ladies to the left of the balloons?",
+        "answer": "yes",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "17644904",
+        "image_id": "1592815",
+        "question": "Is the stove to the right or to the left of the cabinet that is to the right of the shelf?",
+        "answer": "right",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "left"
+      },
+      {
+        "question_id": "19757334",
+        "image_id": "2320964",
+        "question": "What vegetable is to the right of the cat?",
+        "answer": "squash",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "17260805",
+        "image_id": "2410358",
+        "question": "Are there surfboards to the right of the woman on the left?",
+        "answer": "yes",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "15653947",
+        "image_id": "2397613",
+        "question": "How is the device that is to the left of the computer in the bottom part of the image called?",
+        "answer": "keyboard",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "09890003",
+        "image_id": "2350009",
+        "question": "The suitcase that is to the right of the speaker is holding what?",
+        "answer": "mirror",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "10361212",
+        "image_id": "2385078",
+        "question": "Is the bed to the left or to the right of the chair that is in front of the window?",
+        "answer": "left",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "right"
+      },
+      {
+        "question_id": "12838354",
+        "image_id": "2414182",
+        "question": "Who is holding the remote to the right of the chair?",
+        "answer": "man",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "19152962",
+        "image_id": "2169",
+        "question": "What is under the table to the left of the couch?",
+        "answer": "rug",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "043030",
+        "image_id": "2382111",
+        "question": "What animal is on top of the animal that is to the right of the lamb?",
+        "answer": "rabbit",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "10404848",
+        "image_id": "2362111",
+        "question": "What device is to the right of the screen?",
+        "answer": "microphone",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "08347901",
+        "image_id": "2411773",
+        "question": "Is the mirror to the right or to the left of the picture on the wall?",
+        "answer": "right",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "left"
+      },
+      {
+        "question_id": "02798735",
+        "image_id": "2343771",
+        "question": "Is the carriage to the right or to the left of the man who is wearing jeans?",
+        "answer": "left",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "right"
+      },
+      {
+        "question_id": "02214245",
+        "image_id": "2326608",
+        "question": "What animal is on the blanket that is on the left?",
+        "answer": "dog",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "13305397",
+        "image_id": "2343436",
+        "question": "Do you see any books to the left of the balloon on the right?",
+        "answer": "yes",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "02255300",
+        "image_id": "2396040",
+        "question": "Is the batter to the left or to the right of the person that is wearing a shirt?",
+        "answer": "left",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "right"
+      },
+      {
+        "question_id": "18193986",
+        "image_id": "2393860",
+        "question": "Which kind of vehicle is to the left of the palm trees?",
+        "answer": "train",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "13753231",
+        "image_id": "2336565",
+        "question": "What is the item of furniture to the right of the table?",
+        "answer": "coffee table",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "14542869",
+        "image_id": "2416801",
+        "question": "Do you see a bed to the left of the white clock?",
+        "answer": "no",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "13186551",
+        "image_id": "2364087",
+        "question": "Is the candle to the left of the dessert on the table?",
+        "answer": "no",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "00171055",
+        "image_id": "2374211",
+        "question": "Are there any drapes to the left of the computer desk?",
+        "answer": "yes",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "13856293",
+        "image_id": "2317843",
+        "question": "Do you see helmets to the left of the blue motorcycle?",
+        "answer": "no",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "18762787",
+        "image_id": "713437",
+        "question": "What kind of device is to the left of the jar?",
+        "answer": "speaker",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "18284454",
+        "image_id": "2387025",
+        "question": "Do you see any people to the left of the person that is to the right of the car?",
+        "answer": "no",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "13558502",
+        "image_id": "2381407",
+        "question": "What is the item of furniture to the left of the screen in the middle?",
+        "answer": "chair",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "18289610",
+        "image_id": "2337238",
+        "question": "What kind of vegetable is to the left of the mushroom?",
+        "answer": "broccoli",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "12112992",
+        "image_id": "2404376",
+        "question": "What do you think is the player to the right of the baseball wearing?",
+        "answer": "cap",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "13848383",
+        "image_id": "2328719",
+        "question": "Is the helmet to the right or to the left of the players that are to the left of the ball?",
+        "answer": "left",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "right"
+      },
+      {
+        "question_id": "16254646",
+        "image_id": "2359427",
+        "question": "What is the name of the vegetable to the right of the box that is made of cardboard?",
+        "answer": "pepper",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "01748456",
+        "image_id": "2403483",
+        "question": "Do you see people to the right of the bun on the left?",
+        "answer": "yes",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "17590794",
+        "image_id": "2384786",
+        "question": "What does the boy to the left of the umpire hold?",
+        "answer": "bat",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "19946631",
+        "image_id": "2350081",
+        "question": "What appliance is to the left of the glass bottles?",
+        "answer": "blender",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "11919152",
+        "image_id": "2374189",
+        "question": "Is the woman to the right or to the left of the people that are eating a burger?",
+        "answer": "right",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "left"
+      },
+      {
+        "question_id": "13593716",
+        "image_id": "2401945",
+        "question": "Do you see men to the left of the yellow ball?",
+        "answer": "no",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "1086762",
+        "image_id": "2052",
+        "question": "Which kind of furniture is to the right of the speaker?",
+        "answer": "couch",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "02334855",
+        "image_id": "498076",
+        "question": "Is the man to the right or to the left of the banana on the table?",
+        "answer": "left",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "right"
+      },
+      {
+        "question_id": "06536814",
+        "image_id": "2411362",
+        "question": "What device is to the right of the device that is to the right of the polar bear?",
+        "answer": "cell phone",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "151021360",
+        "image_id": "2347727",
+        "question": "Are there bottles near the appliance that is to the left of the garbage can?",
+        "answer": "yes",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "00251236",
+        "image_id": "2414102",
+        "question": "Do you see napkins to the left of the brown toast?",
+        "answer": "yes",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "09833286",
+        "image_id": "2401169",
+        "question": "Are there cabinets to the left of the painting above the cheesecake?",
+        "answer": "no",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "111018014",
+        "image_id": "2380424",
+        "question": "Is the woman who is to the right of the man wearing a helmet?",
+        "answer": "yes",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "12109670",
+        "image_id": "2336102",
+        "question": "What is the vegetable that is to the left of the fruit the cherries are to the right of?",
+        "answer": "tomato",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": null
+      },
+      {
+        "question_id": "18970023",
+        "image_id": "2398827",
+        "question": "Is the pillow to the right of the lamp lying on a bed?",
+        "answer": "yes",
+        "factor": "spatial",
+        "mapping_source": "program:relate+left/right",
+        "hard_negative": "no"
+      }
+    ],
+    "presence": [
+      {
+        "question_id": "07809264",
+        "image_id": "2387010",
+        "question": "Are there any plates near the wine glass?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "05228756",
+        "image_id": "2320366",
+        "question": "Do you see a remote control on the oven?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "03703316",
+        "image_id": "2357944",
+        "question": "Is there a cup below the crust the knife is next to?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "08459145",
+        "image_id": "2380580",
+        "question": "Is there any truck in front of the tree?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "08731223",
+        "image_id": "2398941",
+        "question": "Is there either a lamp or a bat in the photograph?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "06231879",
+        "image_id": "2340355",
+        "question": "Do you see trash cans or bottle caps in the image?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "14830750",
+        "image_id": "2341648",
+        "question": "Do you see coats that are not white?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "02815194",
+        "image_id": "2349980",
+        "question": "Are there zebras on the grass?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "02447088",
+        "image_id": "2339770",
+        "question": "Do you see a blanket or a bed in this photo?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "15119733",
+        "image_id": "2403527",
+        "question": "Are there any cabinets or lipsticks?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "0737225",
+        "image_id": "2349657",
+        "question": "Are there any white gloves or hats?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "02645562",
+        "image_id": "2395422",
+        "question": "Do you see any carrots or knives in the image?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "071000804",
+        "image_id": "2375228",
+        "question": "Are there either any soccer balls or tents?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "09609790",
+        "image_id": "2334002",
+        "question": "Are there black gloves or hats?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "07361459",
+        "image_id": "2381191",
+        "question": "Is there a helmet that is not silver?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "14335227",
+        "image_id": "2330384",
+        "question": "Are there both a window and a door in the image?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "11679970",
+        "image_id": "2346817",
+        "question": "Are there both a chair and a woman in the image?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "03594540",
+        "image_id": "2893",
+        "question": "Are there either ducks or dogs in this photo?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "09122146",
+        "image_id": "2359353",
+        "question": "Do you see sofas or tables that are not tan?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "14967371",
+        "image_id": "2389772",
+        "question": "Are there any sheep in the green field?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "18787129",
+        "image_id": "2384734",
+        "question": "Are there shelves or televisions in the photograph?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "19782881",
+        "image_id": "2334717",
+        "question": "Are there breads in the image?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "01702644",
+        "image_id": "2416868",
+        "question": "Are there both plates and cakes in this picture?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "09357724",
+        "image_id": "2406924",
+        "question": "Are there either any clocks or umbrellas?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "11762237",
+        "image_id": "2131",
+        "question": "Are there any bottles?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "11398906",
+        "image_id": "2375990",
+        "question": "Is there any grass in the image that is not brown?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "14274283",
+        "image_id": "2409491",
+        "question": "Are there both a plate and a cake in the image?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "10862885",
+        "image_id": "1592903",
+        "question": "Are there any taxis in the picture?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "16495225",
+        "image_id": "2380368",
+        "question": "Is there either any gray helmet or coat?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "05501303",
+        "image_id": "2400534",
+        "question": "Are there fences or kites in this image?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "061046041",
+        "image_id": "47",
+        "question": "Is there any motorcycle on the road the man is crossing?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "09927427",
+        "image_id": "2362369",
+        "question": "Is there either any fence or cow in the scene?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "03709512",
+        "image_id": "2348426",
+        "question": "Are there both tomatoes and peppers in the picture?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "17806348",
+        "image_id": "2351038",
+        "question": "Do you see any controllers on the floor?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "047959",
+        "image_id": "2356406",
+        "question": "Are there either any clocks or comforters?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "14472972",
+        "image_id": "2335532",
+        "question": "Do you see blue cups or plates?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "01226652",
+        "image_id": "2367375",
+        "question": "Are there both doors and windows in this photo?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "14923456",
+        "image_id": "2408580",
+        "question": "Are there bottles on the table made of wood?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "031031298",
+        "image_id": "2317138",
+        "question": "Are there both a couch and a table in the photo?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "12283121",
+        "image_id": "2406201",
+        "question": "Do you see either papers or floor lamps there?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "01206088",
+        "image_id": "2366027",
+        "question": "Is there a white heart or star?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "17112864",
+        "image_id": "2354711",
+        "question": "Is there any pepperoni on the pizza?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "04621613",
+        "image_id": "2332230",
+        "question": "Do you see either a black laptop or couch?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "09830304",
+        "image_id": "2374972",
+        "question": "Are there any cabinets or lamps that are made of metal?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "13627295",
+        "image_id": "2413579",
+        "question": "Is there either a black zebra or dog?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      },
+      {
+        "question_id": "17132200",
+        "image_id": "1592455",
+        "question": "Do you see tea kettles or pots that are not blue?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "18654791",
+        "image_id": "2328709",
+        "question": "Are there either any batteries or cups?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "08130600",
+        "image_id": "2341323",
+        "question": "Are there black skateboards or bicycles?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "061012020",
+        "image_id": "2355931",
+        "question": "Are there squirrels or crabs in the image?",
+        "answer": "no",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "yes"
+      },
+      {
+        "question_id": "17742839",
+        "image_id": "107970",
+        "question": "Are there either black sheep or dogs?",
+        "answer": "yes",
+        "factor": "presence",
+        "mapping_source": "program:exist",
+        "hard_negative": "no"
+      }
+    ]
+  },
+  "count_shortfall": {
+    "n": 0,
+    "reason": "GQA 1.2 public question files (balanced+all sampled, including train_all shard 0, val_all, testdev_all) contain no How many questions, no numeric answers, and no count functional-program operations. Mapping did not fabricate count items.",
+    "scanned": "questions1.2.zip extracted files",
+    "do_not_fabricate": true
+  }
+}

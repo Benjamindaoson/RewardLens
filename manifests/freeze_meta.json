@@ -1,0 +1,28 @@
+{
+  "audit_dataset_version": "FAST_TRACK_AUDIT_V1",
+  "freeze_timestamp": "2026-09-12T15:02:32.279141+00:00",
+  "generation_config_hash": {
+    "count": "72168a5ada274be204e6bbd4e7a6790e196d2bca1614b9fbfb169c95821548e7",
+    "attribute": "08d45699c80371b0755ed431faa7b6dfc0841d4064378f504dc99d6210acb112",
+    "presence": "fcd126a497b101001db73f8a5586de879821d1c4f266233560076fc76cb075d3",
+    "spatial": "b226946d5a6d5ec20e6b8e2be61822ef7ab47e3ed131e05691633d49405cde3e"
+  },
+  "generation_config_hash_combined": "286555af0e454bf1e9f2ba46b975951715e670bfc570d6a642eb8e5cedd2a1a5",
+  "manifest_hash": "5b2b457b8e6d0483d6c638b909ce5c0295f6c47db15cf72370133b13c5d23382",
+  "factor_manifest_hashes": {
+    "count": "970cf6c3b385a262f7127187cc4468819fab583bcbe1855dfb043059050d79e9",
+    "attribute": "e28c311bf8fe969ef586c27a1740112d71d49fac2400bda33132aaeb770807f6",
+    "presence": "6b7e84e9f700aa53678d0926535d81263797b512e4615a2f8bf91d258eb8b3a0",
+    "spatial": "04258a5d14a0ae682b925c7a2917598a28436dfa57e2e84db721d72d2bb18566"
+  },
+  "n_items": 2400,
+  "n_triplets": 800,
+  "n_images": 2400,
+  "sample_rule": "union of per-factor frozen first 200 PASS triplet_ids, sorted; not reselected from live QC",
+  "excludes": [
+    "BORDERLINE",
+    "FAIL"
+  ],
+  "pre_result": true,
+  "model_blind": true
+}

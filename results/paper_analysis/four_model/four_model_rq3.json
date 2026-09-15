@@ -1,0 +1,10 @@
+{
+  "RQ3_IMPLEMENTATION_AUDIT": "PASS",
+  "RQ3_REVISED_STATUS": "INSUFFICIENT_EVIDENCE_NOT_IDENTIFIABLE_FOR_FOUR_MODELS",
+  "all_cells_not_identifiable": true,
+  "frozen_definition": "LOFO delta MAE for U_df ~ A_df vs U_df ~ A_df + PFC_af + PSC_af, then within-downstream-factor column z-score if estimable",
+  "inputs_path": "/root/autodl-fs/RewardLens/results/phase2/paper_analysis/four_model/rq3_debug_inputs.csv",
+  "note": "The previous near-zero diagonal/off-diagonal difference is not accepted as a scientific null; the frozen four-model LOFO estimator is underidentified because each held-out-family fold has only three training observations for four M1 parameters.",
+  "raw_matrix_path": "/root/autodl-fs/RewardLens/results/phase2/paper_analysis/four_model/rq3_debug_raw_matrix.csv",
+  "standardized_matrix_path": "/root/autodl-fs/RewardLens/results/phase2/paper_analysis/four_model/rq3_debug_standardized_matrix.csv"
+}

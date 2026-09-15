@@ -1,0 +1,6 @@
+{
+  "status": "FROZEN_JOB_NOT_INFERRED",
+  "reason": "Job file exists (20 triplets/factor). GPU orientation-swap inference was not launched so main receipts stay untouched.",
+  "job": "/root/autodl-tmp/RewardLens/validity_cpu/out/orientation_swap_job.json",
+  "gpu_launched": false
+}

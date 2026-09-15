@@ -1,0 +1,22 @@
+{
+  "static_n": 800,
+  "downstream_n": 800,
+  "static_by_factor": {
+    "count": 200,
+    "attribute": 200,
+    "presence": 200,
+    "spatial": 200
+  },
+  "down_by_factor": {
+    "count": 200,
+    "attribute": 200,
+    "presence": 200,
+    "spatial": 200
+  },
+  "count_dataset": "tallyqa",
+  "other_factors_dataset": "gqa",
+  "tallyqa_count_intersection": 0,
+  "gqa_intersection": 0,
+  "combined_string_intersection": 0,
+  "intersection": 0
+}

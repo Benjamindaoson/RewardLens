@@ -13,7 +13,7 @@ PROJECT = os.path.dirname(ROOT)
 if ROOT not in sys.path:
     sys.path.insert(0, ROOT)
 
-from inference.metrics import accuracy_from_static, compute_audit_metrics  # noqa: E402
+from inference.metrics import accuracy_from_static, compute_audit_metrics, downstream_utility_from_selections  # noqa: E402
 from lib.jsonl_io import read_jsonl  # noqa: E402
 from stats import (  # noqa: E402
     accuracy_matched_pairs,
@@ -55,6 +55,14 @@ def cmd_audit_metrics(args):
 def cmd_static_a(args):
     _guard_out(args.out, args.allow_official)
     rows = accuracy_from_static(read_jsonl(args.judgments))
+    os.makedirs(os.path.dirname(os.path.abspath(args.out)) or ".", exist_ok=True)
+    with open(args.out, "w", encoding="utf-8") as handle:
+        json.dump(rows, handle, indent=2)
+
+
+def cmd_downstream_utility(args):
+    _guard_out(args.out, args.allow_official)
+    rows = downstream_utility_from_selections(read_jsonl(args.selections))
     os.makedirs(os.path.dirname(os.path.abspath(args.out)) or ".", exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as handle:
         json.dump(rows, handle, indent=2)
@@ -120,6 +128,10 @@ def main() -> int:
     p.add_argument("--judgments", required=True)
     p.add_argument("--out", required=True)
 
+    p = sub.add_parser("downstream-U")
+    p.add_argument("--selections", required=True)
+    p.add_argument("--out", required=True)
+
     p = sub.add_parser("matched-pairs")
     p.add_argument("--table", required=True)
     p.add_argument("--out", required=True)
@@ -142,6 +154,7 @@ def main() -> int:
     {
         "audit-metrics": cmd_audit_metrics,
         "static-A": cmd_static_a,
+        "downstream-U": cmd_downstream_utility,
         "matched-pairs": cmd_matched,
         "incremental": cmd_incremental,
         "specificity": cmd_specificity,

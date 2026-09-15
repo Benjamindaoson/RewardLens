@@ -1,0 +1,22 @@
+{
+  "audit_dataset_version": "SIGNAL_GATE_V1",
+  "n_pass_per_factor": 100,
+  "factors": [
+    "count",
+    "attribute",
+    "presence",
+    "spatial"
+  ],
+  "scale_dirs": {
+    "count": "D:\\01_work\\RewardLens\\outputs\\count_scale_v1",
+    "attribute": "D:\\01_work\\RewardLens\\outputs\\attribute_scale_v1",
+    "presence": "D:\\01_work\\RewardLens\\outputs\\presence_scale_v1",
+    "spatial": "D:\\01_work\\RewardLens\\outputs\\spatial_scale_v1"
+  },
+  "master_seeds": {
+    "count": 2026091205,
+    "attribute": 2026091215,
+    "presence": 2026091225,
+    "spatial": 2026091235
+  }
+}

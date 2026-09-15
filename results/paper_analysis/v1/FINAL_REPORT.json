@@ -1,0 +1,161 @@
+{
+  "INTERNVL_COMPLETE": true,
+  "TOTAL_MODELS_COMPLETE": 8,
+  "FINAL_1PP_MATCHED_PAIRS": 7,
+  "FINAL_1PP_MEDIAN_DELTA_RA": 15.053763440860212,
+  "FINAL_1PP_MEDIAN_DELTA_PFC": 20.999999999999996,
+  "FINAL_1PP_MEDIAN_DELTA_II": 1.005025125628145,
+  "FINAL_1PP_PAIRS_RA_GE_10PP": 4,
+  "FINAL_1PP_PAIRS_RA_GE_20PP": 3,
+  "FINAL_1PP_PAIRS_RA_GE_30PP": 1,
+  "HEADLINE_PAIR": "Spatial Skywork vs Phi-3.5-Vision",
+  "HEADLINE_DELTA_A": 0.003484848484848535,
+  "HEADLINE_DELTA_RA": 0.38604166666666667,
+  "HEADLINE_DELTA_PFC": 0.40499999999999997,
+  "HEADLINE_CI": {
+    "A_pp": [
+      -6.060606060606055,
+      5.05050505050505
+    ],
+    "RA_pp": [
+      29.776451684397152,
+      47.22978776737967
+    ],
+    "PFC_pp": [
+      31.999999999999996,
+      49.0
+    ],
+    "seed": 20270915,
+    "B": 10000
+  },
+  "INTERVENTION_VALIDITY_STATUS": "SAMPLE_FROZEN_UNLABELED",
+  "EDIT_MAGNITUDE_CONTROL_STATUS": "COMPUTED_FROM_PIXEL_CHANGE",
+  "ORIENTATION_STATUS": "FROZEN_JOB_NOT_INFERRED",
+  "RQ2_FINAL_STATUS": "DESCRIPTIVE_AUDIT_NOT_REPLACEMENT",
+  "RQ3_FINAL_STATUS": "NOT_IDENTIFIABLE / DROPPED_FROM_MAIN_CLAIMS",
+  "FINAL_MAIN_CLAIM": "Conventional preference accuracy does not uniquely determine selective visual evidence dependence.",
+  "FINAL_SECONDARY_CLAIM": "RewardLens is a diagnostic behavioral audit, not a replacement performance metric.",
+  "GPU_INFERENCE_FINISHED": true,
+  "SAFE_TO_SHUTDOWN_GPU": true,
+  "rq2": {
+    "n": 8,
+    "pearson": {
+      "A_vs_U8": 0.8794872346114655,
+      "RA_vs_U8": 0.8326204108372993,
+      "II_vs_U8": 0.560696503412342,
+      "PFC_vs_U8": 0.846209314101161,
+      "PSC_vs_U8": 0.8920557459476138
+    },
+    "spearman": {
+      "A_vs_U8": 0.8809523809523809,
+      "RA_vs_U8": 0.6428571428571429,
+      "II_vs_U8": 0.6826469692905577,
+      "PFC_vs_U8": 0.6428571428571429,
+      "PSC_vs_U8": 0.8809523809523809
+    },
+    "M0": {
+      "r2": 0.7734977958445233,
+      "adj_r2": 0.7357474284852772,
+      "n": 8,
+      "k": 2,
+      "beta": [
+        -0.1637877535897585,
+        1.0191190657222842
+      ]
+    },
+    "M1": {
+      "r2": 0.9049343050407117,
+      "adj_r2": 0.8336350338212455,
+      "n": 8,
+      "k": 4,
+      "beta": [
+        -0.4910057255336059,
+        0.5842339756395852,
+        -0.12966571498248347,
+        0.8096395647784375
+      ]
+    },
+    "note": "Frozen confirmatory spec remains U8 ~ A and U8 ~ A + PFC + PSC. Descriptive only.",
+    "delta_r2": 0.13143650919618843,
+    "delta_adj_r2": 0.0978876053359683,
+    "leave_one_model_out": [
+      {
+        "left_out": "Qwen",
+        "M0_adj_r2": 0.6985954070643916,
+        "M1_adj_r2": 0.8055213200872295
+      },
+      {
+        "left_out": "Gemma",
+        "M0_adj_r2": 0.6800097669827219,
+        "M1_adj_r2": 0.7851922120891697
+      },
+      {
+        "left_out": "Molmo",
+        "M0_adj_r2": 0.7320784552187151,
+        "M1_adj_r2": 0.7329864922294025
+      },
+      {
+        "left_out": "Skywork",
+        "M0_adj_r2": 0.70643569372444,
+        "M1_adj_r2": 0.975024697029881
+      },
+      {
+        "left_out": "Idefics3",
+        "M0_adj_r2": 0.727342548321005,
+        "M1_adj_r2": 0.870648224820705
+      },
+      {
+        "left_out": "Phi",
+        "M0_adj_r2": 0.7767693122607117,
+        "M1_adj_r2": 0.809511262562391
+      },
+      {
+        "left_out": "LLaVA",
+        "M0_adj_r2": 0.731701705948656,
+        "M1_adj_r2": 0.8270664210928935
+      },
+      {
+        "left_out": "InternVL",
+        "M0_adj_r2": 0.8070752806263641,
+        "M1_adj_r2": 0.8098949589860343
+      }
+    ],
+    "family_cluster_bootstrap": "INSUFFICIENT_n_families_for_confirmatory_cluster_CI",
+    "conclusion": "RewardLens is a diagnostic behavioral audit, not a replacement performance metric."
+  },
+  "census_bands": {
+    "1pp": {
+      "tau": 0.01,
+      "qualifying_pairs": 7,
+      "median_abs_delta_RA": 15.053763440860212,
+      "median_abs_delta_II": 1.005025125628145,
+      "median_abs_delta_PFC": 20.999999999999996,
+      "median_abs_delta_PSC": 1.5000000000000013,
+      "pairs_delta_RA_ge_10pp": 4,
+      "pairs_delta_RA_ge_20pp": 3,
+      "pairs_delta_RA_ge_30pp": 1
+    },
+    "2pp": {
+      "tau": 0.02,
+      "qualifying_pairs": 11,
+      "median_abs_delta_RA": 15.053763440860212,
+      "median_abs_delta_II": 0.6756756756756799,
+      "median_abs_delta_PFC": 20.999999999999996,
+      "median_abs_delta_PSC": 1.5000000000000013,
+      "pairs_delta_RA_ge_10pp": 7,
+      "pairs_delta_RA_ge_20pp": 3,
+      "pairs_delta_RA_ge_30pp": 1
+    },
+    "3pp": {
+      "tau": 0.03,
+      "qualifying_pairs": 15,
+      "median_abs_delta_RA": 15.135135135135142,
+      "median_abs_delta_II": 0.6756756756756799,
+      "median_abs_delta_PFC": 24.0,
+      "median_abs_delta_PSC": 5.500000000000005,
+      "pairs_delta_RA_ge_10pp": 11,
+      "pairs_delta_RA_ge_20pp": 7,
+      "pairs_delta_RA_ge_30pp": 2
+    }
+  }
+}

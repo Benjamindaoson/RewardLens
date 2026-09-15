@@ -1,0 +1,3 @@
+RewardLens sits at the intersection of multimodal reward modeling, controlled robustness evaluation, and causal-style behavioral audits. Prior reward-model evaluation often reports agreement with human or benchmark labels. VLM robustness work probes sensitivity to image perturbations or counterfactual changes. RewardLens differs by measuring factor-specific evidence dependence under a frozen preference protocol, then linking those dependency measurements to downstream Best-of-N selection utility.
+
+The closest conceptual relatives are counterfactual evaluation and shortcut-learning audits. The key distinction is that RewardLens separates relevant and irrelevant visual interventions and reports both PFC and PSC, rather than treating all sensitivity as either good or bad.

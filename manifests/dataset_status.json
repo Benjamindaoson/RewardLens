@@ -1,0 +1,56 @@
+{
+  "audit_dataset_version": "FAST_TRACK_AUDIT_V1",
+  "ready": true,
+  "checked_at": "2026-09-12T15:02:32.279141+00:00",
+  "per_factor": {
+    "count": {
+      "factor": "count",
+      "generated_complete": 234,
+      "PASS": 234,
+      "BORDERLINE": 0,
+      "FAIL": 0,
+      "frozen_pass_n": 200,
+      "needed": 200,
+      "source_pass_count_at_freeze": 200,
+      "manifest_hash": "970cf6c3b385a262f7127187cc4468819fab583bcbe1855dfb043059050d79e9",
+      "selection_rule": "first 200 PASS triplet_ids, sorted"
+    },
+    "attribute": {
+      "factor": "attribute",
+      "generated_complete": 206,
+      "PASS": 200,
+      "BORDERLINE": 6,
+      "FAIL": 0,
+      "frozen_pass_n": 200,
+      "needed": 200,
+      "source_pass_count_at_freeze": 200,
+      "manifest_hash": "e28c311bf8fe969ef586c27a1740112d71d49fac2400bda33132aaeb770807f6",
+      "selection_rule": "first 200 PASS triplet_ids, sorted"
+    },
+    "presence": {
+      "factor": "presence",
+      "generated_complete": 212,
+      "PASS": 212,
+      "BORDERLINE": 0,
+      "FAIL": 0,
+      "frozen_pass_n": 200,
+      "needed": 200,
+      "source_pass_count_at_freeze": 200,
+      "manifest_hash": "6b7e84e9f700aa53678d0926535d81263797b512e4615a2f8bf91d258eb8b3a0",
+      "selection_rule": "first 200 PASS triplet_ids, sorted"
+    },
+    "spatial": {
+      "factor": "spatial",
+      "generated_complete": 213,
+      "PASS": 207,
+      "BORDERLINE": 6,
+      "FAIL": 0,
+      "frozen_pass_n": 200,
+      "needed": 200,
+      "source_pass_count_at_freeze": 201,
+      "manifest_hash": "04258a5d14a0ae682b925c7a2917598a28436dfa57e2e84db721d72d2bb18566",
+      "selection_rule": "first 200 PASS triplet_ids, sorted"
+    }
+  },
+  "policy": "PASS only. Aggregate is the union of per-factor frozen manifests."
+}

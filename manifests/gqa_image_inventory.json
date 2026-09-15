@@ -1,0 +1,8 @@
+{
+  "n_required": 1182,
+  "n_present": 1182,
+  "n_missing": 0,
+  "out_dir": "D:\\01_work\\RewardLens\\datasets\\gqa\\images",
+  "missing_ids": [],
+  "status": "PASS"
+}

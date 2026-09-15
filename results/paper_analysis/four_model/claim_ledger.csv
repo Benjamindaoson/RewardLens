@@ -1,0 +1,4 @@
+claim_id,claim_text,rq,evidence_strength,four_model_status,expanded_status,safe_for_abstract
+C1,Accuracy does not uniquely determine visual dependency,RQ1,SUPPORTED,SUPPORTED_DESCRIPTIVELY,PENDING,YES
+C2,Dependency has independent predictive value beyond accuracy,RQ2,INSUFFICIENT_EVIDENCE,DESCRIPTIVE_ONLY,PENDING,NO
+C3,Dependency-utility relationships are factor-specific,RQ3,INSUFFICIENT_EVIDENCE,NOT_IDENTIFIABLE_FOUR_MODELS,PENDING,NO
