@@ -1,0 +1,83 @@
+\documentclass{article}
+
+\usepackage{iclr2027_conference,times}
+
+% Optional math commands from the official ICLR template.
+\input{math_commands.tex}
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{graphicx}下一步建议先处理 .gitignore，把这些垃圾文件隐藏/排除，然后初始化 Git，再开始正式迁移 RewardLens 正文。这样工程会干净很多。
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{RewardLens: Auditing Visual Evidence Dependence in Multimodal Judges}
+
+% Submission must remain anonymous.
+\author{Anonymous Authors}
+
+% DO NOT uncomment for submission.
+% \iclrfinalcopy
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Static preference accuracy can fail to distinguish multimodal judges that
+behave differently under controlled changes in visual evidence.
+% TODO: Replace with frozen RewardLens abstract.
+\end{abstract}
+
+\input{sections/01_introduction}
+
+\input{sections/02_related_work}
+
+\input{sections/03_problem_formulation}
+
+\input{sections/04_rewardlens}
+
+\input{sections/05_experimental_setup}
+
+\input{sections/06_results}
+
+\input{sections/07_analysis}
+
+\input{sections/08_conclusion}
+
+% --------------------------------------------------
+% Statements
+% --------------------------------------------------
+
+\subsection*{AI use statement}
+
+% TODO: Replace with final ICLR 2027-compliant disclosure.
+We used generative AI tools to assist with tasks that will be disclosed
+in accordance with the ICLR 2027 AI Policy for Authors.
+All AI-assisted content was reviewed and verified by the authors.
+The authors take responsibility for the final content of this work.
+
+\subsection*{Reproducibility statement}
+
+% TODO: Write after experiments and appendix are frozen.
+We describe the experimental setup, evaluation protocol, and implementation
+details necessary to reproduce the main results in the paper and appendix.
+
+% --------------------------------------------------
+% References
+% --------------------------------------------------
+
+\bibliography{references}
+\bibliographystyle{iclr2027_conference}
+
+% ----------下一步建议先处理 .gitignore，把这些垃圾文件隐藏/排除，然后初始化 Git，再开始正式迁移 RewardLens 正文。这样工程会干净很多。----------------------------------------
+% Appendix
+% --------------------------------------------------
+
+\appendix
+
+\input{appendix/additional_results}
+\input{appendix/implementation_details}
+
+\end{document}

@@ -22,3 +22,20 @@
 .idea/
 Thumbs.db
 .DS_Store
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# Generated paper PDFs
+paper/main.pdf
+paper/iclr2027_test.pdf
