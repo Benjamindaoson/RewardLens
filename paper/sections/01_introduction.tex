@@ -1,0 +1,43 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Multimodal judges compare vision--language outputs and provide preference
+signals for model development. They are commonly summarized by static
+preference accuracy: given an image, question, and two responses, how often is
+the correct response selected? This cross-sectional score does not reveal how
+the same decision changes when its visual evidence changes.
+
+This question is adjacent to, but distinct from, controlled perturbation and
+failure-to-update studies \citep{lee2026mmjudgebias,park2026perceptual,zhu2026visualflip}.
+RewardLens evaluates the residual behavioral variation among judges that an
+\emph{independent} static preference evaluation assigns equal or nearly equal
+scores. It also tests both a relevant edit, for which the gold preference must
+change, and an irrelevant edit, for which it must remain fixed.
+
+We introduce \textbf{RewardLens}, a behavioral audit asking:
+\emph{among judges with equal or near-equal measured static accuracy, how much
+intervention-behavior variation remains?} An independent natural-image set
+measures factor-specific static accuracy. A separate controlled audit then
+holds the question and responses fixed while changing the rendered scene. Each
+triplet contains a base image, a relevant edit that reverses the gold
+preference, and an irrelevant edit that preserves it. Relevant Adaptation (RA)
+measures correctness after the relevant edit, conditional on a correct base
+decision; Irrelevant Invariance (II) measures the analogous correctness after
+the irrelevant edit.
+
+Across eight multimodal judges and four factors---Count, Attribute, Presence,
+and Spatial---static similarity can coexist with different measured
+intervention behavior. Phi-3.5-Vision and LLaVA-OneVision-7B tie at $80.5\%$
+static Attribute accuracy, yet differ in RA by $15.1$ percentage points
+(paired-bootstrap 95\% CI: $10.2$--$20.4$ pp). Across all seven within-factor
+pairs matched within one static-accuracy point, the descriptive median RA gap
+is $15.1$ points, and four gaps are at least $10$ points. Qwen3-VL-4B provides
+a concrete transition-level example: on $166/200$ base-correct Count triplets,
+the gold preference changes but its prediction does not.
+
+RewardLens does not identify internal reasoning or replace static evaluation.
+It shows that a shared measured static score can leave consequential behavioral
+variation unresolved. Our contributions are a static-score-matched measurement
+framing, a programmatically constructed and validated RewardLens-CLEVR audit
+with relevant and irrelevant edits, and an eight-judge evaluation with paired
+uncertainty and pre-specified matching-band checks.

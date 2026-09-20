@@ -1,0 +1,40 @@
+\section{Robustness and Validity Checks}
+\label{sec:robustness}
+
+\subsection{Shared-Base-Correct Comparisons}
+
+The Attribute tie is unchanged on the 186 triplets that both Phi and LLaVA
+judge correctly at base: RA remains $84.95\%/100.00\%$. Across all seven
+one-point matched pairs, restricting comparisons to shared base-correct support
+leaves the descriptive median absolute RA gap at $15.05$ pp. This diagnostic
+uses a common support for both judges; it complements rather than replaces the
+judge-conditional RA definition.
+
+\subsection{Audit-Base Accuracy}
+
+The matched static comparison is not simply an artifact of a judge being wrong
+on most audit bases. For example, on Presence, Molmo and Idefics3 have audit-base
+accuracies of $99.5\%$ and $100.0\%$, respectively, but differ by $25.63$ pp in
+RA. The full audit-base ledger and judge-specific conditional denominators are
+reported in Table~\ref{tab:all_32_base_accuracy} in
+Appendix~\ref{app:additional-results}.
+
+\subsection{Matching-Threshold Sensitivity}
+
+The descriptive median absolute RA gap is $15.05$ pp under the 1 pp matching
+band, $15.05$ pp under the 2 pp band, and $15.14$ pp under the 3 pp band. These
+bands are part of the frozen analysis plan; the complete censuses are reported
+in Table~\ref{tab:threshold-sensitivity-full} in
+Appendix~\ref{app:additional-results}. Pair rows share judges and
+are not treated as independent observations.
+
+\subsection{Edit-Magnitude Sensitivity and Scope}
+
+On Attribute, relevant edits have lower average pixel-change fraction than
+irrelevant edits ($0.118$ versus $0.179$). In the post-hoc Attribute subset with
+matched edit magnitude, the Phi--LLaVA RA gap remains $16.8$ pp. Spatial has a
+larger relevant-edit magnitude, so its $38.60$ pp Skywork--Phi gap remains
+supportive rather than the headline case. The complete common-support,
+paired-bootstrap, and edit-magnitude checks are reported in
+Appendix~\ref{app:robustness-tables}. These checks support a limited behavioral
+conclusion, not an internal-grounding claim.

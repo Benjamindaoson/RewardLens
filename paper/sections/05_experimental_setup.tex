@@ -1,0 +1,39 @@
+\section{Experimental Setup}
+\label{sec:experimental_setup}
+
+\subsection{Evaluation Environments}
+The independent static evaluation contains 200 frozen items per factor (800 total).
+Count uses TallyQA \citep{acharya2019tallyqa}; Attribute, Presence, and Spatial
+use GQA \citep{hudson2019gqa}. Items pair one gold response with a structured
+alternative and use deterministic candidate-order shuffling. The separate
+RewardLens-CLEVR audit contains 200 programmatically validated triplets per
+factor (800 triplets; 2,400 rendered images). Static and audit examples are
+disjoint, and every judge receives the same items. All static estimates use 200
+reported outputs except Phi-3.5-Vision on Spatial, which uses 198 reported
+outputs; no imputation is used.
+
+\subsection{Multimodal Judges and Inference}
+We evaluate eight multimodal judges spanning multiple model families and
+training objectives: Qwen3-VL-4B, Gemma-3-4B, Molmo-7B-D,
+Skywork-VL-Reward-7B, Idefics3-8B, Phi-3.5-Vision, InternVL3-8B, and
+LLaVA-OneVision-7B. A common deterministic prompt requests exactly A or B;
+model-specific adapters parse the binary decision, while Skywork uses its
+reward head. Checkpoints, adapters, prompt, and decoding settings appear in
+Appendix~\ref{app:models-and-protocol}.
+
+Candidate order is fixed across the three states of each triplet so that the
+visual input is the manipulated variable. RA and II use the judge-specific
+base-correct denominator in Eqs.~\ref{eq:emp_ra}--\ref{eq:emp_ii}.
+
+\subsection{Static Matching and Analysis}
+The frozen analysis plan specifies within-factor bands of 1, 2, and 3
+percentage points. The primary rule is
+\begin{equation}
+|\widehat A_{S,c}(f)-\widehat A_{S,c}(g)|\leq0.01.
+\label{eq:primary_matching_rule}
+\end{equation}
+All qualifying pairs are reported. Their summaries are a descriptive census:
+pairs can share a judge and are not independent samples. We additionally report
+paired-bootstrap intervals and common-base-correct comparisons. Provenance,
+data receipts, and commands are in Appendices~\ref{app:provenance-receipts}
+and~\ref{app:reproducibility-commands}.

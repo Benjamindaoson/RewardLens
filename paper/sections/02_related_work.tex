@@ -1,0 +1,76 @@
+\section{Problem Formulation}
+\label{sec:problem_formulation}
+
+Let a multimodal judge $f$ receive $x=(I,q,r_1,r_2)$ and return a binary
+preference with gold label $y$. For visual factor $c$, its measured static
+accuracy on an independent set is
+\begin{equation}
+\widehat{A}_{S,c}(f)=\frac{1}{n_c}\sum_{k=1}^{n_c}
+\mathbf{1}\{f(x_k)=y_k\}.
+\label{eq:emp_static_accuracy}
+\end{equation}
+Claims of equality below concern this finite-sample measurement, not equality
+of population accuracies.
+
+\subsection{Controlled Triplets and Behavioral Measures}
+\label{sec:intervention_triplets}
+\label{sec:intervention_behavior}
+
+An audit triplet
+$x_B=(I_B,q,r_1,r_2)$, $x_R=(I_R,q,r_1,r_2)$, and
+$x_I=(I_I,q,r_1,r_2)$ holds the linguistic preference problem fixed. Its scene
+contracts require $y_R\neq y_B$ for the relevant edit and $y_I=y_B$ for the
+irrelevant edit. For $m_c$ triplets, RewardLens conditions on a correct base
+decision and estimates
+\begin{align}
+\widehat{\mathrm{RA}}_c(f)
+&=\frac{\sum_k\mathbf{1}\{f(x_{B,k})=y_{B,k}\land
+f(x_{R,k})=y_{R,k}\}}{\sum_k\mathbf{1}\{f(x_{B,k})=y_{B,k}\}},
+\label{eq:emp_ra}\\
+\widehat{\mathrm{II}}_c(f)
+&=\frac{\sum_k\mathbf{1}\{f(x_{B,k})=y_{B,k}\land
+f(x_{I,k})=y_{I,k}\}}{\sum_k\mathbf{1}\{f(x_{B,k})=y_{B,k}\}}.
+\label{eq:emp_ii}
+\end{align}
+The denominator is judge-specific; Sec.~\ref{sec:robustness} additionally uses
+the intersection of two judges' base-correct sets.
+
+Because the output is binary, a base-correct judge succeeds on the relevant
+branch exactly when it changes its prediction. Thus
+\begin{equation}
+1-\mathrm{RA}_c(f)=P(f(x_R)=f(x_B)\mid f(x_B)=y_B),
+\label{eq:ra_retention}
+\end{equation}
+where prediction retention is a failure. On the irrelevant branch, retention
+is instead the desired behavior. RA and II therefore separate selective
+adaptation from generic prediction stability.
+
+\subsection{Static-Matched Measurement Question}
+\label{sec:measurement_question}
+
+Judges $f$ and $g$ are matched within factor $c$ at tolerance $\epsilon$ when
+$|\widehat A_{S,c}(f)-\widehat A_{S,c}(g)|\leq\epsilon$. We report the residual
+gaps
+\begin{equation}
+\Delta_{\mathrm{RA},c}=|\widehat{\mathrm{RA}}_c(f)-
+\widehat{\mathrm{RA}}_c(g)|,\qquad
+\Delta_{\mathrm{II},c}=|\widehat{\mathrm{II}}_c(f)-
+\widehat{\mathrm{II}}_c(g)|.
+\label{eq:behavior_gaps}
+\end{equation}
+The question is empirical: whether real judges assigned equal or nearly equal
+measured static scores also exhibit narrow behavioral gaps under controlled
+evidence changes.
+
+\subsection{Analysis Units and Interpretation}
+
+The static score and intervention profile are intentionally measured on
+different populations: an independent natural-image preference set and a
+controlled rendered audit, respectively. Thus, $\widehat A_{S,c}$ is not the
+audit-base accuracy, and RA/II are not algebraic decompositions of the static
+score. The matching analysis is a descriptive within-factor census over the
+eight evaluated judges. For a matched judge pair, uncertainty is assessed by
+resampling common static-item identifiers and common source-triplet identifiers
+jointly; the resulting intervals quantify finite-evaluation contrasts, not a
+population-level model-family effect. Because qualifying pairs can share a
+judge, they are not treated as independent observations.

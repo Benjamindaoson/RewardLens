@@ -1,3 +1,135 @@
 % !TeX root = ../main.tex
 \section{Implementation Details}
 \label{app:implementation-details}
+\FloatBarrier
+
+\subsection{Checkpoints, Prompt, and Decoding}
+\label{app:models-and-protocol}
+
+Table~\ref{tab:checkpoints} lists the eight evaluated checkpoints. The frozen
+run receipts retain the resolved revision and checkpoint-file hashes; the table
+uses the public repository identifier so that the model identity is auditable
+without embedding machine-local paths.
+
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Evaluated checkpoints and inference adapter. All checkpoints were
+evaluated as binary pairwise judges; Skywork uses its reward adapter.}
+\label{tab:checkpoints}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{.18\textwidth}p{.42\textwidth}p{.20\textwidth}}
+\toprule
+Display name & Checkpoint repository & Adapter \\
+\midrule
+Qwen3-VL-4B & \texttt{Qwen/Qwen3-VL-4B-Instruct} & Qwen pairwise \\
+Gemma-3-4B & \texttt{google/gemma-3-4b-it} & Transformers pairwise \\
+Molmo-7B-D & \texttt{allenai/Molmo-7B-D-0924} & Molmo native pairwise \\
+Skywork-VL-Reward-7B & \texttt{Skywork/Skywork-VL-Reward-7B} & Skywork reward head \\
+Idefics3-8B & \texttt{AI-ModelScope/Idefics3-8B-Llama3} & frozen expanded pairwise \\
+Phi-3.5-Vision & \texttt{LLM-Research/Phi-3.5-vision-instruct} & frozen expanded pairwise \\
+LLaVA-OneVision-7B & \texttt{AI-ModelScope/llava-onevision-}\newline\texttt{qwen2-7b-ov-hf} & frozen expanded pairwise \\
+InternVL3-8B & \texttt{OpenGVLab/InternVL3-8B-hf} & frozen expanded pairwise \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+Every non-reward judge received the same frozen prompt, with the image supplied
+through the model's chat-template image placeholder:
+\begin{quote}\small\ttfamily
+You are scoring a pairwise visual\\
+question-answering preference.\\
+Question: \{question\}\\
+Candidate A: \{candidate\_a\}\\
+Candidate B: \{candidate\_b\}\\[2pt]
+Look at the image. Choose the better\\
+answer to the question.\\
+Reply with exactly one token: A or B.
+\end{quote}
+The parser accepts the binary A/B decision. Generation is deterministic
+($\texttt{do\_sample}=\texttt{False}$, temperature unset, and at most 16 new
+tokens). The expanded checkpoint adapter uses bfloat16 and SDPA; Phi uses eager
+attention because its frozen environment required separate handling. The
+Skywork adapter scores the two candidates with its value head rather than using
+generative A/B output. Candidate order is fixed within an item across judges
+and deterministically shuffled across items.
+
+\subsection{Static Preference Set Construction}
+\label{app:static-construction}
+
+The independent static set has 800 natural-image preference problems: 200
+per factor. Count is drawn from TallyQA \citep{acharya2019tallyqa} and contains
+a gold count paired with a nearby incorrect count. Attribute, Presence, and
+Spatial are drawn from GQA \citep{hudson2019gqa};
+their alternatives use, respectively, structured attribute substitutions,
+presence alternatives, and relation inversions or binary alternatives. Each
+item stores a single gold preference after a deterministic A/B order shuffle.
+
+Static and audit images are disjoint by construction. The RewardLens-CLEVR
+audit is a separate procedurally rendered environment and shares neither the
+natural-image examples nor their selection procedure.
+
+\subsection{RewardLens-CLEVR Generation and Validation}
+\label{app:clevr-generation-validation}
+
+The audit is frozen at 200 PASS triplets per factor. It uses CLEVR-style
+procedural scenes \citep{johnson2017clevr}. A triplet contains three
+renders---base, relevant, and irrelevant---for 800 triplets and 2,400 images in
+total. The retained set is the first 200 sorted PASS identifiers per factor;
+borderline or failed triplets are not promoted.
+
+The construction and validator implement the contracts summarized in
+Sec.~\ref{sec:rewardlens_audit}. Count validates target-color recounting after
+matched object additions. Attribute validates target uniqueness and target or
+non-target recoloring. Presence validates the queried color--shape conjunction
+after matched removals. Spatial recomputes the queried left/right relation from
+the rendered 3D scene state and checks the matched world-space displacement.
+All validators also enforce the gold-label contract ($y_R\neq y_B$ and
+$y_I=y_B$), as well as shared camera, lighting, and render seed within a
+triplet. These programmatic checks validate the rendered scene specification.
+
+\subsection{Analysis-Plan Provenance and Data Receipts}
+\label{app:provenance-receipts}
+
+\paragraph{Analysis-plan provenance.}
+The retained version-controlled analysis plan specifies the 1, 2, and 3
+percentage-point within-factor accuracy-matching bands. Identifying repository
+metadata, timestamps, and cryptographic receipt digests are omitted during
+double-blind review. We refer to this document as a \emph{frozen analysis
+plan}; it is not a formal preregistration.
+
+\paragraph{Data and evaluation receipts.}
+The frozen audit manifest retains 200 validated triplets per factor: 800
+triplets and 2,400 rendered images in total. The independent static evaluation
+contains 200 items per factor (800 total): Count comes from TallyQA, and
+Attribute, Presence, and Spatial come from GQA. The manifest and integrity
+receipt are retained in the project archive; identifying digests are omitted
+during double-blind review.
+
+\subsection{Reproducibility Commands}
+\label{app:reproducibility-commands}
+
+For double-blind review, exact local paths and command names are omitted. The
+project archive retains programmatic scene generation and validation, manifest
+freezing, offline inference preflight, metric recomputation over frozen
+judgments, paired bootstrap, and manuscript compilation. The paired-bootstrap
+artifact uses 10,000 resamples with seed 20270915 and resamples both models on
+the same source-triplet keys. These materials are retained for the archival
+release package.
+
+\subsection{Related-Work Scope}
+\label{app:related-work-scope}
+
+RewardLens is not presented as the first use of visual perturbations or of
+prediction-update tests. VisualFLIP changes task-critical visual evidence while
+holding the question fixed and evaluates prediction updates
+\citep{zhu2026visualflip}; MM-JudgeBias and Perceptual Judgment Bias study controlled
+multimodal-judge perturbations and perceptual bias
+\citep{lee2026mmjudgebias,park2026perceptual}. RewardLens adds a different
+comparison: it first measures static preference accuracy on a separate,
+factor-specific natural-image set, then reports the remaining RA and II gaps
+among judges matched by that measured static score. The relevant and irrelevant
+branches share a fixed question, candidate pair, and candidate order within an
+audit triplet and condition RA/II on a correct base decision; this framing does
+not invalidate earlier intervention work or claim to observe internal
+grounding.

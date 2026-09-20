@@ -1,0 +1,27 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\paragraph{What a static tie does and does not establish.}
+Static preference accuracy remains useful: it measures correctness on a fixed,
+independent evaluation distribution. However, it is a many-to-one summary of
+behavior. The Attribute Phi--LLaVA tie and the complete matched-pair census show
+that a shared measured score need not determine how a judge responds when the
+visual fact supporting a preference changes. RewardLens is therefore a
+complement to, rather than a replacement for, static evaluation: it asks for a
+second measurement axis when behavioral response to visual changes matters.
+
+\paragraph{Adaptation is distinct from generic stability.}
+The two intervention branches prevent a simple preference for either changing
+or retaining a prediction. On a relevant edit, retention by a base-correct
+judge is an error because the gold preference changes; on an irrelevant edit,
+retention is the desired response. Qwen's Count behavior makes this distinction
+concrete: its high II does not offset its low RA. Reporting both quantities
+therefore distinguishes selective adaptation from generic prediction stability.
+
+\paragraph{Scope.}
+RewardLens measures observable behavior under four controlled visual factors;
+it does not identify a model's internal reasoning process or establish causal
+claims about deployed-system outcomes. The results should consequently be
+interpreted as evidence that static scores can leave factor-specific
+intervention behavior unresolved in this evaluation setting, not as a universal
+ranking of multimodal judges.

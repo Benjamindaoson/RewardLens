@@ -5,14 +5,18 @@
 % Optional math commands from the official ICLR template.
 \input{math_commands.tex}
 
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{url}
-\usepackage{graphicx}下一步建议先处理 .gitignore，把这些垃圾文件隐藏/排除，然后初始化 Git，再开始正式迁移 RewardLens 正文。这样工程会干净很多。
+\usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{placeins}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
 
-\title{RewardLens: Auditing Visual Evidence Dependence in Multimodal Judges}
+\title{RewardLens: Same Static Accuracy, Different Intervention Behavior in Multimodal Judges}
 
 % Submission must remain anonymous.
 \author{Anonymous Authors}
@@ -27,7 +31,32 @@
 \begin{abstract}
 Static preference accuracy can fail to distinguish multimodal judges that
 behave differently under controlled changes in visual evidence.
-% TODO: Replace with frozen RewardLens abstract.
+We introduce RewardLens, a behavioral audit that evaluates each judge on an
+independent static preference set and on a separate controlled intervention
+audit while holding the question and candidate responses fixed. Relevant edits
+are programmatically constructed and validated to change the correct choice,
+whereas irrelevant edits are constructed and validated to preserve it. Among
+audit cases judged correctly on the base
+image, RewardLens measures Relevant Adaptation (RA), correctness after a
+relevant edit, and Irrelevant Invariance (II), correctness after an irrelevant
+edit.
+
+RewardLens asks whether an independent static score is sufficient to distinguish
+factor-specific intervention behavior. Across eight multimodal judges and four
+visual factors, equal or near-equal measured static accuracies can coexist with
+substantial differences in relevant adaptation. On Attribute, Phi-3.5-Vision
+and LLaVA-OneVision both achieve $80.5\%$ measured static accuracy, yet differ
+in RA by $15.1$ percentage points (paired-bootstrap 95\% CI: $10.2$--$20.4$
+pp). Across seven within-factor model-pair comparisons whose measured static
+accuracies differ by at most one percentage point, the median RA gap is
+$15.1$ points.
+
+The difference is concrete: in Qwen's Count audit, $166$ of $200$ base-correct
+triplets ($83.0\%$) become incorrect after a relevant edit because the correct
+choice changes while the judge retains its original prediction. In these cases,
+invariance is the failure. RewardLens complements static preference accuracy by
+revealing differences in measured intervention behavior that conventional
+static evaluation can fail to distinguish.
 \end{abstract}
 
 \input{sections/01_introduction}
@@ -36,13 +65,15 @@ behave differently under controlled changes in visual evidence.
 
 \input{sections/03_problem_formulation}
 
-\input{sections/04_rewardlens}
-
 \input{sections/05_experimental_setup}
 
 \input{sections/06_results}
 
 \input{sections/07_analysis}
+
+\input{sections/04_rewardlens}
+
+\input{sections/08_discussion}
 
 \input{sections/08_conclusion}
 
@@ -52,32 +83,48 @@ behave differently under controlled changes in visual evidence.
 
 \subsection*{AI use statement}
 
-% TODO: Replace with final ICLR 2027-compliant disclosure.
-We used generative AI tools to assist with tasks that will be disclosed
-in accordance with the ICLR 2027 AI Policy for Authors.
-All AI-assisted content was reviewed and verified by the authors.
-The authors take responsibility for the final content of this work.
+Generative AI tools assisted with manuscript organization and language editing,
+\LaTeX{} formatting, code and data-analysis support, and feedback on the
+presentation of the methodology and empirical results. The authors designed the
+study, reviewed and verified all scientific claims, experimental results, and
+citations, and take full responsibility for the final manuscript.
+
+\subsection*{Ethics statement}
+
+RewardLens evaluates publicly available model checkpoints on existing
+benchmark material and procedurally rendered scenes. It does not involve human
+subjects or collect personal data. The reported behavioral measurements should
+not be interpreted as claims about model internals or deployed-system safety.
 
 \subsection*{Reproducibility statement}
 
-% TODO: Write after experiments and appendix are frozen.
-We describe the experimental setup, evaluation protocol, and implementation
-details necessary to reproduce the main results in the paper and appendix.
+Sections~\ref{sec:rewardlens_audit} and~\ref{sec:experimental_setup} specify
+the triplet construction and validation rules, data sources and sample sizes,
+models, evaluation protocol, and static-matching analysis used for the reported
+measurements.
 
 % --------------------------------------------------
 % References
 % --------------------------------------------------
 
+% Flush all main-text floats before the bibliography; appendix floats must
+% never enter the reference list.
+\clearpage
+\begingroup
+\setlength{\emergencystretch}{3em}
+\sloppy
 \bibliography{references}
 \bibliographystyle{iclr2027_conference}
+\endgroup
 
-% ----------下一步建议先处理 .gitignore，把这些垃圾文件隐藏/排除，然后初始化 Git，再开始正式迁移 RewardLens 正文。这样工程会干净很多。----------------------------------------
-% Appendix
 % --------------------------------------------------
-
+% Appendix (ICLR supplementary text follows references)
+% --------------------------------------------------
+\clearpage
 \appendix
-
 \input{appendix/additional_results}
+\clearpage
 \input{appendix/implementation_details}
+\clearpage
 
 \end{document}
