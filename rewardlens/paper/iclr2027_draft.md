@@ -2,9 +2,9 @@
 
 ## Factor-Specific Visual Dependencies Beyond Preference Accuracy
 
-*ICLR 2027 draft. Non-result sections only. Experimental numbers are placeholders. Do not invent results.*
+*ICLR 2027 draft (superseded as the active writing surface by `iclr2027_paper_v2.md`).*
 
-**Status.** Confirmatory analysis frozen before full model results. FAST_TRACK_AUDIT_V1 is the primary audit scale for the first paper-critical GPU pass.
+**Status.** Notation below splits static accuracy \(A^S\) from audit-base accuracy \(A^B\). FAST_TRACK_AUDIT_V1 remains the primary audit scale.
 
 ---
 
@@ -12,12 +12,12 @@
 
 A multimodal reward model, or judge, is typically evaluated by whether it ranks the better response above the worse one. Preference accuracy is not a frivolous statistic: VL-RewardBench, RewardBench 2, and Multimodal RewardBench 2 all report that accuracy-style benchmarks track downstream selection utility, including Best-of-N. We do not dispute that association, and we do not claim that preference accuracy is useless.
 
-The missing distinction is more elementary. Ranking the correct answer first is an *outcome*. It does not establish that the judge used the visual evidence that makes that answer true. A model can be right for the wrong reason: a text prior, a shallow visual shortcut, or a change that is visually large but semantically irrelevant to the question. Conversely, two models with nearly identical static accuracy can differ in whether they flip when the queried evidence changes and stay when a matched irrelevant edit is applied.
+The missing distinction is more elementary. Ranking the correct answer first is an *outcome*. It does not establish that the judge used the visual evidence that makes that answer true. A model can be right for the wrong reason: a text prior, a shallow visual shortcut, or a change that is visually large but semantically irrelevant to the question. Conversely, two models with nearly identical static accuracy \(A^S\) can differ in whether they flip when the queried evidence changes and stay when a matched irrelevant edit is applied. A further distinction is required inside the audit itself: **outcome correctness is not behavioral stability**. A judge can become wrong on a relevant image without ever changing its predicted preference, because the gold label typically flips while the letter the model emits does not.
 
-We therefore separate two validity notions for a judge \(r_m(I,q,y)\):
+We therefore separate two validity notions for a judge \(r_m(I,q,y)\), and we never identify static accuracy with audit-base accuracy:
 
-1. **Outcome validity.** Does the judge prefer the correct candidate on ordinary static items?
-2. **Evidence-dependence validity.** Does the preference move when the queried visual factor changes, and remain stable under a magnitude-matched irrelevant change?
+1. **Outcome validity.** Does the judge prefer the correct candidate on ordinary static items? This is \(A^S\), measured on an independent static set.
+2. **Evidence-dependence validity.** Does the preference move when the queried visual factor changes, and remain stable under a magnitude-matched irrelevant change? This is a profile \(D=(\mathrm{RA},\mathrm{II})\) computed on controlled audit triplets, not a second copy of \(A^S\).
 
 The working hypothesis, which this paper treats as *to be tested rather than assumed*, is that reliable reward combines both:
 
@@ -25,12 +25,12 @@ The working hypothesis, which this paper treats as *to be tested rather than ass
 \text{Reliable reward} \stackrel{?}{=} \text{correct outcome} + \text{correct evidence dependence}.
 \]
 
-Shortcut learning (Geirhos et al.) and right-for-the-right-reasons (Ross et al.) developed this idea for task models. Recent multimodal reward work already shows related failure modes: text-only spurious correlations, perception bottlenecks, and perceptual judgment bias in which a model sees the image yet still prefers a fluent but visually wrong response. What is still missing is a confirmatory test that (i) measures factor-specific visual dependence with matched interventions, (ii) asks whether that dependence predicts downstream Best-of-N utility *beyond* static accuracy, and (iii) checks that the prediction is factor-specific rather than a second global quality score.
+Shortcut learning (Geirhos et al.) and right-for-the-right-reasons (Ross et al.) developed this idea for task models. Recent multimodal reward work already shows related failure modes: text-only spurious correlations, perception bottlenecks, and perceptual judgment bias in which a model sees the image yet still prefers a fluent but visually wrong response. What is still missing is a confirmatory test that (i) measures factor-specific visual dependence with matched interventions, (ii) asks whether that dependence predicts downstream Best-of-N utility *beyond* static accuracy \(A^S\), and (iii) checks that the prediction is factor-specific rather than a second global quality score.
 
 **Research questions.**
 
-- **RQ1.** Do similarly accurate multimodal reward models exhibit different factor-specific visual dependencies?
-- **RQ2.** Does factor-specific visual dependency add out-of-sample predictive information about downstream utility beyond static preference accuracy \(A\)?
+- **RQ1.** Do similarly accurate multimodal reward models exhibit different factor-specific visual dependencies? Accuracy-matched means \(|\Delta A^S|\le 1\) pp (predeclared).
+- **RQ2.** Does factor-specific visual dependency add out-of-sample predictive information about downstream utility beyond static preference accuracy \(A^S\)?
 - **RQ3.** Is that predictive validity factor-specific (diagonal stronger than off-diagonal in an audit-factor \(\times\) downstream-factor matrix)?
 
 [TBD: RQ1 ACCURACY-MATCHED RESULT]
@@ -43,7 +43,7 @@ Shortcut learning (Geirhos et al.) and right-for-the-right-reasons (Ross et al.)
 
 ## 2. Related Work
 
-**Preference accuracy as a proxy for reward quality.** Text reward benchmarks, and their multimodal counterparts, primarily report pairwise accuracy and show correlations with Best-of-N, PPO, or related downstream use. This literature motivates treating \(A\) as an informative baseline, not as a quantity to be discarded.
+**Preference accuracy as a proxy for reward quality.** Text reward benchmarks, and their multimodal counterparts, primarily report pairwise accuracy and show correlations with Best-of-N, PPO, or related downstream use. This literature motivates treating \(A^S\) as an informative baseline, not as a quantity to be discarded.
 
 **Shortcuts and right-for-the-right-reasons.** Geirhos et al. argue that high benchmark scores can rest on non-robust decision rules. Ross, Hughes, and Doshi-Velez argue that a predictor should be correct *because of* the right input features. Both lines of work target task models. Reward models evaluate *other* models' outputs; a spurious judge can launder shortcuts into selection, filtering, and RL.
 
@@ -57,19 +57,67 @@ Shortcut learning (Geirhos et al.) and right-for-the-right-reasons (Ross et al.)
 
 ## 3. Problem Formulation
 
-Let \(m\) be a judge with score \(r_m(I,q,y)\), or a pairwise preference over candidates \(y_A,y_B\). A visual factor \(f\) belongs to \(\{\text{Count},\text{Attribute},\text{Presence},\text{Spatial}\}\).
+Let \(J\) be a judge with pairwise preference \(\hat Y\in\{A,B\}\) over candidates \(y_A,y_B\) given \((I,q)\). A visual factor \(f\) belongs to \(\{\text{Count},\text{Attribute},\text{Presence},\text{Spatial}\}\).
 
-**Static accuracy.** \(A_{m,f}\) is pairwise preference accuracy on the factor-wise static set: TallyQA-Static for Count, GQA-Static for Attribute, Presence, and Spatial. Audit base images are never used to compute \(A\).
+**Static accuracy.** \(A^S_{J,f}\) is pairwise preference accuracy on the factor-wise *independent static set*: TallyQA-Static for Count, GQA-Static for Attribute, Presence, and Spatial. Audit base images are never used to compute \(A^S\). The symbol \(A\) in the frozen confirmatory plan is this quantity.
 
-**Downstream utility.** \(U_{m,f}(N)\) is Best-of-N selection accuracy (or equivalent utility) on the factor-wise downstream set (TallyQA Count; GQA otherwise), with a frozen candidate pool of size \(N\). Primary \(N=8\); \(N=2,4\) are robustness. Raw \(U\) is not pooled across TallyQA and GQA.
+**Audit-base accuracy.** On a complete controlled triplet, write binary correctness bits \(B,R,I\in\{0,1\}\) for base, relevant, and irrelevant. The eight-state object is
 
-**Evidence-dependence profile.** From controlled triplets \((I_{\mathrm{base}}, I_{\mathrm{rel}}, I_{\mathrm{irr}})\) that share \((q,y_A,y_B)\), we obtain PFC and PSC (Section 6). Write \(D_{m,f}=(\mathrm{PFC}_{m,f},\mathrm{PSC}_{m,f})\). Conditional versions \(\mathrm{PFC_{cond}},\mathrm{PSC_{cond}}\) are reported jointly, not collapsed.
+\[
+\pi_{bri}=P(B=b,R=r,I=i),\qquad b,r,i\in\{0,1\}.
+\]
 
-**RQ1.** Among pairs with \(A_{m,f}\approx A_{m',f}\), is \(D_{m,f}\) substantially different from \(D_{m',f}\)?
+Audit-base accuracy is the \(B=1\) margin, never called static accuracy:
 
-**RQ2.** Compare \(U_f\sim A_f\) against \(U_f\sim A_f+\mathrm{PFC}_f+\mathrm{PSC}_f\) under leave-one-family-out, separately per downstream factor.
+\[
+A^B_{J,f}=P(B=1)=\sum_{r,i}\pi_{1ri}.
+\]
 
-**RQ3.** Within each downstream factor column, test \(D_{m,f}\to U_{m,f}\) versus \(D_{m,f'}\to U_{m,f}\) for \(f'\neq f\). Aggregate diagonal vs off-diagonal only after within-column standardization.
+**Evidence-dependence profile.** Relevant sensitivity and irrelevant invariance are *conditional on a correct base decision*:
+
+\[
+\mathrm{RA}=P(R=1\mid B=1)=\mathrm{PFC_{cond}},\qquad
+\mathrm{II}=P(I=1\mid B=1)=\mathrm{PSC_{cond}}.
+\]
+
+Write \(D(J,f)=(\mathrm{RA}_{J,f},\mathrm{II}_{J,f})\). Joint metrics remain the frozen confirmatory endpoints
+
+\[
+\mathrm{PFC}=P(B=1\land R=1)=A^B\cdot\mathrm{RA},\qquad
+\mathrm{PSC}=P(B=1\land I=1)=A^B\cdot\mathrm{II}.
+\]
+
+RA and II are projections of \(\pi\). In particular \(\pi_{101}=P(B=1,R=0,I=1)\) is mass that is counted as base-correct and irrelevant-correct, hence inflates II, while contributing 0 to RA. Reporting only \((\mathrm{RA},\mathrm{II})\) therefore hides structure that the eight-state recovers.
+
+**Prediction versus correctness.** Let \(\hat Y_B,\hat Y_R,\hat Y_I\) be the judged letters. Behavioral flip rates are
+
+\[
+F_R=P(\hat Y_R\neq\hat Y_B),\qquad F_I=P(\hat Y_I\neq\hat Y_B).
+\]
+
+On a relevant intervention the gold label typically flips, so \(R=0\) can occur with \(\hat Y_R=\hat Y_B\): correctness changes while the prediction does not. \(F_R\) is not interchangeable with \(1-\mathrm{RA}\).
+
+**Identification.** The scientific object is that \(A^S\) does not determine \(D\). Accuracy-equivalence classes are defined on the static set only:
+
+\[
+\mathcal E_\epsilon(J)=\bigl\{J':\bigl|A^S(J')-A^S(J)\bigr|\le\epsilon\bigr\}.
+\]
+
+The predeclared matching band remains \(\epsilon=1\) percentage point. Other \(\epsilon\) (including \(0\), \(0.5\), \(5\)) are post-hoc sensitivity. Behavioral diameter
+
+\[
+\mathrm{Diam}_D(\mathcal E_\epsilon)=\sup_{J',J''\in\mathcal E_\epsilon}\bigl\|D(J')-D(J'')\bigr\|
+\]
+
+asks whether tightening the accuracy gap collapses evidence-dependence dispersion. A non-zero \(\mathrm{Diam}_D(\mathcal E_0)\) is already an identification result.
+
+**Downstream utility.** \(U_{J,f}(N)\) is Best-of-N selection accuracy on the factor-wise downstream set (TallyQA Count; GQA otherwise), with a frozen candidate pool of size \(N\). Primary \(N=8\); \(N=2,4\) are robustness. Raw \(U\) is not pooled across TallyQA and GQA.
+
+**RQ1.** Among pairs with \(|A^S_{J,f}-A^S_{J',f}|\le 1\) pp, is \(D(J,f)\) substantially different from \(D(J',f)\)?
+
+**RQ2.** Compare \(U_f\sim A^S_f\) against \(U_f\sim A^S_f+\mathrm{PFC}_f+\mathrm{PSC}_f\) under leave-one-family-out, separately per downstream factor.
+
+**RQ3.** Within each downstream factor column, test \(D_{J,f}\to U_{J,f}\) versus \(D_{J,f'}\to U_{J,f}\) for \(f'\neq f\). Aggregate diagonal vs off-diagonal only after within-column standardization.
 
 Data independence:
 
@@ -77,7 +125,7 @@ Data independence:
 D_{\mathrm{audit}}\neq D_{\mathrm{static}}\neq D_{\mathrm{downstream}}.
 \]
 
-Audit is RewardLens-CLEVR. Count static/downstream are TallyQA, image-disjoint. Attribute/Spatial/Presence static/downstream are GQA, image-disjoint.
+Audit is RewardLens-CLEVR. Count static/downstream are TallyQA, image-disjoint. Attribute/Spatial/Presence static/downstream are GQA, image-disjoint. Physical identity is SHA256 of raw image bytes; logical `example_id` is not a physical unit. The source-identity gate is \(\mathcal I_{\text{Audit-source}}\cap\mathcal I_{\text{Downstream}}=\varnothing\): audit scenes are procedural CLEVR renders from a blank `base_scene.blend`, not re-rendered GQA/TallyQA photographs.
 
 ---
 
@@ -114,19 +162,25 @@ FAST_TRACK_AUDIT_V1 uses the first 200 programmatic PASS triplets per factor (80
 
 ## 6. Metrics
 
-**Static \(A\).** Pairwise accuracy on the factor-wise static set (TallyQA Count; GQA otherwise). Not computed on audit bases.
+**Static \(A^S\).** Pairwise accuracy on the factor-wise static set (TallyQA Count; GQA otherwise). Not computed on audit bases. Matching, incremental validity, and the equivalence class \(\mathcal E_\epsilon\) use \(A^S\) only.
 
-**Audit (frozen definitions).**
+**Audit (frozen definitions, reconstructed from \(\pi\)).** Completeness is the triplet: all three variants must parse. Denominator for joint metrics is complete triplets; RA/II additionally condition on \(B=1\).
 
 \[
-\mathrm{PFC}=P(\text{base correct}\land\text{relevant correct}),\quad
-\mathrm{PSC}=P(\text{base correct}\land\text{irrelevant correct}).
+\mathrm{PFC}=P(B=1\land R=1),\quad
+\mathrm{PSC}=P(B=1\land I=1).
 \]
 
 \[
-\mathrm{PFC_{cond}}=P(\text{relevant correct}\mid\text{base correct}),\quad
-\mathrm{PSC_{cond}}=P(\text{irrelevant correct}\mid\text{base correct}).
+\mathrm{RA}=\mathrm{PFC_{cond}}=P(R=1\mid B=1),\quad
+\mathrm{II}=\mathrm{PSC_{cond}}=P(I=1\mid B=1).
 \]
+
+\[
+A^B=P(B=1)=\sum_{r,i}\pi_{1ri}.
+\]
+
+On the same audit population, \(\mathrm{PFC}=A^B\cdot\mathrm{RA}\) and \(\mathrm{PSC}=A^B\cdot\mathrm{II}\). Eight-state reconstruction of these four quantities is a machine check against canonical metrics, not a new endpoint.
 
 **Downstream \(U\).** Best-of-N accuracy with frozen pools. Primary \(N=8\).
 
@@ -150,9 +204,9 @@ FAST_TRACK_AUDIT_V1 uses the first 200 programmatic PASS triplets per factor (80
 
 Independent variation is model \(\times\) factor, not image count. The bootstrap unit is the **model family**.
 
-**RQ1.** Scatter \(A\) against PFC/PSC. Accuracy-matched pairs at \(|\Delta A|\le 1,2,3\) pp. Report mean absolute PFC/PSC gaps inside each band.
+**RQ1.** Scatter \(A^S\) against RA/II (equivalently PFC/PSC). The **predeclared** accuracy-matched band is \(|\Delta A^S|\le 1\) pp. The confirmatory plan also logs \(2\) and \(3\) pp bands. Bands at \(0\), \(0.5\), and \(5\) pp are post-hoc sensitivity and do not replace the 1 pp rule. Report mean/median/max absolute RA/II/PFC gaps inside each band. Do not match on \(A^B\).
 
-**RQ2.** Fit, **per downstream factor**, M0: \(U_f\sim A_f\) and M1: \(U_f\sim A_f+\mathrm{PFC}_f+\mathrm{PSC}_f\). Count \(U\) is TallyQA; Attribute/Spatial/Presence \(U\) is GQA. Do not pool raw utility. Confirmatory scores are leave-one-family-out MAE, RMSE, explained variance, and rank correlation, with family-clustered 95% CIs on \(\Delta\). In-sample \(R^2\) is diagnostic only.
+**RQ2.** Fit, **per downstream factor**, M0: \(U_f\sim A^S_f\) and M1: \(U_f\sim A^S_f+\mathrm{PFC}_f+\mathrm{PSC}_f\). Count \(U\) is TallyQA; Attribute/Spatial/Presence \(U\) is GQA. Do not pool raw utility. Confirmatory scores are leave-one-family-out MAE, RMSE, explained variance, and rank correlation, with family-clustered 95% CIs on \(\Delta\). In-sample \(R^2\) is diagnostic only.
 
 **RQ3.** 4\(\times\)4 matrix of audit factor versus downstream factor. Within each column, the four \(D\) profiles predict the same \(U_f\). The published diagonal-versus-off-diagonal summary standardizes predictive contribution within each column before aggregation.
 
@@ -170,7 +224,19 @@ Null results are reported as such. Endpoints are not revised after seeing model 
 
 ## 9. Results
 
-*Intentionally empty of numbers.*
+The confirmatory RQ2/RQ3 tables remain to be written from the frozen incremental-validity and specificity artifacts. The eight-state, flip, and \(A^S\)-equivalence displays below are post-hoc forensics of frozen Phase II audit triplets. They do not modify manifests, thresholds, or the predeclared 1 pp matching rule.
+
+**Figure (candidate main empirical panel).** `rewardlens/paper/figures/fig_eight_state_sankey.pdf`
+
+*Caption.* Eight-state structure of evidence dependence. (a) The object is \(\pi_{bri}=P(B=b,R=r,I=i)\). \(A^S\) is independent static accuracy; \(A^B=P(B=1)\) is audit-base accuracy; matching uses \(A^S\), never \(A^B\). RA collapses the \(R=1\) column of the \(B=1\) slice; II collapses the \(I=1\) row; \(\pi_{101}\) is the mass those two margins hide. (b) Qwen Attribute is a pure 111 flow: the judge adapts when gold flips and stays under the matched irrelevant edit. (c) Qwen Count has the same \(A^B=1\) and the same \(\mathrm{II}=1\), but \(\mathrm{RA}=0.17\): 166 of 200 triplets sit in 101. (d) \(\pi_{101}\) across eight models and four factors. Count (and Spatial for several models) is where RA/II as a pair lose the most structure. Predeclared matching remains \(|\Delta A^S|\le 1\) pp.
+
+**Eight-state vs RA/II.** On Qwen Count, \(\pi_{101}=166/200\) and \(\pi_{111}=34/200\). RA reports only \(34/200=0.17\). InternVL Count is almost the same map (\(\pi_{101}=164\), \(\pi_{111}=36\)). Gemma Spatial is more extreme: \(\pi_{111}=\pi_{110}=0\), so \(\mathrm{RA}=0\), while \(\pi_{101}=143\). Attribute, by contrast, is near-pure 111 for several models. The eight-state is therefore not a cosmetic expansion of RA/II; it is the object those metrics project.
+
+**Outcome correctness \(\neq\) behavioral stability.** On Qwen Count the relevant gold label flips on every triplet, yet the predicted letter is unchanged on 166 of 200 items (83%): correctness changes because gold moved, not because the judge updated. That is why \(\mathrm{RA}=0.17\) cannot be read as a 17% behavioral update rate; it is a correctness rate, and \(F_R=0.17\) happens to coincide with it only because every base decision was already correct. Gemma Spatial splits the two: \(\mathrm{RA}=0\) because all 146 base-correct items keep their letter, while \(F_R=0.27\) is entirely already-wrong items switching to the other wrong letter.
+
+**Predeclared 1 pp matching (unchanged).** Accuracy-matched pairs are defined by \(|\Delta A^S|\le 1\) pp on the independent static set. That band contains 7 pairs, with median \(|\Delta\mathrm{RA}|=15.1\) pp and max \(38.6\) pp (Skywork vs Phi Spatial). Exact-zero \(|\Delta A^S|=0\) is a post-hoc slice: Phi vs LLaVA Attribute, \(|\Delta\mathrm{RA}|=15.1\) pp, so \(\mathrm{Diam}_D(\mathcal E_0)\) is already not zero. Other \(\epsilon\) are sensitivity only; they are not a new matching threshold.
+
+[TBD: RQ1 ACCURACY-MATCHED PAIR TABLE]
 
 [TBD: MODEL COMPATIBILITY TABLE]
 
@@ -192,7 +258,7 @@ Relevant and irrelevant edits are constructed to have comparable visual magnitud
 
 **PRE-RESULT DATA AVAILABILITY ADAPTATION.** GQA 1.2 public questions contain no usable Count programs under the pre-specified mapping. Count static items are TallyQA (200; prefer 100 simple / 100 complex), not invented GQA Count. Attribute, Presence, and Spatial static items are GQA.
 
-GQA questions are mapped to Attribute, Presence, and Spatial using functional programs, GQA type fields, and scene graphs. Keyword fallback is recorded as low confidence and is not the primary mapping. Static items are pairwise preference examples: gold answer versus a structured hard negative (TallyQA count \(\pm 1\); GQA attribute substitution from the scene or palette; spatial inverse or yes/no flip; presence yes/no flip). Candidate order is deterministically shuffled. \(A_f\) is measured only on this factor-wise static set.
+GQA questions are mapped to Attribute, Presence, and Spatial using functional programs, GQA type fields, and scene graphs. Keyword fallback is recorded as low confidence and is not the primary mapping. Static items are pairwise preference examples: gold answer versus a structured hard negative (TallyQA count \(\pm 1\); GQA attribute substitution from the scene or palette; spatial inverse or yes/no flip; presence yes/no flip). Candidate order is deterministically shuffled. \(A^S_f\) is measured only on this factor-wise static set.
 
 FAST-TRACK target: 200 items / factor (800 total). If a factor cannot reach 200 clean items, we report the maximum clean \(N\) and the reason. We do not fabricate questions.
 

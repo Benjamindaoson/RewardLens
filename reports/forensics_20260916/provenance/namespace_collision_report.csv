@@ -1,0 +1,4 @@
+collision_type,detail,note
+sha_manifest_audit_carrier_mislabel,"{""tallyqa"": 600, ""gqa"": 1800}",phase2_v2_physical_sha_manifests.json labels audit count as carrier=tallyqa and other factors as gqa. Those labels copy the static/downstream dataset assignment. They are not source-image identities: every audit row has image_id=null.
+pre_repair_v1_static_downstream_physical_overlap,196,"Manifest namespace identities are disjoint, but resolved physical image paths and bytes are not. This violates the literal image-disjointness requirement before GPU inference."
+archive_filename_audit_named_static_jsonl,expanded models: results/<model>/audit/static.jsonl is audit; execution/.../static.jsonl is A^S,original four true audit jsonl lives at results/<model>/*audit.jsonl on autodl-fs

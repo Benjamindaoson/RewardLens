@@ -1,0 +1,10 @@
+{
+  "generated_utc": "2026-09-15T22:06:46Z",
+  "p0_pass": true,
+  "I_audit_source_cap_I_downstream_empty": true,
+  "eight_state_metric_pass": 160,
+  "eight_state_metric_n": 160,
+  "n_1pp_pairs": 7,
+  "median_abs_delta_RA_1pp": 15.053763440860212,
+  "out": "D:\\01_work\\RewardLens\\reports\\forensics_20260916"
+}

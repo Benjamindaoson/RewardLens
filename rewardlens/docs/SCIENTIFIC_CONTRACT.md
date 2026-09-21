@@ -43,7 +43,7 @@ D_{\text{static}} \neq D_{\text{audit}} \neq D_{\text{downstream}}
 \]
 
 - Audit: RewardLens-CLEVR controlled triplets. Not ordinary CLEVR benchmark items.
-- Static accuracy A: independent factor-wise static pairwise items (Count: TallyQA; Attribute/Spatial/Presence: GQA). Not audit base images.
+- Static accuracy \(A^S\): independent factor-wise static pairwise items (Count: TallyQA; Attribute/Spatial/Presence: GQA). Not audit base images.
 - Downstream U: factor-wise Best-of-N, image-disjoint from static within source. Count is TallyQA; others are GQA.
 - Prefer different sources when possible (CLEVR audit vs natural-image static/downstream).
 
@@ -51,15 +51,18 @@ D_{\text{static}} \neq D_{\text{audit}} \neq D_{\text{downstream}}
 
 Keep joint and conditional, do not collapse early:
 
-- \(A_{mf}\)
+- \(A^S_{mf}\) (written \(A_{mf}\) in the original freeze)
+- \(A^B_{mf}=P(B=1)\) on audit triplets (diagnostic; not a matching variable)
 - PFC, PSC
-- PFC_cond, PSC_cond
+- RA \(=\) PFC_cond, II \(=\) PSC_cond
 
 Primary incremental model:
 
 \[
-U \sim A \quad\text{vs}\quad U \sim A + \mathrm{PFC} + \mathrm{PSC}
+U \sim A^S \quad\text{vs}\quad U \sim A^S + \mathrm{PFC} + \mathrm{PSC}
 \]
+
+Notation: \(A^S\) is independent static accuracy (the \(A\) of the frozen confirmatory plan). \(A^B=P(B=1)\) is audit-base accuracy and is never used for matching. \(\mathrm{RA}=\mathrm{PFC_{cond}}\), \(\mathrm{II}=\mathrm{PSC_{cond}}\), \(D=(\mathrm{RA},\mathrm{II})\).
 
 Primary downstream N = 8; N = 2, 4 robustness.
 

@@ -1,0 +1,37 @@
+{
+  "generated_utc": "2026-09-15T22:06:42Z",
+  "audit_source_kind": "procedural_clevr_controlled",
+  "audit_source_definition": "Audit images are Blender/CLEVR renders from a blank base_scene.blend plus a procedural object spec. The generator never ingests GQA, COCO, TallyQA, or Visual Genome photographs. Physical base identity is SHA256 of the rendered PNG. Scene identity is (triplet_id, variant, render_seed).",
+  "audit_manifest_has_source_image_id": false,
+  "audit_sha_rows_with_image_id": 0,
+  "audit_manifest_natural_image_token_rows": 0,
+  "n_audit_rows": 2400,
+  "n_unique_render_seeds_by_triplet": 800,
+  "manifest_source_like_fields_nonzero": {
+    "source_dir": 2400
+  },
+  "sha_manifest_carrier_on_audit_is_not_source": {
+    "counts": {
+      "tallyqa": 600,
+      "gqa": 1800
+    },
+    "interpretation": "phase2_v2_physical_sha_manifests.json labels audit count as carrier=tallyqa and other factors as gqa. Those labels copy the static/downstream dataset assignment. They are not source-image identities: every audit row has image_id=null."
+  },
+  "intersections": {
+    "rendered_png_sha_audit_vs_downstream": 0,
+    "source_image_id_audit_vs_downstream": 0,
+    "normalized_numeric_source_id_audit_vs_downstream": 0
+  },
+  "static_downstream_already_verified": {
+    "physical": 0,
+    "note": "Independent recompute in previous freeze; downstream v2 after 197-row repair."
+  },
+  "pre_repair_v1_static_downstream_physical": 196,
+  "repair_n_replaced": 197,
+  "scene_json_on_011": {
+    "present": false,
+    "note": "GPU hosts shipped rendered PNGs only. Scene schema is frozen in clevr_controlled_renderer.py: image_filename is the PNG basename; objects are CLEVR primitives; no photograph path is written."
+  },
+  "I_audit_source_cap_I_downstream_empty": true,
+  "pass": true
+}

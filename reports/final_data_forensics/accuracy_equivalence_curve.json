@@ -1,0 +1,67 @@
+{
+  "label": "post-hoc sensitivity analysis",
+  "primary_predeclared": "1pp matching on A^S remains the main result",
+  "curve": [
+    {
+      "epsilon_pp": 0.5,
+      "role": "post_hoc_sensitivity",
+      "accuracy_used": "A_S independent static benchmark, never A_B",
+      "n_pairs": 4,
+      "median_abs_delta_RA_pp": 25.628140703517587,
+      "max_abs_delta_RA_pp": 38.604166666666664,
+      "median_abs_delta_II_pp": 1.2837625628140725,
+      "max_abs_delta_II_pp": 10.752688172043012,
+      "median_abs_delta_PFC_pp": 26.0,
+      "max_abs_delta_PFC_pp": 40.5
+    },
+    {
+      "epsilon_pp": 1.0,
+      "role": "predeclared_primary",
+      "accuracy_used": "A_S independent static benchmark, never A_B",
+      "n_pairs": 7,
+      "median_abs_delta_RA_pp": 15.053763440860212,
+      "max_abs_delta_RA_pp": 38.604166666666664,
+      "median_abs_delta_II_pp": 1.005025125628145,
+      "max_abs_delta_II_pp": 10.752688172043012,
+      "median_abs_delta_PFC_pp": 20.999999999999996,
+      "max_abs_delta_PFC_pp": 40.5
+    },
+    {
+      "epsilon_pp": 2.0,
+      "role": "post_hoc_sensitivity",
+      "accuracy_used": "A_S independent static benchmark, never A_B",
+      "n_pairs": 11,
+      "median_abs_delta_RA_pp": 15.053763440860212,
+      "max_abs_delta_RA_pp": 38.604166666666664,
+      "median_abs_delta_II_pp": 0.6756756756756799,
+      "max_abs_delta_II_pp": 10.752688172043012,
+      "median_abs_delta_PFC_pp": 20.999999999999996,
+      "max_abs_delta_PFC_pp": 40.5
+    },
+    {
+      "epsilon_pp": 3.0,
+      "role": "post_hoc_sensitivity",
+      "accuracy_used": "A_S independent static benchmark, never A_B",
+      "n_pairs": 15,
+      "median_abs_delta_RA_pp": 15.135135135135142,
+      "max_abs_delta_RA_pp": 51.63513513513514,
+      "median_abs_delta_II_pp": 0.6756756756756799,
+      "max_abs_delta_II_pp": 10.752688172043012,
+      "median_abs_delta_PFC_pp": 24.0,
+      "max_abs_delta_PFC_pp": 62.000000000000014
+    },
+    {
+      "epsilon_pp": 5.0,
+      "role": "post_hoc_sensitivity",
+      "accuracy_used": "A_S independent static benchmark, never A_B",
+      "n_pairs": 32,
+      "median_abs_delta_RA_pp": 15.053763440860212,
+      "max_abs_delta_RA_pp": 51.63513513513514,
+      "median_abs_delta_II_pp": 0.8403504006519125,
+      "max_abs_delta_II_pp": 10.752688172043012,
+      "median_abs_delta_PFC_pp": 20.999999999999996,
+      "max_abs_delta_PFC_pp": 62.000000000000014
+    }
+  ],
+  "n_1pp_pairs_recomputed": 7
+}

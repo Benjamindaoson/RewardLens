@@ -1,0 +1,31 @@
+{
+  "generated_utc": "2026-09-15T21:58:27Z",
+  "p0_pass": true,
+  "audit_downstream_join_allowed": false,
+  "n_A_S_neq_A_B": 32,
+  "n_PFC_identity_holds": 32,
+  "n_factor_rows": 32,
+  "n_1pp_pairs": 7,
+  "pair_graph_models": 8,
+  "outputs": [
+    "DATA_FORENSICS_PROTOCOL.md",
+    "FORENSICS_SUMMARY.json",
+    "accuracy_equivalence_curve.csv",
+    "accuracy_equivalence_curve.json",
+    "accuracy_matched_1pp_pairs.csv",
+    "eight_state_distribution.csv",
+    "eight_state_distribution.json",
+    "eight_state_pooled_by_model.csv",
+    "identity_audit.csv",
+    "metric_reconstruction.csv",
+    "metric_semantics.json",
+    "namespace_collision_report.csv",
+    "pair_graph_summary.csv",
+    "pair_graph_summary.json",
+    "physical_disjoint_verification.json",
+    "prediction_flip.csv",
+    "prediction_flip.json",
+    "run_final_data_forensics.py",
+    "source"
+  ]
+}

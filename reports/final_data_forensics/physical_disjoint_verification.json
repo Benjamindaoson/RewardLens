@@ -1,0 +1,101 @@
+{
+  "protocol": "RewardLens Final Data Forensics P0",
+  "generated_utc": "2026-09-15T21:58:26Z",
+  "physical_identity_definition": "SHA256(raw image bytes) stored as physical_image_id",
+  "do_not_use": [
+    "local autoincrement example_id",
+    "numeric tail of item_id",
+    "raw GQA id without vg:/coco: prefix"
+  ],
+  "frozen_manifest_sha256": {
+    "static_manifest": "6e4a23fc54d4704e70587b177586152e6e63b7a4dac5964e7e16f56395e682e3",
+    "audit_manifest": "880a3769df10e7e4dff5939ba03bbff7347cc62e56b11f79e10f5a1b61d8a018",
+    "downstream_v2_manifest": "0afb6dfefd7a47e3dc47fd05127e82d5fd260943d04e5c5cc3117ae11055133c",
+    "physical_sha_manifests": "abc108127a5643a8a90820320ff9e02559e40ab91fcfcc82b9b1eff173916ce4"
+  },
+  "expected_frozen_sha256": {
+    "static_manifest": "6e4a23fc54d4704e70587b177586152e6e63b7a4dac5964e7e16f56395e682e3",
+    "audit_manifest": "880a3769df10e7e4dff5939ba03bbff7347cc62e56b11f79e10f5a1b61d8a018",
+    "downstream_v2_manifest": "0afb6dfefd7a47e3dc47fd05127e82d5fd260943d04e5c5cc3117ae11055133c"
+  },
+  "sets": {
+    "audit": {
+      "n_rows": 2400,
+      "n_unique_item_id": 2400,
+      "n_unique_physical": 2400,
+      "n_unique_source_image_id": 0,
+      "n_within_split_physical_duplicate_groups": 0,
+      "n_physical_ids": 2400
+    },
+    "downstream_v2": {
+      "n_rows": 800,
+      "n_unique_item_id": 800,
+      "n_unique_physical": 698,
+      "n_unique_source_image_id": 792,
+      "n_within_split_physical_duplicate_groups": 100,
+      "n_physical_ids": 698
+    },
+    "static": {
+      "n_rows": 800,
+      "n_unique_item_id": 800,
+      "n_unique_physical": 681,
+      "n_unique_source_image_id": 791,
+      "n_within_split_physical_duplicate_groups": 117,
+      "n_physical_ids": 681
+    }
+  },
+  "intersections_independent_recompute": {
+    "audit__static": {
+      "physical_image_id": 0,
+      "item_id": 0,
+      "source_image_id": 0
+    },
+    "audit__downstream_v2": {
+      "physical_image_id": 0,
+      "item_id": 0,
+      "source_image_id": 0
+    },
+    "static__downstream_v2": {
+      "physical_image_id": 0,
+      "item_id": 0,
+      "source_image_id": 0
+    }
+  },
+  "physical_disjoint_pass": true,
+  "audit_downstream_physical_intersection_empty": true,
+  "pre_repair_v1": {
+    "status": "FAIL_BLOCKED",
+    "logical_identity_intersection_static_downstream": 0,
+    "physical_content_sha256_intersection_static_downstream": 196,
+    "breakdown": {
+      "static_gqa__downstream_tallyqa": 108,
+      "static_tallyqa__downstream_gqa": 91
+    },
+    "interpretation": "Manifest namespace identities are disjoint, but resolved physical image paths and bytes are not. This violates the literal image-disjointness requirement before GPU inference."
+  },
+  "repair_v2": {
+    "algorithm": "PHASE2_DOWNSTREAM_V2_PHYSICAL_DISJOINT",
+    "n_replaced": 197,
+    "status": "PASS",
+    "physical_intersections": {
+      "audit_downstream": 0,
+      "audit_static": 0,
+      "static_downstream": 0
+    }
+  },
+  "spot_check_011": {
+    "n_existing_files": 12,
+    "n_hash_match": 12,
+    "note": "Recomputed SHA256(raw bytes) on 011 autodl-tmp CLEVR audit PNGs; 12/12 matched declared physical_image_id. No GPU used."
+  },
+  "item_level_audit_bon_join": {
+    "allowed": false,
+    "reason": "Frozen protocol requires I_audit ∩ I_downstream = ∅ on physical image identity. Independent recompute is empty. Direct item-level Audit↔BoN join would contradict the physical-disjoint design; treat any numeric join as a namespace collision, not a new analysis opportunity."
+  },
+  "within_split_tallyqa_gqa_byte_sharing": {
+    "static_duplicate_groups": 117,
+    "downstream_duplicate_groups": 100,
+    "paper_implication": "Count (TallyQA) and GQA factors are not physically independent even after cross-split repair. This is a source-confound caveat, not an audit/downstream leak."
+  },
+  "numeric_tail_cross_split_collisions": 0
+}

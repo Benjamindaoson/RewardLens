@@ -145,3 +145,29 @@ Supplementary sensitivity (report always; does not replace primary 4-factor RQ3)
 - Same within-column standardization, then diagonal vs off-diagonal.
 
 See `reports/DATA_SOURCE_CONFOUND_NOTE.md`.
+
+---
+
+## Dated log — 2026-09-16 — notation clarification (not an endpoint change)
+
+**This does not change confirmatory endpoints, thresholds, or matching bands.**
+
+Paper notation now writes the frozen static accuracy as \(A^S\) to distinguish it from audit-base accuracy \(A^B=P(B=1)\). Every occurrence of \(A\) in this file is \(A^S\). Matching remains \(|\Delta A^S|\le 1\) pp as the predeclared primary band; the \(2\) and \(3\) pp bands already logged above are unchanged. Eight-state distributions \(\pi_{bri}\), prediction-flip decompositions, Sankey figures, and \(\varepsilon\in\{0,0.5,5\}\) pp slices are post-hoc forensics of frozen Phase II artifacts. They do not replace PFC/PSC confirmatory endpoints and they do not retarget RQ1 onto \(A^B\).
+
+\(\mathrm{RA}=\mathrm{PFC_{cond}}\), \(\mathrm{II}=\mathrm{PSC_{cond}}\), \(D=(\mathrm{RA},\mathrm{II})\).
+
+---
+
+## Dated log — 2026-09-16 — paper_v2 RQ freeze (not a data collection change)
+
+The **paper** primary questions are now:
+
+1. Identification: does \(A^S_f\) identify \(D_f=(\mathrm{RA}_f,\mathrm{II}_f)\)?
+2. Empirical equivalence: exact/near \(A^S\) ties with material \(\lvert\Delta\mathrm{RA}\rvert\).
+3. Behavioral decomposition: eight-state \(\pi_{bri}\) and prediction flips \(F_R,F_I\).
+
+Best-of-N incremental validity and the factor-specificity matrix remain available as **secondary / historical confirmatory analyses**. They are not the life of `iclr2027_paper_v2.md`. Pair-graph remains exploratory.
+
+Matching language in the paper is **predeclared** \(|\Delta A^S|\le 1\) pp. Do not write *preregistered*.
+
+No additional models, factors, or benchmarks. Human intervention-validity audit remains the only P0 data still worth collecting; if incomplete, it is a limitation. Do not fabricate labels.

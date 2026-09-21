@@ -1,0 +1,1596 @@
+{
+  "algorithm": "PHASE2_DOWNSTREAM_V2_PHYSICAL_DISJOINT",
+  "gqa_mapping_counts": {
+    "attribute": 358463,
+    "count": 0,
+    "presence": 146790,
+    "spatial": 191085
+  },
+  "n_original": 800,
+  "n_replaced": 197,
+  "physical_intersections": {
+    "audit_downstream": 0,
+    "audit_static": 0,
+    "static_downstream": 0
+  },
+  "replacements": [
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30165246",
+      "replacement_item_id": "tallyqa_down:count:20004934",
+      "replacement_physical_image_sha256": "97daf4fa9cd650bbfe9ea5ef8e62afe171be1d0977b7f6e664e60578dda541bd",
+      "source_item_id": "tallyqa_down:count:20004934"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30165378",
+      "replacement_item_id": "tallyqa_down:count:19238357",
+      "replacement_physical_image_sha256": "decfa174361e222b5ba93cb7b5bf74be26d2f8f18406ad5c9164647261dab8c2",
+      "source_item_id": "tallyqa_down:count:19238357"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30136639",
+      "replacement_item_id": "tallyqa_down:count:30165897",
+      "replacement_physical_image_sha256": "276a40f8f3a503a0b76b9348660f33209051823aa6a6716a02c60614567f7c39",
+      "source_item_id": "tallyqa_down:count:30165897"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30100253",
+      "replacement_item_id": "tallyqa_down:count:10041650",
+      "replacement_physical_image_sha256": "a24ce0a38646fd91278f3e19a8bcad86df016a531da8ad2571d4654f591aad1c",
+      "source_item_id": "tallyqa_down:count:10041650"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30135311",
+      "replacement_item_id": "tallyqa_down:count:9231654412667",
+      "replacement_physical_image_sha256": "304dea271822f14d2717d865ee7ed0b715207723130d8d4208f281619ad3b8b2",
+      "source_item_id": "tallyqa_down:count:9231654412667"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30110212",
+      "replacement_item_id": "tallyqa_down:count:10045380",
+      "replacement_physical_image_sha256": "3a1f426f78b2aa95da4fdc92b09ad4c924f084a0f127569752dce88941db7027",
+      "source_item_id": "tallyqa_down:count:10045380"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30121158",
+      "replacement_item_id": "tallyqa_down:count:10451140",
+      "replacement_physical_image_sha256": "47ce4c4c1e4ed7a54128525fdc20887143702954e66bb525b36b3aa8f061a29a",
+      "source_item_id": "tallyqa_down:count:10451140"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30161056",
+      "replacement_item_id": "tallyqa_down:count:20015401",
+      "replacement_physical_image_sha256": "2c4811b560d55fe5676b4ee901ef1100d25cc074ce48687ff040f59cd437fc6f",
+      "source_item_id": "tallyqa_down:count:20015401"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30151098",
+      "replacement_item_id": "tallyqa_down:count:19173614",
+      "replacement_physical_image_sha256": "ba4f1a178ae08fbbed6071e461746d00f3e5a5951859d802d4b710ff36f7e74d",
+      "source_item_id": "tallyqa_down:count:19173614"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30103818",
+      "replacement_item_id": "tallyqa_down:count:30124852",
+      "replacement_physical_image_sha256": "1e4fbe3118b08f846f1932a971c2684af40335cc8cb19e04b397499c04bdfd94",
+      "source_item_id": "tallyqa_down:count:30124852"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30144808",
+      "replacement_item_id": "tallyqa_down:count:30114272",
+      "replacement_physical_image_sha256": "9171bfa1355e3863b6bc6e870d07875575f80cec230fb8673bc1856587079188",
+      "source_item_id": "tallyqa_down:count:30114272"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30160652",
+      "replacement_item_id": "tallyqa_down:count:30138715",
+      "replacement_physical_image_sha256": "019aec6e077eea4210fcb3410394ebfa360960cb0cbfdbacdb6424cfc1613115",
+      "source_item_id": "tallyqa_down:count:30138715"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30116613",
+      "replacement_item_id": "tallyqa_down:count:30119985",
+      "replacement_physical_image_sha256": "ecfbb8e98d989261d9af40b5d7da2b9d395d05beedc13a7af943376c60b2031b",
+      "source_item_id": "tallyqa_down:count:30119985"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30112175",
+      "replacement_item_id": "tallyqa_down:count:10157135",
+      "replacement_physical_image_sha256": "8028268f6f3887e5f39ccb660d3e8e5855a7444d40db0eddc2e686c354a8b7c3",
+      "source_item_id": "tallyqa_down:count:10157135"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30159577",
+      "replacement_item_id": "tallyqa_down:count:19068073",
+      "replacement_physical_image_sha256": "3cb1826fe43817a2068877ffbe95348f0dab88dd056ca8ff66d1b45237650376",
+      "source_item_id": "tallyqa_down:count:19068073"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30159923",
+      "replacement_item_id": "tallyqa_down:count:91211991",
+      "replacement_physical_image_sha256": "63a43c1b5646b4a49e081899a419b493d161c8844f54cb08b9ce363674d0ab02",
+      "source_item_id": "tallyqa_down:count:91211991"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30109506",
+      "replacement_item_id": "tallyqa_down:count:90306941",
+      "replacement_physical_image_sha256": "e898d37285fd95085be01d073079379fdbd2a8157ca6fdd0c251b6c5a760b494",
+      "source_item_id": "tallyqa_down:count:90306941"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30101920",
+      "replacement_item_id": "tallyqa_down:count:91144138",
+      "replacement_physical_image_sha256": "4de8cafebf3d0b420c3ec36566d1e785fd610f1fe40616fbf73b260750f626f7",
+      "source_item_id": "tallyqa_down:count:91144138"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30101565",
+      "replacement_item_id": "tallyqa_down:count:20015676",
+      "replacement_physical_image_sha256": "7cff1a4940565610a8d3158d1a0f442650e1fa6ccd49a1dd339f7c9b94e441f7",
+      "source_item_id": "tallyqa_down:count:20015676"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30154471",
+      "replacement_item_id": "tallyqa_down:count:30116317",
+      "replacement_physical_image_sha256": "7797f6143dec6db73dd42bb27fd74363bd4344e37abea90ea899d7fe3fce9605",
+      "source_item_id": "tallyqa_down:count:30116317"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30144126",
+      "replacement_item_id": "tallyqa_down:count:90430547",
+      "replacement_physical_image_sha256": "66f60d88c5ca938582f843ca9d162b5b71a73658bf9cb0ccd432a42b0e598cd6",
+      "source_item_id": "tallyqa_down:count:90430547"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30114861",
+      "replacement_item_id": "tallyqa_down:count:20021851",
+      "replacement_physical_image_sha256": "01778b92118056540c573d5a7c661cbccadb916c08feda559aa27c7dc5e1bad8",
+      "source_item_id": "tallyqa_down:count:20021851"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30124770",
+      "replacement_item_id": "tallyqa_down:count:19314155",
+      "replacement_physical_image_sha256": "4dc627bd0f89b6a15f75840169984fd04e2205dd416a1bf9d32666b3086067e7",
+      "source_item_id": "tallyqa_down:count:19314155"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923475649681",
+      "replacement_item_id": "tallyqa_down:count:10097111",
+      "replacement_physical_image_sha256": "dd87f6c6f298fbb409816e5f17b144d08b2cf1fa407e7f7c86dd75aaf185957a",
+      "source_item_id": "tallyqa_down:count:10097111"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30122463",
+      "replacement_item_id": "tallyqa_down:count:20073414",
+      "replacement_physical_image_sha256": "326deb84b8a0770c29e3f9621f9f189e1f5e26f3c7d4139284f0ca0fdf41ab66",
+      "source_item_id": "tallyqa_down:count:20073414"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30144586",
+      "replacement_item_id": "tallyqa_down:count:10582849",
+      "replacement_physical_image_sha256": "6ed744fc3b02c87599556a8b30d4138fc8f20fe1db8d4be43707d07230e9cef8",
+      "source_item_id": "tallyqa_down:count:10582849"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30143061",
+      "replacement_item_id": "tallyqa_down:count:10135193",
+      "replacement_physical_image_sha256": "191078a7b84ebbe69044822d6242472991e0f28bec402828ef894f1651ca08d5",
+      "source_item_id": "tallyqa_down:count:10135193"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30145327",
+      "replacement_item_id": "tallyqa_down:count:20015079",
+      "replacement_physical_image_sha256": "d4ab1a978981accbb40c497ba6fafa2fc723c9c5e71ab2d5bbf7f194f4c4cb3a",
+      "source_item_id": "tallyqa_down:count:20015079"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30146510",
+      "replacement_item_id": "tallyqa_down:count:10368117",
+      "replacement_physical_image_sha256": "eb8d6e8744657aff8abeee83491a5c32f2cf01559096f90ce67901c4c9fa6cb3",
+      "source_item_id": "tallyqa_down:count:10368117"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30124376",
+      "replacement_item_id": "tallyqa_down:count:10269427",
+      "replacement_physical_image_sha256": "ca7b7060fa142750dd54bf233a4e1e31eeb491d847eea59d624db7b0690bc9a4",
+      "source_item_id": "tallyqa_down:count:10269427"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30151486",
+      "replacement_item_id": "tallyqa_down:count:10524843",
+      "replacement_physical_image_sha256": "c3e10c7d6c2e6467ae0f7017dbb6f447421ba85cbfe5d18c98a62ee80533148f",
+      "source_item_id": "tallyqa_down:count:10524843"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30131853",
+      "replacement_item_id": "tallyqa_down:count:20031746",
+      "replacement_physical_image_sha256": "ae72a31c343b18152712f15aef3c34cb740b24b34a624cf863b73a429fb67610",
+      "source_item_id": "tallyqa_down:count:20031746"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30094510",
+      "replacement_item_id": "tallyqa_down:count:30120270",
+      "replacement_physical_image_sha256": "a91e47ed4e6ff4e8f43a8cbd3aa959c3e6965d8fed909c4328358c2620596779",
+      "source_item_id": "tallyqa_down:count:30120270"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30132214",
+      "replacement_item_id": "tallyqa_down:count:30133604",
+      "replacement_physical_image_sha256": "4b6b11717447879b3ac4d0baccd230b69ff7ce63e9cbab7e05af956a777f10bb",
+      "source_item_id": "tallyqa_down:count:30133604"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30137348",
+      "replacement_item_id": "tallyqa_down:count:90126528",
+      "replacement_physical_image_sha256": "bd5e3601cbe8354feb788931272bfff0f27d8be76764616c44ec6cccab55585f",
+      "source_item_id": "tallyqa_down:count:90126528"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30147269",
+      "replacement_item_id": "tallyqa_down:count:19108519",
+      "replacement_physical_image_sha256": "bed421fce85cd73042895f7ab27576c7ee319336833c2f29e0e8817acb029701",
+      "source_item_id": "tallyqa_down:count:19108519"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30160837",
+      "replacement_item_id": "tallyqa_down:count:923647891670",
+      "replacement_physical_image_sha256": "8639ce89ff057644fac0a57a3502bbf52fab0dd085359397a6c80392be331268",
+      "source_item_id": "tallyqa_down:count:923647891670"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30132963",
+      "replacement_item_id": "tallyqa_down:count:19057896",
+      "replacement_physical_image_sha256": "b5fb0077a9cdda06c3634ae752258001971eb345b97658587be6d13cbcd0e478",
+      "source_item_id": "tallyqa_down:count:19057896"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30137951",
+      "replacement_item_id": "tallyqa_down:count:10477895",
+      "replacement_physical_image_sha256": "5ce27cccf9daec6b6f0a0b4dc6b99ba82772b41b4c50b683af76eff57f7d8c2c",
+      "source_item_id": "tallyqa_down:count:10477895"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30145784",
+      "replacement_item_id": "tallyqa_down:count:30096810",
+      "replacement_physical_image_sha256": "38823959035c8eeb121199fe9aefb08467ad68c967e8a9571a44a4f971e8a08e",
+      "source_item_id": "tallyqa_down:count:30096810"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30162894",
+      "replacement_item_id": "tallyqa_down:count:91037547",
+      "replacement_physical_image_sha256": "a32beb58b0bcd740669d062d6057274e0f1344fac11271a39fb1ba2aeb6f1cdd",
+      "source_item_id": "tallyqa_down:count:91037547"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30120264",
+      "replacement_item_id": "tallyqa_down:count:30132611",
+      "replacement_physical_image_sha256": "3f5bb22f6c05f451ac1fa184f8cbe1bfccb60d7ea09909371a84ade5652cb2c1",
+      "source_item_id": "tallyqa_down:count:30132611"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30142188",
+      "replacement_item_id": "tallyqa_down:count:91618893",
+      "replacement_physical_image_sha256": "6023831867370229650ad11d76cccf54d70f141675659a9f8fc6538f77a39123",
+      "source_item_id": "tallyqa_down:count:91618893"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30158167",
+      "replacement_item_id": "tallyqa_down:count:924153663089",
+      "replacement_physical_image_sha256": "437155eaf842a82a497c3d141de69c21e5b8926d9a1d04e45d2da02d9d364b76",
+      "source_item_id": "tallyqa_down:count:924153663089"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30133745",
+      "replacement_item_id": "tallyqa_down:count:90341889",
+      "replacement_physical_image_sha256": "735dd99ef5d193d1d641cd7ccaf345c9301b4a67319a06a08cb30abde6731a00",
+      "source_item_id": "tallyqa_down:count:90341889"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30097337",
+      "replacement_item_id": "tallyqa_down:count:30094987",
+      "replacement_physical_image_sha256": "cf5343809813bb53f9a3d30212400fd63a50c41e6e8daaf3217acab21d4d5036",
+      "source_item_id": "tallyqa_down:count:30094987"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30114603",
+      "replacement_item_id": "tallyqa_down:count:30108633",
+      "replacement_physical_image_sha256": "fe4ffa24084ea6be7f8e405c12980d3820d27d9dc474e0762b7627bbddcf8a0a",
+      "source_item_id": "tallyqa_down:count:30108633"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30150973",
+      "replacement_item_id": "tallyqa_down:count:10625499",
+      "replacement_physical_image_sha256": "0a8d45cf254e9b0cea786e4d17d50d07d02335627268b7cfc005eef29077e52f",
+      "source_item_id": "tallyqa_down:count:10625499"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30126046",
+      "replacement_item_id": "tallyqa_down:count:20013944",
+      "replacement_physical_image_sha256": "f833dbf5801b48f5432d137a99b9972b9535468b6e574b785094060ef8625520",
+      "source_item_id": "tallyqa_down:count:20013944"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30164861",
+      "replacement_item_id": "tallyqa_down:count:20000907",
+      "replacement_physical_image_sha256": "77db0de44e18f357fac284074bf98f94a0a6b15756518d34c1519fadcc507f3a",
+      "source_item_id": "tallyqa_down:count:20000907"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923657976024",
+      "replacement_item_id": "tallyqa_down:count:10185050",
+      "replacement_physical_image_sha256": "b19159b65442984eacf1a574267b5966ba2d8c47052971bcdd584b067c4164f3",
+      "source_item_id": "tallyqa_down:count:10185050"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9237213712809",
+      "replacement_item_id": "tallyqa_down:count:10265864",
+      "replacement_physical_image_sha256": "7388425a48c30daf7bfca29922090d46d2b8694addef2725a7d6284a9e497708",
+      "source_item_id": "tallyqa_down:count:10265864"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9232472020277",
+      "replacement_item_id": "tallyqa_down:count:30143848",
+      "replacement_physical_image_sha256": "95c27587cf78c07b7c2e0636f41426926e865bcece482f4370513f29e8ad089a",
+      "source_item_id": "tallyqa_down:count:30143848"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:92348989374",
+      "replacement_item_id": "tallyqa_down:count:20001358",
+      "replacement_physical_image_sha256": "30c8608fa3a077ae25532f8542e3b9d84a12abb285a2d08b513b1c9bee02d0e4",
+      "source_item_id": "tallyqa_down:count:20001358"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923474944432",
+      "replacement_item_id": "tallyqa_down:count:923244663832",
+      "replacement_physical_image_sha256": "405715b1b316e8dca654bc4b29675b262452502ac85d3f9530465beb6c5d6614",
+      "source_item_id": "tallyqa_down:count:923244663832"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9234705519195",
+      "replacement_item_id": "tallyqa_down:count:20022985",
+      "replacement_physical_image_sha256": "63abbe798cbe8d8647ba305822ea2e068fe92e7d3234b12a976d96a23abb0a82",
+      "source_item_id": "tallyqa_down:count:20022985"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923489849708",
+      "replacement_item_id": "tallyqa_down:count:10097851",
+      "replacement_physical_image_sha256": "514166a2e18d615ddd64bd24a96a7e1e0f0cdf8ce240dcf73a84dc4eb5728cdc",
+      "source_item_id": "tallyqa_down:count:10097851"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30161099",
+      "replacement_item_id": "tallyqa_down:count:91238272",
+      "replacement_physical_image_sha256": "62ea6556ee2be25b9e65cb861dc6d8f0180928e2a43c2850425238fc9a91edf0",
+      "source_item_id": "tallyqa_down:count:91238272"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9240212120303",
+      "replacement_item_id": "tallyqa_down:count:923631476749",
+      "replacement_physical_image_sha256": "2957dde120665296f465eca5206a68595b4990699251784ff9b6a99b0fffc12e",
+      "source_item_id": "tallyqa_down:count:923631476749"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30125286",
+      "replacement_item_id": "tallyqa_down:count:90922924",
+      "replacement_physical_image_sha256": "e3433a895193a4d39648369eab11e21819b472887383b0e87c5aea7e1d3a3c27",
+      "source_item_id": "tallyqa_down:count:90922924"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30099204",
+      "replacement_item_id": "tallyqa_down:count:20013117",
+      "replacement_physical_image_sha256": "d1c04ee817ac85ff63272077a6376b89e31bbc2544a3bf476122bcfef0872dba",
+      "source_item_id": "tallyqa_down:count:20013117"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30117182",
+      "replacement_item_id": "tallyqa_down:count:10434993",
+      "replacement_physical_image_sha256": "677cbbccd3b460eb8b232a9c2fae3fc75758e1d79edc55c5756c4966af0edb02",
+      "source_item_id": "tallyqa_down:count:10434993"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9237795312762",
+      "replacement_item_id": "tallyqa_down:count:10363617",
+      "replacement_physical_image_sha256": "0102b9552899595c84051c070e22e5bf0d7889d2a22e3e9149e46ba2fd8382ab",
+      "source_item_id": "tallyqa_down:count:10363617"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30095033",
+      "replacement_item_id": "tallyqa_down:count:30103597",
+      "replacement_physical_image_sha256": "6fd087779b0ede8cd05b86969d6f01302715c4d9e86cf4a377d8ed58693d07a4",
+      "source_item_id": "tallyqa_down:count:30103597"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9236851614997",
+      "replacement_item_id": "tallyqa_down:count:20066863",
+      "replacement_physical_image_sha256": "733357355cae68326126db61d245e3fe43827d73df92dfda9006360c2ec6d46a",
+      "source_item_id": "tallyqa_down:count:20066863"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:915921582034",
+      "replacement_item_id": "tallyqa_down:count:923407794181",
+      "replacement_physical_image_sha256": "429c4f21fb08d43adbb0d86f7b26496811174ea47ff7a7aa0fcaf9beb178a915",
+      "source_item_id": "tallyqa_down:count:923407794181"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:92368279974",
+      "replacement_item_id": "tallyqa_down:count:30165055",
+      "replacement_physical_image_sha256": "4cef8d0844d77ab1384ea8a7cf9ce0ec0c8fe870d35780b90211fccec1d30505",
+      "source_item_id": "tallyqa_down:count:30165055"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9236126110657",
+      "replacement_item_id": "tallyqa_down:count:91669753",
+      "replacement_physical_image_sha256": "5301a50e217fa1801ec5326515226dbb5be776d3ad24d7bc870aa3fff48b11c0",
+      "source_item_id": "tallyqa_down:count:91669753"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30105426",
+      "replacement_item_id": "tallyqa_down:count:91432655",
+      "replacement_physical_image_sha256": "36d8ad1602b148ab7e859e9b28ef4ec033abe898be56e3a1d7e9a55be4dd8a2a",
+      "source_item_id": "tallyqa_down:count:91432655"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923315779888",
+      "replacement_item_id": "tallyqa_down:count:10228396",
+      "replacement_physical_image_sha256": "a61d339d3ec2a1a792c9c47660fb36d0e9908530af979e6e8f168307faca3f88",
+      "source_item_id": "tallyqa_down:count:10228396"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923834123279",
+      "replacement_item_id": "tallyqa_down:count:10138256",
+      "replacement_physical_image_sha256": "60d3f7e24c7cbe36fef739c34122a41ec338700e84bf6019cefeb7e8a5d3f4e1",
+      "source_item_id": "tallyqa_down:count:10138256"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923510635484",
+      "replacement_item_id": "tallyqa_down:count:90640038",
+      "replacement_physical_image_sha256": "3148decab985ebe578119978901eae75bfe664e95494a7207f80b5fbced34089",
+      "source_item_id": "tallyqa_down:count:90640038"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923716077799",
+      "replacement_item_id": "tallyqa_down:count:20070381",
+      "replacement_physical_image_sha256": "5e95f3eb0a4094a644612bed937f46133be34eddb4c246168875cd583a51f496",
+      "source_item_id": "tallyqa_down:count:20070381"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:924128541081",
+      "replacement_item_id": "tallyqa_down:count:30149138",
+      "replacement_physical_image_sha256": "1824d636965e984ccbcdae83fb2f56280b7b8a61f8b3cad96580915c4508ed57",
+      "source_item_id": "tallyqa_down:count:30149138"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9231751515960",
+      "replacement_item_id": "tallyqa_down:count:30132146",
+      "replacement_physical_image_sha256": "15306292159e14d281ed0fc1d5c7d15f9c0505333093e1b92338299acf05f7e4",
+      "source_item_id": "tallyqa_down:count:30132146"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923562672082",
+      "replacement_item_id": "tallyqa_down:count:20073238",
+      "replacement_physical_image_sha256": "09632b0c4200814515ce2ee71291e1fcb8c04575705fd7c19c34e5d0ac63ae43",
+      "source_item_id": "tallyqa_down:count:20073238"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9237054615436",
+      "replacement_item_id": "tallyqa_down:count:30141050",
+      "replacement_physical_image_sha256": "ede2f17ff0f4a45626c2b9308dd2f6a0ad84154dbaeb2718176be32c670981a4",
+      "source_item_id": "tallyqa_down:count:30141050"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9240345919744",
+      "replacement_item_id": "tallyqa_down:count:10595847",
+      "replacement_physical_image_sha256": "cb80741a122be0d6f7b7a46a64d0fa590b5ea8194c8759fdce14559043213a9f",
+      "source_item_id": "tallyqa_down:count:10595847"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923170865116",
+      "replacement_item_id": "tallyqa_down:count:20024762",
+      "replacement_physical_image_sha256": "b5b26807cc85be8fde45a1a9623e8af850cf46c4fb177958a56add21731cb339",
+      "source_item_id": "tallyqa_down:count:20024762"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9240890216422",
+      "replacement_item_id": "tallyqa_down:count:30110662",
+      "replacement_physical_image_sha256": "60558cdb9784fd55b2126bb5f0607fa66da26c7857a5af4639be473a2e4a397f",
+      "source_item_id": "tallyqa_down:count:30110662"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30143419",
+      "replacement_item_id": "tallyqa_down:count:10600298",
+      "replacement_physical_image_sha256": "7d9c2f42c574c557cf3153c985df738ed5a1167184bbf9d697a28ff0de674d24",
+      "source_item_id": "tallyqa_down:count:10600298"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30112617",
+      "replacement_item_id": "tallyqa_down:count:30103073",
+      "replacement_physical_image_sha256": "acaa7b340ac901c77a0130f091de0ee613cb8365f8cd7ce0ef4e2cd5ce9d40ff",
+      "source_item_id": "tallyqa_down:count:30103073"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923617869063",
+      "replacement_item_id": "tallyqa_down:count:923839804395",
+      "replacement_physical_image_sha256": "a896e5346a5872a97bdda8ee277c217e453b4eaef77b4205a8f690ea353cc741",
+      "source_item_id": "tallyqa_down:count:923839804395"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9240494510667",
+      "replacement_item_id": "tallyqa_down:count:10163972",
+      "replacement_physical_image_sha256": "8530cda121faa155383877d6179ecc232dfe05c100c8f2b135388afce099d83d",
+      "source_item_id": "tallyqa_down:count:10163972"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9237462413087",
+      "replacement_item_id": "tallyqa_down:count:20079133",
+      "replacement_physical_image_sha256": "1828002dc4622abbaea7c46c8327835aba19a24f7e305b9931e361b82fdbe5be",
+      "source_item_id": "tallyqa_down:count:20079133"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9233929610833",
+      "replacement_item_id": "tallyqa_down:count:30139943",
+      "replacement_physical_image_sha256": "7a29a093749cdbf572d9937553fe9b60d2749e8d37401b46794c2643fc8fc445",
+      "source_item_id": "tallyqa_down:count:30139943"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30122295",
+      "replacement_item_id": "tallyqa_down:count:20052425",
+      "replacement_physical_image_sha256": "e04d4c47541640f550ae532bc552f5118858489773eabd2bb9609f78f9ba228c",
+      "source_item_id": "tallyqa_down:count:20052425"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923455678817",
+      "replacement_item_id": "tallyqa_down:count:20047131",
+      "replacement_physical_image_sha256": "804f27feaff8c57adbc62915dcd026d4eb1f1bfdcdf98a96ffd4754dfe55a3a0",
+      "source_item_id": "tallyqa_down:count:20047131"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9234262719552",
+      "replacement_item_id": "tallyqa_down:count:19008200",
+      "replacement_physical_image_sha256": "e077bf0c8545fe1c10a7e78099efae064a2a57217c4b695d3bb82c4048bfcd48",
+      "source_item_id": "tallyqa_down:count:19008200"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923775068593",
+      "replacement_item_id": "tallyqa_down:count:19133403",
+      "replacement_physical_image_sha256": "e2516e10cd0189166297c7cca51314eac4b5dd5188f1a55b8447d1fa0b67af20",
+      "source_item_id": "tallyqa_down:count:19133403"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:92315460194",
+      "replacement_item_id": "tallyqa_down:count:9240656513641",
+      "replacement_physical_image_sha256": "eeeba0cc3b4fc2c62ee5161b752b0af9ee511552889c4bc2e3ddde55c5440f10",
+      "source_item_id": "tallyqa_down:count:9240656513641"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9231848015480",
+      "replacement_item_id": "tallyqa_down:count:90240764",
+      "replacement_physical_image_sha256": "d1215db20968dc20377ca80297293a2e4dd0a1ce96d1e302282e28a5cd22b3ba",
+      "source_item_id": "tallyqa_down:count:90240764"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923737557039",
+      "replacement_item_id": "tallyqa_down:count:10040487",
+      "replacement_physical_image_sha256": "454e6d25b48d1c870d36b52c35d7fe93dfd7cd0b8fdb2073ddd58e36513c0643",
+      "source_item_id": "tallyqa_down:count:10040487"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9237086010103",
+      "replacement_item_id": "tallyqa_down:count:20001411",
+      "replacement_physical_image_sha256": "3bcd0394b6ac84dfff140ee63076cc1ff9da66796090a04336b7ea508b2cb7c8",
+      "source_item_id": "tallyqa_down:count:20001411"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9234628110398",
+      "replacement_item_id": "tallyqa_down:count:19169042",
+      "replacement_physical_image_sha256": "aa6bf0738ac28347c69c33794451cfaa4cbc08cc18a0fc0781278ac915274809",
+      "source_item_id": "tallyqa_down:count:19169042"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923583993900",
+      "replacement_item_id": "tallyqa_down:count:10590898",
+      "replacement_physical_image_sha256": "e0f01a68fea57f915a25d5744435b9fe96620c87671354505fdeda816583fad6",
+      "source_item_id": "tallyqa_down:count:10590898"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30110358",
+      "replacement_item_id": "tallyqa_down:count:10069438",
+      "replacement_physical_image_sha256": "eeceb96ac103fc860ae34773261e8014f125feef3284b3cb56660dce658e7074",
+      "source_item_id": "tallyqa_down:count:10069438"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9239811015416",
+      "replacement_item_id": "tallyqa_down:count:90002195913",
+      "replacement_physical_image_sha256": "69d3f6a1c3c44c784a19f5686efdfa09c31879fcc461ca05c8ef48fedb5b6cb2",
+      "source_item_id": "tallyqa_down:count:90002195913"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9235689515178",
+      "replacement_item_id": "tallyqa_down:count:30110352",
+      "replacement_physical_image_sha256": "7bbac398e2249af8ded66641a2956c4e026eb82898063c5c9b185d22c0e66272",
+      "source_item_id": "tallyqa_down:count:30110352"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923973475721",
+      "replacement_item_id": "tallyqa_down:count:90453745",
+      "replacement_physical_image_sha256": "7337a546e8541c05930d4e98c05d3edbf9cec162107f62d1098d09bcd8095747",
+      "source_item_id": "tallyqa_down:count:90453745"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:92371011710",
+      "replacement_item_id": "tallyqa_down:count:20009038",
+      "replacement_physical_image_sha256": "1fade732c19be3ef5e8a1d5b242a8fb7bfa9f73582db707a2375272b61a028c1",
+      "source_item_id": "tallyqa_down:count:20009038"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9240903613749",
+      "replacement_item_id": "tallyqa_down:count:20022952",
+      "replacement_physical_image_sha256": "a22fb52e5d18b08bf1371f94d73b389c479186f4bf9e9402afec6dcbfbd884aa",
+      "source_item_id": "tallyqa_down:count:20022952"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:30094699",
+      "replacement_item_id": "tallyqa_down:count:90343098",
+      "replacement_physical_image_sha256": "4818b7055474f3afc5054bf9f3112f316e32ce29a4841db87157f90c34275c3e",
+      "source_item_id": "tallyqa_down:count:90343098"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:9241334611028",
+      "replacement_item_id": "tallyqa_down:count:10560314",
+      "replacement_physical_image_sha256": "24efff4ac2dd0d13a7516daa36c2ec509b779b3d6e71b46881becb30621f920e",
+      "source_item_id": "tallyqa_down:count:10560314"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923417881461",
+      "replacement_item_id": "tallyqa_down:count:10086025",
+      "replacement_physical_image_sha256": "7d229f90fdf22c7822146a689153998bd4ffa82c22a36f71b588f55a12731686",
+      "source_item_id": "tallyqa_down:count:10086025"
+    },
+    {
+      "carrier": "tallyqa",
+      "factor": "count",
+      "original_item_id": "tallyqa_down:count:923528087865",
+      "replacement_item_id": "tallyqa_down:count:91760275",
+      "replacement_physical_image_sha256": "2bdbcb7f1177f05968679d133312c6f48e318616624c1c4651518e3ee886e9f6",
+      "source_item_id": "tallyqa_down:count:91760275"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:14724172",
+      "replacement_item_id": "gqa_down:attribute:19450721",
+      "replacement_physical_image_sha256": "2fd6995d18e41b25ad97ab1a994a3762afb932c81e9115ff5ca982b8aec029ab",
+      "source_item_id": "gqa_down:attribute:19450721"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:05630176",
+      "replacement_item_id": "gqa_down:attribute:10951068",
+      "replacement_physical_image_sha256": "2f8a14fe7f03b7c825f73acc8b0175227025d20fb46a2524b0c23dfb99e17d32",
+      "source_item_id": "gqa_down:attribute:10951068"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:14717627",
+      "replacement_item_id": "gqa_down:attribute:13858406",
+      "replacement_physical_image_sha256": "4ab19c9e6d255ed0b102f2420acd06da86ca28cf49b582ad34995db10408573d",
+      "source_item_id": "gqa_down:attribute:13858406"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:19188434",
+      "replacement_item_id": "gqa_down:attribute:16173653",
+      "replacement_physical_image_sha256": "7997ad7ee8f44b5f36d58f3a23c1fa2bb7e8aca5ffa2f06ba536e12210f87192",
+      "source_item_id": "gqa_down:attribute:16173653"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:13628892",
+      "replacement_item_id": "gqa_down:attribute:19795460",
+      "replacement_physical_image_sha256": "a89e6dc0fd44db6604db013632c1f7060b8c01e73a9a75868e8a7bf20c984e41",
+      "source_item_id": "gqa_down:attribute:19795460"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:1679505",
+      "replacement_item_id": "gqa_down:attribute:16572180",
+      "replacement_physical_image_sha256": "983186b85f33799e69816c0867e19ae7b0ed33c460a51e316b1672faa6911de2",
+      "source_item_id": "gqa_down:attribute:16572180"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:021063239",
+      "replacement_item_id": "gqa_down:attribute:18996747",
+      "replacement_physical_image_sha256": "2a78b09a96646990d0ecca9dbbbdaf16e8bdb5e6e79e4b8ee03d162d48e25b38",
+      "source_item_id": "gqa_down:attribute:18996747"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:07249916",
+      "replacement_item_id": "gqa_down:attribute:18377106",
+      "replacement_physical_image_sha256": "aab239ef60fcdfe82033b0907ef6d05ccc3885fb9f1d87284ef6b1dda80c26e7",
+      "source_item_id": "gqa_down:attribute:18377106"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:17394999",
+      "replacement_item_id": "gqa_down:attribute:00508038",
+      "replacement_physical_image_sha256": "2623df4fac1eb2506704674cb9246d7367be4a7526063889c594bf0f506af842",
+      "source_item_id": "gqa_down:attribute:00508038"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:17899338",
+      "replacement_item_id": "gqa_down:attribute:18674439",
+      "replacement_physical_image_sha256": "8a5fae2b337f73eb20a90936dcc9f3c032c974bda810dba85de74e4ef068f043",
+      "source_item_id": "gqa_down:attribute:18674439"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:07523160",
+      "replacement_item_id": "gqa_down:attribute:13144055",
+      "replacement_physical_image_sha256": "925dadc509a3c824ad6596b8eb933130b166fa1724266c395440b4aa6291dd49",
+      "source_item_id": "gqa_down:attribute:13144055"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:15687620",
+      "replacement_item_id": "gqa_down:attribute:14603976",
+      "replacement_physical_image_sha256": "9231a541a5bf3c47c477758ef07a8c49b32e76c364ced2b0365272cce1ee8efe",
+      "source_item_id": "gqa_down:attribute:14603976"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:03722455",
+      "replacement_item_id": "gqa_down:attribute:19656518",
+      "replacement_physical_image_sha256": "dd82cd9dceecc8f947c491606c343a393348f4d6ffa11747dfc847ab669d7051",
+      "source_item_id": "gqa_down:attribute:19656518"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:01552401",
+      "replacement_item_id": "gqa_down:attribute:18392322",
+      "replacement_physical_image_sha256": "f681b09d3cbaeecc74d70027e07364cc9fcf429e1459b5971f5fde5a3ffce418",
+      "source_item_id": "gqa_down:attribute:18392322"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:17119939",
+      "replacement_item_id": "gqa_down:attribute:05956537",
+      "replacement_physical_image_sha256": "f8aa52ffcc7d8b05bcc920d9f5634d8be44bae8664164386d92aea7105f53590",
+      "source_item_id": "gqa_down:attribute:05956537"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:01778367",
+      "replacement_item_id": "gqa_down:attribute:121025105",
+      "replacement_physical_image_sha256": "ca71a02d23317508bb1b2e964481b50a41f89973d52bdff49c29b1d5e5fce432",
+      "source_item_id": "gqa_down:attribute:121025105"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:10438564",
+      "replacement_item_id": "gqa_down:attribute:05277588",
+      "replacement_physical_image_sha256": "5d43dfde1c118f5ee759510d75bf05afff49ae3b09e51f14f1cbb1aad39c3dd4",
+      "source_item_id": "gqa_down:attribute:05277588"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:04434261",
+      "replacement_item_id": "gqa_down:attribute:10433841",
+      "replacement_physical_image_sha256": "d224d03242e1c36b38c10118d31fb16460db015b770cfc78a77db6561badf88a",
+      "source_item_id": "gqa_down:attribute:10433841"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:00523936",
+      "replacement_item_id": "gqa_down:attribute:18515162",
+      "replacement_physical_image_sha256": "c64d78b8df66b5b2bde9e411eb9c23b4dbd3b9f5ae0d8f7d30848f2f0e8de4d4",
+      "source_item_id": "gqa_down:attribute:18515162"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:01475354",
+      "replacement_item_id": "gqa_down:attribute:0910475",
+      "replacement_physical_image_sha256": "53107a436702c386dd9290e2eaded3691e430e85212b6fbb29597e4b6e4f5a83",
+      "source_item_id": "gqa_down:attribute:0910475"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:19693359",
+      "replacement_item_id": "gqa_down:attribute:17111517",
+      "replacement_physical_image_sha256": "1b7027f48009a0f4e02058614c2d838ca39dc39ca70f0d78110080d86d874749",
+      "source_item_id": "gqa_down:attribute:17111517"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:17445002",
+      "replacement_item_id": "gqa_down:attribute:09575052",
+      "replacement_physical_image_sha256": "106ce09d6d6a657be7920e13f7ba72a2f04c9e6a89af717e1f795d478ab3e952",
+      "source_item_id": "gqa_down:attribute:09575052"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:16345798",
+      "replacement_item_id": "gqa_down:attribute:121037067",
+      "replacement_physical_image_sha256": "328d4e4d423c0a7e1e039556e4735ec95c78d4d4b45c5acaa02b80397f7399ae",
+      "source_item_id": "gqa_down:attribute:121037067"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:08694285",
+      "replacement_item_id": "gqa_down:attribute:0483627",
+      "replacement_physical_image_sha256": "5edc7ba621e088f37e3ed752fb78ac20cd0ff73de09f17da5961e42a2081f2dc",
+      "source_item_id": "gqa_down:attribute:0483627"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:16557570",
+      "replacement_item_id": "gqa_down:attribute:06736495",
+      "replacement_physical_image_sha256": "27e26f5da09bcf96b3b22eed64f30db359b8cadc9985765a962ae7206e3d6594",
+      "source_item_id": "gqa_down:attribute:06736495"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:11465558",
+      "replacement_item_id": "gqa_down:attribute:0890686",
+      "replacement_physical_image_sha256": "ebb893610e13ec44cf0e560340ba0709367a392481fa594512fbbf1be06c1df4",
+      "source_item_id": "gqa_down:attribute:0890686"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "attribute",
+      "original_item_id": "gqa_down:attribute:111007679",
+      "replacement_item_id": "gqa_down:attribute:05902874",
+      "replacement_physical_image_sha256": "ca55fd1b5c806415c41adcc43aa23a8b69543527090f6d526b89bb8390e99d1f",
+      "source_item_id": "gqa_down:attribute:05902874"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:11312803",
+      "replacement_item_id": "gqa_down:presence:17391731",
+      "replacement_physical_image_sha256": "f1f1c9dbe97d822f7588d3b44401d3d2a03b2982ee5ddde7e6af9499dc6e756f",
+      "source_item_id": "gqa_down:presence:17391731"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:04632470",
+      "replacement_item_id": "gqa_down:presence:18844786",
+      "replacement_physical_image_sha256": "cda50f8dbbbf5e81d43ea72b43757f29f81a9233424f2a1540c91ae94aa69be0",
+      "source_item_id": "gqa_down:presence:18844786"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:1639070",
+      "replacement_item_id": "gqa_down:presence:10954618",
+      "replacement_physical_image_sha256": "2d4243b570cbc6b23b69f0f46ef58e4256bd08ccd192cc3967ece0a069776044",
+      "source_item_id": "gqa_down:presence:10954618"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:07207652",
+      "replacement_item_id": "gqa_down:presence:12199878",
+      "replacement_physical_image_sha256": "cf4c82c1e25afe212bf9e85e6cfd55ee33985994dca65e9251faec51500ba7d4",
+      "source_item_id": "gqa_down:presence:12199878"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:16307719",
+      "replacement_item_id": "gqa_down:presence:11396961",
+      "replacement_physical_image_sha256": "cdcfc94871e05ea8a7c3535ee157c0841569f735a978e3a04e7be78e12189a5b",
+      "source_item_id": "gqa_down:presence:11396961"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:019186",
+      "replacement_item_id": "gqa_down:presence:18926736",
+      "replacement_physical_image_sha256": "7c1b5b1356f92407849f6dc346d83e322e66098f1538290cfd9e19a1c39623f8",
+      "source_item_id": "gqa_down:presence:18926736"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:03342326",
+      "replacement_item_id": "gqa_down:presence:13569893",
+      "replacement_physical_image_sha256": "418f0abfcd1a12b61571422a625bc815581d6ef78cbd28455de5d7d016bcf8c8",
+      "source_item_id": "gqa_down:presence:13569893"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:13209564",
+      "replacement_item_id": "gqa_down:presence:07733015",
+      "replacement_physical_image_sha256": "b950dbca20e6ef16231c567c09ceb21985a8a178b4347897b428ee1e07ec9ec8",
+      "source_item_id": "gqa_down:presence:07733015"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:05213151",
+      "replacement_item_id": "gqa_down:presence:17388885",
+      "replacement_physical_image_sha256": "bc0a70ff90d42dcc31590ffe4d166156c6d193f603e2dd195411ee339f7e3c73",
+      "source_item_id": "gqa_down:presence:17388885"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:161030598",
+      "replacement_item_id": "gqa_down:presence:09187812",
+      "replacement_physical_image_sha256": "38b52dd6663472167c3f24d4e861bfbc873a9599688498676b42c0c449471215",
+      "source_item_id": "gqa_down:presence:09187812"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:17981900",
+      "replacement_item_id": "gqa_down:presence:10103476",
+      "replacement_physical_image_sha256": "5f9b0a6b23265894ec7eb60aba476869be99ff13bc31d04e341cb173c70556fe",
+      "source_item_id": "gqa_down:presence:10103476"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:16579830",
+      "replacement_item_id": "gqa_down:presence:16495429",
+      "replacement_physical_image_sha256": "a29fac6f8fb4a0c645401e4c6b09f6abffaf541d51810e853e8fddcc5b0decae",
+      "source_item_id": "gqa_down:presence:16495429"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:04691841",
+      "replacement_item_id": "gqa_down:presence:00729501",
+      "replacement_physical_image_sha256": "aa953895ad4fbdf13988198da54de9a5b4a40fa82426c9caba405905bb5b2296",
+      "source_item_id": "gqa_down:presence:00729501"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:18977974",
+      "replacement_item_id": "gqa_down:presence:11139539",
+      "replacement_physical_image_sha256": "cf02980d5c03f780a6fd963ed6d5e7c498ceefe40f7695d16e5e2615d6607f31",
+      "source_item_id": "gqa_down:presence:11139539"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:11250649",
+      "replacement_item_id": "gqa_down:presence:06674925",
+      "replacement_physical_image_sha256": "ac9b78d99ef9394935ec1cde47da178424296f301e1642c80663866f20cd639a",
+      "source_item_id": "gqa_down:presence:06674925"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:15575810",
+      "replacement_item_id": "gqa_down:presence:16874710",
+      "replacement_physical_image_sha256": "b00e616e5cee400b10933bc24ef9ec43b172fc4a9af96510d23f2c004d56d125",
+      "source_item_id": "gqa_down:presence:16874710"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:01839897",
+      "replacement_item_id": "gqa_down:presence:03395217",
+      "replacement_physical_image_sha256": "50a79b5bb46688b1530d44af266cc2b25461ce2eb298d3c36079bd5a4bb949c4",
+      "source_item_id": "gqa_down:presence:03395217"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:04277390",
+      "replacement_item_id": "gqa_down:presence:06201453",
+      "replacement_physical_image_sha256": "50771818be7e7083a70b7c35ac36e209868953fe672d57d9dbbdb74775fd6fc9",
+      "source_item_id": "gqa_down:presence:06201453"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:15842914",
+      "replacement_item_id": "gqa_down:presence:098973",
+      "replacement_physical_image_sha256": "da45d7168428ccc48fed8c40c5e14555566924184131a2a76fe707d0744c60c0",
+      "source_item_id": "gqa_down:presence:098973"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:16769331",
+      "replacement_item_id": "gqa_down:presence:12145125",
+      "replacement_physical_image_sha256": "9e62aad288a8347c86cea0bdba9b113ac2196198c1ad4aaacc6f31fd4beefc19",
+      "source_item_id": "gqa_down:presence:12145125"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:11792626",
+      "replacement_item_id": "gqa_down:presence:1750194",
+      "replacement_physical_image_sha256": "764331aecb2db10f16bb87750f63a87998922b398e2b09cb7c1217d9587b7aa7",
+      "source_item_id": "gqa_down:presence:1750194"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:07884591",
+      "replacement_item_id": "gqa_down:presence:11751492",
+      "replacement_physical_image_sha256": "e880a7338347b0e47a0614386d5f4a40d03076637904a84de8d83a1c26174122",
+      "source_item_id": "gqa_down:presence:11751492"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:18470046",
+      "replacement_item_id": "gqa_down:presence:09825370",
+      "replacement_physical_image_sha256": "1e8fc8d33616457927437fc1d11c950f6f15183901605ff10e384588d48a3321",
+      "source_item_id": "gqa_down:presence:09825370"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:03235633",
+      "replacement_item_id": "gqa_down:presence:19908439",
+      "replacement_physical_image_sha256": "a61c66cd025e7085454e92b9b1409fe2d2710a66f1a3605c5c805f00dc08083b",
+      "source_item_id": "gqa_down:presence:19908439"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:15285512",
+      "replacement_item_id": "gqa_down:presence:14547828",
+      "replacement_physical_image_sha256": "6f6c34ff4de86a12968d4fa8cbc11de7ae83abbc253a5e04112b4b3f67aae659",
+      "source_item_id": "gqa_down:presence:14547828"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:04206630",
+      "replacement_item_id": "gqa_down:presence:08993152",
+      "replacement_physical_image_sha256": "4645a47822756b7cb4e2c828d771e0a627b27c5bced6a43d41870e16e14a602e",
+      "source_item_id": "gqa_down:presence:08993152"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:08245859",
+      "replacement_item_id": "gqa_down:presence:06108662",
+      "replacement_physical_image_sha256": "96874ade89b532ee34895c9ecec2932372f4867f7c5d445dfe8055abd2f11e4b",
+      "source_item_id": "gqa_down:presence:06108662"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:01116574",
+      "replacement_item_id": "gqa_down:presence:07434326",
+      "replacement_physical_image_sha256": "65d99133cba96846f6d755a2657c462fe151fa7a66cb506e72e3b12fb26a2ee4",
+      "source_item_id": "gqa_down:presence:07434326"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:001048656",
+      "replacement_item_id": "gqa_down:presence:17529891",
+      "replacement_physical_image_sha256": "4e1e5ab8cff06e0426a8912248da411155f41411c554010feb14513add7d8fb0",
+      "source_item_id": "gqa_down:presence:17529891"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:15597489",
+      "replacement_item_id": "gqa_down:presence:07407360",
+      "replacement_physical_image_sha256": "488497df67ff712f1ea8973b7754c46d1f87e60225fbba4286b09972c977fc61",
+      "source_item_id": "gqa_down:presence:07407360"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:11175896",
+      "replacement_item_id": "gqa_down:presence:09877254",
+      "replacement_physical_image_sha256": "831f7729c876bc9351ff34d86e330ee852b3f6d23da2b58fc30d60aebadf8e13",
+      "source_item_id": "gqa_down:presence:09877254"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:1363322",
+      "replacement_item_id": "gqa_down:presence:03141519",
+      "replacement_physical_image_sha256": "67e1b79a24a2850cbb4ca2c938b684e3c1cbc00a87c3f54980104f5ba05137bf",
+      "source_item_id": "gqa_down:presence:03141519"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "presence",
+      "original_item_id": "gqa_down:presence:19518298",
+      "replacement_item_id": "gqa_down:presence:04636283",
+      "replacement_physical_image_sha256": "9f7a81074edd86779e2f3a8f29d21ad9ffdcb945b02131e6d62c0f6cdd830ccf",
+      "source_item_id": "gqa_down:presence:04636283"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:16148565",
+      "replacement_item_id": "gqa_down:spatial:04991872",
+      "replacement_physical_image_sha256": "662399d6495f83f47d16dd3110fcabef28e9fff76491aeaac46da6a5b595db57",
+      "source_item_id": "gqa_down:spatial:04991872"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:17130027",
+      "replacement_item_id": "gqa_down:spatial:08899247",
+      "replacement_physical_image_sha256": "a0e655861e9813509389f002ff2074fb5ca5a5c26662bd9e5e1235415546158c",
+      "source_item_id": "gqa_down:spatial:08899247"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:14111201",
+      "replacement_item_id": "gqa_down:spatial:02771376",
+      "replacement_physical_image_sha256": "5add93d99bf87ac1d82580e71c83e09d015686aa977e134a7a02288712597a42",
+      "source_item_id": "gqa_down:spatial:02771376"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:06617159",
+      "replacement_item_id": "gqa_down:spatial:00807507",
+      "replacement_physical_image_sha256": "6fe9947c75653a976b25f2ea65b4dba6bc73ddc6a708f1b38d06535e35200360",
+      "source_item_id": "gqa_down:spatial:00807507"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:1663470",
+      "replacement_item_id": "gqa_down:spatial:15525334",
+      "replacement_physical_image_sha256": "48970bacdf25fc9259b5536265d5d9e83f78b8bdba60f8966fdc2d73bc749b9c",
+      "source_item_id": "gqa_down:spatial:15525334"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:071032827",
+      "replacement_item_id": "gqa_down:spatial:06396832",
+      "replacement_physical_image_sha256": "ef58873a910a7228bd4769c7e85a02543e51d0ae6a473883d8b9477664d389c0",
+      "source_item_id": "gqa_down:spatial:06396832"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:1128877",
+      "replacement_item_id": "gqa_down:spatial:08347817",
+      "replacement_physical_image_sha256": "dca0023a8b31bd8de218bfff277b5e60a750276dac9d7896c1579c300b25941a",
+      "source_item_id": "gqa_down:spatial:08347817"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:01168262",
+      "replacement_item_id": "gqa_down:spatial:16172866",
+      "replacement_physical_image_sha256": "92d8d3cfab073c3d3e54b960cddd8abd9c2854613f614feecbde9a084028ac19",
+      "source_item_id": "gqa_down:spatial:16172866"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:101030572",
+      "replacement_item_id": "gqa_down:spatial:05888996",
+      "replacement_physical_image_sha256": "f110a90120dd4f796ae68c47787ce282388f91a0eec4cad570ceb26095bb337f",
+      "source_item_id": "gqa_down:spatial:05888996"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:11869704",
+      "replacement_item_id": "gqa_down:spatial:09239168",
+      "replacement_physical_image_sha256": "a5d154de158c3846af2ea40803858a7f3e93d0809261b24fe34b9d70b5da8e76",
+      "source_item_id": "gqa_down:spatial:09239168"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:10438465",
+      "replacement_item_id": "gqa_down:spatial:01390441",
+      "replacement_physical_image_sha256": "c8f862fb3f23667cf2f1afa6e65058812c5ecbb89b4a36cb9d09e86d43fbb6e6",
+      "source_item_id": "gqa_down:spatial:01390441"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:194727",
+      "replacement_item_id": "gqa_down:spatial:08666732",
+      "replacement_physical_image_sha256": "8805cb13b39cd1bad9bca54354ce6ab44a1a0cfb7cdb9b441ec12f81ac4dd744",
+      "source_item_id": "gqa_down:spatial:08666732"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:05816483",
+      "replacement_item_id": "gqa_down:spatial:1620412",
+      "replacement_physical_image_sha256": "fd8a30d740d8e913e50146fba01af04c7bf8a81fb72fb5b61c345dbc0cbe422b",
+      "source_item_id": "gqa_down:spatial:1620412"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:09628211",
+      "replacement_item_id": "gqa_down:spatial:19766450",
+      "replacement_physical_image_sha256": "9dbf34c81ad35aa63f4a9cd510193e3d8181b113475cf4e6574754c4bf2c9ead",
+      "source_item_id": "gqa_down:spatial:19766450"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:02297029",
+      "replacement_item_id": "gqa_down:spatial:16830839",
+      "replacement_physical_image_sha256": "b4504d80ce35f61c2bb1e597a186b3745f1c39140f42cce1698321e2bdfac96d",
+      "source_item_id": "gqa_down:spatial:16830839"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:01310441",
+      "replacement_item_id": "gqa_down:spatial:04341607",
+      "replacement_physical_image_sha256": "62e1f364f23d6cea3d9efa10aa2578a731f5af32827e055fe43dc049db29c812",
+      "source_item_id": "gqa_down:spatial:04341607"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:13115627",
+      "replacement_item_id": "gqa_down:spatial:09965427",
+      "replacement_physical_image_sha256": "b7e0c590ec263aceb421f2dcf1dc7bd0b4405a5775570075479ea0aca671940e",
+      "source_item_id": "gqa_down:spatial:09965427"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:031043716",
+      "replacement_item_id": "gqa_down:spatial:16945547",
+      "replacement_physical_image_sha256": "ebffbc8da2c8bddf0bcf67551ec3b3b65e9b461e043d46655e5ff362022f0ba5",
+      "source_item_id": "gqa_down:spatial:16945547"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:19345072",
+      "replacement_item_id": "gqa_down:spatial:18602916",
+      "replacement_physical_image_sha256": "b576bf6a83d889b34d043574b058d35e57e79f0e35bca43f158897c98cf3d0a0",
+      "source_item_id": "gqa_down:spatial:18602916"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:08661473",
+      "replacement_item_id": "gqa_down:spatial:16441901",
+      "replacement_physical_image_sha256": "500955be18d6640a9443187a626befd9e679e1f9e8bc2335b0ecb8681eb3735a",
+      "source_item_id": "gqa_down:spatial:16441901"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:03283393",
+      "replacement_item_id": "gqa_down:spatial:01927207",
+      "replacement_physical_image_sha256": "49f6ee373916867fc07d6ad58ea70a577f219765e6f79f5d0e1dbb927e532458",
+      "source_item_id": "gqa_down:spatial:01927207"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:081019892",
+      "replacement_item_id": "gqa_down:spatial:021002532",
+      "replacement_physical_image_sha256": "2c4cbde7f7fbb9b90f1c98e19358ac091b04ebe985c87ce619bfcf3430eb1751",
+      "source_item_id": "gqa_down:spatial:021002532"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:00658895",
+      "replacement_item_id": "gqa_down:spatial:00774954",
+      "replacement_physical_image_sha256": "975265d8bdac4d0eed161cb69713dda7b41f098e3605e20bbd31f5c59d345866",
+      "source_item_id": "gqa_down:spatial:00774954"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:00235147",
+      "replacement_item_id": "gqa_down:spatial:03643980",
+      "replacement_physical_image_sha256": "8779e1cddfe96c51bbec4f7c9061b299ef6b7a09c40537672edb390f0e90c0a8",
+      "source_item_id": "gqa_down:spatial:03643980"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:111003645",
+      "replacement_item_id": "gqa_down:spatial:18308986",
+      "replacement_physical_image_sha256": "3937494b1e0eda185eb4dcad8baab2b460d80f392681315b7c5e21b0e5471e85",
+      "source_item_id": "gqa_down:spatial:18308986"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:05205610",
+      "replacement_item_id": "gqa_down:spatial:14947116",
+      "replacement_physical_image_sha256": "e07ec79a67697345699ebfc6d5990005994f8149059249ca4768cd59a370908d",
+      "source_item_id": "gqa_down:spatial:14947116"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:07841706",
+      "replacement_item_id": "gqa_down:spatial:19291249",
+      "replacement_physical_image_sha256": "70b58a1ad23a96205b655f22fe23a00fd6e6afcc4f3b314da26c7a0c1d6083c0",
+      "source_item_id": "gqa_down:spatial:19291249"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:03192849",
+      "replacement_item_id": "gqa_down:spatial:01940480",
+      "replacement_physical_image_sha256": "08785cf98b6fb249d678acf24333e51a1d17004de3e20e897073e4d7c2207083",
+      "source_item_id": "gqa_down:spatial:01940480"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:15234703",
+      "replacement_item_id": "gqa_down:spatial:10208112",
+      "replacement_physical_image_sha256": "7a26b6655c42b4b0041b3bc4226b0130018700129f4f996469521c7881515242",
+      "source_item_id": "gqa_down:spatial:10208112"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:05952268",
+      "replacement_item_id": "gqa_down:spatial:11613265",
+      "replacement_physical_image_sha256": "69db3d39af9a814b070be1f5547692e23877fd05e371e11203665fcabb59cb39",
+      "source_item_id": "gqa_down:spatial:11613265"
+    },
+    {
+      "carrier": "gqa",
+      "factor": "spatial",
+      "original_item_id": "gqa_down:spatial:12175565",
+      "replacement_item_id": "gqa_down:spatial:00940096",
+      "replacement_physical_image_sha256": "e702aa467fafb1e87a68b36adc542f91857b422f08bf3589b9705a423c1b4159",
+      "source_item_id": "gqa_down:spatial:00940096"
+    }
+  ],
+  "static_manifest_sha256": "6e4a23fc54d4704e70587b177586152e6e63b7a4dac5964e7e16f56395e682e3",
+  "status": "PASS"
+}

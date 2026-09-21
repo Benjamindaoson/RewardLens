@@ -1,0 +1,9 @@
+{
+  "intersections": {
+    "audit_downstream": 0,
+    "audit_static": 0,
+    "static_downstream": 0
+  },
+  "physical_image_id": "SHA256(raw image bytes)",
+  "status": "PASS"
+}

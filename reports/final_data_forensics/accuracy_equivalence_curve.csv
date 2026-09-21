@@ -1,0 +1,6 @@
+epsilon_pp,role,accuracy_used,n_pairs,median_abs_delta_RA_pp,max_abs_delta_RA_pp,median_abs_delta_II_pp,max_abs_delta_II_pp,median_abs_delta_PFC_pp,max_abs_delta_PFC_pp
+0.5,post_hoc_sensitivity,"A_S independent static benchmark, never A_B",4,25.628140703517587,38.604166666666664,1.2837625628140725,10.752688172043012,26.0,40.5
+1.0,predeclared_primary,"A_S independent static benchmark, never A_B",7,15.053763440860212,38.604166666666664,1.005025125628145,10.752688172043012,20.999999999999996,40.5
+2.0,post_hoc_sensitivity,"A_S independent static benchmark, never A_B",11,15.053763440860212,38.604166666666664,0.6756756756756799,10.752688172043012,20.999999999999996,40.5
+3.0,post_hoc_sensitivity,"A_S independent static benchmark, never A_B",15,15.135135135135142,51.63513513513514,0.6756756756756799,10.752688172043012,24.0,62.000000000000014
+5.0,post_hoc_sensitivity,"A_S independent static benchmark, never A_B",32,15.053763440860212,51.63513513513514,0.8403504006519125,10.752688172043012,20.999999999999996,62.000000000000014

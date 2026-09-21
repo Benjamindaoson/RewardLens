@@ -1,0 +1,558 @@
+{
+  "version": "0",
+  "pip_version": "22.2.2",
+  "install": [
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/41/51/8041c2e70649e5b7f2a0aedbbbd0609ac099cfaa0cbde2014279c9c05756/cairosvg-2.9.1-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=f91c5628e834be024a0ed4544d76261cd84016a4c73bcdf26c386495825c05a1"
+        }
+      },
+      "is_direct": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "CairoSVG",
+        "version": "2.9.1",
+        "dynamic": [
+          "license-file"
+        ],
+        "platform": [
+          "Linux",
+          "macOS",
+          "Windows"
+        ],
+        "summary": "A Simple SVG Converter based on Cairo",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "svg",
+          "converter",
+          "cairo",
+          "pdf",
+          "png",
+          "postscript"
+        ],
+        "home_page": "https://courtbouillon.org/cairosvg",
+        "author": "Guillaume Ayoub",
+        "author_email": "contact@courtbouillon.org",
+        "license": "LGPL-3.0-or-later",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: End Users/Desktop",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Topic :: Multimedia :: Graphics :: Graphics Conversion"
+        ],
+        "requires_dist": [
+          "cairocffi",
+          "cssselect2",
+          "defusedxml",
+          "pillow",
+          "tinycss2",
+          "sphinx; extra == \"doc\"",
+          "sphinx_rtd_theme; extra == \"doc\"",
+          "pytest; extra == \"test\"",
+          "flake8; extra == \"test\"",
+          "isort; extra == \"test\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Documentation, https://cairosvg.org/documentation/",
+          "Code, https://github.com/Kozea/CairoSVG/",
+          "Issue tracker, https://github.com/Kozea/CairoSVG/issues",
+          "Donation, https://opencollective.com/courtbouillon"
+        ],
+        "provides_extra": [
+          "doc",
+          "test"
+        ],
+        "description": "CairoSVG is an SVG converter based on Cairo. It can export SVG files to PDF,\nEPS, PS, and PNG files.\n\n* Free software: LGPL license\n* For Python 3.10+\n* Documentation: https://cairosvg.org/documentation/\n* Changelog: https://github.com/Kozea/CairoSVG/releases\n* Code, issues, tests: https://github.com/Kozea/CairoSVG\n* Code of conduct: https://www.courtbouillon.org/code-of-conduct\n* Professional support: https://www.courtbouillon.org\n* Donation: https://opencollective.com/courtbouillon\n\nCairoSVG has been created and developed by Kozea (https://kozea.fr).\nProfessional support, maintenance and community management is provided by\nCourtBouillon (https://www.courtbouillon.org).\n\nCopyrights are retained by their contributors, no copyright assignment is\nrequired to contribute to CairoSVG. Unless explicitly stated otherwise, any\ncontribution intentionally submitted for inclusion is licensed under the LGPL \nlicense, without any additional terms or conditions. For full\nauthorship information, see the version control history.\n"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/93/d8/ba13451aa6b745c49536e87b6bf8f629b950e84bd0e8308f7dc6883b67e2/cairocffi-1.7.1-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=9803a0e11f6c962f3b0ae2ec8ba6ae45e957a146a004697a1ac1bbf16b073b3f"
+        }
+      },
+      "is_direct": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "cairocffi",
+        "version": "1.7.1",
+        "summary": "cffi-based cairo bindings for Python",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "cairo",
+          "cffi",
+          "binding"
+        ],
+        "author_email": "Simon Sapin <contact@courtbouillon.org>",
+        "maintainer_email": "CourtBouillon <contact@courtbouillon.org>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: BSD License",
+          "Operating System :: POSIX :: Linux",
+          "Operating System :: MacOS :: MacOS X",
+          "Operating System :: Microsoft :: Windows",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Topic :: Multimedia :: Graphics"
+        ],
+        "requires_dist": [
+          "cffi >= 1.1.0",
+          "sphinx ; extra == \"doc\"",
+          "sphinx_rtd_theme ; extra == \"doc\"",
+          "pytest ; extra == \"test\"",
+          "ruff ; extra == \"test\"",
+          "numpy ; extra == \"test\"",
+          "pikepdf ; extra == \"test\"",
+          "xcffib >= 1.4.0 ; extra == \"xcb\""
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Changelog, https://doc.courtbouillon.org/cairocffi/stable/changelog.html",
+          "Code, https://github.com/Kozea/cairocffi/",
+          "Documentation, https://doc.courtbouillon.org/cairocffi/",
+          "Donation, https://opencollective.com/courtbouillon",
+          "Issues, https://github.com/Kozea/cairocffi/issues"
+        ],
+        "provides_extra": [
+          "doc",
+          "test",
+          "xcb"
+        ],
+        "description": "cairocffi is a `CFFI`_-based drop-in replacement for Pycairo_,\na set of Python bindings and object-oriented API for cairo_.\nCairo is a 2D vector graphics library with support for multiple backends\nincluding image buffers, PNG, PostScript, PDF, and SVG file output.\n\nAdditionally, the ``cairocffi.pixbuf`` module uses GDK-PixBuf_\nto decode various image formats for use in cairo.\n\n.. _CFFI: https://cffi.readthedocs.org/\n.. _Pycairo: https://pycairo.readthedocs.io/\n.. _cairo: http://cairographics.org/\n.. _GDK-PixBuf: https://gitlab.gnome.org/GNOME/gdk-pixbuf\n\n* Free software: BSD license\n* For Python 3.8+, tested on CPython and PyPy\n* Documentation: https://doc.courtbouillon.org/cairocffi/\n* Changelog: https://doc.courtbouillon.org/cairocffi/stable/changelog.html\n* Code, issues, tests: https://github.com/Kozea/cairocffi\n* Code of conduct: https://www.courtbouillon.org/code-of-conduct\n* Professional support: https://www.courtbouillon.org\n* Donation: https://opencollective.com/courtbouillon\n* API partially compatible with Pycairo.\n* Works with any version of cairo.\n\ncairocffi has been created and developed by Kozea (https://kozea.fr).\nProfessional support, maintenance and community management is provided by\nCourtBouillon (https://www.courtbouillon.org).\n\nCopyrights are retained by their contributors, no copyright assignment is\nrequired to contribute to cairocffi. Unless explicitly stated otherwise, any\ncontribution intentionally submitted for inclusion is licensed under the BSD\n3-clause license, without any additional terms or conditions. For full\nauthorship information, see the version control history.\n\n"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/bd/59/6b1daa3b94de8970e2a2787ba73616c2d0675d2f948ef4cad8bef7f21bc6/cssselect2-0.10.1-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=25cc4494d55985d6a6da359be48da6ce98c28dcbafa2314c383ace3fc32ec868"
+        }
+      },
+      "is_direct": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.5",
+        "name": "cssselect2",
+        "version": "0.10.1",
+        "summary": "CSS selectors for Python ElementTree",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "css",
+          "elementtree"
+        ],
+        "author_email": "Simon Sapin <simon.sapin@exyr.org>",
+        "maintainer_email": "CourtBouillon <contact@courtbouillon.org>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: BSD License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Internet :: WWW/HTTP"
+        ],
+        "requires_dist": [
+          "tinycss2",
+          "webencodings",
+          "sphinx ; extra == \"doc\"",
+          "furo ; extra == \"doc\"",
+          "pytest ; extra == \"test\"",
+          "ruff ; extra == \"test\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Changelog, https://github.com/Kozea/cssselect2/releases",
+          "Code, https://github.com/Kozea/cssselect2/",
+          "Documentation, https://doc.courtbouillon.org/cssselect2/",
+          "Donation, https://opencollective.com/courtbouillon",
+          "Homepage, https://doc.courtbouillon.org/cssselect2/",
+          "Issues, https://github.com/Kozea/cssselect2/issues"
+        ],
+        "provides_extra": [
+          "doc",
+          "test"
+        ],
+        "description": "cssselect2 is a straightforward implementation of CSS4 Selectors for markup\ndocuments (HTML, XML, etc.) that can be read by ElementTree-like parsers\n(including cElementTree, lxml, html5lib, etc.)\n\n* Free software: BSD license\n* For Python 3.10+, tested on CPython and PyPy\n* Documentation: https://doc.courtbouillon.org/cssselect2\n* Changelog: https://github.com/Kozea/cssselect2/releases\n* Code, issues, tests: https://github.com/Kozea/cssselect2\n* Code of conduct: https://www.courtbouillon.org/code-of-conduct.html\n* Professional support: https://www.courtbouillon.org\n* Donation: https://opencollective.com/courtbouillon\n\ncssselect2 has been created and developed by Kozea (https://kozea.fr/).\nProfessional support, maintenance and community management is provided by\nCourtBouillon (https://www.courtbouillon.org/).\n\nCopyrights are retained by their contributors, no copyright assignment is\nrequired to contribute to cssselect2. Unless explicitly stated otherwise, any\ncontribution intentionally submitted for inclusion is licensed under the BSD\n3-clause license, without any additional terms or conditions. For full\nauthorship information, see the version control history.\n\n"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61"
+        }
+      },
+      "is_direct": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "defusedxml",
+        "version": "0.7.1",
+        "platform": [
+          "all"
+        ],
+        "summary": "XML bomb protection for Python stdlib modules",
+        "keywords": [
+          "xml",
+          "bomb",
+          "DoS"
+        ],
+        "home_page": "https://github.com/tiran/defusedxml",
+        "download_url": "https://pypi.python.org/pypi/defusedxml",
+        "author": "Christian Heimes",
+        "author_email": "christian@python.org",
+        "maintainer": "Christian Heimes",
+        "maintainer_email": "christian@python.org",
+        "license": "PSFL",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: Python Software Foundation License",
+          "Natural Language :: English",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 2",
+          "Programming Language :: Python :: 2.7",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.5",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Topic :: Text Processing :: Markup :: XML"
+        ],
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "description": "===================================================\ndefusedxml -- defusing XML bombs and other exploits\n===================================================\n\n.. image:: https://img.shields.io/pypi/v/defusedxml.svg\n    :target: https://pypi.org/project/defusedxml/\n    :alt: Latest Version\n\n.. image:: https://img.shields.io/pypi/pyversions/defusedxml.svg\n    :target: https://pypi.org/project/defusedxml/\n    :alt: Supported Python versions\n\n.. image:: https://travis-ci.org/tiran/defusedxml.svg?branch=master\n    :target: https://travis-ci.org/tiran/defusedxml\n    :alt: Travis CI\n\n.. image:: https://codecov.io/github/tiran/defusedxml/coverage.svg?branch=master\n    :target: https://codecov.io/github/tiran/defusedxml?branch=master\n    :alt: codecov\n\n.. image:: https://img.shields.io/pypi/dm/defusedxml.svg\n    :target: https://pypistats.org/packages/defusedxml\n    :alt: PyPI downloads\n\n.. image:: https://img.shields.io/badge/code%20style-black-000000.svg\n    :target: https://github.com/psf/black\n    :alt: Code style: black\n\n..\n\n    \"It's just XML, what could probably go wrong?\"\n\nChristian Heimes <christian@python.org>\n\nSynopsis\n========\n\nThe results of an attack on a vulnerable XML library can be fairly dramatic.\nWith just a few hundred **Bytes** of XML data an attacker can occupy several\n**Gigabytes** of memory within **seconds**. An attacker can also keep\nCPUs busy for a long time with a small to medium size request. Under some\ncircumstances it is even possible to access local files on your\nserver, to circumvent a firewall, or to abuse services to rebound attacks to\nthird parties.\n\nThe attacks use and abuse less common features of XML and its parsers. The\nmajority of developers are unacquainted with features such as processing\ninstructions and entity expansions that XML inherited from SGML. At best\nthey know about ``<!DOCTYPE>`` from experience with HTML but they are not\naware that a document type definition (DTD) can generate an HTTP request\nor load a file from the file system.\n\nNone of the issues is new. They have been known for a long time. Billion\nlaughs was first reported in 2003. Nevertheless some XML libraries and\napplications are still vulnerable and even heavy users of XML are\nsurprised by these features. It's hard to say whom to blame for the\nsituation. It's too short sighted to shift all blame on XML parsers and\nXML libraries for using insecure default settings. After all they\nproperly implement XML specifications. Application developers must not rely\nthat a library is always configured for security and potential harmful data\nby default.\n\n\n.. contents:: Table of Contents\n   :depth: 2\n\n\nAttack vectors\n==============\n\nbillion laughs / exponential entity expansion\n---------------------------------------------\n\nThe `Billion Laughs`_ attack -- also known as exponential entity expansion --\nuses multiple levels of nested entities. The original example uses 9 levels\nof 10 expansions in each level to expand the string ``lol`` to a string of\n3 * 10 :sup:`9` bytes, hence the name \"billion laughs\". The resulting string\noccupies 3 GB (2.79 GiB) of memory; intermediate strings require additional\nmemory. Because most parsers don't cache the intermediate step for every\nexpansion it is repeated over and over again. It increases the CPU load even\nmore.\n\nAn XML document of just a few hundred bytes can disrupt all services on a\nmachine within seconds.\n\nExample XML::\n\n    <!DOCTYPE xmlbomb [\n    <!ENTITY a \"1234567890\" >\n    <!ENTITY b \"&a;&a;&a;&a;&a;&a;&a;&a;\">\n    <!ENTITY c \"&b;&b;&b;&b;&b;&b;&b;&b;\">\n    <!ENTITY d \"&c;&c;&c;&c;&c;&c;&c;&c;\">\n    ]>\n    <bomb>&d;</bomb>\n\n\nquadratic blowup entity expansion\n---------------------------------\n\nA quadratic blowup attack is similar to a `Billion Laughs`_ attack; it abuses\nentity expansion, too. Instead of nested entities it repeats one large entity\nwith a couple of thousand chars over and over again. The attack isn't as\nefficient as the exponential case but it avoids triggering countermeasures of\nparsers against heavily nested entities. Some parsers limit the depth and\nbreadth of a single entity but not the total amount of expanded text\nthroughout an entire XML document.\n\nA medium-sized XML document with a couple of hundred kilobytes can require a\ncouple of hundred MB to several GB of memory. When the attack is combined\nwith some level of nested expansion an attacker is able to achieve a higher\nratio of success.\n\n::\n\n    <!DOCTYPE bomb [\n    <!ENTITY a \"xxxxxxx... a couple of ten thousand chars\">\n    ]>\n    <bomb>&a;&a;&a;... repeat</bomb>\n\n\nexternal entity expansion (remote)\n----------------------------------\n\nEntity declarations can contain more than just text for replacement. They can\nalso point to external resources by public identifiers or system identifiers.\nSystem identifiers are standard URIs. When the URI is a URL (e.g. a\n``http://`` locator) some parsers download the resource from the remote\nlocation and embed them into the XML document verbatim.\n\nSimple example of a parsed external entity::\n\n    <!DOCTYPE external [\n    <!ENTITY ee SYSTEM \"http://www.python.org/some.xml\">\n    ]>\n    <root>&ee;</root>\n\nThe case of parsed external entities works only for valid XML content. The\nXML standard also supports unparsed external entities with a\n``NData declaration``.\n\nExternal entity expansion opens the door to plenty of exploits. An attacker\ncan abuse a vulnerable XML library and application to rebound and forward\nnetwork requests with the IP address of the server. It highly depends\non the parser and the application what kind of exploit is possible. For\nexample:\n\n* An attacker can circumvent firewalls and gain access to restricted\n  resources as all the requests are made from an internal and trustworthy\n  IP address, not from the outside.\n* An attacker can abuse a service to attack, spy on or DoS your servers but\n  also third party services. The attack is disguised with the IP address of\n  the server and the attacker is able to utilize the high bandwidth of a big\n  machine.\n* An attacker can exhaust additional resources on the machine, e.g. with\n  requests to a service that doesn't respond or responds with very large\n  files.\n* An attacker may gain knowledge, when, how often and from which IP address\n  an XML document is accessed.\n* An attacker could send mail from inside your network if the URL handler\n  supports ``smtp://`` URIs.\n\n\nexternal entity expansion (local file)\n--------------------------------------\n\nExternal entities with references to local files are a sub-case of external\nentity expansion. It's listed as an extra attack because it deserves extra\nattention. Some XML libraries such as lxml disable network access by default\nbut still allow entity expansion with local file access by default. Local\nfiles are either referenced with a ``file://`` URL or by a file path (either\nrelative or absolute).\n\nAn attacker may be able to access and download all files that can be read by\nthe application process. This may include critical configuration files, too.\n\n::\n\n    <!DOCTYPE external [\n    <!ENTITY ee SYSTEM \"file:///PATH/TO/simple.xml\">\n    ]>\n    <root>&ee;</root>\n\n\nDTD retrieval\n-------------\n\nThis case is similar to external entity expansion, too. Some XML libraries\nlike Python's xml.dom.pulldom retrieve document type definitions from remote\nor local locations. Several attack scenarios from the external entity case\napply to this issue as well.\n\n::\n\n    <?xml version=\"1.0\" encoding=\"utf-8\"?>\n    <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n      \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n    <html>\n        <head/>\n        <body>text</body>\n    </html>\n\n\nPython XML Libraries\n====================\n\n.. csv-table:: vulnerabilities and features\n   :header: \"kind\", \"sax\", \"etree\", \"minidom\", \"pulldom\", \"xmlrpc\", \"lxml\", \"genshi\"\n   :widths: 24, 7, 8, 8, 7, 8, 8, 8\n   :stub-columns: 0\n\n   \"billion laughs\", \"**True**\", \"**True**\", \"**True**\", \"**True**\", \"**True**\", \"False (1)\", \"False (5)\"\n   \"quadratic blowup\", \"**True**\", \"**True**\", \"**True**\", \"**True**\", \"**True**\", \"**True**\", \"False (5)\"\n   \"external entity expansion (remote)\", \"**True**\", \"False (3)\", \"False (4)\", \"**True**\", \"false\", \"False (1)\", \"False (5)\"\n   \"external entity expansion (local file)\", \"**True**\", \"False (3)\", \"False (4)\", \"**True**\", \"false\", \"**True**\", \"False (5)\"\n   \"DTD retrieval\", \"**True**\", \"False\", \"False\", \"**True**\", \"false\", \"False (1)\", \"False\"\n   \"gzip bomb\", \"False\", \"False\", \"False\", \"False\", \"**True**\", \"**partly** (2)\", \"False\"\n   \"xpath support (7)\", \"False\", \"False\", \"False\", \"False\", \"False\", \"**True**\", \"False\"\n   \"xsl(t) support (7)\", \"False\", \"False\", \"False\", \"False\", \"False\", \"**True**\", \"False\"\n   \"xinclude support (7)\", \"False\", \"**True** (6)\", \"False\", \"False\", \"False\", \"**True** (6)\", \"**True**\"\n   \"C library\", \"expat\", \"expat\", \"expat\", \"expat\", \"expat\", \"libxml2\", \"expat\"\n\n1. Lxml is protected against billion laughs attacks and doesn't do network\n   lookups by default.\n2. libxml2 and lxml are not directly vulnerable to gzip decompression bombs\n   but they don't protect you against them either.\n3. xml.etree doesn't expand entities and raises a ParserError when an entity\n   occurs.\n4. minidom doesn't expand entities and simply returns the unexpanded entity\n   verbatim.\n5. genshi.input of genshi 0.6 doesn't support entity expansion and raises a\n   ParserError when an entity occurs.\n6. Library has (limited) XInclude support but requires an additional step to\n   process inclusion.\n7. These are features but they may introduce exploitable holes, see\n   `Other things to consider`_\n\n\nSettings in standard library\n----------------------------\n\n\nxml.sax.handler Features\n........................\n\nfeature_external_ges (http://xml.org/sax/features/external-general-entities)\n  disables external entity expansion\n\nfeature_external_pes (http://xml.org/sax/features/external-parameter-entities)\n  the option is ignored and doesn't modify any functionality\n\nDOM xml.dom.xmlbuilder.Options\n..............................\n\nexternal_parameter_entities\n  ignored\n\nexternal_general_entities\n  ignored\n\nexternal_dtd_subset\n  ignored\n\nentities\n  unsure\n\n\ndefusedxml\n==========\n\nThe `defusedxml package`_ (`defusedxml on PyPI`_)\ncontains several Python-only workarounds and fixes\nfor denial of service and other vulnerabilities in Python's XML libraries.\nIn order to benefit from the protection you just have to import and use the\nlisted functions / classes from the right defusedxml module instead of the\noriginal module. Merely `defusedxml.xmlrpc`_ is implemented as monkey patch.\n\nInstead of::\n\n   >>> from xml.etree.ElementTree import parse\n   >>> et = parse(xmlfile)\n\nalter code to::\n\n   >>> from defusedxml.ElementTree import parse\n   >>> et = parse(xmlfile)\n\nAdditionally the package has an **untested** function to monkey patch\nall stdlib modules with ``defusedxml.defuse_stdlib()``.\n\nAll functions and parser classes accept three additional keyword arguments.\nThey return either the same objects as the original functions or compatible\nsubclasses.\n\nforbid_dtd (default: False)\n  disallow XML with a ``<!DOCTYPE>`` processing instruction and raise a\n  *DTDForbidden* exception when a DTD processing instruction is found.\n\nforbid_entities (default: True)\n  disallow XML with ``<!ENTITY>`` declarations inside the DTD and raise an\n  *EntitiesForbidden* exception when an entity is declared.\n\nforbid_external (default: True)\n  disallow any access to remote or local resources in external entities\n  or DTD and raising an *ExternalReferenceForbidden* exception when a DTD\n  or entity references an external resource.\n\n\ndefusedxml (package)\n--------------------\n\nDefusedXmlException, DTDForbidden, EntitiesForbidden,\nExternalReferenceForbidden, NotSupportedError\n\ndefuse_stdlib() (*experimental*)\n\n\ndefusedxml.cElementTree\n-----------------------\n\n**NOTE** ``defusedxml.cElementTree`` is deprecated and will be removed in a\nfuture release. Import from ``defusedxml.ElementTree`` instead.\n\nparse(), iterparse(), fromstring(), XMLParser\n\n\ndefusedxml.ElementTree\n-----------------------\n\nparse(), iterparse(), fromstring(), XMLParser\n\n\ndefusedxml.expatreader\n----------------------\n\ncreate_parser(), DefusedExpatParser\n\n\ndefusedxml.sax\n--------------\n\nparse(), parseString(), make_parser()\n\n\ndefusedxml.expatbuilder\n-----------------------\n\nparse(), parseString(), DefusedExpatBuilder, DefusedExpatBuilderNS\n\n\ndefusedxml.minidom\n------------------\n\nparse(), parseString()\n\n\ndefusedxml.pulldom\n------------------\n\nparse(), parseString()\n\n\ndefusedxml.xmlrpc\n-----------------\n\nThe fix is implemented as monkey patch for the stdlib's xmlrpc package (3.x)\nor xmlrpclib module (2.x). The function `monkey_patch()` enables the fixes,\n`unmonkey_patch()` removes the patch and puts the code in its former state.\n\nThe monkey patch protects against XML related attacks as well as\ndecompression bombs and excessively large requests or responses. The default\nsetting is 30 MB for requests, responses and gzip decompression. You can\nmodify the default by changing the module variable `MAX_DATA`. A value of\n`-1` disables the limit.\n\n\ndefusedxml.lxml\n---------------\n\n**DEPRECATED** The module is deprecated and will be removed in a future\nrelease.\n\nThe module acts as an *example* how you could protect code that uses\nlxml.etree. It implements a custom Element class that filters out\nEntity instances, a custom parser factory and a thread local storage for\nparser instances. It also has a check_docinfo() function which inspects\na tree for internal or external DTDs and entity declarations. In order to\ncheck for entities lxml > 3.0 is required.\n\nparse(), fromstring()\nRestrictedElement, GlobalParserTLS, getDefaultParser(), check_docinfo()\n\n\ndefusedexpat\n============\n\nThe `defusedexpat package`_ (`defusedexpat on PyPI`_)\ncomes with binary extensions and a\n`modified expat`_ library instead of the standard `expat parser`_. It's\nbasically a stand-alone version of the patches for Python's standard\nlibrary C extensions.\n\nModifications in expat\n----------------------\n\nnew definitions::\n\n  XML_BOMB_PROTECTION\n  XML_DEFAULT_MAX_ENTITY_INDIRECTIONS\n  XML_DEFAULT_MAX_ENTITY_EXPANSIONS\n  XML_DEFAULT_RESET_DTD\n\nnew XML_FeatureEnum members::\n\n  XML_FEATURE_MAX_ENTITY_INDIRECTIONS\n  XML_FEATURE_MAX_ENTITY_EXPANSIONS\n  XML_FEATURE_IGNORE_DTD\n\nnew XML_Error members::\n\n  XML_ERROR_ENTITY_INDIRECTIONS\n  XML_ERROR_ENTITY_EXPANSION\n\nnew API functions::\n\n  int XML_GetFeature(XML_Parser parser,\n                     enum XML_FeatureEnum feature,\n                     long *value);\n  int XML_SetFeature(XML_Parser parser,\n                     enum XML_FeatureEnum feature,\n                     long value);\n  int XML_GetFeatureDefault(enum XML_FeatureEnum feature,\n                            long *value);\n  int XML_SetFeatureDefault(enum XML_FeatureEnum feature,\n                            long value);\n\nXML_FEATURE_MAX_ENTITY_INDIRECTIONS\n   Limit the amount of indirections that are allowed to occur during the\n   expansion of a nested entity. A counter starts when an entity reference\n   is encountered. It resets after the entity is fully expanded. The limit\n   protects the parser against exponential entity expansion attacks (aka\n   billion laughs attack). When the limit is exceeded the parser stops and\n   fails with `XML_ERROR_ENTITY_INDIRECTIONS`.\n   A value of 0 disables the protection.\n\n   Supported range\n     0 .. UINT_MAX\n   Default\n     40\n\nXML_FEATURE_MAX_ENTITY_EXPANSIONS\n   Limit the total length of all entity expansions throughout the entire\n   document. The lengths of all entities are accumulated in a parser variable.\n   The setting protects against quadratic blowup attacks (lots of expansions\n   of a large entity declaration). When the sum of all entities exceeds\n   the limit, the parser stops and fails with `XML_ERROR_ENTITY_EXPANSION`.\n   A value of 0 disables the protection.\n\n   Supported range\n     0 .. UINT_MAX\n   Default\n     8 MiB\n\nXML_FEATURE_RESET_DTD\n   Reset all DTD information after the <!DOCTYPE> block has been parsed. When\n   the flag is set (default: false) all DTD information after the\n   endDoctypeDeclHandler has been called. The flag can be set inside the\n   endDoctypeDeclHandler. Without DTD information any entity reference in\n   the document body leads to `XML_ERROR_UNDEFINED_ENTITY`.\n\n   Supported range\n     0, 1\n   Default\n     0\n\n\nHow to avoid XML vulnerabilities\n================================\n\nBest practices\n--------------\n\n* Don't allow DTDs\n* Don't expand entities\n* Don't resolve externals\n* Limit parse depth\n* Limit total input size\n* Limit parse time\n* Favor a SAX or iterparse-like parser for potential large data\n* Validate and properly quote arguments to XSL transformations and\n  XPath queries\n* Don't use XPath expression from untrusted sources\n* Don't apply XSL transformations that come untrusted sources\n\n(based on Brad Hill's `Attacking XML Security`_)\n\n\nOther things to consider\n========================\n\nXML, XML parsers and processing libraries have more features and possible\nissue that could lead to DoS vulnerabilities or security exploits in\napplications. I have compiled an incomplete list of theoretical issues that\nneed further research and more attention. The list is deliberately pessimistic\nand a bit paranoid, too. It contains things that might go wrong under daffy\ncircumstances.\n\n\nattribute blowup / hash collision attack\n----------------------------------------\n\nXML parsers may use an algorithm with quadratic runtime O(n :sup:`2`) to\nhandle attributes and namespaces. If it uses hash tables (dictionaries) to\nstore attributes and namespaces the implementation may be vulnerable to\nhash collision attacks, thus reducing the performance to O(n :sup:`2`) again.\nIn either case an attacker is able to forge a denial of service attack with\nan XML document that contains thousands upon thousands of attributes in\na single node.\n\nI haven't researched yet if expat, pyexpat or libxml2 are vulnerable.\n\n\ndecompression bomb\n------------------\n\nThe issue of decompression bombs (aka `ZIP bomb`_) apply to all XML libraries\nthat can parse compressed XML stream like gzipped HTTP streams or LZMA-ed\nfiles. For an attacker it can reduce the amount of transmitted data by three\nmagnitudes or more. Gzip is able to compress 1 GiB zeros to roughly 1 MB,\nlzma is even better::\n\n    $ dd if=/dev/zero bs=1M count=1024 | gzip > zeros.gz\n    $ dd if=/dev/zero bs=1M count=1024 | lzma -z > zeros.xy\n    $ ls -sh zeros.*\n    1020K zeros.gz\n     148K zeros.xy\n\nNone of Python's standard XML libraries decompress streams except for\n``xmlrpclib``. The module is vulnerable <https://bugs.python.org/issue16043>\nto decompression bombs.\n\nlxml can load and process compressed data through libxml2 transparently.\nlibxml2 can handle even very large blobs of compressed data efficiently\nwithout using too much memory. But it doesn't protect applications from\ndecompression bombs. A carefully written SAX or iterparse-like approach can\nbe safe.\n\n\nProcessing Instruction\n----------------------\n\n`PI`_'s like::\n\n  <?xml-stylesheet type=\"text/xsl\" href=\"style.xsl\"?>\n\nmay impose more threats for XML processing. It depends if and how a\nprocessor handles processing instructions. The issue of URL retrieval with\nnetwork or local file access apply to processing instructions, too.\n\n\nOther DTD features\n------------------\n\n`DTD`_ has more features like ``<!NOTATION>``. I haven't researched how\nthese features may be a security threat.\n\n\nXPath\n-----\n\nXPath statements may introduce DoS vulnerabilities. Code should never execute\nqueries from untrusted sources. An attacker may also be able to create an XML\ndocument that makes certain XPath queries costly or resource hungry.\n\n\nXPath injection attacks\n-----------------------\n\nXPath injeciton attacks pretty much work like SQL injection attacks.\nArguments to XPath queries must be quoted and validated properly, especially\nwhen they are taken from the user. The page `Avoid the dangers of XPath injection`_\nlist some ramifications of XPath injections.\n\nPython's standard library doesn't have XPath support. Lxml supports\nparameterized XPath queries which does proper quoting. You just have to use\nits xpath() method correctly::\n\n   # DON'T\n   >>> tree.xpath(\"/tag[@id='%s']\" % value)\n\n   # instead do\n   >>> tree.xpath(\"/tag[@id=$tagid]\", tagid=name)\n\n\nXInclude\n--------\n\n`XML Inclusion`_ is another way to load and include external files::\n\n   <root xmlns:xi=\"http://www.w3.org/2001/XInclude\">\n     <xi:include href=\"filename.txt\" parse=\"text\" />\n   </root>\n\nThis feature should be disabled when XML files from an untrusted source are\nprocessed. Some Python XML libraries and libxml2 support XInclude but don't\nhave an option to sandbox inclusion and limit it to allowed directories.\n\n\nXMLSchema location\n------------------\n\nA validating XML parser may download schema files from the information in a\n``xsi:schemaLocation`` attribute.\n\n::\n\n  <ead xmlns=\"urn:isbn:1-931666-22-9\"\n       xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n       xsi:schemaLocation=\"urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd\">\n  </ead>\n\n\nXSL Transformation\n------------------\n\nYou should keep in mind that XSLT is a Turing complete language. Never\nprocess XSLT code from unknown or untrusted source! XSLT processors may\nallow you to interact with external resources in ways you can't even imagine.\nSome processors even support extensions that allow read/write access to file\nsystem, access to JRE objects or scripting with Jython.\n\nExample from `Attacking XML Security`_ for Xalan-J::\n\n    <xsl:stylesheet version=\"1.0\"\n     xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\n     xmlns:rt=\"http://xml.apache.org/xalan/java/java.lang.Runtime\"\n     xmlns:ob=\"http://xml.apache.org/xalan/java/java.lang.Object\"\n     exclude-result-prefixes= \"rt ob\">\n     <xsl:template match=\"/\">\n       <xsl:variable name=\"runtimeObject\" select=\"rt:getRuntime()\"/>\n       <xsl:variable name=\"command\"\n         select=\"rt:exec($runtimeObject, &apos;c:\\Windows\\system32\\cmd.exe&apos;)\"/>\n       <xsl:variable name=\"commandAsString\" select=\"ob:toString($command)\"/>\n       <xsl:value-of select=\"$commandAsString\"/>\n     </xsl:template>\n    </xsl:stylesheet>\n\n\nRelated CVEs\n============\n\nCVE-2013-1664\n  Unrestricted entity expansion induces DoS vulnerabilities in Python XML\n  libraries (XML bomb)\n\nCVE-2013-1665\n  External entity expansion in Python XML libraries inflicts potential\n  security flaws and DoS vulnerabilities\n\n\nOther languages / frameworks\n=============================\n\nSeveral other programming languages and frameworks are vulnerable as well. A\ncouple of them are affected by the fact that libxml2 up to 2.9.0 has no\nprotection against quadratic blowup attacks. Most of them have potential\ndangerous default settings for entity expansion and external entities, too.\n\nPerl\n----\n\nPerl's XML::Simple is vulnerable to quadratic entity expansion and external\nentity expansion (both local and remote).\n\n\nRuby\n----\n\nRuby's REXML document parser is vulnerable to entity expansion attacks\n(both quadratic and exponential) but it doesn't do external entity\nexpansion by default. In order to counteract entity expansion you have to\ndisable the feature::\n\n  REXML::Document.entity_expansion_limit = 0\n\nlibxml-ruby and hpricot don't expand entities in their default configuration.\n\n\nPHP\n---\n\nPHP's SimpleXML API is vulnerable to quadratic entity expansion and loads\nentities from local and remote resources. The option ``LIBXML_NONET`` disables\nnetwork access but still allows local file access. ``LIBXML_NOENT`` seems to\nhave no effect on entity expansion in PHP 5.4.6.\n\n\nC# / .NET / Mono\n----------------\n\nInformation in `XML DoS and Defenses (MSDN)`_ suggest that .NET is\nvulnerable with its default settings. The article contains code snippets\nhow to create a secure XML reader::\n\n  XmlReaderSettings settings = new XmlReaderSettings();\n  settings.ProhibitDtd = false;\n  settings.MaxCharactersFromEntities = 1024;\n  settings.XmlResolver = null;\n  XmlReader reader = XmlReader.Create(stream, settings);\n\n\nJava\n----\n\nUntested. The documentation of Xerces and its `Xerces SecurityMananger`_\nsounds like Xerces is also vulnerable to billion laugh attacks with its\ndefault settings. It also does entity resolving when an\n``org.xml.sax.EntityResolver`` is configured. I'm not yet sure about the\ndefault setting here.\n\nJava specialists suggest to have a custom builder factory::\n\n  DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();\n  builderFactory.setXIncludeAware(False);\n  builderFactory.setExpandEntityReferences(False);\n  builderFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, True);\n  # either\n  builderFactory.setFeature(\"http://apache.org/xml/features/disallow-doctype-decl\", True);\n  # or if you need DTDs\n  builderFactory.setFeature(\"http://xml.org/sax/features/external-general-entities\", False);\n  builderFactory.setFeature(\"http://xml.org/sax/features/external-parameter-entities\", False);\n  builderFactory.setFeature(\"http://apache.org/xml/features/nonvalidating/load-external-dtd\", False);\n  builderFactory.setFeature(\"http://apache.org/xml/features/nonvalidating/load-dtd-grammar\", False);\n\n\nTODO\n====\n\n* DOM: Use xml.dom.xmlbuilder options for entity handling\n* SAX: take feature_external_ges and feature_external_pes (?) into account\n* test experimental monkey patching of stdlib modules\n* improve documentation\n\n\nLicense\n=======\n\nCopyright (c) 2013-2017 by Christian Heimes <christian@python.org>\n\nLicensed to PSF under a Contributor Agreement.\n\nSee https://www.python.org/psf/license for licensing details.\n\n\nAcknowledgements\n================\n\nBrett Cannon (Python Core developer)\n  review and code cleanup\n\nAntoine Pitrou (Python Core developer)\n  code review\n\nAaron Patterson, Ben Murphy and Michael Koziarski (Ruby community)\n  Many thanks to Aaron, Ben and Michael from the Ruby community for their\n  report and assistance.\n\nThierry Carrez (OpenStack)\n  Many thanks to Thierry for his report to the Python Security Response\n  Team on behalf of the OpenStack security team.\n\nCarl Meyer (Django)\n  Many thanks to Carl for his report to PSRT on behalf of the Django security\n  team.\n\nDaniel Veillard (libxml2)\n  Many thanks to Daniel for his insight and assistance with libxml2.\n\nsemantics GmbH (https://www.semantics.de/)\n  Many thanks to my employer semantics for letting me work on the issue\n  during working hours as part of semantics's open source initiative.\n\n\nReferences\n==========\n\n* `XML DoS and Defenses (MSDN)`_\n* `Billion Laughs`_ on Wikipedia\n* `ZIP bomb`_ on Wikipedia\n* `Configure SAX parsers for secure processing`_\n* `Testing for XML Injection`_\n\n.. _defusedxml package: https://github.com/tiran/defusedxml\n.. _defusedxml on PyPI: https://pypi.python.org/pypi/defusedxml\n.. _defusedexpat package: https://github.com/tiran/defusedexpat\n.. _defusedexpat on PyPI: https://pypi.python.org/pypi/defusedexpat\n.. _modified expat: https://github.com/tiran/expat\n.. _expat parser: http://expat.sourceforge.net/\n.. _Attacking XML Security: https://www.isecpartners.com/media/12976/iSEC-HILL-Attacking-XML-Security-bh07.pdf\n.. _Billion Laughs: https://en.wikipedia.org/wiki/Billion_laughs\n.. _XML DoS and Defenses (MSDN): https://msdn.microsoft.com/en-us/magazine/ee335713.aspx\n.. _ZIP bomb: https://en.wikipedia.org/wiki/Zip_bomb\n.. _DTD: https://en.wikipedia.org/wiki/Document_Type_Definition\n.. _PI: https://en.wikipedia.org/wiki/Processing_Instruction\n.. _Avoid the dangers of XPath injection: http://www.ibm.com/developerworks/xml/library/x-xpathinjection/index.html\n.. _Configure SAX parsers for secure processing: http://www.ibm.com/developerworks/xml/library/x-tipcfsx/index.html\n.. _Testing for XML Injection: https://www.owasp.org/index.php/Testing_for_XML_Injection_(OWASP-DV-008)\n.. _Xerces SecurityMananger: https://xerces.apache.org/xerces2-j/javadocs/xerces2/org/apache/xerces/util/SecurityManager.html\n.. _XML Inclusion: https://www.w3.org/TR/xinclude/#include_element\n\nChangelog\n=========\n\ndefusedxml 0.7.1\n---------------------\n\n*Release date: 08-Mar-2021*\n\n- Fix regression ``defusedxml.ElementTree.ParseError`` (#63)\n  The ``ParseError`` exception is now the same class object as\n  ``xml.etree.ElementTree.ParseError`` again.\n\n\ndefusedxml 0.7.0\n----------------\n\n*Release date: 4-Mar-2021*\n\n- No changes\n\n\ndefusedxml 0.7.0rc2\n-------------------\n\n*Release date: 12-Jan-2021*\n\n- Re-add and deprecate ``defusedxml.cElementTree``\n- Use GitHub Actions instead of TravisCI\n- Restore ``ElementTree`` attribute of ``xml.etree`` module after patching\n\ndefusedxml 0.7.0rc1\n-------------------\n\n*Release date: 04-May-2020*\n\n- Add support for Python 3.9\n- ``defusedxml.cElementTree`` is not available with Python 3.9.\n- Python 2 is deprecate. Support for Python 2 will be removed in 0.8.0.\n\n\ndefusedxml 0.6.0\n----------------\n\n*Release date: 17-Apr-2019*\n\n- Increase test coverage.\n- Add badges to README.\n\n\ndefusedxml 0.6.0rc1\n-------------------\n\n*Release date: 14-Apr-2019*\n\n- Test on Python 3.7 stable and 3.8-dev\n- Drop support for Python 3.4\n- No longer pass *html* argument to XMLParse. It has been deprecated and\n  ignored for a long time. The DefusedXMLParser still takes a html argument.\n  A deprecation warning is issued when the argument is False and a TypeError\n  when it's True.\n- defusedxml now fails early when pyexpat stdlib module is not available or\n  broken.\n- defusedxml.ElementTree.__all__ now lists ParseError as public attribute.\n- The defusedxml.ElementTree and defusedxml.cElementTree modules had a typo\n  and used XMLParse instead of XMLParser as an alias for DefusedXMLParser.\n  Both the old and fixed name are now available.\n\n\ndefusedxml 0.5.0\n----------------\n\n*Release date: 07-Feb-2017*\n\n- No changes\n\n\ndefusedxml 0.5.0.rc1\n--------------------\n\n*Release date: 28-Jan-2017*\n\n- Add compatibility with Python 3.6\n- Drop support for Python 2.6, 3.1, 3.2, 3.3\n- Fix lxml tests (XMLSyntaxError: Detected an entity reference loop)\n\n\ndefusedxml 0.4.1\n----------------\n\n*Release date: 28-Mar-2013*\n\n- Add more demo exploits, e.g. python_external.py and Xalan XSLT demos.\n- Improved documentation.\n\n\ndefusedxml 0.4\n--------------\n\n*Release date: 25-Feb-2013*\n\n- As per http://seclists.org/oss-sec/2013/q1/340 please REJECT\n  CVE-2013-0278, CVE-2013-0279 and CVE-2013-0280 and use CVE-2013-1664,\n  CVE-2013-1665 for OpenStack/etc.\n- Add missing parser_list argument to sax.make_parser(). The argument is\n  ignored, though. (thanks to Florian Apolloner)\n- Add demo exploit for external entity attack on Python's SAX parser, XML-RPC\n  and WebDAV.\n\n\ndefusedxml 0.3\n--------------\n\n*Release date: 19-Feb-2013*\n\n- Improve documentation\n\n\ndefusedxml 0.2\n--------------\n\n*Release date: 15-Feb-2013*\n\n- Rename ExternalEntitiesForbidden to ExternalReferenceForbidden\n- Rename defusedxml.lxml.check_dtd() to check_docinfo()\n- Unify argument names in callbacks\n- Add arguments and formatted representation to exceptions\n- Add forbid_external argument to all functions and classes\n- More tests\n- LOTS of documentation\n- Add example code for other languages (Ruby, Perl, PHP) and parsers (Genshi)\n- Add protection against XML and gzip attacks to xmlrpclib\n\ndefusedxml 0.1\n--------------\n\n*Release date: 08-Feb-2013*\n\n- Initial and internal release for PSRT review\n\n\n"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/4e/89/36f4cd76cf4baf05c50ababb976249153f18c959171c7f6ba09a6f217260/pillow-12.3.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+        "archive_info": {
+          "hash": "sha256=f0606c8bf2cdefea14a43530f7657cbbb7ecf1c4222512492ef4a4434a9501ec"
+        }
+      },
+      "is_direct": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "pillow",
+        "version": "12.3.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Python Imaging Library (fork)",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "Imaging"
+        ],
+        "author_email": "Jeffrey 'Alex' Clark <aclark@aclark.net>",
+        "classifier": [
+          "Development Status :: 6 - Mature",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Multimedia :: Graphics",
+          "Topic :: Multimedia :: Graphics :: Capture :: Digital Camera",
+          "Topic :: Multimedia :: Graphics :: Capture :: Screen Capture",
+          "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+          "Topic :: Multimedia :: Graphics :: Viewers",
+          "Typing :: Typed"
+        ],
+        "requires_dist": [
+          "furo; extra == \"docs\"",
+          "olefile; extra == \"docs\"",
+          "sphinx>=8.2; extra == \"docs\"",
+          "sphinx-autobuild; extra == \"docs\"",
+          "sphinx-copybutton; extra == \"docs\"",
+          "sphinx-inline-tabs; extra == \"docs\"",
+          "sphinxext-opengraph; extra == \"docs\"",
+          "olefile; extra == \"fpx\"",
+          "olefile; extra == \"mic\"",
+          "arro3-compute; extra == \"test-arrow\"",
+          "arro3-core; extra == \"test-arrow\"",
+          "nanoarrow; extra == \"test-arrow\"",
+          "pyarrow; extra == \"test-arrow\"",
+          "coverage>=7.4.2; extra == \"tests\"",
+          "defusedxml; extra == \"tests\"",
+          "markdown2; extra == \"tests\"",
+          "olefile; extra == \"tests\"",
+          "packaging; extra == \"tests\"",
+          "pytest; extra == \"tests\"",
+          "pytest-cov; extra == \"tests\"",
+          "pytest-timeout; extra == \"tests\"",
+          "pytest-xdist; extra == \"tests\"",
+          "setuptools; extra == \"tests\"",
+          "trove-classifiers>=2024.10.12; extra == \"tests\"",
+          "defusedxml; extra == \"xmp\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+          "Changelog, https://github.com/python-pillow/Pillow/releases",
+          "Documentation, https://pillow.readthedocs.io",
+          "Funding, https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+          "Homepage, https://python-pillow.github.io",
+          "Mastodon, https://fosstodon.org/@pillow",
+          "Source, https://github.com/python-pillow/Pillow"
+        ],
+        "provides_extra": [
+          "docs",
+          "fpx",
+          "mic",
+          "test-arrow",
+          "tests",
+          "xmp"
+        ],
+        "description": "<p align=\"center\">\n    <img width=\"248\" height=\"250\" src=\"https://raw.githubusercontent.com/python-pillow/pillow-logo/main/pillow-logo-248x250.png\" alt=\"Pillow logo\">\n</p>\n\n# Pillow\n\n## Python Imaging Library (Fork)\n\nPillow is the friendly PIL fork by [Jeffrey 'Alex' Clark and\ncontributors](https://github.com/python-pillow/Pillow/graphs/contributors).\nPIL is the Python Imaging Library by Fredrik Lundh and contributors.\nDevelopment is supported by:\n- [Tidelift](https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=readme&utm_campaign=enterprise) (since 2018)\n- [Thanks.dev](https://thanks.dev) (since 2023)\n- [GitHub Sponsors](https://github.com/sponsors/python-pillow) (since 2026)\n\n<table>\n    <tr>\n        <th>docs</th>\n        <td>\n            <a href=\"https://pillow.readthedocs.io/?badge=latest\"><img\n                alt=\"Documentation Status\"\n                src=\"https://readthedocs.org/projects/pillow/badge/?version=latest\"></a>\n        </td>\n    </tr>\n    <tr>\n        <th>tests</th>\n        <td>\n            <a href=\"https://github.com/python-pillow/Pillow/actions/workflows/lint.yml\"><img\n                alt=\"GitHub Actions build status (Lint)\"\n                src=\"https://github.com/python-pillow/Pillow/workflows/Lint/badge.svg\"></a>\n            <a href=\"https://github.com/python-pillow/Pillow/actions/workflows/test.yml\"><img\n                alt=\"GitHub Actions build status (Test Linux and macOS)\"\n                src=\"https://github.com/python-pillow/Pillow/workflows/Test/badge.svg\"></a>\n            <a href=\"https://github.com/python-pillow/Pillow/actions/workflows/test-windows.yml\"><img\n                alt=\"GitHub Actions build status (Test Windows)\"\n                src=\"https://github.com/python-pillow/Pillow/workflows/Test%20Windows/badge.svg\"></a>\n            <a href=\"https://github.com/python-pillow/Pillow/actions/workflows/test-mingw.yml\"><img\n                alt=\"GitHub Actions build status (Test MinGW)\"\n                src=\"https://github.com/python-pillow/Pillow/workflows/Test%20MinGW/badge.svg\"></a>\n            <a href=\"https://github.com/python-pillow/Pillow/actions/workflows/test-docker.yml\"><img\n                alt=\"GitHub Actions build status (Test Docker)\"\n                src=\"https://github.com/python-pillow/Pillow/workflows/Test%20Docker/badge.svg\"></a>\n            <a href=\"https://github.com/python-pillow/Pillow/actions/workflows/wheels.yml\"><img\n                alt=\"GitHub Actions build status (Wheels)\"\n                src=\"https://github.com/python-pillow/Pillow/workflows/Wheels/badge.svg\"></a>\n            <a href=\"https://app.codecov.io/gh/python-pillow/Pillow\"><img\n                alt=\"Code coverage\"\n                src=\"https://codecov.io/gh/python-pillow/Pillow/branch/main/graph/badge.svg\"></a>\n            <a href=\"https://issues.oss-fuzz.com/issues?q=title:pillow\"><img\n                alt=\"Fuzzing Status\"\n                src=\"https://oss-fuzz-build-logs.storage.googleapis.com/badges/pillow.svg\"></a>\n        </td>\n    </tr>\n    <tr>\n        <th>package</th>\n        <td>\n            <a href=\"https://zenodo.org/badge/latestdoi/17549/python-pillow/Pillow\"><img\n                alt=\"Zenodo\"\n                src=\"https://zenodo.org/badge/17549/python-pillow/Pillow.svg\"></a>\n            <a href=\"https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=badge\"><img\n                alt=\"Tidelift\"\n                src=\"https://tidelift.com/badges/package/pypi/pillow?style=flat\"></a>\n            <a href=\"https://pypi.org/project/pillow/\"><img\n                alt=\"Newest PyPI version\"\n                src=\"https://img.shields.io/pypi/v/pillow.svg\"></a>\n            <a href=\"https://pypi.org/project/pillow/\"><img\n                alt=\"Number of PyPI downloads\"\n                src=\"https://img.shields.io/pypi/dm/pillow.svg\"></a>\n            <a href=\"https://www.bestpractices.dev/projects/6331\"><img\n                alt=\"OpenSSF Best Practices\"\n                src=\"https://www.bestpractices.dev/projects/6331/badge\"></a>\n        </td>\n    </tr>\n    <tr>\n        <th>social</th>\n        <td>\n            <a href=\"https://gitter.im/python-pillow/Pillow?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge\"><img\n                alt=\"Join the chat at https://gitter.im/python-pillow/Pillow\"\n                src=\"https://badges.gitter.im/python-pillow/Pillow.svg\"></a>\n            <a href=\"https://fosstodon.org/@pillow\"><img\n                alt=\"Follow on https://fosstodon.org/@pillow\"\n                src=\"https://img.shields.io/badge/publish-on%20Mastodon-595aff.svg\"\n                rel=\"me\"></a>\n        </td>\n    </tr>\n</table>\n\n## Overview\n\nThe Python Imaging Library adds image processing capabilities to your Python interpreter.\n\nThis library provides extensive file format support, an efficient internal representation, and fairly powerful image processing capabilities.\n\nThe core image library is designed for fast access to data stored in a few basic pixel formats. It should provide a solid foundation for a general image processing tool.\n\n## More information\n\n- [Documentation](https://pillow.readthedocs.io/)\n  - [Installation](https://pillow.readthedocs.io/en/latest/installation/basic-installation.html)\n  - [Handbook](https://pillow.readthedocs.io/en/latest/handbook/index.html)\n- [Contribute](https://github.com/python-pillow/Pillow/blob/main/.github/CONTRIBUTING.md)\n  - [Issues](https://github.com/python-pillow/Pillow/issues)\n  - [Pull requests](https://github.com/python-pillow/Pillow/pulls)\n- [Release notes](https://pillow.readthedocs.io/en/stable/releasenotes/index.html)\n- [Changelog](https://github.com/python-pillow/Pillow/releases)\n  - [Pre-fork](https://github.com/python-pillow/Pillow/blob/main/CHANGES.rst#pre-fork)\n\n## Report a vulnerability\n\nTo report sensitive vulnerability information, report it [privately on GitHub](https://github.com/python-pillow/Pillow/security/advisories/new).\n\nIf you cannot use GitHub, use the [Tidelift security contact](https://tidelift.com/security). Tidelift will coordinate the fix and disclosure.\n\nDO NOT report sensitive vulnerability information in public.\n"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/60/45/c7b5c3168458db837e8ceab06dc77824e18202679d0463f0e8f002143a97/tinycss2-1.5.1-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=3415ba0f5839c062696996998176c4a3751d18b7edaaeeb658c9ce21ec150661"
+        }
+      },
+      "is_direct": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "tinycss2",
+        "version": "1.5.1",
+        "summary": "A tiny CSS parser",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "css",
+          "parser"
+        ],
+        "author_email": "Simon Sapin <simon.sapin@exyr.org>",
+        "maintainer_email": "CourtBouillon <contact@courtbouillon.org>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: BSD License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Text Processing"
+        ],
+        "requires_dist": [
+          "webencodings >=0.4",
+          "sphinx ; extra == \"doc\"",
+          "furo ; extra == \"doc\"",
+          "pytest ; extra == \"test\"",
+          "ruff ; extra == \"test\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Changelog, https://github.com/Kozea/tinycss2/releases",
+          "Code, https://github.com/Kozea/tinycss2/",
+          "Documentation, https://doc.courtbouillon.org/tinycss2/",
+          "Donation, https://opencollective.com/courtbouillon",
+          "Homepage, https://www.courtbouillon.org/tinycss2",
+          "Issues, https://github.com/Kozea/tinycss2/issues"
+        ],
+        "provides_extra": [
+          "doc",
+          "test"
+        ],
+        "description": "tinycss2 is a low-level CSS parser and generator written in Python: it can\nparse strings, return objects representing tokens and blocks, and generate CSS\nstrings corresponding to these objects.\n\nBased on the CSS Syntax Level 3 specification, tinycss2 knows the grammar of\nCSS but doesn't know specific rules, properties or values supported in various\nCSS modules.\n\n* Free software: BSD license\n* For Python 3.10+, tested on CPython and PyPy\n* Documentation: https://doc.courtbouillon.org/tinycss2\n* Changelog: https://github.com/Kozea/tinycss2/releases\n* Code, issues, tests: https://github.com/Kozea/tinycss2\n* Code of conduct: https://www.courtbouillon.org/code-of-conduct\n* Professional support: https://www.courtbouillon.org\n* Donation: https://opencollective.com/courtbouillon\n\ntinycss2 has been created and developed by Kozea (https://kozea.fr).\nProfessional support, maintenance and community management is provided by\nCourtBouillon (https://www.courtbouillon.org).\n\nCopyrights are retained by their contributors, no copyright assignment is\nrequired to contribute to tinycss2. Unless explicitly stated otherwise, any\ncontribution intentionally submitted for inclusion is licensed under the BSD\n3-clause license, without any additional terms or conditions. For full\nauthorship information, see the version control history.\n\n"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/75/77/60bebf6f818bec84210ac5b6979ce4eeadce6fbbaabc9c7ab23e506d1ce5/cffi-2.1.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+        "archive_info": {
+          "hash": "sha256=194cffa889098ced9976c3fc6340305e43f6303657d298da55366907c05c22d6"
+        }
+      },
+      "is_direct": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "cffi",
+        "version": "2.1.1",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Foreign Function Interface for Python calling C code.",
+        "description_content_type": "text/markdown",
+        "author": "Armin Rigo, Maciej Fijalkowski",
+        "maintainer": "Matt Davis, Matt Clay",
+        "classifier": [
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Programming Language :: Python :: Free Threading :: 2 - Beta",
+          "Programming Language :: Python :: Implementation :: CPython"
+        ],
+        "requires_dist": [
+          "pycparser; implementation_name != \"PyPy\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Documentation, https://cffi.readthedocs.io/",
+          "Changelog, https://cffi.readthedocs.io/en/latest/whatsnew.html",
+          "Download, https://github.com/python-cffi/cffi/releases",
+          "Contact, https://groups.google.com/forum/#!forum/python-cffi",
+          "Source Code, https://github.com/python-cffi/cffi",
+          "Issue Tracker, https://github.com/python-cffi/cffi/issues"
+        ],
+        "description": "[![GitHub Actions Status](https://github.com/python-cffi/cffi/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/python-cffi/cffi/actions/workflows/ci.yaml?query=branch%3Amain++)\n[![PyPI version](https://img.shields.io/pypi/v/cffi.svg)](https://pypi.org/project/cffi)\n[![Read the Docs](https://img.shields.io/badge/docs-latest-blue.svg)][Documentation]\n\n\nCFFI\n====\n\nForeign Function Interface for Python calling C code.\n\nPlease see the [Documentation] or uncompiled in the `doc/` subdirectory.\n\nDownload\n--------\n\n[Download page](https://github.com/python-cffi/cffi/releases)\n\nSource Code\n-----------\n\nSource code is publicly available on\n[GitHub](https://github.com/python-cffi/cffi).\n\nContact\n-------\n\n[Mailing list](https://groups.google.com/forum/#!forum/python-cffi)\n\nTesting/development tips\n------------------------\n\nAfter `git clone` or `wget && tar`, we will get a directory called `cffi` or `cffi-x.x.x`. We call it `repo-directory`. To run tests under CPython, run the following in the `repo-directory`:\n\n    pip install pytest\n    pip install -e .  # editable install of CFFI for local development\n    pytest src/c/ testing/\n\n[Documentation]: http://cffi.readthedocs.org/\n"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/77/c6/040cbc72480d789a5f40d63fb484d3106554c4dfa2d2b70ad5022057750f/webencodings-0.6.1-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=7fab6269c8bf237c657876b52058ccb182e861518d1c695c1a9aaa8c1c105d5b"
+        }
+      },
+      "is_direct": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.5",
+        "name": "webencodings",
+        "version": "0.6.1",
+        "summary": "Character encoding aliases for legacy web content",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "web",
+          "encoding"
+        ],
+        "author_email": "Simon Sapin <simon.sapin@exyr.org>",
+        "maintainer_email": "CourtBouillon <contact@courtbouillon.org>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: BSD License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Internet :: WWW/HTTP"
+        ],
+        "requires_dist": [
+          "sphinx ; extra == \"doc\"",
+          "furo ; extra == \"doc\"",
+          "pytest ; extra == \"test\"",
+          "ruff ; extra == \"test\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Changelog, https://github.com/CourtBouillon/webencodings/releases",
+          "Code, https://github.com/CourtBouillon/webencodings",
+          "Documentation, https://doc.courtbouillon.org/webencodings",
+          "Donation, https://opencollective.com/courtbouillon",
+          "Homepage, https://github.com/CourtBouillon/webencodings",
+          "Issues, https://github.com/CourtBouillon/webencodings/issues"
+        ],
+        "provides_extra": [
+          "doc",
+          "test"
+        ],
+        "description": "webencodings is a Python implementation of the `WHATWG Encoding standard\n<http://encoding.spec.whatwg.org/>`_.\n\nIn order to be compatible with legacy web content when interpreting something like\n``Content-Type: text/html; charset=latin1``, tools need to use a particular set of\naliases for encoding labels as well as some overriding rules. For example, ``US-ASCII``\nand ``iso-8859-1`` on the web are actually aliases for ``windows-1252``, and an UTF-8 or\nUTF-16 BOM takes precedence over any other encoding declaration. The Encoding standard\ndefines all such details so that implementations do not have to reverse-engineer each\nother.\n\nThis module has encoding labels and BOM detection, but the actual implementation for\nencoders and decoders is Python’s.\n\n* Free software: BSD license\n* For Python 3.10+, tested on CPython and PyPy\n* Documentation: https://doc.courtbouillon.org/webencodings\n* Changelog: https://github.com/CourtBouillon/webencodings/releases\n* Code, issues, tests: https://github.com/CourtBouillon/webencodings\n* Code of conduct: https://www.courtbouillon.org/code-of-conduct\n* Professional support: https://www.courtbouillon.org\n* Donation: https://opencollective.com/courtbouillon\n\nThis module is a friendly fork of webencodings, written and maintained by Simon Sapin\nand Sam Sneddon.\n\nCopyrights are retained by their contributors, no copyright assignment is required to\ncontribute to webencodings. Unless explicitly stated otherwise, any contribution\nintentionally submitted for inclusion is licensed under the BSD 3-clause license,\nwithout any additional terms or conditions. For full authorship information, see the\nversion control history.\n\n"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"
+        }
+      },
+      "is_direct": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "pycparser",
+        "version": "3.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "C parser in Python",
+        "description_content_type": "text/x-rst",
+        "author_email": "Eli Bendersky <eliben@gmail.com>",
+        "maintainer_email": "Eli Bendersky <eliben@gmail.com>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14"
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Homepage, https://github.com/eliben/pycparser"
+        ],
+        "description": "===============\npycparser v3.00\n===============\n\n\n.. image:: https://github.com/eliben/pycparser/workflows/pycparser-tests/badge.svg\n  :align: center\n  :target: https://github.com/eliben/pycparser/actions\n\n----\n\n.. contents::\n    :backlinks: none\n\n.. sectnum::\n\nIntroduction\n============\n\nWhat is pycparser?\n------------------\n\n**pycparser** is a parser for the C language, written in pure Python. It is a\nmodule designed to be easily integrated into applications that need to parse\nC source code.\n\nWhat is it good for?\n--------------------\n\nAnything that needs C code to be parsed. The following are some uses for\n**pycparser**, taken from real user reports:\n\n* C code obfuscator\n* Front-end for various specialized C compilers\n* Static code checker\n* Automatic unit-test discovery\n* Adding specialized extensions to the C language\n\nOne of the most popular uses of **pycparser** is in the `cffi\n<https://cffi.readthedocs.io/en/latest/>`_ library, which uses it to parse the\ndeclarations of C functions and types in order to auto-generate FFIs.\n\n**pycparser** is unique in the sense that it's written in pure Python - a very\nhigh level language that's easy to experiment with and tweak. To people familiar\nwith Lex and Yacc, **pycparser**'s code will be simple to understand. It also\nhas no external dependencies (except for a Python interpreter), making it very\nsimple to install and deploy.\n\nWhich version of C does pycparser support?\n------------------------------------------\n\n**pycparser** aims to support the full C99 language (according to the standard\nISO/IEC 9899). Some features from C11 are also supported, and patches to support\nmore are welcome.\n\n**pycparser** supports very few GCC extensions, but it's fairly easy to set\nthings up so that it parses code with a lot of GCC-isms successfully. See the\n`FAQ <https://github.com/eliben/pycparser/wiki/FAQ>`_ for more details.\n\nWhat grammar does pycparser follow?\n-----------------------------------\n\n**pycparser** very closely follows the C grammar provided in Annex A of the C99\nstandard (ISO/IEC 9899).\n\nHow is pycparser licensed?\n--------------------------\n\n`BSD license <https://github.com/eliben/pycparser/blob/master/LICENSE>`_.\n\nContact details\n---------------\n\nFor reporting problems with **pycparser** or submitting feature requests, please\nopen an `issue <https://github.com/eliben/pycparser/issues>`_, or submit a\npull request.\n\n\nInstalling\n==========\n\nPrerequisites\n-------------\n\n**pycparser** is being tested with modern versions of Python on\nLinux, macOS and Windows. See `the CI dashboard <https://github.com/eliben/pycparser/actions/workflows/ci.yml>`__\nfor details.\n\n**pycparser** has no external dependencies.\n\nInstallation process\n--------------------\n\nThe recommended way to install **pycparser** is with ``pip``::\n\n    > pip install pycparser\n\nUsing\n=====\n\nInteraction with the C preprocessor\n-----------------------------------\n\nIn order to be compilable, C code must be preprocessed by the C preprocessor -\n``cpp``. A compatible ``cpp`` handles preprocessing directives like ``#include`` and\n``#define``, removes comments, and performs other minor tasks that prepare the C\ncode for compilation.\n\nFor all but the most trivial snippets of C code **pycparser**, like a C\ncompiler, must receive preprocessed C code in order to function correctly. If\nyou import the top-level ``parse_file`` function from the **pycparser** package,\nit will interact with ``cpp`` for you, as long as it's in your PATH, or you\nprovide a path to it.\n\nNote also that you can use ``gcc -E`` or ``clang -E`` instead of ``cpp``. See\nthe ``using_gcc_E_libc.py`` example for more details. Windows users can download\nand install a binary build of Clang for Windows `from this website\n<http://llvm.org/releases/download.html>`_.\n\nWhat about the standard C library headers?\n------------------------------------------\n\nC code almost always ``#include``\\s various header files from the standard C\nlibrary, like ``stdio.h``. While (with some effort) **pycparser** can be made to\nparse the standard headers from any C compiler, it's much simpler to use the\nprovided \"fake\" standard includes for C11 in ``utils/fake_libc_include``. These\nare standard C header files that contain only the bare necessities to allow\nvalid parsing of the files that use them. As a bonus, since they're minimal, it\ncan significantly improve the performance of parsing large C files.\n\nThe key point to understand here is that **pycparser** doesn't really care about\nthe semantics of types. It only needs to know whether some token encountered in\nthe source is a previously defined type. This is essential in order to be able\nto parse C correctly.\n\nSee `this blog post\n<https://eli.thegreenplace.net/2015/on-parsing-c-type-declarations-and-fake-headers>`_\nfor more details.\n\nNote that the fake headers are not included in the ``pip`` package nor installed\nvia the package build (`#224 <https://github.com/eliben/pycparser/issues/224>`_).\n\nBasic usage\n-----------\n\nTake a look at the |examples|_ directory of the distribution for a few examples\nof using **pycparser**. These should be enough to get you started. Please note\nthat most realistic C code samples would require running the C preprocessor\nbefore passing the code to **pycparser**; see the previous sections for more\ndetails.\n\n.. |examples| replace:: ``examples``\n.. _examples: examples\n\n\nAdvanced usage\n--------------\n\nThe public interface of **pycparser** is well documented with comments in\n``pycparser/c_parser.py``. For a detailed overview of the various AST nodes\ncreated by the parser, see ``pycparser/_c_ast.cfg``.\n\nThere's also a `FAQ available here <https://github.com/eliben/pycparser/wiki/FAQ>`_.\nIn any case, you can always drop me an `email <eliben@gmail.com>`_ for help.\n\n\nModifying\n=========\n\nThere are a few points to keep in mind when modifying **pycparser**:\n\n* The code for **pycparser**'s AST nodes is automatically generated from a\n  configuration file - ``_c_ast.cfg``, by ``_ast_gen.py``. If you modify the AST\n  configuration, make sure to re-generate the code. This can be done by running\n  the ``_ast_gen.py`` script (from the repository root or the\n  ``pycparser`` directory).\n* Read the docstring in the constructor of the ``CParser`` class for details\n  on configuration and compatibility arguments.\n\n\nPackage contents\n================\n\nOnce you unzip the ``pycparser`` package, you'll see the following files and\ndirectories:\n\nREADME.rst:\n  This README file.\n\nLICENSE:\n  The pycparser license\n\nsetup.py:\n  Legacy installation script (build metadata lives in ``pyproject.toml``).\n\npyproject.toml:\n  Package metadata and build configuration.\n\nexamples/:\n  A directory with some examples of using **pycparser**\n\npycparser/:\n  The **pycparser** module source code.\n\ntests/:\n  Unit tests.\n\nutils/fake_libc_include:\n  Minimal standard C library include files that should allow to parse any C code.\n  Note that these headers now include C11 code, so they may not work when the\n  preprocessor is configured to an earlier C standard (like ``-std=c99``).\n\nutils/internal/:\n  Internal utilities for my own use. You probably don't need them.\n\n\nContributors\n============\n\nSome people have contributed to **pycparser** by opening issues on bugs they've\nfound and/or submitting patches. The list of contributors is in the CONTRIBUTORS\nfile in the source distribution. After **pycparser** moved to Github I stopped\nupdating this list because Github does a much better job at tracking\ncontributions.\n"
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.10.8",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_release": "4.19.90-2107.6.0.0192.8.oe1.bclinux.x86_64",
+    "platform_system": "Linux",
+    "platform_version": "#1 SMP Fri Mar 24 10:04:47 CST 2023",
+    "python_full_version": "3.10.8",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.10",
+    "sys_platform": "linux"
+  }
+}

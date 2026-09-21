@@ -1,0 +1,395 @@
+{
+  "allowed_actions_not_taken": [
+    "No manifest edits",
+    "No row exclusion",
+    "No resampling",
+    "No relabeling",
+    "No prompt or metric changes",
+    "No GPU inference"
+  ],
+  "created_utc": "2026-09-13T02:51:20.330986+00:00",
+  "interpretation": "Manifest namespace identities are disjoint, but resolved physical image paths and bytes are not. This violates the literal image-disjointness requirement before GPU inference.",
+  "manifests": {
+    "audit": {
+      "n_rows": 2400,
+      "path": "outputs/qwen_full/audit_manifest.linux.jsonl",
+      "sha256": "880a3769df10e7e4dff5939ba03bbff7347cc62e56b11f79e10f5a1b61d8a018"
+    },
+    "downstream": {
+      "n_rows": 800,
+      "path": "manifests/fast_eval/downstream_manifest.jsonl",
+      "sha256": "af15e9fbba10f328466ef8dcb53d9dde52f24d55592632301ffcb0288e7e469b"
+    },
+    "static": {
+      "n_rows": 800,
+      "path": "manifests/fast_eval/static_manifest.jsonl",
+      "sha256": "6e4a23fc54d4704e70587b177586152e6e63b7a4dac5964e7e16f56395e682e3"
+    }
+  },
+  "pairs": {
+    "audit_downstream": {
+      "logical_identity_intersection": 0,
+      "physical_content_sha256_intersection": 0,
+      "physical_path_intersection": 0
+    },
+    "audit_static": {
+      "logical_identity_intersection": 0,
+      "physical_content_sha256_intersection": 0,
+      "physical_path_intersection": 0
+    },
+    "static_downstream": {
+      "logical_identity_intersection": 0,
+      "physical_content_sha256_intersection": 196,
+      "physical_path_intersection": 196
+    }
+  },
+  "rows_by_factor": {
+    "audit": {
+      "attribute": 600,
+      "count": 600,
+      "presence": 600,
+      "spatial": 600
+    },
+    "downstream": {
+      "attribute": 200,
+      "count": 200,
+      "presence": 200,
+      "spatial": 200
+    },
+    "static": {
+      "attribute": 200,
+      "count": 200,
+      "presence": 200,
+      "spatial": 200
+    }
+  },
+  "schema": "RewardLens Phase II leakage receipt v1",
+  "scientific_contract": "D_audit != D_static != D_downstream; static/downstream must be image-disjoint.",
+  "static_downstream_collision_breakdown_row_pairs": {
+    "static_gqa__downstream_tallyqa": 108,
+    "static_tallyqa__downstream_gqa": 91
+  },
+  "static_downstream_collision_examples": [
+    {
+      "downstream": {
+        "dataset": "gqa",
+        "factor": "attribute",
+        "image_id": "1032",
+        "item_id": "gqa_down:attribute:10438564"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/1032.jpg",
+      "sha256": "1e8a9fb917bf18d475a68908f6f8ec557b7568c20157b2db70b3d10ac91c3cab",
+      "static": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:1032",
+        "item_id": "tallyqa_static:count:900010323335"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "gqa",
+        "factor": "spatial",
+        "image_id": "1032",
+        "item_id": "gqa_down:spatial:10438465"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/1032.jpg",
+      "sha256": "1e8a9fb917bf18d475a68908f6f8ec557b7568c20157b2db70b3d10ac91c3cab",
+      "static": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:1032",
+        "item_id": "tallyqa_static:count:900010323335"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:1592158",
+        "item_id": "tallyqa_down:count:915921582034"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/1592158.jpg",
+      "sha256": "292e03e8c55dad0c63973ab3863a9a71e095259954a594b1cf529a512b86e7e3",
+      "static": {
+        "dataset": "gqa",
+        "factor": "attribute",
+        "image_id": "1592158",
+        "item_id": "gqa_static:attribute:15281057"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2315460",
+        "item_id": "tallyqa_down:count:92315460194"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2315460.jpg",
+      "sha256": "fdd93e411fee0acf565412dab9e9fec1cb8547e858780049871878a9ce737059",
+      "static": {
+        "dataset": "gqa",
+        "factor": "spatial",
+        "image_id": "2315460",
+        "item_id": "gqa_static:spatial:11236791"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2315599",
+        "item_id": "tallyqa_down:count:30160837"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2315599.jpg",
+      "sha256": "f775808c2e70dc9f1eb00f4dd4ae187e75e64a59835df918317eee6a19f24865",
+      "static": {
+        "dataset": "gqa",
+        "factor": "attribute",
+        "image_id": "2315599",
+        "item_id": "gqa_static:attribute:01638103"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2315915",
+        "item_id": "tallyqa_down:count:30160652"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2315915.jpg",
+      "sha256": "e3c5784636e953515b567849b746713e7532fbda03bf69254a132708e4da8fa5",
+      "static": {
+        "dataset": "gqa",
+        "factor": "attribute",
+        "image_id": "2315915",
+        "item_id": "gqa_static:attribute:06807163"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2317063",
+        "item_id": "tallyqa_down:count:30159923"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2317063.jpg",
+      "sha256": "b068e112e4ed4fcacf7c64ffd2762ef9a4a0caf971b17f3b523f6dcf4d367aac",
+      "static": {
+        "dataset": "gqa",
+        "factor": "presence",
+        "image_id": "2317063",
+        "item_id": "gqa_static:presence:02580936"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2317086",
+        "item_id": "tallyqa_down:count:923170865116"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2317086.jpg",
+      "sha256": "488c6d744cb8f0941a540a2e2e670e283aa26c43740b965b3a84cbe72e62c9df",
+      "static": {
+        "dataset": "gqa",
+        "factor": "presence",
+        "image_id": "2317086",
+        "item_id": "gqa_static:presence:05579442"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2317515",
+        "item_id": "tallyqa_down:count:9231751515960"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2317515.jpg",
+      "sha256": "72e888da312ff191d0dff7515a570c3dfa84fdc426609142c5f3d7260b34a5e3",
+      "static": {
+        "dataset": "gqa",
+        "factor": "presence",
+        "image_id": "2317515",
+        "item_id": "gqa_static:presence:03736901"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2317607",
+        "item_id": "tallyqa_down:count:30159577"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2317607.jpg",
+      "sha256": "6a4bb1351956eb5c746b61ab433a1bc565f31059466c5599f9c9a41017ee92f1",
+      "static": {
+        "dataset": "gqa",
+        "factor": "attribute",
+        "image_id": "2317607",
+        "item_id": "gqa_static:attribute:18479646"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "gqa",
+        "factor": "presence",
+        "image_id": "2317625",
+        "item_id": "gqa_down:presence:15597489"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2317625.jpg",
+      "sha256": "e99a064b09ff45f3d4572cd11f2df494c9f9463958ea0e16538a583389d4eaef",
+      "static": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2317625",
+        "item_id": "tallyqa_static:count:923176253564"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "gqa",
+        "factor": "presence",
+        "image_id": "2318469",
+        "item_id": "gqa_down:presence:01116574"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2318469.jpg",
+      "sha256": "198b595b2b7e775080197a08bff3f2ee512e09a87d0d12f5ba2054306bf48695",
+      "static": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2318469",
+        "item_id": "tallyqa_static:count:9231846910201"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2318480",
+        "item_id": "tallyqa_down:count:9231848015480"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2318480.jpg",
+      "sha256": "27f83acf90e9d73cc39257b4d0d9fcb66fe982e350207eaee61aa834f559796f",
+      "static": {
+        "dataset": "gqa",
+        "factor": "presence",
+        "image_id": "2318480",
+        "item_id": "gqa_static:presence:1572307"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "gqa",
+        "factor": "attribute",
+        "image_id": "2318715",
+        "item_id": "gqa_down:attribute:07523160"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2318715.jpg",
+      "sha256": "be0ccba62e4b4cac25b2cc2fbfd95b784d17f8da99f9551e606dbfccf99e8f64",
+      "static": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2318715",
+        "item_id": "tallyqa_static:count:30158936"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "gqa",
+        "factor": "attribute",
+        "image_id": "2318853",
+        "item_id": "gqa_down:attribute:00523936"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2318853.jpg",
+      "sha256": "5e6697dc6a6070921171e14e685160f823b7cc04ce06a457610e65f3dd3c9c9e",
+      "static": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2318853",
+        "item_id": "tallyqa_static:count:923188537672"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2320097",
+        "item_id": "tallyqa_down:count:30158167"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2320097.jpg",
+      "sha256": "c87fd6a04282ec786079e7ced2cc1cc6d31b07e8007e73c7077a91ed308377f6",
+      "static": {
+        "dataset": "gqa",
+        "factor": "spatial",
+        "image_id": "2320097",
+        "item_id": "gqa_static:spatial:19373042"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "gqa",
+        "factor": "spatial",
+        "image_id": "2320380",
+        "item_id": "gqa_down:spatial:01310441"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2320380.jpg",
+      "sha256": "b0c4aab6a25f97db6c326d65b6eb85c0e058e16ac6c09a18b900525296bcc524",
+      "static": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2320380",
+        "item_id": "tallyqa_static:count:30158015"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "gqa",
+        "factor": "attribute",
+        "image_id": "2320660",
+        "item_id": "gqa_down:attribute:08694285"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2320660.jpg",
+      "sha256": "9b77651bfd2c0fda7256c01cbe86f4845eef2371660a6713720ea7016ce75095",
+      "static": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2320660",
+        "item_id": "tallyqa_static:count:30157888"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "gqa",
+        "factor": "presence",
+        "image_id": "2321528",
+        "item_id": "gqa_down:presence:11175896"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2321528.jpg",
+      "sha256": "733459aa93a1714f72c96e83ed482bc8f89220064cb4e504f09202891d5ff265",
+      "static": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2321528",
+        "item_id": "tallyqa_static:count:30157432"
+      }
+    },
+    {
+      "downstream": {
+        "dataset": "gqa",
+        "factor": "attribute",
+        "image_id": "2322391",
+        "item_id": "gqa_down:attribute:01475354"
+      },
+      "physical_path": "/root/autodl-tmp/RewardLens/code/gqa_images/2322391.jpg",
+      "sha256": "67e9a15583a2f45e8ad22e261f6f1ba04af8402c0a9959297e4231b7aee848f3",
+      "static": {
+        "dataset": "tallyqa",
+        "factor": "count",
+        "image_id": "vg:2322391",
+        "item_id": "tallyqa_static:count:30156943"
+      }
+    }
+  ],
+  "status": "FAIL_BLOCKED"
+}

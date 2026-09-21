@@ -1,0 +1,1155 @@
+{
+  "definitions_from_frozen_code": {
+    "file": "rewardlens/inference/metrics.py",
+    "A_S": "accuracy_from_static: mean(parsed_preference == gold) over status==ok and parsed in {A,B} on independent static items. Never audit bases.",
+    "A_B": "diagnostic base_acc = P(C_B=1) on complete audit triplets. Explicitly not confirmatory A.",
+    "RA": "PFC_cond = P(C_R=1 | C_B=1) = P(relevant correct | base correct)",
+    "II": "PSC_cond = P(C_I=1 | C_B=1) = P(irrelevant correct | base correct)",
+    "PFC": "P(C_B=1 AND C_R=1)",
+    "PSC": "P(C_B=1 AND C_I=1)",
+    "denominator_audit": "complete triplets only: all three variants status==ok and parsed in {A,B}; otherwise the triplet is dropped",
+    "denominator_static": "status==ok and parsed in {A,B}; parse failures excluded, not scored as wrong",
+    "abstention_pairs": "selections.jsonl semantic_abstentions / parsed_preference not in {A,B}"
+  },
+  "algebra": {
+    "within_same_audit_population_and_abstention_convention": [
+      "PFC = A_B * RA",
+      "PSC = A_B * II"
+    ],
+    "forbidden": "Do not substitute A_S for A_B in those identities."
+  },
+  "per_model_factor": [
+    {
+      "model_id": "qwen3_vl_4b_instruct",
+      "display": "Qwen",
+      "factor": "attribute",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.82,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.18000000000000005,
+      "RA": 1.0,
+      "II": 1.0,
+      "PFC": 1.0,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.82,
+      "paper_A_audit": 1.0,
+      "paper_RA": 1.0,
+      "paper_II": 1.0,
+      "paper_PFC": 1.0,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "qwen3_vl_4b_instruct",
+      "display": "Qwen",
+      "factor": "count",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.915,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.08499999999999996,
+      "RA": 0.17,
+      "II": 1.0,
+      "PFC": 0.17,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.915,
+      "paper_A_audit": 1.0,
+      "paper_RA": 0.17,
+      "paper_II": 1.0,
+      "paper_PFC": 0.17,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "qwen3_vl_4b_instruct",
+      "display": "Qwen",
+      "factor": "presence",
+      "n_triplets": 200,
+      "n_cond": 199,
+      "A_S": 0.895,
+      "A_B": 0.995,
+      "A_S_minus_A_B": -0.09999999999999998,
+      "RA": 1.0,
+      "II": 1.0,
+      "PFC": 0.995,
+      "PSC": 0.995,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.895,
+      "paper_A_audit": 0.995,
+      "paper_RA": 1.0,
+      "paper_II": 1.0,
+      "paper_PFC": 0.995,
+      "paper_PSC": 0.995,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "qwen3_vl_4b_instruct",
+      "display": "Qwen",
+      "factor": "spatial",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.8,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.19999999999999996,
+      "RA": 0.985,
+      "II": 1.0,
+      "PFC": 0.985,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.8,
+      "paper_A_audit": 1.0,
+      "paper_RA": 0.985,
+      "paper_II": 1.0,
+      "paper_PFC": 0.985,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "gemma3_4b_it",
+      "display": "Gemma",
+      "factor": "attribute",
+      "n_triplets": 200,
+      "n_cond": 187,
+      "A_S": 0.725,
+      "A_B": 0.935,
+      "A_S_minus_A_B": -0.21000000000000008,
+      "RA": 0.9518716577540107,
+      "II": 0.9732620320855615,
+      "PFC": 0.89,
+      "PSC": 0.91,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.725,
+      "paper_A_audit": 0.935,
+      "paper_RA": 0.9518716577540107,
+      "paper_II": 0.9732620320855615,
+      "paper_PFC": 0.89,
+      "paper_PSC": 0.91,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "gemma3_4b_it",
+      "display": "Gemma",
+      "factor": "count",
+      "n_triplets": 200,
+      "n_cond": 145,
+      "A_S": 0.385,
+      "A_B": 0.725,
+      "A_S_minus_A_B": -0.33999999999999997,
+      "RA": 0.32413793103448274,
+      "II": 0.8758620689655172,
+      "PFC": 0.235,
+      "PSC": 0.635,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.385,
+      "paper_A_audit": 0.725,
+      "paper_RA": 0.32413793103448274,
+      "paper_II": 0.8758620689655172,
+      "paper_PFC": 0.235,
+      "paper_PSC": 0.635,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "gemma3_4b_it",
+      "display": "Gemma",
+      "factor": "presence",
+      "n_triplets": 200,
+      "n_cond": 198,
+      "A_S": 0.75,
+      "A_B": 0.99,
+      "A_S_minus_A_B": -0.24,
+      "RA": 0.601010101010101,
+      "II": 1.0,
+      "PFC": 0.595,
+      "PSC": 0.99,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.75,
+      "paper_A_audit": 0.99,
+      "paper_RA": 0.601010101010101,
+      "paper_II": 1.0,
+      "paper_PFC": 0.595,
+      "paper_PSC": 0.99,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "gemma3_4b_it",
+      "display": "Gemma",
+      "factor": "spatial",
+      "n_triplets": 200,
+      "n_cond": 146,
+      "A_S": 0.56,
+      "A_B": 0.73,
+      "A_S_minus_A_B": -0.16999999999999993,
+      "RA": 0.0,
+      "II": 0.9794520547945206,
+      "PFC": 0.0,
+      "PSC": 0.715,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.56,
+      "paper_A_audit": 0.73,
+      "paper_RA": 0.0,
+      "paper_II": 0.9794520547945206,
+      "paper_PFC": 0.0,
+      "paper_PSC": 0.715,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "molmo_7b_d_0924",
+      "display": "Molmo",
+      "factor": "attribute",
+      "n_triplets": 200,
+      "n_cond": 193,
+      "A_S": 0.67,
+      "A_B": 0.965,
+      "A_S_minus_A_B": -0.29499999999999993,
+      "RA": 0.9896373056994818,
+      "II": 0.9896373056994818,
+      "PFC": 0.955,
+      "PSC": 0.955,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.67,
+      "paper_A_audit": 0.965,
+      "paper_RA": 0.9896373056994818,
+      "paper_II": 0.9896373056994818,
+      "paper_PFC": 0.955,
+      "paper_PSC": 0.955,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "molmo_7b_d_0924",
+      "display": "Molmo",
+      "factor": "count",
+      "n_triplets": 200,
+      "n_cond": 102,
+      "A_S": 0.625,
+      "A_B": 0.51,
+      "A_S_minus_A_B": 0.11499999999999999,
+      "RA": 0.18627450980392157,
+      "II": 0.9705882352941176,
+      "PFC": 0.095,
+      "PSC": 0.495,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.625,
+      "paper_A_audit": 0.51,
+      "paper_RA": 0.18627450980392157,
+      "paper_II": 0.9705882352941176,
+      "paper_PFC": 0.095,
+      "paper_PSC": 0.495,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "molmo_7b_d_0924",
+      "display": "Molmo",
+      "factor": "presence",
+      "n_triplets": 200,
+      "n_cond": 199,
+      "A_S": 0.795,
+      "A_B": 0.995,
+      "A_S_minus_A_B": -0.19999999999999996,
+      "RA": 0.7437185929648241,
+      "II": 0.9899497487437185,
+      "PFC": 0.74,
+      "PSC": 0.985,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.795,
+      "paper_A_audit": 0.995,
+      "paper_RA": 0.7437185929648241,
+      "paper_II": 0.9899497487437185,
+      "paper_PFC": 0.74,
+      "paper_PSC": 0.985,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "molmo_7b_d_0924",
+      "display": "Molmo",
+      "factor": "spatial",
+      "n_triplets": 200,
+      "n_cond": 148,
+      "A_S": 0.66,
+      "A_B": 0.74,
+      "A_S_minus_A_B": -0.07999999999999996,
+      "RA": 0.39864864864864863,
+      "II": 0.9932432432432432,
+      "PFC": 0.295,
+      "PSC": 0.735,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.66,
+      "paper_A_audit": 0.74,
+      "paper_RA": 0.39864864864864863,
+      "paper_II": 0.9932432432432432,
+      "paper_PFC": 0.295,
+      "paper_PSC": 0.735,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "skywork_vl_reward_7b",
+      "display": "Skywork",
+      "factor": "attribute",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.93,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.06999999999999995,
+      "RA": 1.0,
+      "II": 1.0,
+      "PFC": 1.0,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.93,
+      "paper_A_audit": 1.0,
+      "paper_RA": 1.0,
+      "paper_II": 1.0,
+      "paper_PFC": 1.0,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "skywork_vl_reward_7b",
+      "display": "Skywork",
+      "factor": "count",
+      "n_triplets": 200,
+      "n_cond": 199,
+      "A_S": 0.76,
+      "A_B": 0.995,
+      "A_S_minus_A_B": -0.235,
+      "RA": 0.628140703517588,
+      "II": 0.9899497487437185,
+      "PFC": 0.625,
+      "PSC": 0.985,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.76,
+      "paper_A_audit": 0.995,
+      "paper_RA": 0.628140703517588,
+      "paper_II": 0.9899497487437185,
+      "paper_PFC": 0.625,
+      "paper_PSC": 0.985,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "skywork_vl_reward_7b",
+      "display": "Skywork",
+      "factor": "presence",
+      "n_triplets": 200,
+      "n_cond": 199,
+      "A_S": 0.845,
+      "A_B": 0.995,
+      "A_S_minus_A_B": -0.15000000000000002,
+      "RA": 1.0,
+      "II": 0.9849246231155779,
+      "PFC": 0.995,
+      "PSC": 0.98,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.845,
+      "paper_A_audit": 0.995,
+      "paper_RA": 1.0,
+      "paper_II": 0.9849246231155779,
+      "paper_PFC": 0.995,
+      "paper_PSC": 0.98,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "skywork_vl_reward_7b",
+      "display": "Skywork",
+      "factor": "spatial",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.845,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.15500000000000003,
+      "RA": 0.86,
+      "II": 1.0,
+      "PFC": 0.86,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.845,
+      "paper_A_audit": 1.0,
+      "paper_RA": 0.86,
+      "paper_II": 1.0,
+      "paper_PFC": 0.86,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "idefics3_8b_llama3",
+      "display": "Idefics3",
+      "factor": "attribute",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.765,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.235,
+      "RA": 1.0,
+      "II": 1.0,
+      "PFC": 1.0,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.765,
+      "paper_A_audit": 1.0,
+      "paper_RA": 1.0,
+      "paper_II": 1.0,
+      "paper_PFC": 1.0,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "idefics3_8b_llama3",
+      "display": "Idefics3",
+      "factor": "count",
+      "n_triplets": 200,
+      "n_cond": 189,
+      "A_S": 0.815,
+      "A_B": 0.945,
+      "A_S_minus_A_B": -0.13,
+      "RA": 0.7142857142857143,
+      "II": 0.9576719576719577,
+      "PFC": 0.675,
+      "PSC": 0.905,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.815,
+      "paper_A_audit": 0.945,
+      "paper_RA": 0.7142857142857143,
+      "paper_II": 0.9576719576719577,
+      "paper_PFC": 0.675,
+      "paper_PSC": 0.905,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "idefics3_8b_llama3",
+      "display": "Idefics3",
+      "factor": "presence",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.79,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.20999999999999996,
+      "RA": 1.0,
+      "II": 0.995,
+      "PFC": 1.0,
+      "PSC": 0.995,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.79,
+      "paper_A_audit": 1.0,
+      "paper_RA": 1.0,
+      "paper_II": 0.995,
+      "paper_PFC": 1.0,
+      "paper_PSC": 0.995,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "idefics3_8b_llama3",
+      "display": "Idefics3",
+      "factor": "spatial",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.64,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.36,
+      "RA": 0.55,
+      "II": 1.0,
+      "PFC": 0.55,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.64,
+      "paper_A_audit": 1.0,
+      "paper_RA": 0.55,
+      "paper_II": 1.0,
+      "paper_PFC": 0.55,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "phi35_vision_instruct",
+      "display": "Phi",
+      "factor": "attribute",
+      "n_triplets": 200,
+      "n_cond": 186,
+      "A_S": 0.805,
+      "A_B": 0.93,
+      "A_S_minus_A_B": -0.125,
+      "RA": 0.8494623655913979,
+      "II": 0.8924731182795699,
+      "PFC": 0.79,
+      "PSC": 0.83,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.805,
+      "paper_A_audit": 0.93,
+      "paper_RA": 0.8494623655913979,
+      "paper_II": 0.8924731182795699,
+      "paper_PFC": 0.79,
+      "paper_PSC": 0.83,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "phi35_vision_instruct",
+      "display": "Phi",
+      "factor": "count",
+      "n_triplets": 200,
+      "n_cond": 165,
+      "A_S": 0.635,
+      "A_B": 0.825,
+      "A_S_minus_A_B": -0.18999999999999995,
+      "RA": 0.2,
+      "II": 0.9515151515151515,
+      "PFC": 0.165,
+      "PSC": 0.785,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.635,
+      "paper_A_audit": 0.825,
+      "paper_RA": 0.2,
+      "paper_II": 0.9515151515151515,
+      "paper_PFC": 0.165,
+      "paper_PSC": 0.785,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "phi35_vision_instruct",
+      "display": "Phi",
+      "factor": "presence",
+      "n_triplets": 200,
+      "n_cond": 180,
+      "A_S": 0.92,
+      "A_B": 0.9,
+      "A_S_minus_A_B": 0.020000000000000018,
+      "RA": 0.7388888888888889,
+      "II": 0.9722222222222222,
+      "PFC": 0.665,
+      "PSC": 0.875,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.92,
+      "paper_A_audit": 0.9,
+      "paper_RA": 0.7388888888888889,
+      "paper_II": 0.9722222222222222,
+      "paper_PFC": 0.665,
+      "paper_PSC": 0.875,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "phi35_vision_instruct",
+      "display": "Phi",
+      "factor": "spatial",
+      "n_triplets": 200,
+      "n_cond": 192,
+      "A_S": 0.8484848484848485,
+      "A_B": 0.96,
+      "A_S_minus_A_B": -0.11151515151515146,
+      "RA": 0.4739583333333333,
+      "II": 0.984375,
+      "PFC": 0.455,
+      "PSC": 0.945,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.8484848484848485,
+      "paper_A_audit": 0.96,
+      "paper_RA": 0.4739583333333333,
+      "paper_II": 0.984375,
+      "paper_PFC": 0.455,
+      "paper_PSC": 0.945,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "llava_onevision_qwen2_7b",
+      "display": "LLaVA",
+      "factor": "attribute",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.805,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.19499999999999995,
+      "RA": 1.0,
+      "II": 1.0,
+      "PFC": 1.0,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.805,
+      "paper_A_audit": 1.0,
+      "paper_RA": 1.0,
+      "paper_II": 1.0,
+      "paper_PFC": 1.0,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "llava_onevision_qwen2_7b",
+      "display": "LLaVA",
+      "factor": "count",
+      "n_triplets": 200,
+      "n_cond": 183,
+      "A_S": 0.785,
+      "A_B": 0.915,
+      "A_S_minus_A_B": -0.13,
+      "RA": 0.4207650273224044,
+      "II": 0.9890710382513661,
+      "PFC": 0.385,
+      "PSC": 0.905,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.785,
+      "paper_A_audit": 0.915,
+      "paper_RA": 0.4207650273224044,
+      "paper_II": 0.9890710382513661,
+      "paper_PFC": 0.385,
+      "paper_PSC": 0.905,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "llava_onevision_qwen2_7b",
+      "display": "LLaVA",
+      "factor": "presence",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.885,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.11499999999999999,
+      "RA": 0.98,
+      "II": 1.0,
+      "PFC": 0.98,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.885,
+      "paper_A_audit": 1.0,
+      "paper_RA": 0.98,
+      "paper_II": 1.0,
+      "paper_PFC": 0.98,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "llava_onevision_qwen2_7b",
+      "display": "LLaVA",
+      "factor": "spatial",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.785,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.21499999999999997,
+      "RA": 0.87,
+      "II": 1.0,
+      "PFC": 0.87,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.785,
+      "paper_A_audit": 1.0,
+      "paper_RA": 0.87,
+      "paper_II": 1.0,
+      "paper_PFC": 0.87,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "internvl3_8b_hf",
+      "display": "InternVL",
+      "factor": "attribute",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.855,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.14500000000000002,
+      "RA": 1.0,
+      "II": 1.0,
+      "PFC": 1.0,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.855,
+      "paper_A_audit": 1.0,
+      "paper_RA": 1.0,
+      "paper_II": 1.0,
+      "paper_PFC": 1.0,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "internvl3_8b_hf",
+      "display": "InternVL",
+      "factor": "count",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.69,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.31000000000000005,
+      "RA": 0.18,
+      "II": 1.0,
+      "PFC": 0.18,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.69,
+      "paper_A_audit": 1.0,
+      "paper_RA": 0.18,
+      "paper_II": 1.0,
+      "paper_PFC": 0.18,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "internvl3_8b_hf",
+      "display": "InternVL",
+      "factor": "presence",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.8,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.19999999999999996,
+      "RA": 1.0,
+      "II": 1.0,
+      "PFC": 1.0,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.8,
+      "paper_A_audit": 1.0,
+      "paper_RA": 1.0,
+      "paper_II": 1.0,
+      "paper_PFC": 1.0,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    },
+    {
+      "model_id": "internvl3_8b_hf",
+      "display": "InternVL",
+      "factor": "spatial",
+      "n_triplets": 200,
+      "n_cond": 200,
+      "A_S": 0.685,
+      "A_B": 1.0,
+      "A_S_minus_A_B": -0.31499999999999995,
+      "RA": 0.915,
+      "II": 1.0,
+      "PFC": 0.915,
+      "PSC": 1.0,
+      "PFC_equals_AB_RA": true,
+      "PSC_equals_AB_II": true,
+      "paper_A_S": 0.685,
+      "paper_A_audit": 1.0,
+      "paper_RA": 0.915,
+      "paper_II": 1.0,
+      "paper_PFC": 0.915,
+      "paper_PSC": 1.0,
+      "match_paper_RA": true,
+      "match_paper_A_audit": true,
+      "n_judgment_rows": 2400,
+      "status_counts": {
+        "ok": 2400
+      }
+    }
+  ],
+  "static_reconstruction": [
+    {
+      "model_id": "qwen3_vl_4b_instruct",
+      "path": "D:\\RewardLens_hf_final_release\\RewardLens-phase2-archive\\results\\qwen3_vl_4b_instruct\\static.jsonl",
+      "n_rows": 800,
+      "status_counts": {
+        "ok": 800
+      },
+      "by_factor": {
+        "count": {
+          "A_S": 0.915,
+          "n": 200
+        },
+        "attribute": {
+          "A_S": 0.82,
+          "n": 200
+        },
+        "presence": {
+          "A_S": 0.895,
+          "n": 200
+        },
+        "spatial": {
+          "A_S": 0.8,
+          "n": 200
+        }
+      },
+      "macro_A_S": 0.8575
+    },
+    {
+      "model_id": "gemma3_4b_it",
+      "path": "D:\\RewardLens_hf_final_release\\RewardLens-phase2-archive\\results\\gemma3_4b_it\\static.jsonl",
+      "n_rows": 800,
+      "status_counts": {
+        "ok": 800
+      },
+      "by_factor": {
+        "count": {
+          "A_S": 0.385,
+          "n": 200
+        },
+        "attribute": {
+          "A_S": 0.725,
+          "n": 200
+        },
+        "presence": {
+          "A_S": 0.75,
+          "n": 200
+        },
+        "spatial": {
+          "A_S": 0.56,
+          "n": 200
+        }
+      },
+      "macro_A_S": 0.605
+    },
+    {
+      "model_id": "molmo_7b_d_0924",
+      "path": "D:\\RewardLens_hf_final_release\\RewardLens-phase2-archive\\results\\molmo_7b_d_0924\\static.jsonl",
+      "n_rows": 800,
+      "status_counts": {
+        "ok": 800
+      },
+      "by_factor": {
+        "count": {
+          "A_S": 0.625,
+          "n": 200
+        },
+        "attribute": {
+          "A_S": 0.67,
+          "n": 200
+        },
+        "presence": {
+          "A_S": 0.795,
+          "n": 200
+        },
+        "spatial": {
+          "A_S": 0.66,
+          "n": 200
+        }
+      },
+      "macro_A_S": 0.6875
+    },
+    {
+      "model_id": "skywork_vl_reward_7b",
+      "path": "D:\\RewardLens_hf_final_release\\RewardLens-phase2-archive\\results\\skywork_vl_reward_7b\\static.jsonl",
+      "n_rows": 800,
+      "status_counts": {
+        "ok": 800
+      },
+      "by_factor": {
+        "count": {
+          "A_S": 0.76,
+          "n": 200
+        },
+        "attribute": {
+          "A_S": 0.93,
+          "n": 200
+        },
+        "presence": {
+          "A_S": 0.845,
+          "n": 200
+        },
+        "spatial": {
+          "A_S": 0.845,
+          "n": 200
+        }
+      },
+      "macro_A_S": 0.845
+    },
+    {
+      "model_id": "idefics3_8b_llama3",
+      "path": "D:\\RewardLens_hf_final_release\\RewardLens-phase2-archive\\results\\idefics3_8b_llama3\\execution\\idefics3_8b_llama3\\static.jsonl",
+      "n_rows": 800,
+      "status_counts": {
+        "ok": 800
+      },
+      "by_factor": {
+        "count": {
+          "A_S": 0.815,
+          "n": 200
+        },
+        "attribute": {
+          "A_S": 0.765,
+          "n": 200
+        },
+        "presence": {
+          "A_S": 0.79,
+          "n": 200
+        },
+        "spatial": {
+          "A_S": 0.64,
+          "n": 200
+        }
+      },
+      "macro_A_S": 0.7525
+    },
+    {
+      "model_id": "phi35_vision_instruct",
+      "path": "D:\\RewardLens_hf_final_release\\RewardLens-phase2-archive\\results\\phi35_vision_instruct\\execution\\phi35_vision_instruct\\static.jsonl",
+      "n_rows": 800,
+      "status_counts": {
+        "ok": 798,
+        "parse_error": 2
+      },
+      "by_factor": {
+        "count": {
+          "A_S": 0.635,
+          "n": 200
+        },
+        "attribute": {
+          "A_S": 0.805,
+          "n": 200
+        },
+        "presence": {
+          "A_S": 0.92,
+          "n": 200
+        },
+        "spatial": {
+          "A_S": 0.8484848484848485,
+          "n": 198
+        }
+      },
+      "macro_A_S": 0.8021212121212121
+    },
+    {
+      "model_id": "llava_onevision_qwen2_7b",
+      "path": "D:\\RewardLens_hf_final_release\\RewardLens-phase2-archive\\results\\llava_onevision_qwen2_7b\\execution\\llava_onevision_qwen2_7b\\static.jsonl",
+      "n_rows": 800,
+      "status_counts": {
+        "ok": 800
+      },
+      "by_factor": {
+        "count": {
+          "A_S": 0.785,
+          "n": 200
+        },
+        "attribute": {
+          "A_S": 0.805,
+          "n": 200
+        },
+        "presence": {
+          "A_S": 0.885,
+          "n": 200
+        },
+        "spatial": {
+          "A_S": 0.785,
+          "n": 200
+        }
+      },
+      "macro_A_S": 0.8150000000000001
+    },
+    {
+      "model_id": "internvl3_8b_hf",
+      "path": "D:\\RewardLens_hf_final_release\\RewardLens-phase2-archive\\results\\internvl3_8b_hf\\execution\\internvl3_8b_hf\\static.jsonl",
+      "n_rows": 800,
+      "status_counts": {
+        "ok": 800
+      },
+      "by_factor": {
+        "count": {
+          "A_S": 0.69,
+          "n": 200
+        },
+        "attribute": {
+          "A_S": 0.855,
+          "n": 200
+        },
+        "presence": {
+          "A_S": 0.8,
+          "n": 200
+        },
+        "spatial": {
+          "A_S": 0.685,
+          "n": 200
+        }
+      },
+      "macro_A_S": 0.7575000000000001
+    }
+  ],
+  "mismatches": [],
+  "n_factor_rows": 32,
+  "n_A_S_neq_A_B": 32,
+  "n_PFC_identity_holds": 32,
+  "n_PSC_identity_holds": 32,
+  "paper_RA_match": 32,
+  "paper_A_audit_match": 32,
+  "headline": {
+    "A_S_is_not_A_B": true,
+    "measurement_objects": {
+      "static_benchmark": "A^S(J) independent static pairwise accuracy",
+      "audit_base": "A^B(J) = P(C_B=1) on audit triplets",
+      "intervention_profile": "D(J)=(RA(J), II(J))"
+    },
+    "empirical_main_claim_should_use": "A^S(J) does not empirically determine D(J)",
+    "do_not_assume": "A^S = A^B"
+  }
+}

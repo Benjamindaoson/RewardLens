@@ -1,4 +1,4 @@
-# Large data and generated artifacts are published separately on Hugging Face.
+﻿# Large data and generated artifacts are published separately on Hugging Face.
 /artifacts/
 /datasets/
 /gpu_bundle/
@@ -42,3 +42,12 @@ paper/REWARDLENS.pdf
 paper/iclr2027_test.pdf
 paper/main_related_work_original.pdf
 paper/main_related_work_collaborator.pdf
+
+# Consolidated archives, caches and local records (published via Hugging Face, not GitHub).
+/RewardLens_archive_bridge/
+/RewardLens_hf_final_release/
+/rewardlens-hf-cache/
+/RewardLens-final-*.bundle
+/RewardLens-final-*.bundle.sha256
+/_consolidation_manifest_2026-09-21.md
+/reports/forensics_20260916.tar
