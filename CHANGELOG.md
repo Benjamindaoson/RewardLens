@@ -9,3 +9,4 @@
 ## [Unreleased]
 
 - Complete the declared evaluation matrix and uncertainty analysis.
+- Added separately named original and collaborator-authored Related Work paper variants, with review PDFs and reproducible LaTeX entry points.
