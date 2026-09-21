@@ -75,7 +75,7 @@ def main() -> None:
     cited = set()
     for match in re.finditer(r"\\cite\w*\{([^}]+)\}", text):
         cited.update(key.strip() for key in match.group(1).split(","))
-    bibliography = (PAPER / "references.bib").read_text()
+    bibliography = "\n".join(path.read_text() for path in PAPER.glob("*.bib"))
     bibkeys = set(re.findall(r"@\w+\{([^,]+),", bibliography))
     require(cited <= bibkeys, f"missing citation keys: {sorted(cited - bibkeys)}")
     labels = set(re.findall(r"\\label\{([^}]+)\}", text))

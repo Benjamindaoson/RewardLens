@@ -18,6 +18,10 @@
 
 \title{RewardLens: Same Static Accuracy, Different Intervention Behavior in Multimodal Judges}
 
+% Variant entry points may override these while sharing the complete paper.
+\providecommand{\RelatedWorkSection}{sections/02_related_work}
+\providecommand{\BibliographyFiles}{references}
+
 % Submission must remain anonymous.
 \author{Anonymous Authors}
 
@@ -62,7 +66,7 @@ static evaluation can fail to distinguish.
 
 \input{sections/01_introduction}
 
-\input{sections/02_related_work}
+\input{\RelatedWorkSection}
 
 \input{sections/03_problem_formulation}
 
@@ -115,7 +119,7 @@ measurements.
 \setlength{\emergencystretch}{3em}
 \raggedright
 \sloppy
-\bibliography{references}
+\bibliography{\BibliographyFiles}
 \bibliographystyle{iclr2027_conference}
 \endgroup
 
