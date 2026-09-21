@@ -1,76 +1,96 @@
-\section{RewardLens Audit Construction}
-\label{sec:rewardlens_audit}
+\section{Problem Formulation}
+\label{sec:problem_formulation}
 
-RewardLens-CLEVR uses CLEVR-style procedural rendering
-\citep{johnson2017clevr} to instantiate the contracts in
-Sec.~\ref{sec:problem_formulation}. Only the image changes within a triplet;
-the question, responses, candidate order, camera, lighting, and render seed are
-held fixed.
+Let a multimodal judge $f$ receive $x=(I,q,r_1,r_2)$ and return a binary
+preference with gold label $y$. For visual factor $c$, its measured static
+accuracy on an independent set is
+\begin{equation}
+\widehat{A}_{S,c}(f)=\frac{1}{n_c}\sum_{k=1}^{n_c}
+\mathbf{1}\{f(x_k)=y_k\}.
+\label{eq:emp_static_accuracy}
+\end{equation}
+Claims of equality below concern this finite-sample measurement, not equality
+of population accuracies.
 
-\begin{figure}[t]
-\centering
-\resizebox{\columnwidth}{!}{%
-\begin{tikzpicture}[
-  >=Latex,
-  box/.style={draw,rounded corners=2pt,align=center,minimum height=1.05cm,
-              text width=3.0cm,inner sep=4pt,font=\small},
-  smallbox/.style={draw,rounded corners=2pt,align=center,minimum height=.92cm,
-              text width=2.9cm,inner sep=4pt,font=\small}]
-\node[box,fill=gray!12] (static) {Independent static set\\natural images; $\widehat A_{S,c}$};
-\node[box,fill=blue!8,right=1.15cm of static] (base) {Audit base\\fixed $q,r_1,r_2$; gold $y_B$};
-\node[smallbox,fill=orange!14,below left=.70cm and .38cm of base] (rel) {Relevant edit\\$y_R\neq y_B$};
-\node[smallbox,fill=green!12,below right=.70cm and .38cm of base] (irr) {Irrelevant edit\\$y_I=y_B$};
-\node[box,fill=purple!8,right=1.15cm of base] (judge) {Same judge\\condition on correct base};
-\node[smallbox,fill=orange!14,below left=.70cm and .38cm of judge] (ra) {RA\\correct after relevant edit};
-\node[smallbox,fill=green!12,below right=.70cm and .38cm of judge] (ii) {II\\correct after irrelevant edit};
-\draw[->,thick] (static)--(base); \draw[->,thick] (base)--(judge);
-\draw[->,thick] (base)--(rel); \draw[->,thick] (base)--(irr);
-\draw[->,thick] (rel.east)-|(ra.west); \draw[->,thick] (irr.east)-|(ii.west);
-\draw[->,thick] (judge)--(ra); \draw[->,thick] (judge)--(ii);
-\end{tikzpicture}}
-\caption{RewardLens separates independent static evaluation from a controlled
-triplet audit. Relevant edits reverse the gold preference; irrelevant edits
-preserve it. RA and II condition on a correct base decision.}
-\label{fig:rewardlens_schematic}
-\end{figure}
+\subsection{Controlled Triplets and Behavioral Measures}
+\label{sec:intervention_triplets}
+\label{sec:intervention_behavior}
 
-\paragraph{Factor-specific scene contracts.}
-\label{sec:factor_interventions}
+An audit triplet
+$x_B=(I_B,q,r_1,r_2)$, $x_R=(I_R,q,r_1,r_2)$, and
+$x_I=(I_I,q,r_1,r_2)$ holds the linguistic preference problem fixed. Its scene
+contracts require $y_R\neq y_B$ for the relevant edit and $y_I=y_B$ for the
+irrelevant edit. For $m_c$ triplets, RewardLens conditions on a correct base
+decision and estimates
+\begin{align}
+\widehat{\mathrm{RA}}_c(f)
+&=\frac{\sum_k\mathbf{1}\{f(x_{B,k})=y_{B,k}\land
+f(x_{R,k})=y_{R,k}\}}{\sum_k\mathbf{1}\{f(x_{B,k})=y_{B,k}\}},
+\label{eq:emp_ra}\\
+\widehat{\mathrm{II}}_c(f)
+&=\frac{\sum_k\mathbf{1}\{f(x_{B,k})=y_{B,k}\land
+f(x_{I,k})=y_{I,k}\}}{\sum_k\mathbf{1}\{f(x_{B,k})=y_{B,k}\}}.
+\label{eq:emp_ii}
+\end{align}
+The denominator is judge-specific; Sec.~\ref{sec:robustness} additionally uses
+the intersection of two judges' base-correct sets.
 
-Both branches perform the same class of low-level operation; their difference
-is whether that operation changes the fact queried by the fixed preference
-problem.
+Because the output is binary, a base-correct judge succeeds on the relevant
+branch exactly when it changes its prediction. Thus
+\begin{equation}
+1-\mathrm{RA}_c(f)=P(f(x_R)=f(x_B)\mid f(x_B)=y_B),
+\label{eq:ra_retention}
+\end{equation}
+where prediction retention is a failure. On the irrelevant branch, retention
+is instead the desired behavior. RA and II therefore separate selective
+adaptation from generic prediction stability.
 
-\paragraph{Count.} Both branches add a geometrically matched object at the
-same intervention slot. The relevant branch adds an object in the queried
-color category, whereas the irrelevant branch adds a non-target-color object.
+\subsection{Static-Matched Measurement Question}
+\label{sec:measurement_question}
 
-\paragraph{Attribute.} Both branches apply the same color transition. The
-relevant branch modifies the unique queried object; the irrelevant branch
-modifies a matched non-target object.
+Judges $f$ and $g$ are matched within factor $c$ at tolerance $\epsilon$ when
+$|\widehat A_{S,c}(f)-\widehat A_{S,c}(g)|\leq\epsilon$. We report the residual
+gaps
+\begin{equation}
+\Delta_{\mathrm{RA},c}=|\widehat{\mathrm{RA}}_c(f)-
+\widehat{\mathrm{RA}}_c(g)|,\qquad
+\Delta_{\mathrm{II},c}=|\widehat{\mathrm{II}}_c(f)-
+\widehat{\mathrm{II}}_c(g)|.
+\label{eq:behavior_gaps}
+\end{equation}
+The question is empirical: whether real judges assigned equal or nearly equal
+measured static scores also exhibit narrow behavioral gaps under controlled
+evidence changes.
 
-\paragraph{Presence.} Both branches remove one object. The relevant branch
-removes the queried color--shape conjunction, whereas the irrelevant branch
-removes a matched non-target.
+\paragraph{Proposition 1 (static-score non-identification).}
+Without additional assumptions linking the independent static set to the
+controlled audit, $\widehat A_{S,c}$ does not uniquely determine
+$(\widehat{\mathrm{RA}}_c,\widehat{\mathrm{II}}_c)$.
 
-\paragraph{Spatial.} Both branches apply the same world-space translation.
-The relevant branch moves the queried referent; the irrelevant branch moves a
-matched distractor.
+\emph{Proof.}
+Fix any prediction vector on the static set. Two judges that agree on this
+vector have the same measured static accuracy. Because the audit contains
+separate inputs, the judges can retain the same static predictions while
+differing on audit branches: for example, one can follow the changed gold
+choice after every relevant edit, whereas the other retains its base choice.
+Their measured RA values then differ although their measured static scores are
+identical. The same construction applies to II by changing behavior only on
+the irrelevant branch. Hence the static score alone cannot recover the
+intervention profile. $\square$
 
-\paragraph{Why match branches?} The comparison is not an edit-versus-no-edit
-test. Each branch applies a matched low-level scene operation while differing
-in decision relevance. Relevance is defined by the deterministic gold-label
-contract, not by a pixel-distance threshold.
+This is a measurement statement about the two finite evaluation environments;
+it does not identify internal reasoning or assert that the observed judges
+instantiate every logically possible profile.
 
-\paragraph{Post-render validation and scope.}
-\label{sec:matching_validation}
+\subsection{Analysis Units and Interpretation}
 
-Factor-specific validators inspect realized scene state rather than trusting
-requested edits: they recount target-color objects, verify target uniqueness
-and color, recount the queried color--shape conjunction, or recompute the
-left/right relation and displacement. Every retained triplet also satisfies
-$y_R\neq y_B$ and $y_I=y_B$. These deterministic construction and post-render
-checks validate the scene contracts. Pixel change is not used to define
-relevance. Detailed
-contracts, receipts, and edit diagnostics appear in
-Appendix~\ref{app:clevr-generation-validation}.
+The static score and intervention profile are intentionally measured on
+different populations: an independent natural-image preference set and a
+controlled rendered audit, respectively. Thus, $\widehat A_{S,c}$ is not the
+audit-base accuracy, and RA/II are not algebraic decompositions of the static
+score. The matching analysis is a descriptive within-factor census over the
+eight evaluated judges. For a matched judge pair, uncertainty is assessed by
+resampling common static-item identifiers and common source-triplet identifiers
+jointly; the resulting intervals quantify finite-evaluation contrasts, not a
+population-level model-family effect. Because qualifying pairs can share a
+judge, they are not treated as independent observations.

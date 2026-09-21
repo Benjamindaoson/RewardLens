@@ -1,0 +1,76 @@
+\section{RewardLens Audit Construction}
+\label{sec:rewardlens_audit}
+
+RewardLens-CLEVR uses CLEVR-style procedural rendering
+\citep{johnson2017clevr} to instantiate the contracts in
+Sec.~\ref{sec:problem_formulation}. Only the image changes within a triplet;
+the question, responses, candidate order, camera, lighting, and render seed are
+held fixed.
+
+\begin{figure}[t]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tikzpicture}[
+  >=Latex,
+  box/.style={draw,rounded corners=2pt,align=center,minimum height=1.05cm,
+              text width=3.0cm,inner sep=4pt,font=\small},
+  smallbox/.style={draw,rounded corners=2pt,align=center,minimum height=.92cm,
+              text width=2.9cm,inner sep=4pt,font=\small}]
+\node[box,fill=gray!12] (static) {Independent static set\\natural images; $\widehat A_{S,c}$};
+\node[box,fill=blue!8,right=1.15cm of static] (base) {Audit base\\fixed $q,r_1,r_2$; gold $y_B$};
+\node[smallbox,fill=orange!14,below left=.70cm and .38cm of base] (rel) {Relevant edit\\$y_R\neq y_B$};
+\node[smallbox,fill=green!12,below right=.70cm and .38cm of base] (irr) {Irrelevant edit\\$y_I=y_B$};
+\node[box,fill=purple!8,right=1.15cm of base] (judge) {Same judge\\condition on correct base};
+\node[smallbox,fill=orange!14,below left=.70cm and .38cm of judge] (ra) {RA\\correct after relevant edit};
+\node[smallbox,fill=green!12,below right=.70cm and .38cm of judge] (ii) {II\\correct after irrelevant edit};
+\draw[->,thick] (static)--(base); \draw[->,thick] (base)--(judge);
+\draw[->,thick] (base)--(rel); \draw[->,thick] (base)--(irr);
+\draw[->,thick] (rel.east)-|(ra.west); \draw[->,thick] (irr.east)-|(ii.west);
+\draw[->,thick] (judge)--(ra); \draw[->,thick] (judge)--(ii);
+\end{tikzpicture}}
+\caption{RewardLens separates independent static evaluation from a controlled
+triplet audit. Relevant edits reverse the gold preference; irrelevant edits
+preserve it. RA and II condition on a correct base decision.}
+\label{fig:rewardlens_schematic}
+\end{figure}
+
+\paragraph{Factor-specific scene contracts.}
+\label{sec:factor_interventions}
+
+Both branches perform the same class of low-level operation; their difference
+is whether that operation changes the fact queried by the fixed preference
+problem.
+
+\paragraph{Count.} Both branches add a geometrically matched object at the
+same intervention slot. The relevant branch adds an object in the queried
+color category, whereas the irrelevant branch adds a non-target-color object.
+
+\paragraph{Attribute.} Both branches apply the same color transition. The
+relevant branch modifies the unique queried object; the irrelevant branch
+modifies a matched non-target object.
+
+\paragraph{Presence.} Both branches remove one object. The relevant branch
+removes the queried color--shape conjunction, whereas the irrelevant branch
+removes a matched non-target.
+
+\paragraph{Spatial.} Both branches apply the same world-space translation.
+The relevant branch moves the queried referent; the irrelevant branch moves a
+matched distractor.
+
+\paragraph{Why match branches?} The comparison is not an edit-versus-no-edit
+test. Each branch applies a matched low-level scene operation while differing
+in decision relevance. Relevance is defined by the deterministic gold-label
+contract, not by a pixel-distance threshold.
+
+\paragraph{Post-render validation and scope.}
+\label{sec:matching_validation}
+
+Factor-specific validators inspect realized scene state rather than trusting
+requested edits: they recount target-color objects, verify target uniqueness
+and color, recount the queried color--shape conjunction, or recompute the
+left/right relation and displacement. Every retained triplet also satisfies
+$y_R\neq y_B$ and $y_I=y_B$. These deterministic construction and post-render
+checks validate the scene contracts. Pixel change is not used to define
+relevance. Detailed
+contracts, receipts, and edit diagnostics appear in
+Appendix~\ref{app:clevr-generation-validation}.

@@ -18,10 +18,14 @@ retention is the desired response. Qwen's Count behavior makes this distinction
 concrete: its high II does not offset its low RA. Reporting both quantities
 therefore distinguishes selective adaptation from generic prediction stability.
 
-\paragraph{Scope.}
+\paragraph{Limitations and scope.}
 RewardLens measures observable behavior under four controlled visual factors;
 it does not identify a model's internal reasoning process or establish causal
 claims about deployed-system outcomes. The results should consequently be
 interpreted as evidence that static scores can leave factor-specific
 intervention behavior unresolved in this evaluation setting, not as a universal
-ranking of multimodal judges.
+ranking of multimodal judges. Programmatic checks validate the rendered scene
+contracts but are not a substitute for human perceptual validation. Candidate
+order is held fixed within each triplet; because an orientation-swap audit is
+not part of the reported experiment, RA and II are estimates under this frozen
+pair orientation rather than position-bias-free quantities.

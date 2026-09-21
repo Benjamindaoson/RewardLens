@@ -28,6 +28,17 @@ in Table~\ref{tab:threshold-sensitivity-full} in
 Appendix~\ref{app:additional-results}. Pair rows share judges and
 are not treated as independent observations.
 
+\subsection{Missing-Output Sensitivity}
+
+Phi-3.5-Vision has 198 reported Spatial static outputs, with 168 correct. Its
+reported estimate is therefore $168/198=84.85\%$. A conservative boundary
+check treats both unavailable outcomes as errors or both as correct, yielding
+$168/200=84.00\%$ and $170/200=85.00\%$, respectively. Either endpoint remains
+within 1 pp of Skywork's $84.50\%$ Spatial static accuracy, so the
+Skywork--Phi pair qualifies under the primary matching rule throughout this
+entire worst-to-best-case range. We do not attribute a cause to the two
+unavailable outcomes because the frozen receipts do not establish one.
+
 \subsection{Edit-Magnitude Sensitivity and Scope}
 
 On Attribute, relevant edits have lower average pixel-change fraction than
