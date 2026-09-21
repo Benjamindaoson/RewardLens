@@ -1,3 +1,6 @@
+> **Portfolio status / 作品集状态：RESEARCH FLAGSHIP · Model Systems**
+> Canonical independent research repository for multimodal judge evaluation.
+
 # RewardLens
 
 RewardLens is a reproducible research workspace for controlled evaluation of vision-language reward and preference models.
