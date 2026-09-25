@@ -59,3 +59,14 @@ Raw datasets, generated datasets, GPU bundles, tool archives, and runtime output
 ## Reproduction
 
 Start with [the reproducibility protocol](rewardlens/docs/REPRODUCIBILITY.md), then follow [the GPU runbook](GPU_RUNBOOK.md). The project uses the locked GPU dependencies in `rewardlens/requirements-gpu.lock`.
+
+## Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@article{lai2026rewardlens,
+  title={RewardLens: Same Static Accuracy, Different Intervention Behavior in Multimodal Judges},
+  author={Lai, Jianming and He, Xinyao},
+  year={2026}
+}
