@@ -93,6 +93,29 @@ class CvprV2Test(unittest.TestCase):
         self.assertNotIn("<script>", output)
         self.assertIn("&lt;script&gt;", output)
 
+    def test_cost_aware_selection_and_oracle_no_leakage(self):
+        from rewardlens.cvpr_v2.selection import selection_regret
+        rows = [
+            {"task_id": "t", "domain": "natural", "shift_type": "color", "split": "test",
+             "model_id": "static_leader", "static_accuracy": 0.95,
+             "predicted_ood_utility": 0.45, "true_ood_utility": 0.4,
+             "inference_cost": 1, "static_audit_cost": 1, "counterfactual_audit_cost": 2},
+            {"task_id": "t", "domain": "natural", "shift_type": "color", "split": "test",
+             "model_id": "counterfactual_leader", "static_accuracy": 0.85,
+             "predicted_ood_utility": 0.85, "true_ood_utility": 0.9,
+             "inference_cost": 1, "static_audit_cost": 1, "counterfactual_audit_cost": 2},
+        ]
+        result = selection_regret(rows, budget=3)
+        self.assertEqual(result["cf_wins"], 1)
+        self.assertAlmostEqual(result["mean_regret_improvement"], 0.5)
+        self.assertEqual(result["tasks"][0]["cf_selected"], "counterfactual_leader")
+        with self.assertRaises(ValueError):
+            selection_regret(rows, budget=2)  # CF strategy is infeasible
+        bad = copy.deepcopy(rows)
+        bad[0]["split"] = "development"
+        with self.assertRaises(ValueError):
+            selection_regret(bad, budget=3)
+
     def test_predictive_requires_four_families(self):
         from rewardlens.cvpr_v2.predictive import compare_predictors
         with self.assertRaises(ValueError):
