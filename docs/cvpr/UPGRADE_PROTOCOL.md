@@ -75,7 +75,8 @@ Implemented in rewardlens/cvpr_v2:
 2. Conditional RA and II, A/B base counts and abstentions.
 3. Independent static-score matching; shared-base-correct paired comparisons and overlap counts.
 4. Family-held-out ridge evaluation of signed shift loss (descriptive evaluation harness, **not a trained final predictor**).
-5. JSON and standalone HTML output; synthetic test data and 11 automated tests.
+5. JSON and standalone HTML output; synthetic test data and 12 automated tests.
+6. Budget-aware held-out Judge selection regret evaluator, scoring precomputed independent predictions.
 
 **Not yet implemented:** real-image synthesis and validation, annotation platform, GPU judge inference at scale, faithful external benchmark reproduction, actual held-out OOD study, learned risk-based judge selector, full statistical inference, CVPR paper PDF.
 
