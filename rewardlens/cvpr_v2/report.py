@@ -23,6 +23,13 @@ def render_html(payload: dict[str, Any]) -> str:
     audit_fields = ["model_id", "split", "domain", "factor", "shift_type", "n_triplets", "base_accuracy", "ra", "ii", "n_base_a", "n_base_b", "n_abstain"]
     pair_fields = ["split", "domain", "factor", "model_a", "model_b", "delta_static_accuracy", "n_shared_base_correct", "delta_ra_shared", "delta_ii_shared", "only_a_relevant_correct", "only_b_relevant_correct", "both_relevant_correct"]
     pred = payload.get("predictive")
+    sel = payload.get("selection")
+    sel_html = '<p class="note">Not evaluated.</p>'
+    if sel is not None:
+        sel_html = (f'<p>Mean static regret: <strong>{cell(sel["mean_static_regret"])}</strong>; '
+                    f'CF regret: <strong>{cell(sel["mean_cf_regret"])}</strong>; '
+                    f'improvement: <strong>{cell(sel["mean_regret_improvement"])}</strong>. Descriptive only.</p>'
+                    + table(sel["tasks"], ["task_id", "domain", "shift_type", "static_selected", "cf_selected", "static_utility", "cf_utility", "static_regret", "cf_regret", "regret_improvement"]))
     pred_html = '<p class="note">Not evaluated.</p>'
     if pred is not None:
         pred_html = (f'<p>Family-macro baseline MAE: <strong>{cell(pred["mae_baseline"])}</strong>; '
@@ -42,4 +49,5 @@ th{background:#f1f5fa;position:sticky;top:0}tr:hover td{background:#f8fafc}.over
 <section><h2>Conditional intervention metrics</h2>''' + table(summary, audit_fields) + '''</section>
 <section><h2>Independently static-score-matched judges · shared support</h2>''' + table(matched, pair_fields) + '''</section>
 <section><h2>Held-out shift-loss prediction</h2>''' + pred_html + '''</section>
+<section><h2>Cost-matched held-out judge selection</h2>''' + sel_html + '''</section>
 <p class="note">A/B label imbalance and provenance must be checked before drawing conclusions. See docs/cvpr/UPGRADE_PROTOCOL.md.</p></html>'''
