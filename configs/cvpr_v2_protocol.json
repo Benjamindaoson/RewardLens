@@ -1,0 +1,30 @@
+{
+  "schema_version": "rewardlens-cvpr-v2-prototype-1",
+  "research_status": "protocol_prototype_unvalidated",
+  "frozen_principles": {
+    "variants": ["base", "relevant", "irrelevant"],
+    "relevant_must_flip_gold": true,
+    "irrelevant_must_preserve_gold": true,
+    "hold_fixed": ["question", "candidate_a", "candidate_b"],
+    "balanced_base_gold": true,
+    "test_source_disjoint_from_development": true,
+    "match_judges_from_independent_static_set_only": true,
+    "report_shared_base_correct_support": true,
+    "report_failure_and_abstention_counts": true,
+    "do_not_infer_visual_validity_from_schema": true
+  },
+  "prespecified_primary_endpoints": {
+    "shift_prediction": "family_macro_heldout_delta_mae",
+    "judge_selection": "heldout_ood_regret_at_matched_total_cost"
+  },
+  "exploratory_metrics": ["RA", "II", "label_direction_asymmetry", "factor_specific_gaps"],
+  "primary_baselines_to_implement_and_verify": [
+    "static_accuracy", "static_accuracy_with_extra_label_budget",
+    "VisualFLIP_style_pair_accuracy", "MM-JudgeBias_style_sensitivity_stability",
+    "in_distribution_downstream_utility", "no_counterfactual_features"
+  ],
+  "target_domains_not_yet_curated": [
+    "controlled_clevr", "natural_image", "chart_document", "open_ended_visual_judging"
+  ],
+  "experimental_gate": "No CVPR empirical claim until independent evaluation and human verification complete"
+}
