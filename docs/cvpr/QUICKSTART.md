@@ -46,8 +46,10 @@ Static JSONL comes from an **independent** evaluation and contains model_id, spl
 
 Optional shift JSONL contains model_id, model_family, domain, shift_type, shift_loss, static_accuracy, in_distribution_utility, ra, ii derived from *independently scored* real outcomes. It runs a leave-one-family-out ridge comparison (NumPy required, at least 4 families). This is only a descriptive evaluation harness, not statistically validated evidence of utility.
 
+Optional held-out selection JSONL contains task_id, domain, shift_type, split=test, model_id, static_accuracy, predicted_ood_utility, true_ood_utility, inference_cost, static_audit_cost and counterfactual_audit_cost. Run with --selection-jsonl path --selection-budget NUMBER to compare budget-constrained selection regrets. Only submit predictions generated without seeing these held-out targets; the software cannot verify provenance from scores alone.
+
 ## Implemented versus missing
 
 **Implemented:** protocol validation, conditional RA/II, independent static matching, common base-correct comparison, shift-prediction sanity check, HTML/JSON reporting and regression tests.
 
-**Not yet implemented:** full image/annotation platform, inference pipeline migration, visual perceptual validity, real external benchmark baselines, OOD scene generation, robust confidence intervals and a learned selection algorithm. See UPGRADE_PROTOCOL.md.
+**Not yet implemented:** full image/annotation platform, inference pipeline migration, visual perceptual validity, real external benchmark baselines, OOD scene generation, robust confidence intervals and a trained OOD prediction/selection algorithm. The selection evaluator itself is implemented, but does not learn predictions. See UPGRADE_PROTOCOL.md.
